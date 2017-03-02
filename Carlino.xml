@@ -1,0 +1,5364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt/>
+      <editionStmt/>
+      <publicationStmt>
+        <availability status="restricted"/>
+      </publicationStmt>
+      <sourceDesc/>
+    </fileDesc>
+    <profileDesc>
+      <creation/>
+      <langUsage>
+        <language ident="es"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>COMEDIA DEL DOCTOR CARLINO</head>
+        <castList>
+          <p>Hablan en ella:</p>
+          <castItem>GERARDO</castItem>
+          <castItem>CARLINO, <hi rend="i">médico</hi></castItem>
+          <castItem>TANCREDO</castItem>
+          <castItem>ENRICO</castItem>
+          <castItem>DON TRISTÁN</castItem>
+          <castItem> TISBERTO</castItem>
+          <castItem>CASILDA</castItem>
+          <castItem>LUCRECIA</castItem>
+        </castList>
+      </div>
+      <div>
+        <head>ACTO PRIMERO</head>
+        <stage type="entrance">Entran Gerardo y el doctor Carlino.</stage>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Gerardo, nuestros abuelos,</l>
+            <l>gradüando sus espadas</l>
+            <l>en las leyes de sus duelos,</l>
+            <l>mancharon las estacadas</l>
+            <l>con la sangre de sus celos.</l>
+          </lg>
+          <lg>
+            <l>Ley tan bestialmente impresa</l>
+            <l>solamente hoy se profesa</l>
+            <l>entre galanes de vacas,</l>
+            <l>a cuyas armas no flacas</l>
+            <l>es palenque la dehesa;</l>
+          </lg>
+          <lg>
+            <l>y estos días para mí</l>
+            <l>tan discreto Marte está,</l>
+            <l>que manda se quede así</l>
+            <l>quien se convirtiere ya</l>
+            <l>por Venus en jabalí.</l>
+          </lg>
+          <lg>
+            <l>¿Sabéis lo que decir quiero?</l>
+            <l>Que será un puerco casero</l>
+            <l>quien por una mujer zaina</l>
+            <l>desnudare de su vaina</l>
+            <l>ningún colmillo de acero.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Desde una roca un doctor</l>
+            <l>muy bien por la paz aboga,</l>
+            <l>sin considerar mejor</l>
+            <l>que de la más grave toga</l>
+            <l>hace banderas Amor.</l>
+          </lg>
+          <lg>
+            <l>Y más si se dan las manos</l>
+            <l>Amor y Honra, tiranos</l>
+            <l>los más crüeles del mundo,</l>
+            <l>más tirano este segundo</l>
+            <l>que los tres sicilïanos.</l>
+          </lg>
+          <lg>
+            <l>Ambos con emulación</l>
+            <l>porfïada, si no igual,</l>
+            <l>hacen de un mortal arpón</l>
+            <l>y de un gusano inmortal</l>
+            <l>sujeto, mi corazón.</l>
+          </lg>
+          <lg>
+            <l>Porque la honra, Carlino,</l>
+            <l>cual la conciencia imagino</l>
+            <l>que labra con su gusano,</l>
+            <l>sino que una roe a lo humano</l>
+            <l>y otra roe a lo divino.</l>
+          </lg>
+          <lg>
+            <l>Si a Tancredo cada día</l>
+            <l>el nido yo le fïaba</l>
+            <l>de la bella fénix mía,</l>
+            <l>del ídolo que adoraba,</l>
+            <l>de la alma con que vivía,</l>
+          </lg>
+          <lg>
+            <l>¿queréis que le haga el buz</l>
+            <l>porque el día de la Cruz</l>
+            <l>me arcabuceó este nido,</l>
+            <l>si yo el papel he leído</l>
+            <l>con que atacó el arcabuz?</l>
+          </lg>
+          <lg>
+            <l>Y si vos sois buen testigo</l>
+            <l>que Enrico los aires bebe</l>
+            <l>ballesteando a su amigo</l>
+            <l>el armiño, cuya nieve</l>
+            <l>era el calor de su abrigo,</l>
+          </lg>
+          <lg>
+            <l>¿paréceos que será esta</l>
+            <l>razón justa, causa honesta,</l>
+            <l>para besar yo la mano</l>
+            <l>de un amigo, de un hermano,</l>
+            <l>que está armando la ballesta?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Gerardo, no te prometas</l>
+            <l part="I">de amigos</l>
+            <stage>Aparte</stage>
+            <l part="F">(cual yo lo soy),</l>
+            <l>menos que estas dulces tretas,</l>
+            <l>y más de hermanos, que hoy</l>
+            <l>no hay hermandad sin saetas.</l>
+          </lg>
+          <lg>
+            <l>Amistades ya, ni espadas,</l>
+            <l>no las hay cual las pasadas;</l>
+            <l>y si las buscáis, yo fío</l>
+            <l>que no le halléis a un río</l>
+            <l>vueltas más disimuladas.</l>
+          </lg>
+          <lg>
+            <l>Un estoque es, bien delgado,</l>
+            <l>el amigo que hoy se usa,</l>
+            <l>de acero tan mal templado,</l>
+            <l>que aun en la vaina se excusa</l>
+            <l>de hallarse con vos al lado.</l>
+          </lg>
+          <lg>
+            <l>Y ojalá él hiciese ya</l>
+            <l>lo que el estoque hará</l>
+            <l>cuando la ocasión suceda,</l>
+            <l>que el estoque, al fin, se queda,</l>
+            <l>pero el amigo se va.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>Luego ¿solo queréis que ande?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>¿Con quién andaréis mejor?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>Es melancolía muy grande.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>¿Y si os lo manda el Amor?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Aunque el Amor me lo mande.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Muchas tiene en la ciudad</l>
+            <l>cofradías la amistad.</l>
+            <l>Si los que ya veis quién son</l>
+            <l>están en la Enclavación,</l>
+            <l>entraos en la Soledad.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Sigo vuestro parecer;</l>
+            <l>y pues ya la razón hoy</l>
+            <l>tanto me ha dejado ver</l>
+            <l>que de luz cofrade soy,</l>
+            <l>de sangre ellos lo han de ser.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Gente es bien disciplinada.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Doctor, no me digáis nada,</l>
+            <l>que acrecentáis mi mohína;</l>
+            <l>yo haré su disciplina</l>
+            <l>de los filos de esta espada.</l>
+          </lg>
+          <lg part="I">
+            <l>Cinco años ha, y aun más,</l>
+            <l>que por esta mujer ardo,</l>
+            <l>sin templar mi ardor jamás.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Si ha cinco años, Gerardo,</l>
+            <l>al quinto no matarás;</l>
+          </lg>
+          <lg>
+            <l>pues mandamiento es, de Dios,</l>
+            <l>justo es lo obedezcáis vos</l>
+            <l>sin amenazar castigos</l>
+            <l>a vuestros caros amigos,</l>
+            <l>que caros fueron los dos.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Bien dijo que tordo es,</l>
+            <l>un dotorcillo hablador,</l>
+            <l>cierto ingenio cordobés,</l>
+            <l>porque quien dijo dotor,</l>
+            <l>tordo dijo, del revés.</l>
+          </lg>
+          <lg>
+            <l>Quien con amistad ingrata</l>
+            <l>las veras de burlas trata</l>
+            <l>y del peligro hace juego,</l>
+            <l>con leña corrige el fuego</l>
+            <l>y con aceite lo mata.</l>
+          </lg>
+          <lg>
+            <l>Ves mi honra en opiniones</l>
+            <l>y la fe de esotra en dudas,</l>
+            <l>¿y a reducirme te pones</l>
+            <l>con ilaciones agudas</l>
+            <l>de sofísticas razones?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Pues lo llevas de esa suerte,</l>
+            <l>mata a entrambos; pero advierte</l>
+            <l>que ha de ir contigo el doctor,</l>
+            <l>porque el médico mejor</l>
+            <l>un montante es, de la muerte.</l>
+          </lg>
+          <lg>
+            <l>Murcia le da de su acero</l>
+            <l>la malla terciopelada</l>
+            <l>y, para el trance más fiero,</l>
+            <l>un boticario es, su espada,</l>
+            <l>y su puñal un barbero.</l>
+          </lg>
+          <lg>
+            <l>Sabe como una beata</l>
+            <l>de la facultad que trata,</l>
+            <l>pues que recetando vive,</l>
+            <l>y sin escrúpulo escribe</l>
+            <l>y con escrúpulos mata.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Bien está. Pero, a fe mía,</l>
+            <l>¿no será bien que esta daga,</l>
+            <l>convertida en pluma un día,</l>
+            <l>cualque rótulo le haga</l>
+            <l>al bote de la atutía?</l>
+          </lg>
+          <lg>
+            <l>De la tía repulgada</l>
+            <l>que empanar hombres le agrada</l>
+            <l>con la sobrinilla loca,</l>
+            <l>prestando, su infame toca,</l>
+            <l>el repulgo a la empanada.</l>
+          </lg>
+          <lg part="I">
+            <l>Acertada cosa fuera.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>¿Qué peor pudiera ser?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>Una puñalada fiera.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>¿Puñalada a una mujer?</l>
+            <l>¿Quién, Gerardo, se la diera?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>Yo, que a estas viejas barbudas</l>
+            <l>en matallas pocas dudas</l>
+            <l>pusieran las manos mías.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>¿Quién te ha hecho Matatías,</l>
+            <l>cuando quiero que seas Judas?</l>
+          </lg>
+          <lg>
+            <l>No ya el macabeo caudillo,</l>
+            <l>sino aquel siempre travieso</l>
+            <l>calabrés, poco sencillo,</l>
+            <l>que mató más con el beso</l>
+            <l>que el otro con el cuchillo.</l>
+          </lg>
+          <lg>
+            <l>De él has de ser hoy traslado,</l>
+            <l>bien y fielmente sacado;</l>
+            <l>tan fielmente, que del sino</l>
+            <l>del señor doctor Carlino</l>
+            <l>has de andar autorizado.</l>
+          </lg>
+          <lg>
+            <l>A la disimulación</l>
+            <l>mi consejo hoy te condena.</l>
+            <l>Pide el ánimo al hurón,</l>
+            <l>la máscara a la sirena</l>
+            <l>y la cola al escorpión;</l>
+          </lg>
+          <lg>
+            <l>y, sobre todo, el recato</l>
+            <l>pide al ladronesco trato,</l>
+            <l>que a un ladrón y a un ofendido,</l>
+            <l>cuando nube no el vestido,</l>
+            <l>fieltro ha de ser el zapato.</l>
+          </lg>
+          <lg>
+            <l>El triste, a quien le sucede</l>
+            <l>cosa tal y tan pesada,</l>
+            <l>coserse la boca puede,</l>
+            <l>que darle lengua a una espada</l>
+            <l>a toda locura excede.</l>
+          </lg>
+          <lg>
+            <l>Calle el desdichado, y crea</l>
+            <l>que será cosa muy fea</l>
+            <l>publicar tan gran revés,</l>
+            <l>y ya que Cornelio es,</l>
+            <l>Cornelio Tácito sea.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>¿Qué tenemos, pues, del raro</l>
+            <l>cuadro de nuestra Lucrecia?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Que es casto menos que caro.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>¿En cuánto la hechura precia?,</l>
+            <l>que en ningún precio reparo.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Cien escudos de oro fino</l>
+            <l>te dejarán ser Tarquino;</l>
+            <l>y si esta noche quies sello,</l>
+            <l>su lecho te espera, bello,</l>
+            <l>a pesar de Colatino,</l>
+          </lg>
+          <lg>
+            <l>a quien no faltando en nada,</l>
+            <l>yo, en palabras no sencillas,</l>
+            <l>lo entretendré en mi posada,</l>
+            <l>mientras su Babieca ensillas</l>
+            <l>y te ciñes la su espada.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Trazas tienes, y modelos</l>
+            <l>para reparar mis celos,</l>
+            <l>tan excelentes que, en suma,</l>
+            <l>a un rasguño de tu pluma</l>
+            <l>son poco papel los cielos.</l>
+          </lg>
+          <lg>
+            <l>Solo mi honor te replica</l>
+            <l>ser vergonzosa esa paga,</l>
+            <l>porque a fe que no me pica</l>
+            <l>tanto que la honrada lo haga,</l>
+            <l>como que pida la rica.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>En pedir tiene su proa</l>
+            <l>la mujer de mayor loa,</l>
+            <l>porque la más singular</l>
+            <l>es vecina de Tomar,</l>
+            <l>veinte leguas de Lisboa.</l>
+          </lg>
+          <lg>
+            <l>No permite su interés</l>
+            <l>que en su jardín nazca en vano</l>
+            <l>el narciso de baldrés,</l>
+            <l>ni aun la palma de la mano,</l>
+            <l>sin llevar fruto después.</l>
+          </lg>
+          <lg>
+            <l>Todas, por más que las doro</l>
+            <l>con católico decoro,</l>
+            <l>deseando ver están</l>
+            <l>el paganismo en Orán,</l>
+            <l>que diga, la paga en oro.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Dices muy bien lo que pasa:</l>
+            <l>todas juegan a ese juego</l>
+            <l>en la calle y en su casa,</l>
+            <l>y sólo no envida luego</l>
+            <l>la que de falso se pasa.</l>
+          </lg>
+          <lg>
+            <l>Dará cartas muchos días,</l>
+            <l>pero serán las de Urías,</l>
+            <l>y si os restáis a un abrazo,</l>
+            <l>dándoos ella con el mazo,</l>
+            <l>os dejará hecho Macías.</l>
+          </lg>
+          <lg part="I">
+            <l>¿Cien escudos han de ser?</l>
+            <l>Cien años esté de un lado.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Gerardo, quien a ofender</l>
+            <l>entra a un hombre tan honrado,</l>
+            <l>ciento y más ha menester.</l>
+          </lg>
+          <lg part="I">
+            <l>Venganza es, y no apetito.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>¿Quién a Casilda el maldito</l>
+            <l part="I">papel escribió?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Tancredo.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Pues a él en costas puedo</l>
+            <l>condenallo por lo escrito.</l>
+          </lg>
+          <lg>
+            <l>Si por mí el viaje acetas,</l>
+            <l>al marido le haré costas,</l>
+            <l>porque serán dulces tretas</l>
+            <l>que ella me tenga las postas</l>
+            <l>y él pague las agujetas.</l>
+          </lg>
+          <lg>
+            <l>Quiero, con ardid extraño,</l>
+            <l>que las costas de este daño</l>
+            <l>él las pague, porque entiendo</l>
+            <l>se disimula un remiendo</l>
+            <l>mejor si es del mismo paño.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l part="I">¿Cómo ha de ser?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l part="F">Bien está.</l>
+            <l>¿Qué tenemos de Leonora?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Su nombre te lo dirá,</l>
+            <l>que era un león no ha una hora</l>
+            <l>y es una cordera ya.</l>
+          </lg>
+          <lg>
+            <l>Visítola de opilada,</l>
+            <l>y a su pulso tu embajada</l>
+            <l>con estos dedos le digo;</l>
+            <l>que aprovecha mucho al higo</l>
+            <l>una y otra pulgarada.</l>
+          </lg>
+          <lg>
+            <l>Fingí tu billete luego</l>
+            <l>y leíselo también,</l>
+            <l>instando mucho mi ruego</l>
+            <l>en que algún duro desdén</l>
+            <l>no fuese porte del pliego.</l>
+          </lg>
+          <lg>
+            <l>Representéle el afán</l>
+            <l>que tendrá, si a don Tristán</l>
+            <l>se la concede su hermano,</l>
+            <l>que, aunque es galán no muy cano,</l>
+            <l>es más viejo que galán.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>¿Qué hay, pues, de ese casamiento?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Que no lo rehúsa Enrico.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>¿Con un hombre de años ciento?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Nunca tiene edad el rico.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Siempre es pobre el avariento.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Verdad es, y bien verdad,</l>
+            <l>que con gran puntualidad</l>
+            <l>Enrico me ha cometido</l>
+            <l>que al señor barbiteñido</l>
+            <l>le verifique la edad.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>¿Quién tendrá en los años cuenta,</l>
+            <l>que sabe engañar la tinta?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Muy poco importa que mienta</l>
+            <l>la brújula de la pinta</l>
+            <l>a los que han hecho setenta.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>¿Qué respondió al fin Leonora?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Que esta noche tendrás hora.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Y si yo hiciese ya</l>
+            <l>cómo introducirme allá,</l>
+            <l>¿gritaría la señora?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>¿Y el ídolo soberano,</l>
+            <l>de beldad imagen rara,</l>
+            <l part="I">Casilda?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l part="F">Doyla de mano.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Soplado me has en la cara</l>
+            <l>en la mitad del verano.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>Su nombre ya con su fama</l>
+            <l part="I">escupo.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">¿No es ya tu dama</l>
+            <l part="I">madona?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l part="F">Leonora viva.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Arrójome a tu saliva</l>
+            <l>como a los baños de Alhama.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>¿Tanto de esta novedad,</l>
+            <l>Carlino amigo, te huelgas?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Celébrala mi amistad,</l>
+            <l>porque tu memoria cuelgas</l>
+            <l>hoy a la inmortalidad.</l>
+          </lg>
+          <lg>
+            <l>Tras cinco años de martirio</l>
+            <l>y ceguedad, gran colirio</l>
+            <l>te ha traído Rafael;</l>
+            <l>y si te lo trajo él</l>
+            <l>su altar ilustrará un cirio.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>Agradézcote esa cera,</l>
+            <l>ofrenda, al fin, de tu celo.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR, <hi rend="i">aparte</hi></speaker>
+          <lg part="F">
+            <l>Cuando yo se la ofreciera,</l>
+            <l>Casilda, bien sabe el cielo</l>
+            <l>que a tu devoción ardiera.</l>
+          </lg>
+          <lg part="I">
+            <l part="I">Adoro tu sombra.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <l part="F">Baste</l>
+          <lg part="M">
+            <l>que mi hacienda se gaste,</l>
+            <l>sin desperdiciar mis años.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Llegado han ya tus engaños</l>
+            <l>a la tienda del contraste.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Si acaso noticia tienes,</l>
+            <l>mis prójimos en el Pardo</l>
+            <l>traen penachos tan solenes</l>
+            <l>como a tu amigo Gerardo</l>
+            <l>orlan sus benditas sienes.</l>
+          </lg>
+          <lg>
+            <l>Vive Dios, que no me visto</l>
+            <l>de las pieles en que he visto</l>
+            <l>gamuzarse otros galanes,</l>
+            <l>por no quedar con los canes</l>
+            <l>por lo cervantes malquisto.</l>
+          </lg>
+          <lg>
+            <l>Quince años ha que ando,</l>
+            <l>de lo que ahora me pesa,</l>
+            <l>harpías alimentando</l>
+            <l>que, sobre ensuciar mi mesa,</l>
+            <l>todas se han ido volando.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>¿Con quién batieron sus alas</l>
+            <l>esos pájaros que igualas</l>
+            <l>a las aves de Fineo?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Por Dios, que aun esas no creo</l>
+            <l>que fueron de uñas tan malas.</l>
+          </lg>
+          <lg>
+            <l>Una con un ginovés,</l>
+            <l>otra con un capitán</l>
+            <l>que pasó a Flandes después,</l>
+            <l>otra con un gavilán</l>
+            <l>capirote de baldrés.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>¿No añades a esas desgracias</l>
+            <l>los embustes y falacias?...</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l part="I">¿De quién?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">De aquella mozuela,</l>
+            <l>cuya casa era vihuela</l>
+            <l part="I">de seis órdenes.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l part="F"><hi rend="i">Deo gratias,</hi></l>
+          </lg>
+          <lg part="I">
+            <l>el fin ya de esa derrota</l>
+            <l>un matrimonio ha de ser.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>De cierto ladrón se nota</l>
+            <l>que se iba a retraer</l>
+            <l>debajo de la picota.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>Quédese esto aquí, que voy.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>O yo Carlino no soy,</l>
+            <l>o a buscar vas a Tancredo.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Es verdad, porque si hoy puedo,</l>
+            <l>me he de satisfacer hoy.</l>
+          </lg>
+          <lg part="I">
+            <l>Vete con Casilda tú,</l>
+            <l>que te ha enviado a llamar.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>¿Hala asombrado algún bu?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Yo, entretanto, iré a buscar</l>
+            <l>cien vecinos del Perú.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Como tú la boca le abras,</l>
+            <l>de los que trajo en las zabras</l>
+            <l>mil te dará, yo lo fío.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Voyme, y si acá te lo envío,</l>
+            <l>entreténmelo en palabras.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>¿Tomará traídos balajes</l>
+            <l>esa garduña señora?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>Tomara que estos ultrajes</l>
+            <l part="I">no sepa Casilda.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR, <hi rend="i">aparte</hi></speaker>
+          <lg part="F">
+            <l part="F">Ahora</l>
+            <l>lo veredes, dijo Agrajes.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l part="I">Amigo, ¿qué dices?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Digo</l>
+            <l>que no debe ser mi amigo</l>
+            <l>quien de mí eso se promete.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l part="I">Quédate, y perdona.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Vete,</l>
+            <l>que yo me quedo conmigo.</l>
+          </lg>
+          <stage>Vase Gerardo.</stage>
+          <lg>
+            <l>Profunda ciencia de valor divino</l>
+            <l>de Apolo nieta y de Esculapio hija,</l>
+            <l>cuyas insignias son una sortija,</l>
+            <l>precioso engaste de un guijarro fino:</l>
+            <l>con tu licencia ya el doctor Carlino</l>
+            <l>de tu amarilla borla se cobija,</l>
+            <l>falsamente arrollando en su valija</l>
+            <l>el mal iluminado pergamino,</l>
+            <l>despojos de un hermano que en Valencia</l>
+            <l>murió, en tus facultades gradüado,</l>
+            <l>y mi necesidad los hizo herencia.</l>
+            <l>Si pequé en ello, muera el que ha pecado,</l>
+            <l>mas oye antes quién soy, sagrada ciencia,</l>
+            <l>por que muera, a lo menos, confesado.</l>
+          </lg>
+          <lg>
+            <l>Un pobre aragonés soy</l>
+            <l>nacido en Calatayud</l>
+            <l>de humildes padres, mas limpios</l>
+            <l>como el rayo de la luz.</l>
+            <l>Fuime a Valencia muchacho,</l>
+            <l>adonde en mi juventud</l>
+            <l>fui demonio por Valencia,</l>
+            <l>encarnado y aun azul.</l>
+            <l>Aprendí allí lo que basta</l>
+            <l>para engañar al común</l>
+            <l>con dos o tres aforismos</l>
+            <l>del médico de Corfú.</l>
+            <l>Murió mi hermano, y dejóme</l>
+            <l>sus cartas en un baúl,</l>
+            <l>con que pienso marear</l>
+            <l>todo el norte y todo el sur.</l>
+            <l>En sus grados y en su nombre</l>
+            <l>me envestí con prontitud,</l>
+            <l>y llegué a esta ciudad, donde</l>
+            <l>soy un Galeno andaluz.</l>
+            <l>Sangro al tiento y purgo al vuelo</l>
+            <l>sin tener método algún,</l>
+            <l>como pescador de caña</l>
+            <l>o tirador de arcabuz,</l>
+            <l>y tengo, gracias a Dios,</l>
+            <l>tanta dicha en dar salud,</l>
+            <l>que mis primeras visitas</l>
+            <l>son vísperas del capuz.</l>
+            <l>Con los de mi facultad</l>
+            <l>soy un mico de Tolú,</l>
+            <l>que con monerías granjeo</l>
+            <l>amistad y gratitud.</l>
+            <l>Portundo soy en el mar,</l>
+            <l>que haciendo a todos el buz,</l>
+            <l>buen viaje digo a todos</l>
+            <l>aunque encuentre con Dragut.</l>
+            <l>¿Yo sustentar opiniones</l>
+            <l>contra el doctor Dingandux,</l>
+            <l>que no sustento una mula</l>
+            <l>por no dalle medio almud?</l>
+            <l>¿Yo conferencias en justas,</l>
+            <l>que el horno son del Padul,</l>
+            <l>poca poya y muchas voces,</l>
+            <l>sombrerazo y mientes tú?</l>
+            <l>Abrenuncio, Satanás,</l>
+            <l>a otra puerta, Bercebú,</l>
+            <l>que mi negocio es solapo,</l>
+            <l>lisonja y solicitud.</l>
+            <l>Curo las damas del pueblo</l>
+            <l>y trato la jumentud</l>
+            <l>de los galanes, y a todos</l>
+            <l>soy médico de orozuz:</l>
+            <l>dulce, pero chupativo,</l>
+            <l>que, pregonando virtud,</l>
+            <l>la voz tengo de Jacob,</l>
+            <l>y las manos, de Esaú.</l>
+            <l>Confieso de cuando en cuando</l>
+            <l>en el nombre de Jesús,</l>
+            <l>con que el más celoso fía</l>
+            <l>su encina de mi segur.</l>
+            <l>Los búcaros para mí</l>
+            <l>son las minas del Perú,</l>
+            <l>según tengo de opiladas</l>
+            <l>infinita multitud.</l>
+            <l>Visítolas, y a las bellas,</l>
+            <l>como si fueran laúd,</l>
+            <l>busco en los trastes del brazo</l>
+            <l>consonancias de salud.</l>
+            <l>Si las sangran del tobillo,</l>
+            <l>asisto con una luz</l>
+            <l>a ver trozos de marfil</l>
+            <l>cual no los vio Calicut.</l>
+            <l>Miro manos, y sé de ellas</l>
+            <l>lo que sabe un avestruz,</l>
+            <l>a lo cual acuden todas</l>
+            <l>como moscas a alajud.</l>
+            <l>Hablo a Blancaflor en Flores,</l>
+            <l>a Lindaraja en Gazul;</l>
+            <l>Blancaflor me da jamones,</l>
+            <l>Lindaraja, alcuzcuzú.</l>
+            <l>Si Flores da el par de guantes</l>
+            <l>del mejor ámbar de Ormuz,</l>
+            <l>Gazul, la cadena de oro,</l>
+            <l>señas de su esclavitud.</l>
+            <l>Ándome como la abeja</l>
+            <l>con pronta solicitud,</l>
+            <l>ya desflorando el romero,</l>
+            <l>ya sobre el almoraduj.</l>
+            <l>Fullero, siempre doy cartas</l>
+            <l>a uno y otro tahúr;</l>
+            <l>a los pobres doy primera</l>
+            <l>y a los ricos les doy flux.</l>
+            <l>A Enrico traigo en zaranda</l>
+            <l>como grano de altramuz,</l>
+            <l>y en la red anda Tancredo</l>
+            <l>coleando como atún.</l>
+            <l>Don Tristán, barbas al olio,</l>
+            <l>hijo de Sarra y Matús,</l>
+            <l>que fue paloma y ya es cuervo</l>
+            <l>mediante cierto betún,</l>
+            <l>por mis trazas pisa el viento;</l>
+            <l>Tisberto muere y, según</l>
+            <l>lo tratan mis embelecos,</l>
+            <l>ocupará el ataúd.</l>
+            <l>Por medio el alma a Gerardo</l>
+            <l>le envaino hasta la cruz</l>
+            <l>el mayor embuste mío,</l>
+            <l>espada de Sahagún.</l>
+            <l>De las lágrimas de todos</l>
+            <l>soy yo triste el arcaduz,</l>
+            <l>y estoy llorando más que ellos:</l>
+            <l>Amor, bien lo sabes tú.</l>
+            <l>Refiéreselo a la ciencia</l>
+            <l>que es diosa de la salud,</l>
+            <l>mientras que yo voy a ver</l>
+            <l>la causa de mi inquietud.</l>
+          </lg>
+        </sp>
+          <stage>Entra Casilda.</stage>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>¿A dónde bueno, doctor?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>A veros, dulce Casilda.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>Ya que la mentís, mentilda</l>
+            <l>con más dorado color.</l>
+          </lg>
+          <lg>
+            <l>Quien desde ayer por la tarde</l>
+            <l>se ha estado sin que me vea</l>
+            <l>bien será que no lo crea</l>
+            <l>y mejor que no lo aguarde.</l>
+          </lg>
+          <lg>
+            <l>Y quien por toda esa calle</l>
+            <l>viene hablando entre sí</l>
+            <l>no viene a buscarme a mí,</l>
+            <l>y así, es bien que no me halle.</l>
+          </lg>
+        </sp>
+          <stage>Cúbrese el rostro</stage>
+        
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Desvía la mano aleve,</l>
+            <l>no des a la nieve enojos,</l>
+            <l>que siendo soles tus ojos</l>
+            <l>no es bien que les fíes la nieve.</l>
+          </lg>
+          <lg>
+            <l>Baste, lisonjera, ya,</l>
+            <l>según mal me correspondes,</l>
+            <l>que no esté aquí lo que escondes,</l>
+            <l>sin que escondas lo que está.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>¡Graciosa incredulidad!</l>
+            <l>¿Qué escondo yo, ni qué ausento?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>La memoria, el pensamiento,</l>
+            <l>el alma, la voluntad,</l>
+          </lg>
+          <lg>
+            <l>porque aquí, Amor es testigo,</l>
+            <l>solo asiste por mi mal</l>
+            <l>una funda de cristal</l>
+            <l>de esto invisible que digo.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>No poco, a fe, me alborota</l>
+            <l>el sobresalto, doctor,</l>
+            <l>que dé alfeliche a tu amor,</l>
+            <l>cuando entendí tenía gota.</l>
+          </lg>
+          <lg>
+            <l>Y es cosa bien importuna</l>
+            <l>que ahora me estés llamando,</l>
+            <l>no a ver a tu amor volando,</l>
+            <l>sino a mecello en la cuna.</l>
+          </lg>
+          <lg>
+            <l>Al cabo de tantos días</l>
+            <l>de satisfación y fe,</l>
+            <l>me pides ahora que</l>
+            <l>arrulle tus niñerías.</l>
+          </lg>
+          <lg>
+            <l>Cuando he lïado la ropa,</l>
+            <l>sin dejar clavo en pared,</l>
+            <l>para que hoy vuesa merced</l>
+            <l>sea el toro de esta Europa,</l>
+          </lg>
+          <lg>
+            <l>viene con impertinencias,</l>
+            <l>y yo necia que respondo,</l>
+            <l>con que ausento y con que escondo</l>
+            <l>tres docenas de potencias.</l>
+          </lg>
+          <lg>
+            <l>Váyase a carlinear</l>
+            <l>con aquella opiladica</l>
+            <l>que, porque blando le pica,</l>
+            <l>la quiere ahora acerar.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Casilda, al diamante bello</l>
+            <l>el batillo y burilallo</l>
+            <l>no es para despedazallo,</l>
+            <l>sino para conocello.</l>
+          </lg>
+          <lg>
+            <l>Y así, señora, el hablarte</l>
+            <l>incrédulo de esta suerte</l>
+            <l>no ha sido por ofenderte,</l>
+            <l>sino por calificarte.</l>
+          </lg>
+          <lg>
+            <l>Y por vida de tus ojos,</l>
+            <l>que son de mis ojos vida,</l>
+            <l>que nuestra amistad despida</l>
+            <l>cualquiera ocasión de enojos.</l>
+          </lg>
+          <lg part="I">
+            <l>Hablemos de lo que importa.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l>Anda Gerardo hecho un Marte.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>De un cuarto de hora a esta parte</l>
+            <l>menos ya su espada corta.</l>
+          </lg>
+          <lg>
+            <l>Los celos envainó ya</l>
+            <l>por flechar amores nuevos,</l>
+            <l>y yo le empollé los huevos</l>
+            <l>que ahora sacando está.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l part="I">¿Por qué, di?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Porque a un doctor</l>
+            <l>ocasiones peligrosas</l>
+            <l>fuerzan a usar de ventosas</l>
+            <l>para divertir a Amor.</l>
+          </lg>
+          <lg>
+            <l>Ya te dije en el estado</l>
+            <l>que lo dejé con Lucrecia,</l>
+            <l>que si no es ahora necia,</l>
+            <l>cien escudos ha tocado.</l>
+          </lg>
+          <lg>
+            <l>Y si él es discreto ahora,</l>
+            <l>afirmarte muy bien puedo</l>
+            <l>que se los pidió a Tancredo</l>
+            <l>para dar a la señora.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>¿De suerte, amigo, que dices</l>
+            <l>que al capricornio galán</l>
+            <l>sacándole ahora están</l>
+            <l>de su brazo las narices?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Eso es mismísimamente.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="I">¿A Tancredo?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">A su mercé.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l>¡Excelente cosa, a fe!</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Pero no muy excelente,</l>
+          </lg>
+          <lg>
+            <l>que al pagar darán cuidado,</l>
+            <l>que no es granjería muy rica</l>
+            <l>el crédito en la botica</l>
+            <l>si es, lo que tomáis, fïado.</l>
+          </lg>
+          <lg>
+            <l>Dos veces el gusto estraga</l>
+            <l>sin ninguna bastar poma:</l>
+            <l>la una cuando se toma,</l>
+            <l>la otra cuando se paga.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l part="I">¿<hi rend="i">Cento scuti</hi>?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F"><hi rend="i">Di oro in oro.</hi>
+            </l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="I"><hi rend="i">Cancaro.</hi></l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F"><hi rend="i">Cazzo, madona.</hi></l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Galantísima persona</l>
+            <l>habrá andado con el toro.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Parece que huelgas de ello.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>Parece que no me pesa,</l>
+            <l>pues me obliga más apriesa</l>
+            <l>a sacudillo del cuello.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Pues luego esta noche quiere</l>
+            <l>cerrar con otro bagaje:</l>
+            <l>perdóneme el mal lenguaje</l>
+            <l>la madama por quien muere.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l part="I">¿Es Leonora?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">La repropia.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>No hay que pedille perdón,</l>
+            <l>que en ella es la discreción</l>
+            <l>blanco y rubio en Etïopia.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>No tienes razón, que es</l>
+            <l part="I">discreta.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Como tu mula.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Eso poco la atribula,</l>
+            <l>porque yo ando en mis pies.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>Yo haré que mula te den.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>No será en este lugar,</l>
+            <l>aunque esto de muladar</l>
+            <l>en ningún lugar más bien.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Si eres mi esposo esta noche,</l>
+            <l>ver mañana determino</l>
+            <l>en mula al doctor Carlino</l>
+            <l>y a doña Casilda en coche.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>¡Oh qué donaire! ¡Oh qué historia</l>
+            <l>para un doctor de estornudos,</l>
+            <l>que le pagan en menudos,</l>
+            <l>cuando no es en pepitoria!</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>No entiendo eso cómo es.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Yo sí, y tú lo entenderás,</l>
+            <l>cuando me paguen los más</l>
+            <l>en beso manos y pies,</l>
+          </lg>
+          <lg>
+            <l>que el pagar no es ordinario</l>
+            <l>en ochavos, pues se tiene</l>
+            <l>por fiesta harto solene</l>
+            <l>la que trae tal ochavario.</l>
+          </lg>
+          <lg>
+            <l>Y hay mayor mal, que un crïado</l>
+            <l>le impone sisa mayor</l>
+            <l>a la paga de un doctor</l>
+            <l>que a la carne y al pescado.</l>
+          </lg>
+          <lg>
+            <l>Como no hay otra moneda,</l>
+            <l>si no es esta de vellón,</l>
+            <l>paje o pájaro sisón</l>
+            <l>con buena parte se queda.</l>
+          </lg>
+          <lg>
+            <l>Y hay días, Casilda, hartos,</l>
+            <l>si la memoria recoges,</l>
+            <l>que todos son ya relojes</l>
+            <l>principalmente en dar cuartos.</l>
+          </lg>
+          <lg part="I">
+            <l>Con estas ayudas que</l>
+            <l>Hipócrates nos dejó,</l>
+            <l>¿qué mula he de tener yo?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>¿Qué mula? Yo lo diré:</l>
+          </lg>
+          <lg>
+            <l>una nueva, pisadora,</l>
+            <l>y negra como una endrina,</l>
+            <l>que solo será mohína</l>
+            <l>por la que te ha dado ahora.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Pues ¿no me ha de amohinar</l>
+            <l>que me obligues a tener</l>
+            <l>lo que mañana has de ver</l>
+            <l>que no puedo sustentar?</l>
+          </lg>
+          <lg>
+            <l>Cuanto más, si he de decillo,</l>
+            <l>que cualquier doctor Galeno,</l>
+            <l>y más si es veintidoseno,</l>
+            <l>una mula es su cuchillo.</l>
+          </lg>
+          <lg>
+            <l>Halló por su dicha el triste</l>
+            <l>visitas en su visita;</l>
+            <l>la ocasión lo solicita,</l>
+            <l>su flaqueza no resiste.</l>
+          </lg>
+          <lg>
+            <l>Quédase el pobre aleando</l>
+            <l>en las varetas de liga</l>
+            <l>y, mientras en la vejiga</l>
+            <l>está la orina mirando</l>
+          </lg>
+          <lg>
+            <l>de las picantes señoras,</l>
+            <l>la mula con su percoj,</l>
+            <l>hecha mano de reloj,</l>
+            <l>señalando está las horas.</l>
+          </lg>
+          <lg>
+            <l>Y de la suerte que un ojo</l>
+            <l>en la margen de una historia,</l>
+            <l>al más flaco de memoria</l>
+            <l>le está haciendo del ojo,</l>
+          </lg>
+          <lg>
+            <l>en la margen de la casa,</l>
+            <l>donde más se disimula</l>
+            <l>un doctor, tiene su mula</l>
+            <l>tres ojos para el que pasa,</l>
+          </lg>
+          <lg>
+            <l>para el que, yendo pian piano,</l>
+            <l>déle o no le dé molestia,</l>
+            <l>ha de conocer la bestia</l>
+            <l>del señor doctor Fulano.</l>
+          </lg>
+          <lg part="I">
+            <l part="I">Eso no, amiga.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l part="F">Eso sí,</l>
+            <l>amigo, así os guarde Dios:</l>
+            <l>mula ha de haber para vos,</l>
+            <l>como coche para mí.</l>
+          </lg>
+          <lg>
+            <l>Y si no coche, escudero</l>
+            <l>calviluciente y barbón,</l>
+            <l>no amovible, ni alquilón,</l>
+            <l>festivo ni dominguero,</l>
+          </lg>
+          <lg>
+            <l>que cada sábado vea</l>
+            <l>la letra dominical,</l>
+            <l>sino un barbas de Nabal</l>
+            <l>sea Carmelo o lienzo sea.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l part="I">Doña Casilda.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Doctor.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Aún no estamos desposados</l>
+            <l>para recibir crïados.</l>
+            <l>Consideradlo mejor.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Antes que llegue a ser novia</l>
+            <l>escudero quiero cano,</l>
+            <l>que me reciba la mano</l>
+            <l>sobre paño de Segovia,</l>
+          </lg>
+          <lg>
+            <l>porque hará buena acogida,</l>
+            <l>según tienen vecindad,</l>
+            <l>paño de aquella ciudad</l>
+            <l>a nieve de la Fuenfrida.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>¿Que determinas, al fin,</l>
+            <l>echar de Ñuflo García</l>
+            <l>por medio de una crujía</l>
+            <l>que crujir haga el chapín?</l>
+          </lg>
+          <lg part="I">
+            <l>¡Oh vanidad de mujer!</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l>Maridico de futuro,</l>
+            <l>escudero quiero puro.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Pues aguado ¿puede ser,</l>
+          </lg>
+          <lg part="I">
+            <l>si no se busca despacio?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l>Ñuflos y reñuflos chero.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Cuántos, niña?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Un escudero.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">Lo concedo.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l part="F"><hi rend="i">Vi ringrazio.</hi></l>
+          </lg>
+          <lg>
+            <l>Nunca tratara mi hermana</l>
+            <l>con el figón que trató</l>
+            <l>porque no aprendiera yo</l>
+            <l><hi rend="i">qualche parola toscana.</hi></l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Todo se admite en palacio,</l>
+            <l part="I">Casilda.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Luego, ¿decís</l>
+            <l>que con buen gusto me oís?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I"><hi rend="i">Volentieri.</hi></l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l part="F"><hi rend="i">Vi ringrazio.</hi>
+            </l>
+          </lg>
+          <lg part="I">
+            <l>Solo resta que me des</l>
+            <l part="I">palabra.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">¿De qué, señora?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="I">De comprar.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="M">¿Qué?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l part="F">Una andadora</l>
+            <l>que te solivie los pies;</l>
+          </lg>
+          <lg>
+            <l>una que, aunque con afán,</l>
+            <l>haciendo su freno pluma</l>
+            <l>y tinta fina su espuma,</l>
+            <l>escriba en cada zaguán:</l>
+          </lg>
+          <lg>
+            <l>«Aquí llegó a esta posada</l>
+            <l>un doctor, que traer pudiera</l>
+            <l>el olio en la faltriquera</l>
+            <l>y en la pretina la azada».</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>¿Pullitas, Casilda, a mí?</l>
+            <l>No quiero mula que escriba.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>Sí, doctor, así yo viva,</l>
+            <l>o me desmayaré aquí.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>No haréis tal, por san Acacio,</l>
+            <l part="I">que me iré antes.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Ya me fino.</l>
+            <l>Mula, amor; mula, Carlino.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I"><hi rend="i">La comprerò.</hi></l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l part="F"><hi rend="i">Vi ringrazio.</hi></l>
+          </lg>
+          <stage>Entra Tancredo</stage>
+          <lg part="I">
+            <l>Señores míos, ¿qué voces</l>
+            <l>son estas? ¿Qué es lo que pasa?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>No ha entrado una mula en casa</l>
+            <l>y ya está tirando coces.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>De melindroso el doctor</l>
+            <l>se ha perdido, y de gallardo,</l>
+            <l>siendo como es de él Gerardo</l>
+            <l>tan amigo y tan señor.</l>
+          </lg>
+          <lg>
+            <l>Llegó ayer un forastero</l>
+            <l>vendiendo una mula negra</l>
+            <l>(que aun la relación alegra</l>
+            <l>y vale cualquier dinero),</l>
+          </lg>
+          <lg>
+            <l>concertóla en cien ducados,</l>
+            <l>que cien maravedís son,</l>
+            <l>pero en tan fuerte ocasión</l>
+            <l>que me ha puesto a mí en cuidados.</l>
+          </lg>
+          <lg>
+            <l>Está el pobre sin un cuarto,</l>
+            <l>Gerardo sin un real;</l>
+            <l>yo, aunque no tengo caudal,</l>
+            <l>el caudal que tengo parto.</l>
+          </lg>
+          <lg>
+            <l>Ofrézcole mis joyuelas</l>
+            <l>aun para más que empeñallas,</l>
+            <l>él no ha querido aceptallas,</l>
+            <l>melindre de cuatro suelas.</l>
+          </lg>
+          <lg>
+            <l>En esta medio batalla</l>
+            <l>estábamos no ha un momento.</l>
+            <l>Yo de corrida la cuento,</l>
+            <l>y él de empachado la calla.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg>
+            <l>Doctor, si una empresa honrada</l>
+            <l>es para amigos de ley,</l>
+            <l>«aquesta empresa, buen rey,</l>
+            <l>para mí estaba guardada».</l>
+          </lg>
+          <lg>
+            <l>Cuanto más que entiendo yo,</l>
+            <l>y no lo dudo, señora,</l>
+            <l>que para esta mula ahora</l>
+            <l>cien escudos me pidió</l>
+          </lg>
+          <lg part="I">
+            <l>Gerardo; y fue gran ventura</l>
+            <l>el tenellos tan a punto.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>Que fueron estos, barrunto,</l>
+            <l>para otra cabalgadura.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">¿Compra algo?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">No, sino paga</l>
+            <l>una yegua de un amigo.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>Holgaré, Dios es testigo,</l>
+            <l>que della se satisfaga.</l>
+          </lg>
+          <lg part="I">
+            <l part="I">¿Es buena, si dicen?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Creo</l>
+            <l>que te ha de parecer bella,</l>
+            <l>porque tú has andado en ella.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>¿Es la yegua de Amadeo?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Sea la yegua que fuere,</l>
+            <l>de tu ánimo, Tancredo,</l>
+            <l>tan agradecido quedo</l>
+            <l>cual lo verá quien viviere.</l>
+          </lg>
+          <lg>
+            <l>Guarda, amigo, tu dinero,</l>
+            <l>si a mi gusto te regulas,</l>
+            <l>que cuando yo quiera mulas</l>
+            <l>me las hará el zapatero.</l>
+          </lg>
+          <lg>
+            <l>Comprar mula mi pobreza</l>
+            <l>muy grande locura es:</l>
+            <l>bástame el corcho en los pies,</l>
+            <l>sin subirlo a la cabeza.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Oh qué humildades son esas,</l>
+            <l>doctor, tan impertinentes;</l>
+            <l>muy grande flaqueza sientes</l>
+            <l>de la amistad que profesas</l>
+          </lg>
+          <lg>
+            <l>con los que podrán pensar</l>
+            <l>que sin duda debes ser</l>
+            <l>cobarde en agradecer</l>
+            <l>y olvidadizo en pagar.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>No soy, puédolo decir</l>
+            <l>a fe de doctor de bien,</l>
+            <l>sino el mismo empacho, y quien</l>
+            <l>morirá por no pedir.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>Deja que los pida yo</l>
+            <l>a quien los pagaré presto.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l>Muy bien, doctor, me está esto.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Señor Tancredo: a mí, no.</l>
+          </lg>
+          <lg>
+            <l>¿Pedir para mí y quedar</l>
+            <l>a la satisfación de ello?</l>
+            <l>Tus labios, Casilda, sello</l>
+            <l>para no dejarte hablar.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg>
+            <l>Ya es mucho melindre ese;</l>
+            <l>si yo con gusto dar quiero</l>
+            <l>a Casilda este dinero,</l>
+            <l>y ella aceptallo, no os pese;</l>
+          </lg>
+          <lg>
+            <l>fuera de que para esto</l>
+            <l>Gerardo me envió acá,</l>
+            <l>y muy bien dispuesto está,</l>
+            <l>si ello así estaba dispuesto.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Por la borla de mi grado</l>
+            <l>que pensar tal no es razón,</l>
+            <l>o muera de torozón</l>
+            <l>la mula que aún no he comprado.</l>
+          </lg>
+          <lg>
+            <l>Para lo que acá te envía,</l>
+            <l>yo después te lo diré,</l>
+            <l>que cierta cosa es, a fe,</l>
+            <l>mucho más tuya que mía.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">Voy, pues.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="M">¿A dónde?</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l part="F">A mi casa</l>
+            <l part="I">por los dineros.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Deténte,</l>
+            <l>que ir no es cosa conviniente</l>
+            <l>donde de celos se abrasa</l>
+          </lg>
+          <lg>
+            <l>tu mujer. Dale cuidados</l>
+            <l>Casilda, ¿y para el doctor</l>
+            <l>que solicita su amor</l>
+            <l>vas a sacar cien ducados?</l>
+          </lg>
+          <lg part="I">
+            <l>Sacarásla de jüicio.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>¡Válgame Dios! ¿Y tan recia</l>
+            <l>es la señora Lucrecia?</l>
+            <l>Vestíos, Tancredo, un silicio.</l>
+          </lg>
+          <lg part="I">
+            <l>Ocúpese la señora</l>
+            <l>en el bastidor que está,</l>
+            <l>sin que en más dibujos ya</l>
+            <l part="I">se meta.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l part="F">¡Es gran bordadora!</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Dinerillos este día</l>
+            <l>el bastidor le ha valido.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>Nunca yo, doctor, le pido</l>
+            <l>cuenta de su granjería.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>Yo apostaré que a esta hora</l>
+            <l>se ha dado algún agujazo.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Al menos, sin embarazo</l>
+            <l part="I">trabaja.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l part="F">¡Es gran bordadora!</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>A fe que te quiere bien</l>
+            <l>quien de tu mujer te cela:</l>
+            <l>victorioso el favor vuela,</l>
+            <l>vencido huye el desdén.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>A fe que ha sido el doctor,</l>
+            <l>como docto y como diestro,</l>
+            <l>famoso abogado vuestro</l>
+            <l>en las audiencias de Amor.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg>
+            <l>Humilde y agradecido,</l>
+            <l>cuando no fuera de seso,</l>
+            <l>a la una los pies beso</l>
+            <l>y al otro las manos pido,</l>
+          </lg>
+          <lg>
+            <l>para no tan solo en ellas</l>
+            <l>ponelle los cien escudos,</l>
+            <l>sino pensamientos mudos</l>
+            <l>más que tiene el cielo estrellas.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Dad, Casilda, a tal amante</l>
+            <l>señas de vuestra amistad.</l>
+            <l part="I">¿Tenéisle amor?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Voluntad.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Con firmeza?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l part="F">De diamante.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l part="I">¿Qué ha de ser?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Favorecido.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Cuándo?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Vos lo sabéis eso.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>A la una los pies beso</l>
+            <l>y al otro las manos pido,</l>
+          </lg>
+          <lg>
+            <l>pues en ellas veo que están,</l>
+            <l>según mi ventura quiso,</l>
+            <l>las llaves del Paraíso</l>
+            <l>de este venturoso Adán.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l part="I">¿No habla muy bien?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Dulcemente.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Persüade?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Y aun obliga.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Qué habéis de ser ya?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Su amiga.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Inconstante?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l part="F">Consistente.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l part="I">¿Qué merece?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Ser querido.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Con demasía?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">Con exceso.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>A la una los pies beso</l>
+            <l>y al otro las manos pido.</l>
+          </lg>
+          <lg part="I">
+            <l>Y sin más aguardar, voy</l>
+            <l>a traer este dinero.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>De tu casa no lo quiero.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>No será, a fe de quien soy.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Id por él, pues, y volved,</l>
+            <l>advirtiendo, amigo leal,</l>
+            <l>non fagades ende al,</l>
+            <l>so pena de mi merced.</l>
+          </lg>
+          <stage>VaseTancredo.</stage>
+          <lg part="I">
+            <l>¿Qué tal ya la mula es,</l>
+            <l>doctorísimo señor?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Casildísima, mejor</l>
+            <l>que las que calzan mis pies,</l>
+          </lg>
+          <lg>
+            <l>pues que, sin andar, mejoro</l>
+            <l>mis pasos, y decir puedo,</l>
+            <l>si presta en oro Tancredo,</l>
+            <l>que es la mula como un oro.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>¡Qué socarrón tan crüel</l>
+            <l>has andado con este hombre!</l>
+            <l>Celebren de hoy más tu nombre</l>
+            <l>treinta palmas y un laurel.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>¡Oh qué atractivo diapalma</l>
+            <l>fuiste, amiga, para el mismo!</l>
+            <l>Bien te debe el chupatismo</l>
+            <l>cien laureles y una palma.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Mirad con qué dos se toma,</l>
+            <l>y entre qué dos piedra imanes</l>
+            <l>le suspenden sus afanes</l>
+            <l>al zancarrón de Mahoma.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Muy bien has andado hoy:</l>
+            <l>desollarás mil Tancredos,</l>
+            <l>si tus ojos y mis dedos</l>
+            <l>hacen señas de rentoy.</l>
+          </lg>
+          <lg part="I">
+            <l>No falten para el Medoro</l>
+            <l>que cité denantes yo.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>Si es Enrico, ya pasó</l>
+            <l>con grande cadena de oro.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Volverá a dejar, Enrico,</l>
+            <l>el cabestrillo dorado,</l>
+            <l>que al cuervo lisonjeado</l>
+            <l>queso se le cae del pico.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Bien fïarás de la zorra</l>
+            <l>que, por más que sea protervo,</l>
+            <l>no volará tanto el cuervo</l>
+            <l>cuanto ella en su alcance corra.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>O pídele a la tortuga</l>
+            <l>te preste el paso en la arena</l>
+            <l>para alcanzar la cadena</l>
+            <l>y acelerar nuestra fuga.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>¿Para cuándo la señalas?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Para esta noche la guardo,</l>
+            <l>si encerrar puedo a Gerardo,</l>
+            <l>que es su prisión nuestras alas.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>¿Dónde, amigo, y de qué modo?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>En cas de Enrico, señora.</l>
+            <l>No preguntes más ahora,</l>
+            <l>que después lo sabrás todo.</l>
+          </lg>
+          <lg>
+            <l>Y antes de nuestra partida</l>
+            <l>dejemos el finiquito</l>
+            <l>que los hebreos a Egito</l>
+            <l>la noche de su huida.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l part="I">¿Cómo?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Pidiendo y llevando,</l>
+            <l>que mulas tengo alquiladas,</l>
+            <l>de pensamientos herradas,</l>
+            <l>que nos sacarán volando.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Hágase de esa manera.</l>
+            <l>Hurtémonos a esa hora,</l>
+            <l>que quiero morir doctora,</l>
+            <l>si he vivido bachillera.</l>
+          </lg>
+          <lg>
+            <l>Patria, adiós, posada mía,</l>
+            <l>nudoso balcón gallardo,</l>
+            <l>que los celos de Gerardo</l>
+            <l>vistieron de celosía,</l>
+          </lg>
+          <lg>
+            <l>habiendo en casa postigo</l>
+            <l>que se abre sin que se oya,</l>
+            <l>por do entró el caballo a Troya</l>
+            <l>preñado de quien no digo;</l>
+          </lg>
+          <lg>
+            <l>paredes que piedras nuevas</l>
+            <l>os dieron dulces canciones</l>
+            <l>de músicos Anfïones,</l>
+            <l>como a los muros de Tebas;</l>
+          </lg>
+          <lg>
+            <l>calle, que centellas puras</l>
+            <l>despediste ya, sacadas,</l>
+            <l>cuando no a golpes de espadas,</l>
+            <l>a fuerza de herraduras:</l>
+          </lg>
+          <lg>
+            <l>Casilda se va y os deja</l>
+            <l>por un matrimonio honrado:</l>
+            <l>escudero, don, estrado,</l>
+            <l>dueña en sala y mico en reja,</l>
+          </lg>
+          <lg>
+            <l>pero no temáis que impida</l>
+            <l>desvanecimiento nuevo</l>
+            <l>el sentimiento que os debo</l>
+            <l>por leyes de la partida.</l>
+          </lg>
+          <stage>Llora Casilda.</stage>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>¿Lloras, Casilda? Y yo lloro</l>
+            <l>por seguirte, pues me sigues.</l>
+            <l>Quiera Dios que no me obligues</l>
+            <l>a más por leyes de Toro.</l>
+          </lg>
+          <stage>Hace que llora el doctor y entra Enrico</stage>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l>¿Qué desgracia ha sucedido,</l>
+            <l>que tantas lágrimas cuesta?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>No es ya sino razón esta:</l>
+            <l>regar lo que se ha barrido.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg>
+            <l>Grandes señas son de enojos</l>
+            <l>ver rompidas sin consuelo</l>
+            <l>las cataratas del cielo</l>
+            <l>que se abrevia en vuestros ojos.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Del diluvio sólo sé</l>
+            <l>que aquel aposento esconde</l>
+            <l>las sierras de Armenia, donde</l>
+            <l>paró el arca de Noé.</l>
+          </lg>
+          <lg>
+            <l>Sus rüinas podréis verlas</l>
+            <l>sin las aves que batieron,</l>
+            <l>y animales que movieron,</l>
+            <l>plumas de oro, y pies de perlas.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l part="I">No entiendo.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Lesbina ayer</l>
+            <l>un arca descerrajó</l>
+            <l>y a Casilda le llevó</l>
+            <l>hasta el menor alfiler.</l>
+          </lg>
+          <lg>
+            <l>Vienes muy en hora buena,</l>
+            <l>a tiempo que traes, Enrico,</l>
+            <l>si la oliva no en el pico,</l>
+            <l>el arco en esa cadena.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l part="I">Miente el doctor.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Es verdad.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="F">
+            <l>Si, dulce señora mía,</l>
+            <l>de esta cadenilla fía,</l>
+            <l>Amor, tu serenidad,</l>
+          </lg>
+          <lg>
+            <l>aunque cuatro caracoles</l>
+            <l>no vale, sírvete de ella,</l>
+            <l>que no es bien, Casilda bella,</l>
+            <l>que sean ríos tus dos soles;</l>
+          </lg>
+          <lg>
+            <l>rayos de luz será bien,<hi rend="i">a</hi></l>
+            <l>y no lágrimas de enojos,<hi rend="i">b</hi></l>
+            <l>que den tus hermosos ojos<hi rend="i">c</hi></l>
+            <l>cuando alguna cosa den.<hi rend="i">d</hi></l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Aunque era crïada nueva</l>
+            <l>Lesbina, llorar me place</l>
+            <l>la soledad que me hace,</l>
+            <l>no las cosas que me lleva.</l>
+          </lg>
+          <lg>
+            <l>Y pues que no lloro aquí</l>
+            <l>sino la ausencia que digo,</l>
+            <l>la cadena os dejo, amigo,</l>
+            <l>por que no huyáis de mí.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR, <hi rend="i">en secreto</hi></speaker>
+          <lg>
+            <l>Necia sois mayor de marca</l>
+            <l>si tal hacéis; recebilda,</l>
+            <l>que bien estará, Casilda,</l>
+            <l>el arco dentro del arca.</l>
+          </lg>
+          <stage>Vuélvese a Enrico</stage>
+          <lg>
+            <l>También yo a Casilda cedo</l>
+            <l>en ocasión como esta</l>
+            <l>cien ducados, que me presta</l>
+            <l>para una mula Tancredo.</l>
+          </lg>
+          <lg>
+            <l>Y está ya la impertinencia</l>
+            <l>tan señora de vasallos,</l>
+            <l>que no ha querido aceptallos:</l>
+            <l>no sé qué sueña su encia.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg>
+            <l>Basta que el ofrecimiento,</l>
+            <l>amigo doctor, sea mío,</l>
+            <l>para que vista un desvío,</l>
+            <l>Casilda, de cumplimiento.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Si basta un solo cabello</l>
+            <l>para atar mi voluntad,</l>
+            <l>sin que haya necesidad</l>
+            <l>de echarme cadena al cuello,</l>
+          </lg>
+          <lg>
+            <l>con razón, Enrico, poca</l>
+            <l>en prisión me ponéis, dura,</l>
+            <l>que esclava soy bien segura</l>
+            <l>y amante no soy muy loca.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>¡Qué cosa tan porfïada!</l>
+            <l>Dadme la cadena a mí.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="M">
+            <l>Doctor mío, veisla ahí.</l>
+          </lg>
+          <stage>Toma el doctor la cadena</stage>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>No hay cosa de oro pesada.</l>
+          </lg>
+          <lg>
+            <l>Si derribare la mano</l>
+            <l>tanto más será süave,</l>
+            <l>que es bienquisto por lo grave</l>
+            <l>este metal indïano.</l>
+          </lg>
+          <lg part="I">
+            <l part="I">Toma.</l>
+          </lg>
+        </sp>
+          <stage>Dale la cadena a Casilda.</stage>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="M">¿Qué?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Desembaraza</l>
+            <l part="I">la mano.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l part="F">¡Oh, qué gran fatiga!</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Chitón, que esta no es, amiga,</l>
+            <l>cadena, sino mordaza.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>¡Tal violencia! Dios, Lesbina,</l>
+            <l>no perdone tu flaqueza,</l>
+            <l>que tu hurto fue pobreza</l>
+            <l>y su reparo es mohína.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Por Dios que haces agravio</l>
+            <l>a la voluntad de Enrico.</l>
+            <l>Tenlo por mancebo rico</l>
+            <l>y por galán sin resabio.</l>
+          </lg>
+          <lg part="I">
+            <l>No lo conoces bien tú.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="F">
+            <l>Ojalá cada eslabón</l>
+            <l>de oro tuviera un millón</l>
+            <l>y de hechura un Perú,</l>
+          </lg>
+          <lg>
+            <l>que aun no tuviera valor,</l>
+            <l>cuanto más una cadena</l>
+            <l>que solo tendrá de buena</l>
+            <l>dalle tú su resplandor.</l>
+          </lg>
+        </sp>
+          <stage>Toma Casilda la cadena.</stage>
+        
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg>
+            <l>Ojalá, Enrico gallardo,</l>
+            <l>batiera el tiempo a compás</l>
+            <l>alas de mi amor no más,</l>
+            <l>y no celos de Gerardo,</l>
+          </lg>
+          <lg>
+            <l>para que en dulces empleos</l>
+            <l>vieran nuestros corazones</l>
+            <l>logradas las ocasiones,</l>
+            <l>satisfechos los deseos.</l>
+          </lg>
+          <lg>
+            <l>¿Soy ninfa silvestre, y vos</l>
+            <l>algún monstro de la tierra</l>
+            <l>que con pies de cabra yerra,</l>
+            <l>hecho de las selvas dios,</l>
+          </lg>
+          <lg>
+            <l>para que yo, fugitiva</l>
+            <l>por el monte y la campaña,</l>
+            <l>mi cuerpo esconda una caña</l>
+            <l>y eterno mi desdén viva?</l>
+          </lg>
+          <lg>
+            <l>No sois sino quien recelo,</l>
+            <l>por vuestra edad floreciente,</l>
+            <l>os desvanezca una fuente</l>
+            <l>o os arrebate algún vuelo,</l>
+          </lg>
+          <lg>
+            <l>porque vuestras partes bellas,</l>
+            <l>si no mienten mis temores,</l>
+            <l>darán número a las flores</l>
+            <l>cuando no pisen estrellas.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR, <hi rend="i">aparte</hi></speaker>
+          <lg>
+            <l>Tomad, niñas, para hilo,</l>
+            <l>que se gasta el fabulaje:</l>
+            <l>Satanás corta el lenguaje</l>
+            <l>y Judas cose el estilo.</l>
+          </lg>
+          <lg>
+            <l>¿Tal sois, señora mujer?</l>
+            <l>Pues, aunque pavón no soy,</l>
+            <l>trescientos ojos desde hoy</l>
+            <l>en la cola he de tener.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg>
+            <l>Dame el cristal de tus manos,</l>
+            <l>sirena dulce y crüel,</l>
+            <l>para que, viéndome en él,</l>
+            <l>haga tus temores vanos;</l>
+          </lg>
+          <lg>
+            <l>y mírame en paz, que a fe,</l>
+            <l>si me das este consuelo,</l>
+            <l>que los faroles del cielo</l>
+            <l>ponga debajo del pie.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Tancredo viene, señores:</l>
+            <l>hipocresía, mesura.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="M">
+            <l>¡Oh qué corta es mi ventura!</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Ya llega a los corredores.</l>
+          </lg>
+        </sp>
+          <stage>Entra Tancredo.</stage>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">¿Enrico?</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="M">
+            <l part="M">¿Tancredo?</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l part="F">¿Acá?</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="F">
+            <l>Vengo a buscar al doctor,</l>
+            <l>que no sé con qué dolor</l>
+            <l>mi hermana Leonora está.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>Gran pena me ha dado Enrico</l>
+            <l>con el dolor de su hermana.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l part="I">La causa ¿es grave?</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="M">
+            <l part="F">Liviana.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Y yo que lo certifico.</l>
+          </lg>
+        </sp>
+          <stage>Hablan a coros, en secreto Tancredo con el doctor a una parte, y a otra Casilda con Enrico</stage>
+          <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">Doctor.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Amigo, hablad quedo.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>Mi gusto, Enrique, os ordena</l>
+            <l>que del hurto y la cadena</l>
+            <l>no sepa nada Tancredo.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l>Casilda, harélo así.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l>Muy bien está. Basta que</l>
+            <l>la mula al doctor le dé</l>
+            <l>sin que me dé nada a mí,</l>
+          </lg>
+          <lg>
+            <l>que en materias de interés</l>
+            <l>soy mariposa que vuela</l>
+            <l>a la luz de la candela</l>
+            <l>donde fenece después,</l>
+          </lg>
+          <lg part="I">
+            <l part="I">simplicísima.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Eso no.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l>Doblones son, en verdad.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>A Casilda se los dad,</l>
+            <l>pues Casilda los pidió.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l>Enrico, el doctor ahora</l>
+            <l>dirá el modo que ha de haber</l>
+            <l>para volveros a ver</l>
+            <l part="I">solo esta noche.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l part="F">Señora.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l part="I">¡Oh gloria mía!</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l part="F">El doctor</l>
+            <l>os remite este dinero.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l>Hoy lo hacéis caballero.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>Él me hará gran señor.</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="I">
+            <l part="I">Llegaos acá.</l>
+          </lg>
+        </sp>
+          <stage>Truécanse y vuelven a hablar en secreto, a coros, Casilda y Tancredo a una parte, y el doctor y Enrico a otra</stage>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="M">
+            <l part="F">En mi verdad,</l>
+            <l>que se me había olvidado</l>
+            <l>lo que más me da cuidado.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Qué es? Dilo.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="F">
+            <l part="F">Esta negra edad</l>
+          </lg>
+          <lg>
+            <l>de don Tristán, que bien negra</l>
+            <l>la está haciendo la tinta,</l>
+            <l>pues cuanto más él se pinta</l>
+            <l>más se ensucia y nos alegra.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Yo lo sabré en un momento,</l>
+            <l>con una traza discreta.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="M">
+            <l part="I">¿Con qué?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Con una receta,</l>
+            <l>potro al darle este tormento.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l>¿Esta noche tal favor?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="M">
+            <l>El doctor os dirá cómo.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l>Las manos, señora, os tomo</l>
+            <l part="I">para besallas.</l>
+          </lg>
+        </sp>
+          <stage>Vuélvese Casilda a hablar alto con el doctor.</stage>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l part="F">Doctor,</l>
+          </lg>
+          <lg part="I">
+            <l>mirad no venga Gerardo;</l>
+            <l>llevad estos caballeros.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>¿Volveré esta noche a veros</l>
+            <l part="I">con lo que os he dicho?</l>
+          </lg>
+        </sp>
+        <sp who="CASILDA">
+          <speaker>CASILDA</speaker>
+          <lg part="F">
+            <l part="F">Aguardo.</l>
+          </lg>
+        </sp>
+        <stage>Vase Casilda.</stage>
+        <sp who="TANCREDO">
+          <stage>TANCREDO, <hi rend="i">aparte.</hi></stage>
+          <lg part="I">
+            <l>Conmigo debe de ser.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO, <hi rend="i">aparte.</hi></speaker>
+          <lg part="M">
+            <l>Yo apostaré que es conmigo.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO, <hi rend="i">en secreto.</hi></speaker>
+          <lg part="M">
+            <l>¿Hemos de volver, amigo?</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO, <hi rend="i">en secreto.</hi></speaker>
+          <lg part="F">
+            <l>Amigo, ¿hemos de volver?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l part="I">¿Vámonos, señores?</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO, ENRICO">
+          <speaker>TANCREDO, ENRICO</speaker>
+          <lg part="M">
+            <l part="F">Sí,</l>
+            <l part="I">vamos.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <stage>DOCTOR, <hi rend="i">aparte</hi></stage>
+          <lg part="F">
+            <l part="F">¡Qué lindos camellos!</l>
+            <l>Han pensado que es a ellos,</l>
+            <l>y aguarda a <hi rend="i">mihi vel mi.</hi></l>
+          </lg>
+        </sp>
+        <stage>Vanse</stage>
+      </div>
+      <div>
+        <head>ACTO SEGUNDO</head>
+        <stage>Entran Gerardo y Lucrecia.</stage>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Lucrecia bella, el príncipe troyano,</l>
+            <l>que tan por su mal fue pastor ideo,</l>
+            <l>cuando admitió a düelo soberano</l>
+            <l>tres derechos divinos y un deseo,</l>
+            <l>no vio distinto, no, en medio del llano</l>
+            <l>lo que yo junto en vuestro lecho veo:</l>
+            <l>beldad desnuda con saber armado</l>
+            <l>y valor de excelencias coronado;</l>
+          </lg>
+          <lg>
+            <l>y así, en mi bolsa he dado</l>
+            <l>a Venus los estrechos dulces nudos,</l>
+            <l>a Juno el oro, a Palas los escudos.</l>
+            <l>Reales plumas, cuyo dulce vuelo</l>
+            <l>si de plumas no fue, fue de reales,</l>
+            <l>me levantaron hoy a vuestro cielo,</l>
+            <l>adonde el néctar se sirvió en cristales</l>
+            <l>y en los rubíes dos, que admira el suelo,</l>
+            <l>cuantos labran dulcísimos panales,</l>
+            <l>hechos abejas de Hibla, los amores,</l>
+            <l>que son miel y no dejan de ser flores.</l>
+          </lg>
+          <lg>
+            <l>Soberanos favores,</l>
+            <l>ser de Venus, si no Adonis segundo,</l>
+            <l>el primer Ganimedes en el mundo.</l>
+            <l>Lasciva invidia le consume el pecho</l>
+            <l>al decano inmortal del alto coro</l>
+            <l>que, por manchar un casto y otro lecho,</l>
+            <l>fingió ser cisne ya, mintió ser toro,</l>
+            <l>de que por más hermosa causa, hecho</l>
+            <l>luciente pluvia yo de granos de oro,</l>
+            <l>si engañar el cuidado no he sabido</l>
+            <l>de un padre rey, de un viejo prevenido,</l>
+          </lg>
+          <lg part="I">
+            <l>al menos de un marido</l>
+            <l part="I">frustrar sé los designios</l>
+          </lg>
+          <stage>Aparte</stage>
+          <lg part="F">
+            <l part="F">(de quien hube</l>
+            <l>los granos de oro que llovió la nube).</l>
+            <l>No cuente piedra, no, este alegre día,</l>
+            <l>que a tanta dicha su blancura es poca;</l>
+            <l>cuéntenlo perlas, que el oriente fía</l>
+            <l>de la purpúrea concha de tu boca;</l>
+            <l>cristal lo cuente, que la industria mía</l>
+            <l>en tu roca gozó, que ya no es roca,</l>
+            <l>sino cuerpo de espumas animado</l>
+            <l>que venera por madre el dios vendado.</l>
+          </lg>
+          <lg>
+            <l>¡Dichoso el que a tu lado</l>
+            <l>no a lumbre muerta en noche gozó oscura,</l>
+            <l>sino con sol, el sol de tu hermosura!</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg>
+            <l>Bien quedo lisonjeada</l>
+            <l>del servicio que te he hecho,</l>
+            <l>si tanto vas satisfecho</l>
+            <l>cuanto me dejas pagada;</l>
+            <l>y aunque te he servido en nada,</l>
+            <l>estimar puedes, Gerardo,</l>
+            <l>que del lecho que mal guardo</l>
+            <l>las primeras son tus huellas:</l>
+            <l>disculpen el yerro ellas,</l>
+            <l>pues son de pie tan gallardo.</l>
+          </lg>
+          <lg>
+            <l>Que aunque de estos yerros es,</l>
+            <l>cualquiera disculpa, mala,</l>
+            <l>o bien los lime la gala,</l>
+            <l>o los dore el interés,</l>
+            <l>pondérenmelos después</l>
+            <l>la que tragar brasas pudo,</l>
+            <l>o la que al puñal desnudo</l>
+            <l>dio el pecho, que admitirán</l>
+            <l>la lima de tal galán</l>
+            <l>y el oro de tanto escudo.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Esto, señora Lucrecia,</l>
+            <l>no es sino como se toma,</l>
+            <l>que de la que admiró Roma</l>
+            <l>hiciera donaire Grecia.</l>
+            <l>Necia fue Porcia, y más necia</l>
+            <l>la de tu nombre, y lo fundo</l>
+            <l>en que a Porcia echó del mundo</l>
+            <l>el no admitir segundo hombre,</l>
+            <l>y nada a la de tu nombre,</l>
+            <l>admitido ya el segundo.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg>
+            <l>Cuando no sea a la malicia</l>
+            <l>del vulgo, en todo ignorante,</l>
+            <l>la satisfación bastante</l>
+            <l>de tu gracia y mi cudicia,</l>
+            <l>defenderá mi justicia</l>
+            <l>un doctor que me ha inducido</l>
+            <l>a todo lo que has querido:</l>
+            <l>un doctor tan bachiller,</l>
+            <l>que es salud de la mujer</l>
+            <l>y enfermedad del marido.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Que el vulgo se satisfaga</l>
+            <l>no lo solicito, amiga,</l>
+            <l>antes le dejo que diga,</l>
+            <l>como él me deje que haga.</l>
+            <l>Que es impertinente y vaga</l>
+            <l>la satisfación del necio,</l>
+            <l>pues cuanto más la da recio</l>
+            <l>tanto más la hace pregón,</l>
+            <l>y así, de satisfación</l>
+            <l>la convierte en menosprecio.</l>
+          </lg>
+          <lg part="I">
+            <l>Holguémonos, por tu vida,</l>
+            <l>sin dar a nadie respuesta,</l>
+            <l>que acusación manifiesta</l>
+            <l>es, la excusa no pedida.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="M">
+            <l>Mejor es que te despida,</l>
+            <l>por que no venga Tancredo.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>No tengas, Lucrecia, miedo,</l>
+            <l>que yo sé que anda ocupado,</l>
+            <l>y estar sobre su cuidado</l>
+            <l>como sobre prendas puedo.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg>
+            <l>No es nuevo el entrar en casa,</l>
+            <l>en el lecho, sí, Gerardo,</l>
+            <l>y así, del lecho me guardo,</l>
+            <l>no le diga lo que pasa.</l>
+          </lg>
+          <lg>
+            <l>Su cielo dará una voz,</l>
+            <l>que es cielo y sabrá tronar,</l>
+            <l>cuando no me sepan dar</l>
+            <l>sus sábanas una coz,</l>
+          </lg>
+          <lg part="I">
+            <l>que de las sábanas pueden</l>
+            <l>las piernas, aunque de holanda,</l>
+            <l>darme una coz, y no blanda.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>A toda razón exceden</l>
+          </lg>
+          <lg part="I">
+            <l part="I">tus temores.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="F">
+            <l part="F">Mil testigos</l>
+            <l>es la conciencia del reo,</l>
+            <l>y cuantos doy pasos creo</l>
+            <l>que son lenguas de enemigos.</l>
+          </lg>
+          <stage>Aparte</stage>
+          <lg>
+            <l>Tisberto amigo, ¿soy yo</l>
+            <l>la que te desdeñó ya?</l>
+            <l>Sí soy, y rendida está</l>
+            <l>quien tus señas arrastró.</l>
+          </lg>
+          <lg>
+            <l>No es Amor quien me ha rendido,</l>
+            <l>sino un vengativo afán</l>
+            <l>por quitalle a una, el galán,</l>
+            <l>que me quitaba el marido.</l>
+          </lg>
+        </sp>
+          <stage>Llama Tancredo dentro</stage>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">¡Lucrecia!</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="M">
+            <l part="F">¡Ay, triste de mí!</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l part="I">Subid acá.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="F">
+            <l part="F">¿Qué haré,</l>
+            <l>que el chapín me niega el pie,</l>
+            <l>confesando la que fui?</l>
+          </lg>
+        </sp>
+          <stage>Entran Tancredo y el doctor.</stage>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l>El doctor viene conmigo,</l>
+            <l part="I">Lucrecia.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="M">
+            <l part="F">Acá está Gerardo.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>Muy gran rato ha que os aguardo.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>Buen alcaide es un amigo.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Y más tal amigo, a quien</l>
+            <l>le entregara yo el Peñón.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>No se perdiera, patrón.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Acabóse aquello?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l part="F">Bien.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l>¿Son menester otros mil?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>Antes sobraron aquellos.</l>
+            <l>Bésoos las manos por ellos.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>¡Oh ceremonia gentil!</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Pedíos el dinero yo</l>
+            <l>para lo que efecto no hubo</l>
+            <l>y en lo que conmigo estuvo</l>
+            <l>riquísimo me dejó.</l>
+          </lg>
+          <lg>
+            <l>Volví a traellos volando</l>
+            <l>y, no hallándoos aquí,</l>
+            <l>a Lucrecia se los di,</l>
+            <l>con quien me he estado hablando.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="I">
+            <l part="I">¿Cómo? ¿Cuál? ¿Qué?</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l part="F">Ten sosiego.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>Los cien escudos os pido</l>
+            <l>que traje a vuestro marido</l>
+            <l part="I">y os los di a vos.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="F">
+            <l part="F">No los niego.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Quisiéralos la señora</l>
+            <l>para oro y para plata.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l>Este bastidor la mata,</l>
+            <l part="I">doctor.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Es gran bordadora.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <stage>LUCRECIA, <hi rend="i">aparte</hi></stage>
+          <lg>
+            <l>Quisiéralos, vive Dios,</l>
+            <l>para hacer de ellos dos pagas</l>
+            <l>a quien entrara dos dagas</l>
+            <l>por las almas de los dos.</l>
+          </lg>
+          <lg part="I">
+            <l part="I">¿Tal burla a Lucrecia?</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l part="F">Amigo,</l>
+            <l part="I">gran pagador sois.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l part="F">Tancredo,</l>
+            <l>pagándoos, pagado quedo</l>
+            <l>de mis intentos, y digo</l>
+          </lg>
+          <lg>
+            <l>que, dándoos los cien ducados</l>
+            <l>en vuestra propia moneda,</l>
+            <l>aun escrúpulo me queda</l>
+            <l>de que os los vuelvo en cornados.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l>Con la brevedad sospecho</l>
+            <l>que me queréis engañar.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Osaría yo apostar</l>
+            <l>que el engaño ya está hecho.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">¿Cómo?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Como si esta tarde</l>
+            <l>te pidiese mil escudos,</l>
+            <l>el zurrón no tendría nudos</l>
+            <l>y del cofre harías alarde.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l>Jesús, doctor, ¿quién lo duda?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Bien sabe la que está allí</l>
+            <l>lo que tú tienes en mí,</l>
+            <l>y lo calla, aunque no es muda.</l>
+          </lg>
+          <lg>
+            <l>Ella a lo menos dirá</l>
+            <l>que, en baja ocasión ni en alta,</l>
+            <l>no hace Tancredo falta</l>
+            <l>adonde Gerardo está.</l>
+          </lg>
+          <lg part="I">
+            <l>Yo se lo estaba diciendo</l>
+            <l>cuando tú entrabas en casa.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Bien sé de eso lo que pasa.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>Y yo, Gerardo, lo entiendo.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <stage>LUCRECIA, <hi rend="i">aparte</hi></stage>
+          <lg>
+            <l>¿Hay quién paciencia me preste</l>
+            <l>para que en tantos enojos</l>
+            <l>no me saque a mí dos ojos</l>
+            <l>por sacalle un ojo a este?</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">¿Qué dices, Lucrecia?</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="F">
+            <l part="F">Digo</l>
+            <l>que puedes fïar, señor,</l>
+            <l>la salud, de este doctor,</l>
+            <l>y la honra, de este amigo,</l>
+          </lg>
+          <lg>
+            <l>cuanto más suma tan breve</l>
+            <l>de dinero mal prestado</l>
+            <l>que, aunque a ti te lo ha pagado,</l>
+            <l>a mí todo me lo debe.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">¿Por qué?</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="F">
+            <l part="F">Porque a negallo</l>
+            <l>estuve casi resuelta,</l>
+            <l>y si lo niego, otra vuelta</l>
+            <l>era forzoso el pagallo.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l>Es verdad que algo alterada</l>
+            <l>te reconocí, Lucrecia.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="F">
+            <l>Alterada como necia,</l>
+            <l>y necia como burlada.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">¿Y qué burla fue?</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="M">
+            <l part="F">Escuchad,</l>
+            <l>aunque mi honra me cuesta.</l>
+          </lg>
+        </sp>
+          <stage>En secreto el doctor con Gerardo.</stage>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Mayor burla sería esta</l>
+            <l>si dijese la verdad.</l>
+          </lg>
+          <lg part="I">
+            <l>Barajadle el naipe vos,</l>
+            <l part="I">o harélo yo.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l part="F">Has de saber</l>
+            <l>que le acabo de hacer</l>
+            <l>un picón, y aun creo que dos.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">Veamos.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l part="F">Yo me fingí</l>
+            <l>corredor de unos bordados,</l>
+            <l>para lo cual cien ducados</l>
+            <l>en tus doblones le di.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">Extremada.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l part="F">Luego yo,</l>
+            <l>de la ganancia, es verdad</l>
+            <l>que le pedí la mitad,</l>
+            <l>y que la mitad me dio.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">¿Aceptaste?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l part="F">Luego a la hora.</l>
+            <l>Tras esto, de corretaje</l>
+            <l>le pedí no sé qué gaje.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l part="I">¿Diolo?</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l part="M">Sí.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l part="F">Es gran bordadora.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Baste ya, señores. Dalde</l>
+            <l part="I">lugar.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l part="F">Ella está perdida.</l>
+          </lg>
+        </sp>
+          <sp who="LUCRECIA">
+          <stage>LUCRECIA, <hi rend="i">aparte</hi></stage>
+          <lg part="F">
+            <l>Es verdad que estoy corrida</l>
+            <l>como picada de balde,</l>
+          </lg>
+          <lg>
+            <l>mas los huesos de los Laras</l>
+            <l>de moros los vea pisados,</l>
+            <l>si no hiciere cruzados</l>
+            <l>los doblones de sus caras.</l>
+          </lg>
+        </sp>
+          <stage>Entra Tisberto.</stage>
+        <sp who="TISBERTO">
+          <speaker>TISBERTO</speaker>
+          <lg part="I">
+            <l part="I">¿Está acá el doctor?</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l part="F">¿Sobrino?</l>
+          </lg>
+        </sp>
+        <sp who="TISBERTO">
+          <speaker>TISBERTO</speaker>
+          <lg part="M">
+            <l>Bésoos las manos, señor.</l>
+            <l>Vengo a buscar al doctor.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Aquí está el doctor Carlino.</l>
+          </lg>
+        </sp>
+        <sp who="TISBERTO">
+          <speaker>TISBERTO</speaker>
+          <lg part="I">
+            <l>Don Tristán te anda buscando.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="M">
+            <l part="I">¿Qué tiene mi tío?</l>
+          </lg>
+        </sp>
+        <sp who="TISBERTO">
+          <speaker>TISBERTO</speaker>
+          <lg part="M">
+            <l part="F">Nada.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Dónde queda?</l>
+          </lg>
+        </sp>
+        <sp who="TISBERTO">
+          <speaker>TISBERTO</speaker>
+          <lg part="M">
+            <l part="F">En su posada.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Solo?</l>
+          </lg>
+        </sp>
+        <sp who="TISBERTO">
+          <speaker>TISBERTO</speaker>
+          <lg part="F">
+            <l part="F">Con Enrico hablando.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l part="I">Luego iré.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <stage>Vuélvese a Tancredo y dícele en secreto:</stage>
+          <lg part="M">
+            <l part="F">Oídme, Tancredo,</l>
+            <l>aunque Lucrecia nos vea:</l>
+            <l>esta noche es bien que sea.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>¿Quieres matarme? Habla quedo.</l>
+          </lg>
+        </sp>
+          <stage>Hablan en secreto Tancredo y el doctor.</stage>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l part="I">Lucrecia bella.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="M">
+            <l part="F">Alevoso.</l>
+          </lg>
+          <stage>Vuélvese a Tisberto.</stage>
+          <lg part="M">
+            <l>Tisberto, llégate acá.</l>
+          </lg>
+        </sp>
+          <stage>Hablan en secreto</stage>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>¿Así se desdeña ya</l>
+            <l>un amigo semiesposo?</l>
+          </lg>
+          <lg>
+            <l>No quiero serte pesado.</l>
+            <l>Goce el pobre de Tisberto,</l>
+            <l>sobre tres años de muerto,</l>
+            <l>algo de resucitado.</l>
+          </lg>
+          <lg>
+            <l>Lo que ha padecido el pobre</l>
+            <l>resistiendo a tu desdén,</l>
+            <l>escollo al mar no tan bien,</l>
+            <l>ni al austro se opuso robre.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l part="I">Buena es la traza.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Excelente.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l>¿Quién, pues, hará ese ademán?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>¿Quién? Tisberto y don Tristán.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>A toda ley, un pariente:</l>
+          </lg>
+          <lg>
+            <l>Tisberto, sobrino mío,</l>
+            <l>por suya mi honra precia;</l>
+            <l>don Tristán, tío de Lucrecia,</l>
+            <l>con más de padre que tío.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Muy bien les puedes fïar</l>
+            <l>este negocio y tu casa.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="F">
+            <l>Bien entiendes lo que pasa.</l>
+            <l>De Pamplona a Gibraltar,</l>
+          </lg>
+          <lg>
+            <l>y desde el cabo de Gata</l>
+            <l>al cabo de San Vicente,</l>
+            <l>más leal y más valiente</l>
+            <l>no sirve al rey, ni armas trata,</l>
+          </lg>
+          <lg>
+            <l>que Tisberto: y para mí<hi rend="i">a</hi></l>
+            <l>la virtud del mozo es tal<hi rend="i">b</hi></l>
+            <l>que no hay culpa venïal<hi rend="i">c</hi></l>
+            <l>en cuanto se habla allí.<hi rend="i">d</hi></l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>No lo dudo. Escucha, pues.</l>
+          </lg>
+        </sp>
+          <stage>Vuelven a hablar en secreto Tisberto y Lucrecia.</stage>
+        <sp who="TISBERTO">
+          <speaker>TISBERTO</speaker>
+          <lg part="M">
+            <l>¿Que te movió el llanto mío?</l>
+            <l>A no estar allí mi tío</l>
+            <l>me derribara a tus pies.</l>
+          </lg>
+          <lg part="I">
+            <l>Pero, ¿qué importa que esté?</l>
+            <l>Dame las manos, señora.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="F">
+            <l>No es tiempo, Tisberto, ahora</l>
+            <l>de besar mano ni pie,</l>
+          </lg>
+          <lg>
+            <l>cuando ofrezco a tu esperanza</l>
+            <l>lo que ha tanto que te niego,</l>
+            <l>si de tu espada mi ruego</l>
+            <l>impetra cierta venganza.</l>
+          </lg>
+        </sp>
+        <sp who="TISBERTO">
+          <speaker>TISBERTO</speaker>
+          <lg>
+            <l>¿Quies que le quite algún guante</l>
+            <l>al animal más feroz</l>
+            <l>el imperio de mi voz,</l>
+            <l>las armas de mi semblante?</l>
+          </lg>
+          <lg>
+            <l>¿Quies, con un solo bastón,</l>
+            <l>que te hurte el brazo mío,</l>
+            <l>aunque en poder de mi tío</l>
+            <l>te corone un escuadrón?</l>
+          </lg>
+          <lg>
+            <l>¿Quies que, después de hurtada,</l>
+            <l>asegure nuestro amor</l>
+            <l>la Troya de mi valor,</l>
+            <l>cuyos muros son mi espada?</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg>
+            <l>No quiero, amigo gallardo,</l>
+            <l>tu voz, tu bastón, tu Troya,</l>
+            <l>sino que... (escucha, no me oya</l>
+            <l>este traidor de Gerardo).</l>
+          </lg>
+        </sp>
+          <stage>Vuelven a hablar en secreto.</stage>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>De estas dos balanzas vengo</l>
+            <l>a servir hoy de fïel,</l>
+            <l>y lo que yo tengo de él</l>
+            <l>lleve Judas, si algo tengo.</l>
+          </lg>
+          <lg>
+            <l>Lamedores del doctor</l>
+            <l>regalado me han el pecho,</l>
+            <l>de manera que estoy hecho</l>
+            <l>un magistral lamedor.</l>
+          </lg>
+          <lg>
+            <l>Andaba yo antes muy necio</l>
+            <l>diciendo lo que sentía,</l>
+            <l>sintiendo lo que decía</l>
+            <l>y dándolo todo a un precio;</l>
+          </lg>
+          <lg>
+            <l>ofreciendo mi persona</l>
+            <l>con voluntad verdadera</l>
+            <l>a manquitos, que de cera</l>
+            <l>se ofrecían a madona;</l>
+          </lg>
+          <lg>
+            <l>ya a lo moderno he de andar,</l>
+            <l>colear quiero y lamer,</l>
+            <l>al más lamido morder</l>
+            <l>y al mordido saludar.</l>
+          </lg>
+          <lg>
+            <l>A Lucrecia tengo en pan,</l>
+            <l>en pastel me falta ahora</l>
+            <l>de echar, si puedo, a Leonora,</l>
+            <l>que está para don Tristán.</l>
+          </lg>
+          <lg>
+            <l>Picarésela a lo menos,</l>
+            <l>pues tiene dientes gastados.</l>
+            <l>Mas, necio, ¿diez mil ducados</l>
+            <l>con un ángel no son buenos?</l>
+          </lg>
+          <lg part="I">
+            <l>Bonísimos; pues, ¿qué aguardo?</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="M">
+            <l part="I">¿Qué te rascas?</l>
+          </lg>
+          </sp>
+        <sp who="TISBERTO">
+          <stage>TISBERTO, <hi rend="i">aparte.</hi></stage>
+          <lg part="F">
+            <l part="F">¡Cosa es recia,</l>
+            <l>hermosísima Lucrecia,</l>
+            <l>cruzar la cara a Gerardo!</l>
+          </lg>
+          <lg part="I">
+            <l>¿A un amigo cuchillada?</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="M">
+            <l part="I">¿Qué me respondes?</l>
+          </lg>
+        </sp>
+        <sp who="TISBERTO">
+          <stage>TISBERTO, <hi rend="i">aparte.</hi></stage>
+          <lg part="F">
+            <l part="F">Que quiero</l>
+            <l>consultárselo primero</l>
+            <l>al licenciado almohada.</l>
+          </lg>
+          <lg>
+            <l>No por que sepas mi tío</l>
+            <l>quiere bien a esa mujer</l>
+            <l>has, Lucrecia, de querer</l>
+            <l>que mate un amigo mío.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg>
+            <l>Pues, señor don Manüel,</l>
+            <l>¿tal león tenéis delante</l>
+            <l>que, en vez de quitarle el guante,</l>
+            <l>dejáis que me dé con él?</l>
+          </lg>
+          <lg>
+            <l>¿Tan gran escuadrón de gente</l>
+            <l>es la espada de Gerardo,</l>
+            <l>que el bastón de Mandricardo</l>
+            <l>me desampara vilmente?</l>
+          </lg>
+          <lg>
+            <l>¿Y paladïón tan fiero</l>
+            <l>vuestra Troya atemoriza,</l>
+            <l>que ha convertido en ceniza</l>
+            <l>los muros que eran de acero?</l>
+          </lg>
+        </sp>
+        <sp who="TISBERTO">
+          <speaker>TISBERTO</speaker>
+          <lg>
+            <l>Lucrecia, así Dios me guarde,</l>
+            <l>que treinta paciencias pierdo,</l>
+            <l>de que, en naciendo uno cuerdo,</l>
+            <l>lo bauticen por cobarde.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Las cosas bien se harán</l>
+            <l>si no se altera el concierto;</l>
+            <l>lleva instruido a Tisberto,</l>
+            <l>que yo tendré a don Tristán.</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="I">
+            <l>Pues, doctor, luego a la hora</l>
+            <l>seremos allá los dos.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Señora Lucrecia, adiós.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Adiós, Lucrecia, señora.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="I">
+            <l>¿Disolviéronse los tratos?</l>
+          </lg>
+        </sp>
+        <sp who="TANCREDO">
+          <speaker>TANCREDO</speaker>
+          <lg part="M">
+            <l>Entra acá, Tisberto amigo.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l><hi rend="i">Quod scripsi, scripsi</hi>, digo.</l>
+          </lg>
+        </sp>
+        <sp who="LUCRECIA">
+          <speaker>LUCRECIA</speaker>
+          <lg part="F">
+            <l>Palabritas de Pilatos.</l>
+          </lg>
+        </sp>
+          <stage>Éntranse Tancredo, Lucrecia y Tisberto.</stage>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Buena dejas a Lucrecia.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l>Mejor queda su marido.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Mi tonto esta tarde ha sido,</l>
+            <l>mientras ella fue tu necia.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l part="I">¿Cómo?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Después lo sabrás,</l>
+            <l>que ahora el tiempo nos falta</l>
+            <l>para la burla más alta</l>
+            <l>que se habrá hecho jamás.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>Extremada fue la mía.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Fuelo tanto que, por eso,</l>
+            <l>he yo nuevamente impreso</l>
+            <l>la que encuadernar quería.</l>
+          </lg>
+          <lg>
+            <l>Deseo con tanto extremo</l>
+            <l>que te cases con Leonora,</l>
+            <l>que pienso luego a la hora</l>
+            <l>meter vela y calar remo.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Pues, si he de decir verdad,</l>
+            <l>yo más que tú lo deseo,</l>
+            <l>por hacer tan rico empleo</l>
+            <l>de virtud y de beldad.</l>
+          </lg>
+          <lg part="I">
+            <l>Mas tan prendado está Enrico</l>
+            <l>con don Tristán, que lo dejo.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>¿No ves que tiene de viejo</l>
+            <l>lo que le sobra de rico?</l>
+          </lg>
+          <lg>
+            <l>Y más que sabe, la dama,</l>
+            <l>que se anda meando en pie,</l>
+            <l>si bien yo le he dicho que</l>
+            <l>tiene zalea en la cama.</l>
+          </lg>
+          <lg>
+            <l>Un poco al fin de la unción</l>
+            <l>y mucho de la avaricia</l>
+            <l>van templando la cudicia</l>
+            <l>y apagando la afición,</l>
+          </lg>
+          <lg>
+            <l>cuanto y más que mi cuidado</l>
+            <l>aun no te dijo denantes</l>
+            <l>los fundamentos bastantes</l>
+            <l>que en este edificio he echado,</l>
+          </lg>
+          <lg>
+            <l>gastando con ella yo</l>
+            <l>mucho más materïal</l>
+            <l>que en el alcázar real</l>
+            <l>de Toledo se gastó,</l>
+          </lg>
+          <lg>
+            <l>con que tengo las paredes</l>
+            <l>del edificio gallardo</l>
+            <l>en tal punto que, Gerardo,</l>
+            <l>esta noche cubrir puedes.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>¡Oh leal siempre doctor!</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <stage>DOCTOR, <hi rend="i">aparte</hi></stage>
+          <lg part="M">
+            <l>¡Tan leal como el del beso!</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="M">
+            <l part="I">¿Qué traza, pues, das?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">A eso</l>
+            <l>voy, señor gobernador.</l>
+          </lg>
+          <lg>
+            <l>A jugar os podéis ir</l>
+            <l>al mandracho de Marcelo</l>
+            <l>hasta que el Argos del cielo</l>
+            <l>sus ojos comience a abrir.</l>
+          </lg>
+          <lg>
+            <l>Saldréis luego, y contra vos</l>
+            <l>un hombre meterá mano,</l>
+            <l>a quien le daréis de llano</l>
+            <l>un espaldarazo o dos;</l>
+          </lg>
+          <lg>
+            <l>no sean grandes, que al más chico</l>
+            <l>voces dará sin concierto:</l>
+            <l>«¡Que me han muerto, que me han muerto!»,</l>
+            <l>y a las voces saldrá Enrico.</l>
+          </lg>
+          <lg>
+            <l>Fomente con eficacia</l>
+            <l>vuestra turbación mi enredo,</l>
+            <l>que él os ha de meter miedo</l>
+            <l>ponderando la desgracia.</l>
+          </lg>
+          <lg>
+            <l>Vos socarrón, él cumplido,</l>
+            <l>pensando que os hace engaño,</l>
+            <l>tanto apretará en su daño</l>
+            <l>que os daréis vos por vencido,</l>
+          </lg>
+          <lg>
+            <l>y en su posada ligero</l>
+            <l>entrará, que no debiera,</l>
+            <l>no un caballo de madera,</l>
+            <l>sino un garañón de acero.</l>
+          </lg>
+          <lg>
+            <l>Del brazo os ha de meter,</l>
+            <l>o yo me pelaré estas,</l>
+            <l>donde las cosas dispuestas</l>
+            <l>halléis a vuestro placer.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="I">
+            <l>¿Quién, amigo, no te abraza?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Abrazos pienso hüillos,</l>
+            <l>que ajan los abanillos</l>
+            <l>y no valen en la plaza.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Esta bolsa que, pendiente</l>
+            <l>como lámpara de plata,</l>
+            <l>sesenta doblones ata</l>
+            <l>(si no digo ciento y veinte</l>
+          </lg>
+          <lg part="I">
+            <l>escudos, por alegrarte</l>
+            <l>con la multiplicación)</l>
+            <l>te ofrece mi devoción.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Las manos he de besarte.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg>
+            <l>Estos y más gané ayer</l>
+            <l>y hoy con ellos he ganado</l>
+            <l>no menos que un nuevo estado,</l>
+            <l>que estado es tomar mujer,</l>
+          </lg>
+          <lg>
+            <l>y más, doctor, la gentil</l>
+            <l>hermosa dama que ofreces,</l>
+            <l>que es duquesa diez mil veces,</l>
+            <l>pues trae ducados diez mil.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>Al encuentro ya nos salen</l>
+            <l>don Tristán y Enrico juntos.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>Tomado hemos grandes puntos</l>
+            <l>contra los dos, si nos valen.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Déjalos, y a mi posada</l>
+            <l>a Bertucho ve a mandar</l>
+            <l>que me traiga a este lugar</l>
+            <l>mi ferreruelo y mi espada;</l>
+          </lg>
+          <lg part="I">
+            <l>y vuelve luego al mandracho,</l>
+            <l>que se va poniendo el sol.</l>
+          </lg>
+        </sp>
+        <sp who="GERARDO">
+          <speaker>GERARDO</speaker>
+          <lg part="F">
+            <l>¿Ha de entender español</l>
+            <l>a estas horas el borracho?</l>
+          </lg>
+        </sp>
+          <stage>Vase Gerardo y salen don Tristán y Enrico.</stage>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>Todo hoy te ando a buscar.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Aunque lo hubiera sabido,</l>
+            <l>mis enfermos me han tenido,</l>
+            <l>que hay muchos en la ciudad.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l part="I">¿Que hay enfermedades?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Muchas,</l>
+            <l>y aun casi epidemïales.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l>Renegaré de mis males.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="F">
+            <l>Ya el doctor pesca sus truchas.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>Esperad, que luego salgo.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="M">
+            <l>Seis veces en media hora</l>
+            <l part="I">ha entrado.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Para Leonora</l>
+            <l>es como un oro el hidalgo.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l>¿Tan enfermo y tan galán?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Solicitad, pues, aprisa</l>
+            <l>un orinal con camisa,</l>
+            <l>que eso mismo es don Tristán.</l>
+          </lg>
+          <lg part="I">
+            <l part="I">Pues, Enrico...</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="M">
+            <l part="F">Ten silencio.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>¿A un viejo que un muerto es</l>
+            <l>tan hermosa viva quies</l>
+            <l>juntar? ¡Oh crüel Mecencio!</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l>Haz diligencia en sus años.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Descuídate, que mi pluma</l>
+            <l>hará muy presto la suma</l>
+            <l>de ellos o de sus engaños.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l>¿Es amigo de vivir?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Tanto como yo tu amigo.</l>
+            <l>Escúchame lo que digo.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="F">
+            <l>¿Quién te dejará de oír?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Va, pues, de juego: ya sabes</l>
+            <l>en cuán estrecha prisión</l>
+            <l>vive Casilda, y que son</l>
+            <l>de su libertad las llaves</l>
+          </lg>
+          <lg>
+            <l>los celos y la persona</l>
+            <l>de Gerardo. ¡Amistad santa,</l>
+            <l>al que hoy los fueros quebranta</l>
+            <l>de tu santa ley, perdona!,</l>
+          </lg>
+          <lg>
+            <l>que lágrimas de una dama,</l>
+            <l>vertidas por un galán,</l>
+            <l>todo aquello borrarán</l>
+            <l>que escribiere quien me infama.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l part="I">Pues qué, ¿llora por mí?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Llora</l>
+            <l>ríos tan crecidos que,</l>
+            <l>perdido en sus ondas pie,</l>
+            <l>me han arrojado aquí ahora.</l>
+          </lg>
+          <lg>
+            <l>Presupuesto, pues, que quiere</l>
+            <l>lo que estáis vos deseando,</l>
+            <l>y que ha remitido el cuándo</l>
+            <l>a lo que yo dispusiere,</l>
+          </lg>
+          <lg>
+            <l>pues tanto importa ausentallo</l>
+            <l>por una noche o por dos</l>
+            <l>para que la gocéis vos,</l>
+            <l>vistos bien los autos, fallo</l>
+          </lg>
+          <lg>
+            <l>que esta noche será bien</l>
+            <l>que al salir temprano o tarde</l>
+            <l>de jugar, alguien aguarde</l>
+            <l>a Gerardo (y daré quién</l>
+          </lg>
+          <lg>
+            <l>lo haga) y, a las primeras</l>
+            <l>cuchilladas, los pies vuelva</l>
+            <l>como corzo que en la selva</l>
+            <l>plumas se calza ligeras.</l>
+          </lg>
+        </sp>
+          <stage>Entra don Tristán.</stage>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>Perdonad mi dilación.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="M">
+            <l>Perdonad nuestro recato.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Quien nos deja cada rato</l>
+            <l>no busque conversación.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l part="I">Doctor, no me olvides.</l>
+          </lg>
+          <stage>Aparte</stage>
+          <lg part="F">
+            <l part="F">Reina</l>
+            <l>de los jazmines, Leonora,</l>
+            <l>más canas gozan la Aurora</l>
+            <l>que las que don Tristán peina,</l>
+          </lg>
+          <lg>
+            <l>y lisonjera y süave,</l>
+            <l>flores ciñe y perlas llueve</l>
+            <l>sobre los copos de nieve</l>
+            <l>que teñir, tinta no sabe.</l>
+          </lg>
+        </sp>
+          <sp who="DOCTOR">
+          <stage>DOCTOR, <hi rend="i">[a Enrico]</hi></stage>
+          <lg>
+            <l>Ofreceréme yo al punto</l>
+            <l>y, encareciendo el suceso,</l>
+            <l>al recluso haré preso,</l>
+            <l>y aun al herido, difunto.</l>
+          </lg>
+          <lg>
+            <l>Con lo cual, dos, tres y aun cuatro</l>
+            <l>días, si no son más ya,</l>
+            <l>de esta fábula podrá</l>
+            <l>ser tu aposento teatro.</l>
+          </lg>
+          </sp>
+        <sp who="DON TRISTÁN">
+          <stage>DON TRISTÁN, <hi rend="i">[aparte]</hi></stage>
+          <lg>
+            <l>Que teatro su aposento</l>
+            <l>será, a Carlino le oí,</l>
+            <l>y teatro, para mí,</l>
+            <l>tálamo es de casamiento.</l>
+          </lg>
+          <lg>
+            <l>Será, pues, bien que mañana,</l>
+            <l>si la estangurria porfía,</l>
+            <l>me purgue, y luego otro día</l>
+            <l>no deje rastro de cana.</l>
+          </lg>
+          <lg>
+            <l>Quedaré sano y galán</l>
+            <l>con tinta y con medicina,</l>
+            <l>que una purga es la piscina,</l>
+            <l>y la alheña es un Jordán.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg>
+            <l>Bien está, pero ¿no ves</l>
+            <l>que en casa de una doncella,</l>
+            <l>sin mujer mayor con ella,</l>
+            <l>es yerro y peligro es</l>
+          </lg>
+          <lg part="I">
+            <l>entrar humana criatura?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>A ese escrúpulo perdona,</l>
+            <l>que do asiste tu persona</l>
+            <l>el peligro se asegura.</l>
+          </lg>
+          <lg>
+            <l>La prudencia es, de tu hermana,</l>
+            <l>oráculo en la ciudad,</l>
+            <l>y templo de honestidad</l>
+            <l>es, su edad florida y cana.</l>
+          </lg>
+          <lg>
+            <l>Pues sus años, aunque verdes,</l>
+            <l>maduro ofrecen el seso;</l>
+            <l>no lo dejes, no, por eso,</l>
+            <l>que una grande ocasión pierdes.</l>
+          </lg>
+        </sp>
+          <sp who="DON TRISTÁN">
+          <stage>DON TRISTÁN, <hi rend="i">[aparte]</hi></stage>
+          <lg>
+            <l>Dios te dé salud, doctor,</l>
+            <l>que bien que le has respondido,</l>
+            <l>aunque oyo mal de este oído</l>
+            <l>y de este otro oyo peor.</l>
+          </lg>
+          <lg>
+            <l>Sin duda alguna quería</l>
+            <l>oponer Enrico ahora</l>
+            <l>a la poca de Leonora</l>
+            <l>la desigual edad mía,</l>
+          </lg>
+          <lg>
+            <l>pues el doctor respondió,</l>
+            <l>haciendo gallardo oficio</l>
+            <l>(que en la prudencia y el juicio</l>
+            <l>más años tiene que yo),</l>
+          </lg>
+          <lg>
+            <l>que no dejase pasar</l>
+            <l>tan bien nacida ocasión,</l>
+            <l>porque yo no soy halcón</l>
+            <l>de los que se han de soltar.</l>
+          </lg>
+          <lg>
+            <l>Bien, a fe, se va poniendo.</l>
+            <l>Quiero entrar, pero no es bien</l>
+            <l>dar señas de viejo a quien</l>
+            <l>por mozo me estoy vendiendo.</l>
+          </lg>
+          <lg>
+            <l>A las calzas es mejor</l>
+            <l>atreverme, pues son mías,</l>
+            <l>que, cuando un vecino a Olías</l>
+            <l>diere más, salvo mi honor.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>El término es corto, Enrico:</l>
+            <l>o acometello, o dejallo.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="F">
+            <l>Obedeciéndote callo</l>
+            <l>y callando te replico.</l>
+          </lg>
+          <lg part="I">
+            <l>Hágase, mas don Tristán</l>
+            <l>cosa alguna entienda de ello.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Pues ¿para qué ha de sabello?</l>
+          </lg>
+        </sp>
+          <sp who="DON TRISTÁN">
+          <stage>DON TRISTÁN, <hi rend="i">[aparte]</hi></stage>
+          <lg part="F">
+            <l>Efectüado lo han,</l>
+          </lg>
+          <lg>
+            <l>y sin duda que es conmigo,</l>
+            <l>pues me nombraron a mí,</l>
+            <l>y siendo como es así,</l>
+            <l>mi buena suerte bendigo.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Ve a prevenir tu aposento,</l>
+            <l>mientras yo de esta laguna</l>
+            <l>Meotis, sin sonda alguna,</l>
+            <l>su fondo y sus grados cuento.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>Muy bien mis cosas entablo.</l>
+            <l>Vuele mi fortuna, vuele.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Por Nuestro Señor, que huele</l>
+            <l>a vísperas del dïablo.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l>Pues a fe que huele mal.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>¡Que sin decir al que pasa:</l>
+            <l>«Agua va», las de esta casa</l>
+            <l>derramen un orinal!</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="I">
+            <l>Terrible cosa es, señor.</l>
+            <l>Yo me voy, a Dios quedad.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="I">Bésoos las manos.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Andad.</l>
+          </lg>
+        </sp>
+        <sp who="ENRICO">
+          <speaker>ENRICO</speaker>
+          <lg part="F">
+            <l>Lo dicho, dicho, doctor.</l>
+          </lg>
+        </sp>
+          <stage>Vase Enrico.</stage>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>¿Qué hay, pues, de nuevo, mi rey?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>Que vuesa merced se cure.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="I">¿Acabóse?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">No me apure,</l>
+            <l>que soy amigo de ley.</l>
+          </lg>
+          <lg part="I">
+            <l>Púrguese luego a la hora,</l>
+            <l part="I">que importa.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="F">
+            <l part="F">Bástame eso.</l>
+            <l>Las manos, doctor, os beso:</l>
+            <l>mía es la bella Leonora.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <stage>DOCTOR, <hi rend="i">aparte</hi></stage>
+          <lg>
+            <l>Convertido se ha, <hi rend="i">per Deum</hi>,</l>
+            <l>en gramático nefando,</l>
+            <l>pues lo hallo declinando</l>
+            <l>siempre a <hi rend="i">Meus, mea, meum</hi>.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>¿Cuándo esta purga crüel</l>
+            <l part="I">se recetará?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Al momento.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="F">
+            <l>¡Hola!, ¿oís? De mi aposento</l>
+            <l>me bajad tinta y papel.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l>¿Habéis tomado el jarabe</l>
+            <l>estos cuatro o cinco días?</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="F">
+            <l>Sábenlo las tripas mías,</l>
+            <l>y mi paciencia lo sabe.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="I">
+            <l part="I">¿La orina?</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="F">No pidáis tal,</l>
+            <l>que es tarde y no la he tomado.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <stage>DOCTOR, <hi rend="i">aparte</hi></stage>
+          <lg part="F">
+            <l>(Si ya no lo ha disculpado</l>
+            <l>ser de lienzo el orinal).</l>
+          </lg>
+          <lg part="I">
+            <l part="I">Venga el pulso.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="F">¿Ambos queréis?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">¿Qué sentís?</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="M">Nada.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Prometo</l>
+            <l>que está muy flaco el sujeto.</l>
+            <l>¿Qué edad, amigo, tenéis?</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>¿Pues manda la Medicina</l>
+            <l>que se informen de la edad?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>Sí, y vuestra debilidad</l>
+            <l>favorece esta doctrina.</l>
+          </lg>
+          <lg>
+            <l>Galeno, que enseñó ya</l>
+            <l>a todos el A B C</l>
+            <l>de nuestro arte, y más a mí,</l>
+            <l>que soy en nuestra edad yo</l>
+            <l>de los médicos el bu,</l>
+          </lg>
+          <lg>
+            <l>en un consejo que da</l>
+            <l><hi rend="i">de febribus sine spe,</hi></l>
+            <l>en griego nos dice así:</l>
+            <l>«<hi rend="i">Agios oheph, nepható</hi></l>
+            <l><hi rend="i">apoton chirios i mú</hi>»,</l>
+          </lg>
+          <lg>
+            <l>que, por que se entienda acá,</l>
+            <l>en romance lo diré:</l>
+            <l>«Médico, si estás en ti,</l>
+            <l>no purgues a nadie, no,</l>
+            <l>sin que sepas su edad tú»,</l>
+          </lg>
+          <lg>
+            <l>porque con la edad está</l>
+            <l>tan flaco el sujeto, que</l>
+            <l>Avicena a un alfaquí</l>
+            <l>con dos dracmas, lo mató,</l>
+            <l>de sen en alcuzcuzú;</l>
+          </lg>
+          <lg>
+            <l>y así, como tanto va,</l>
+            <l>si no me traéis la fe</l>
+            <l>de vuestro bautismo aquí,</l>
+            <l>en vano drogas nos dio</l>
+            <l>Ceilán, Malaca y Pegú.</l>
+          </lg>
+          <lg>
+            <l>Porque muy bueno será</l>
+            <l>que mate a vuesa mercé,</l>
+            <l>y que digan por ahí</l>
+            <l>que un doctor le recetó</l>
+            <l>canina de Bercebú.</l>
+          </lg>
+          <lg>
+            <l>De mí tal no se dirá</l>
+            <l>si vuestros años no sé,</l>
+            <l>aunque me pongan allí</l>
+            <l>cuantas barras envïó</l>
+            <l>en sus flotas el Perú.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>¿Que en griego está escrito eso?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>¿Cómo escrito? En letras de oro;</l>
+            <l>a no sabello de coro,</l>
+            <l>os lo trujera aquí impreso.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l part="I">¡Válgame Dios!</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">¡Lindo sois!</l>
+            <l>Pues escuchadme, os lo ruego,</l>
+            <l>como a Hipócrates en griego,</l>
+            <l>en arábigo a Averrois:</l>
+          </lg>
+          <lg part="I">
+            <l part="I">«<hi rend="i">Guahalet...</hi>»</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="F">¿Algarabía</l>
+            <l part="I">sabéis?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="M">Muy bien.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="F">
+            <l part="F">San Germán</l>
+            <l>la puerta os abra de Orán,</l>
+            <l>postigo de Berbería.</l>
+          </lg>
+          <lg part="I">
+            <l part="I">No más textos.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Pues, señor,</l>
+            <l part="I">la edad venga.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="F">¿La edad mía?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="I">Voyme.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="F">
+            <l part="F">Deteneos, que el día</l>
+            <l>hace, de San Salvador,</l>
+          </lg>
+          <lg part="I">
+            <l part="I">treinta, cuarenta...</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">¡Oh qué extraños</l>
+            <l part="I">alambiques!</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="F">Y aun sudores.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>¿Hay partos con más dolores?</l>
+            <l part="I">Alúmbreos Dios.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="F">
+            <l part="F">Cincuenta años.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Crecidito es el infante.</l>
+            <l>Vuélvase la pluma atrás,</l>
+            <l>que la vida iba, no más,</l>
+            <l>si diera un paso adelante.</l>
+          </lg>
+          <lg>
+            <l>Gracias hoy vuestra salud</l>
+            <l>a su ángel dé, custodio,</l>
+            <l>de que no fue el polipodio</l>
+            <l>vísperas del ataúd,</l>
+          </lg>
+          <lg>
+            <l>pues de tanta edad ajeno,</l>
+            <l>si calláis, el papel tomo</l>
+            <l>y caer me dejo a plomo</l>
+            <l>con tres onzas de veneno.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l part="I">¿Es posible, doctor?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <l part="F">Sí,</l>
+          <lg part="F">
+            <l>que a cada edad hay su droga,</l>
+            <l>y para vos fuera soga</l>
+            <l>lo que es toca para mí.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>Pues cincuenta y cinco son,</l>
+            <l part="I">doctor, mis años.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Buen punto</l>
+            <l>para dejaros difunto</l>
+            <l>con el diacatolicón.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>Buena burla fuera esa.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>No fuera menor; y, en suma,</l>
+            <l>si no queréis sea, mi pluma,</l>
+            <l>la azada de vuestra huesa,</l>
+          </lg>
+          <lg>
+            <l>no me tengáis más en calma,</l>
+            <l>que del cuerpo es, quien os cura,</l>
+            <l>tan confesor, como el cura</l>
+            <l>es el médico del alma.</l>
+          </lg>
+          <lg part="I">
+            <l>Verdad es que va la vida.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l>¡Oh qué angustias! ¡Oh qué afrenta!</l>
+            <l part="I">Salen...</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="M">¿Qué decís?</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="F">
+            <l part="F">Sesenta</l>
+            <l>ensucia la mal teñida.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg>
+            <l>Si son canas, tinta poca</l>
+            <l>las desmentirá más bien,</l>
+            <l>mas si son años, el sen</l>
+            <l>tormento os dará, de toca.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l part="I">¿Cómo así?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Como hará,</l>
+            <l>si tenéis sesenta y cinco,</l>
+            <l>deis al purgatorio un brinco,</l>
+            <l>si no lo dais más allá.</l>
+          </lg>
+          <stage>Aparte</stage>
+          <lg part="I">
+            <l>(Buen braco ha sido mi ingenio).</l>
+            <l part="I">¿Escribo?</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="F">¿Qué prisa es esta?</l>
+            <l>Aún más por saber nos resta.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>¿Es, por dicha, otro quinquenio?</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="I">
+            <l>No, sino por mi desdicha,</l>
+            <l part="I">otros dos.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Gracioso aliño</l>
+            <l>será daros como a niño</l>
+            <l>un poco de maná en chicha.</l>
+          </lg>
+          <lg part="I">
+            <l part="I">¿Setenta, y pasáis?</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="F">Callad.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l>¿A quién pensabais coger</l>
+            <l part="I">con el falso?</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="F">A una mujer.</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l>¿Falsos a la falsedad?,</l>
+          </lg>
+          <lg>
+            <l>y a quien, os prometo a Dios,</l>
+            <l>que, en siendo algo noche oscura,</l>
+            <l>si le entra cierta figura,</l>
+            <l>se piensa restar con vos.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l>¿Cómo, doctor? ¿Mi Leonora</l>
+            <l part="I">figuras espera?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="M">
+            <l part="F">Sí,</l>
+            <l>y una le ha de entrar por mí.</l>
+          </lg>
+        </sp>
+        <sp who="DON TRISTÁN">
+          <speaker>DON TRISTÁN</speaker>
+          <lg part="M">
+            <l part="I">¿Por vos?</l>
+          </lg>
+        </sp>
+        <sp who="DOCTOR">
+          <speaker>DOCTOR</speaker>
+          <lg part="F">
+            <l part="F">Dentro de una hora.</l>
+          </lg>
+        </sp>
+        <p rend="b">(No pasó adelante con esta comedia).</p>
+      </div>
+    </body>
+  </text>
+</TEI>

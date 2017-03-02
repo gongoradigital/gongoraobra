@@ -1,23 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gongora_doctorcarlino">
   <teiHeader>
     <fileDesc>
-      <titleStmt/>
-      <editionStmt/>
+      <titleStmt>
+        <title>Comedia del doctor Carlino</title>
+        <author key="Góngora, Luis de (1561-1627)">Góngora</author>
+        <editor>Antonio Carreira</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Felipe Joannon</name>
+          <resp>Édition TEI et stylage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Hector Ruiz </name>
+          <resp>Édition TEI et stylage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Aude Plagnard</name>
+          <resp>Édition TEI et stylage</resp>
+        </respStmt>
+        <respStmt>
+          <name>François-Xavier Guerry </name>
+          <resp>Édition TEI et stylage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
-        <availability status="restricted"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">http://creativecommons.org/licenses/by-nc-nd/3.0/fr/</licence>
+        </availability>
       </publicationStmt>
-      <sourceDesc/>
+      <sourceDesc>
+        <bibl><!-- aqui va enlace a presentacion --></bibl>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <creation/>
+      <creation>
+        <date when="1610"/>
+      </creation>
       <langUsage>
         <language ident="es"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
-  <text>
+    <text>
     <body>
       <div>
         <head>COMEDIA DEL DOCTOR CARLINO</head>

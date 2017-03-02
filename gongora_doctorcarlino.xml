@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gongora_doctorcarlino">
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,16 +52,17 @@
     <body>
       <div>
         <head>COMEDIA DEL DOCTOR CARLINO</head>
+        <p>Hablan en ella:</p>
         <castList>
-          <p>Hablan en ella:</p>
-          <castItem>GERARDO</castItem>
-          <castItem>CARLINO, <hi rend="i">médico</hi></castItem>
-          <castItem>TANCREDO</castItem>
-          <castItem>ENRICO</castItem>
-          <castItem>DON TRISTÁN</castItem>
-          <castItem> TISBERTO</castItem>
-          <castItem>CASILDA</castItem>
-          <castItem>LUCRECIA</castItem>
+          <role xml:id="DOCTOR"/>
+          <castItem><role xml:id="GERARDO">GERARDO</role></castItem>
+          <castItem><role xml:id="CARLINO">CARLINO</role>, <hi rend="i">médico</hi></castItem>
+          <castItem><role xml:id="TANCREDO">TANCREDO</role></castItem>
+          <castItem><role xml:id="ENRICO">ENRICO</role></castItem>
+          <castItem><role xml:id="DONTRISTAN">DON TRISTÁN</role></castItem>
+          <castItem><role xml:id="TISBERTO">TISBERTO</role></castItem>
+          <castItem><role xml:id="CASILDA">CASILDA</role></castItem>
+          <castItem><role xml:id="LUCRECIA">LUCRECIA</role></castItem>
         </castList>
       </div>
       <div>
@@ -3110,7 +3112,7 @@
             <l part="I">¿Vámonos, señores?</l>
           </lg>
         </sp>
-        <sp who="TANCREDO, ENRICO">
+        <sp who="TANCREDO ENRICO">
           <speaker>TANCREDO, ENRICO</speaker>
           <lg part="M">
             <l part="F">Sí,</l>
@@ -4445,7 +4447,7 @@
           </lg>
         </sp>
           <stage>Vase Gerardo y salen don Tristán y Enrico.</stage>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>Todo hoy te ando a buscar.</l>
@@ -4459,7 +4461,7 @@
             <l>que hay muchos en la ciudad.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l part="I">¿Que hay enfermedades?</l>
@@ -4472,7 +4474,7 @@
             <l>y aun casi epidemïales.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l>Renegaré de mis males.</l>
@@ -4484,7 +4486,7 @@
             <l>Ya el doctor pesca sus truchas.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>Esperad, que luego salgo.</l>
@@ -4629,7 +4631,7 @@
           </lg>
         </sp>
           <stage>Entra don Tristán.</stage>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>Perdonad mi dilación.</l>
@@ -4648,7 +4650,7 @@
             <l>no busque conversación.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l part="I">Doctor, no me olvides.</l>
@@ -4682,7 +4684,7 @@
             <l>ser tu aposento teatro.</l>
           </lg>
           </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <stage>DON TRISTÁN, <hi rend="i">[aparte]</hi></stage>
           <lg>
             <l>Que teatro su aposento</l>
@@ -4735,7 +4737,7 @@
             <l>que una grande ocasión pierdes.</l>
           </lg>
         </sp>
-          <sp who="DON TRISTÁN">
+          <sp who="DONTRISTAN">
           <stage>DON TRISTÁN, <hi rend="i">[aparte]</hi></stage>
           <lg>
             <l>Dios te dé salud, doctor,</l>
@@ -4798,7 +4800,7 @@
             <l>Pues ¿para qué ha de sabello?</l>
           </lg>
         </sp>
-          <sp who="DON TRISTÁN">
+          <sp who="DONTRISTAN">
           <stage>DON TRISTÁN, <hi rend="i">[aparte]</hi></stage>
           <lg part="F">
             <l>Efectüado lo han,</l>
@@ -4819,7 +4821,7 @@
             <l>su fondo y sus grados cuento.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>Muy bien mis cosas entablo.</l>
@@ -4854,7 +4856,7 @@
             <l>Yo me voy, a Dios quedad.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="I">Bésoos las manos.</l>
@@ -4873,7 +4875,7 @@
           </lg>
         </sp>
           <stage>Vase Enrico.</stage>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>¿Qué hay, pues, de nuevo, mi rey?</l>
@@ -4885,7 +4887,7 @@
             <l>Que vuesa merced se cure.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="I">¿Acabóse?</l>
@@ -4902,7 +4904,7 @@
             <l part="I">que importa.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">Bástame eso.</l>
@@ -4919,7 +4921,7 @@
             <l>siempre a <hi rend="i">Meus, mea, meum</hi>.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>¿Cuándo esta purga crüel</l>
@@ -4932,7 +4934,7 @@
             <l part="F">Al momento.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l>¡Hola!, ¿oís? De mi aposento</l>
@@ -4946,7 +4948,7 @@
             <l>estos cuatro o cinco días?</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l>Sábenlo las tripas mías,</l>
@@ -4959,7 +4961,7 @@
             <l part="I">¿La orina?</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">No pidáis tal,</l>
@@ -4976,7 +4978,7 @@
             <l part="I">Venga el pulso.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">¿Ambos queréis?</l>
@@ -4988,7 +4990,7 @@
             <l part="I">¿Qué sentís?</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="M">Nada.</l>
@@ -5002,7 +5004,7 @@
             <l>¿Qué edad, amigo, tenéis?</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>¿Pues manda la Medicina</l>
@@ -5065,7 +5067,7 @@
             <l>en sus flotas el Perú.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>¿Que en griego está escrito eso?</l>
@@ -5079,7 +5081,7 @@
             <l>os lo trujera aquí impreso.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l part="I">¡Válgame Dios!</l>
@@ -5097,7 +5099,7 @@
             <l part="I">«<hi rend="i">Guahalet...</hi>»</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">¿Algarabía</l>
@@ -5110,7 +5112,7 @@
             <l part="M">Muy bien.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">San Germán</l>
@@ -5128,7 +5130,7 @@
             <l part="I">la edad venga.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">¿La edad mía?</l>
@@ -5140,7 +5142,7 @@
             <l part="I">Voyme.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">Deteneos, que el día</l>
@@ -5157,7 +5159,7 @@
             <l part="I">alambiques!</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">Y aun sudores.</l>
@@ -5170,7 +5172,7 @@
             <l part="I">Alúmbreos Dios.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">Cincuenta años.</l>
@@ -5197,7 +5199,7 @@
             <l>con tres onzas de veneno.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l part="I">¿Es posible, doctor?</l>
@@ -5212,7 +5214,7 @@
             <l>lo que es toca para mí.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>Pues cincuenta y cinco son,</l>
@@ -5227,7 +5229,7 @@
             <l>con el diacatolicón.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>Buena burla fuera esa.</l>
@@ -5250,7 +5252,7 @@
             <l>Verdad es que va la vida.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l>¡Oh qué angustias! ¡Oh qué afrenta!</l>
@@ -5263,7 +5265,7 @@
             <l part="M">¿Qué decís?</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">Sesenta</l>
@@ -5279,7 +5281,7 @@
             <l>tormento os dará, de toca.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l part="I">¿Cómo así?</l>
@@ -5299,7 +5301,7 @@
             <l part="I">¿Escribo?</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">¿Qué prisa es esta?</l>
@@ -5312,7 +5314,7 @@
             <l>¿Es, por dicha, otro quinquenio?</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l>No, sino por mi desdicha,</l>
@@ -5330,7 +5332,7 @@
             <l part="I">¿Setenta, y pasáis?</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">Callad.</l>
@@ -5343,7 +5345,7 @@
             <l part="I">con el falso?</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">A una mujer.</l>
@@ -5361,7 +5363,7 @@
             <l>se piensa restar con vos.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l>¿Cómo, doctor? ¿Mi Leonora</l>
@@ -5375,7 +5377,7 @@
             <l>y una le ha de entrar por mí.</l>
           </lg>
         </sp>
-        <sp who="DON TRISTÁN">
+        <sp who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="I">¿Por vos?</l>

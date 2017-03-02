@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gongora_firmezasisabela">
   <teiHeader>
@@ -53,18 +54,19 @@
         <head>LAS FIRMEZAS DE ISABELA</head>
         <castList>
           <head>HABLAN EN ELLA</head>
-          <castItem>Octavio, <hi rend="i">viejo, mercader de Toledo</hi>.</castItem>
-          <castItem>Isabela, <hi rend="i">hija de Octavio.</hi></castItem>
-          <castItem>Laureta, <hi rend="i">criada de Isabela</hi>.</castItem>
-          <castItem>Fabio, <hi rend="i">mercader de Toledo</hi>.</castItem>
-          <castItem>Violante, <hi rend="i">hermana de Fabio</hi>.</castItem>
-          <castItem>Tadeo, <hi rend="i">criado de Fabio</hi>.</castItem>
-          <castItem>Galeazo, <hi rend="i">viejo, mercader de Sevilla.</hi></castItem>
-          <castItem>Lelio, <hi rend="i">por otro nombre</hi> Camilo, <hi rend="i">hijo de</hi>
+          <role xml:id="CAMILO"/>
+          <castItem><role xml:id="OCTAVIO">Octavio</role>, <hi rend="i">viejo, mercader de Toledo</hi>.</castItem>
+          <castItem><role xml:id="ISABELA">Isabela</role>, <hi rend="i">hija de Octavio.</hi></castItem>
+          <castItem><role xml:id="LAURETA">Laureta</role>, <hi rend="i">criada de Isabela</hi>.</castItem>
+          <castItem><role xml:id="FABIO">Fabio</role>, <hi rend="i">mercader de Toledo</hi>.</castItem>
+          <castItem><role xml:id="VIOLANTE">Violante</role>, <hi rend="i">hermana de Fabio</hi>.</castItem>
+          <castItem><role xml:id="TADEO">Tadeo</role>, <hi rend="i">criado de Fabio</hi>.</castItem>
+          <castItem><role xml:id="GALEAZO">Galeazo</role>, <hi rend="i">viejo, mercader de Sevilla.</hi></castItem>
+          <castItem><role xml:id="LELIO">Lelio</role>, <hi rend="i">por otro nombre</hi> Camilo, <hi rend="i">hijo de</hi>
             Galeazo.</castItem>
-          <castItem>Emilio, <hi rend="i">viejo, mercader de Granada.</hi></castItem>
-          <castItem>Marcelo, <hi rend="i">hijo de Emilio.</hi></castItem>
-          <castItem>Donato, <hi rend="i">criado de Emilio.</hi></castItem>
+          <castItem><role xml:id="EMILIO">Emilio</role>, <hi rend="i">viejo, mercader de Granada.</hi></castItem>
+          <castItem><role xml:id="MARCELO">Marcelo</role>, <hi rend="i">hijo de Emilio.</hi></castItem>
+          <castItem><role xml:id="DONATO">Donato</role>, <hi rend="i">criado de Emilio.</hi></castItem>
           <castItem>Dos criados.</castItem>
         </castList>
       </div>
@@ -7505,7 +7507,6 @@
         <sp who="GALEAZO">
           <speaker>GALEAZO</speaker>
           <lg part="F">
-
             <l>Basta, las señas son graves</l>
             <l>para entender que las sabes,</l>
             <l>no para que seas mi hijo.</l>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -36,7 +36,9 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><!-- aqui va enlace a presentacion --></bibl>
+        <bibl>
+          <!-- aqui va enlace a presentacion -->
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -48,853 +50,859 @@
       </langUsage>
     </profileDesc>
   </teiHeader>
-    <text>
+  <text>
     <body>
-      <div>
+      <div xml:id="I" type="act">
         <head>COMEDIA VENATORIA</head>
         <p>Los que hablan en ella son:</p>
         <castList>
-          <castItem><role xml:id="CUPIDO">CUPIDO</role></castItem>
-          <castItem><role xml:id="SILVIO">SILVIO</role></castItem>
-          <castItem><role xml:id="FLORISCIO">FLORISCIO</role></castItem>
-          <castItem><role xml:id="CAMILA">CAMILA</role></castItem>
-          <castItem><role xml:id="CINTIA">CINTIA</role></castItem>
+          <castItem>
+            <role xml:id="CUPIDO">CUPIDO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="SILVIO">SILVIO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="FLORISCIO">FLORISCIO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="CAMILA">CAMILA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="CINTIA">CINTIA</role>
+          </castItem>
         </castList>
         <stage>Sale Cupido.</stage>
-        <sp who="CUPIDO">
+        <sp xml:id="I-1" who="CUPIDO">
           <speaker>CUPIDO</speaker>
           <lg>
-            <l>Aunque en humildes paños escondido,</l>
-            <l>y disfrazado en hábito villano,</l>
-            <l>si el mismo que desnudo soy vestido,</l>
+            <l n="1" xml:id="l1">Aunque en humildes paños escondido,</l>
+            <l n="2" xml:id="l2">y disfrazado en hábito villano,</l>
+            <l n="3" xml:id="l3">si el mismo que desnudo soy vestido,</l>
           </lg>
           <lg>
-            <l>aquel dios soy del coro soberano</l>
-            <l>cuya dorada flecha y llama ardiente</l>
-            <l>ha quitado mil veces de la mano</l>
+            <l n="4" xml:id="l4">aquel dios soy del coro soberano</l>
+            <l n="5" xml:id="l5">cuya dorada flecha y llama ardiente</l>
+            <l n="6" xml:id="l6">ha quitado mil veces de la mano</l>
           </lg>
           <lg>
-            <l>el duro rayo al dios omnipotente,</l>
-            <l>al fiero Marte, la sangrienta espada,</l>
-            <l>y al gran Neptuno, el húmido tridente,</l>
+            <l n="7" xml:id="l7">el duro rayo al dios omnipotente,</l>
+            <l n="8" xml:id="l8">al fiero Marte, la sangrienta espada,</l>
+            <l n="9" xml:id="l9">y al gran Neptuno, el húmido tridente,</l>
           </lg>
           <lg>
-            <l>y he hecho con mi diestra no domada</l>
-            <l>en medio el suyo conocer mi fuego</l>
-            <l>al negro dios de la infernal morada.</l>
+            <l n="10" xml:id="l10">y he hecho con mi diestra no domada</l>
+            <l n="11" xml:id="l11">en medio el suyo conocer mi fuego</l>
+            <l n="12" xml:id="l12">al negro dios de la infernal morada.</l>
           </lg>
           <lg>
-            <l>¿Qué me extrañáis? Alado soy, y ciego,</l>
-            <l>aunque sin venda, y alas me ha traído</l>
-            <l>de un noble cazador el justo ruego,</l>
+            <l n="13" xml:id="l13">¿Qué me extrañáis? Alado soy, y ciego,</l>
+            <l n="14" xml:id="l14">aunque sin venda, y alas me ha traído</l>
+            <l n="15" xml:id="l15">de un noble cazador el justo ruego,</l>
           </lg>
           <lg>
-            <l>la humilde voz, el mísero gemido</l>
-            <l>de un noble cazador, amador noble,</l>
-            <l>siempre olvidado, nunca arrepentido,</l>
+            <l n="16" xml:id="l16">la humilde voz, el mísero gemido</l>
+            <l n="17" xml:id="l17">de un noble cazador, amador noble,</l>
+            <l n="18" xml:id="l18">siempre olvidado, nunca arrepentido,</l>
           </lg>
           <lg>
-            <l>cuya grave pasión y pena doble</l>
-            <l>ha vencido el desdén y la dureza</l>
-            <l>del laurel casto y del robusto roble,</l>
+            <l n="19" xml:id="l19">cuya grave pasión y pena doble</l>
+            <l n="20" xml:id="l20">ha vencido el desdén y la dureza</l>
+            <l n="21" xml:id="l21">del laurel casto y del robusto roble,</l>
           </lg>
           <lg>
-            <l>y dellos cada cual por su corteza</l>
-            <l>lágrimas muchas veces ha sudado</l>
-            <l>de amor el lauro, el roble, de terneza.</l>
+            <l n="22" xml:id="l22">y dellos cada cual por su corteza</l>
+            <l n="23" xml:id="l23">lágrimas muchas veces ha sudado</l>
+            <l n="24" xml:id="l24">de amor el lauro, el roble, de terneza.</l>
           </lg>
           <lg>
-            <l>Por él, y lo que es más, acá he bajado,</l>
-            <l>por que sienta su ingrata cazadora</l>
-            <l>la dulce flecha del arpón dorado,</l>
+            <l n="25" xml:id="l25">Por él, y lo que es más, acá he bajado,</l>
+            <l n="26" xml:id="l26">por que sienta su ingrata cazadora</l>
+            <l n="27" xml:id="l27">la dulce flecha del arpón dorado,</l>
           </lg>
           <lg>
-            <l>y siga, no tan libre como agora,</l>
-            <l>la aljaba al hombro, con ligero paso,</l>
-            <l>del venado la planta voladora;</l>
+            <l n="28" xml:id="l28">y siga, no tan libre como agora,</l>
+            <l n="29" xml:id="l29">la aljaba al hombro, con ligero paso,</l>
+            <l n="30" xml:id="l30">del venado la planta voladora;</l>
           </lg>
           <lg>
-            <l>mas, con semblante de piedad no escaso,</l>
-            <l>escuche al que lo informa en voz doliente</l>
-            <l>del amor suyo el lacrimoso caso,</l>
+            <l n="31" xml:id="l31">mas, con semblante de piedad no escaso,</l>
+            <l n="32" xml:id="l32">escuche al que lo informa en voz doliente</l>
+            <l n="33" xml:id="l33">del amor suyo el lacrimoso caso,</l>
           </lg>
           <lg>
-            <l>pues no es razón que sola ella se cuente,</l>
-            <l>con rostro siempre enjuto, las pasiones</l>
-            <l>de la amorosa miserable gente,</l>
+            <l n="34" xml:id="l34">pues no es razón que sola ella se cuente,</l>
+            <l n="35" xml:id="l35">con rostro siempre enjuto, las pasiones</l>
+            <l n="36" xml:id="l36">de la amorosa miserable gente,</l>
           </lg>
           <lg>
-            <l>siendo yo aquel que enclavo corazones</l>
-            <l>desde do nace el sol a donde muere,</l>
-            <l>y desde mediodía a los trïones.</l>
+            <l n="37" xml:id="l37">siendo yo aquel que enclavo corazones</l>
+            <l n="38" xml:id="l38">desde do nace el sol a donde muere,</l>
+            <l n="39" xml:id="l39">y desde mediodía a los trïones.</l>
           </lg>
           <lg>
-            <l>Así, pues, cuando aqueste brazo quiere,</l>
-            <l>aqueste arco es quien lanza esta saeta,</l>
-            <l>y esta punta dorada es quien los hiere.</l>
+            <l n="40" xml:id="l40">Así, pues, cuando aqueste brazo quiere,</l>
+            <l n="41" xml:id="l41">aqueste arco es quien lanza esta saeta,</l>
+            <l n="42" xml:id="l42">y esta punta dorada es quien los hiere.</l>
           </lg>
           <lg>
-            <l>Para dejarla a su pesar sujeta,</l>
-            <l>quiero esconder este arco y esta aljaba</l>
-            <l>de este bosque en la parte más secreta,</l>
+            <l n="43" xml:id="l43">Para dejarla a su pesar sujeta,</l>
+            <l n="44" xml:id="l44">quiero esconder este arco y esta aljaba</l>
+            <l n="45" xml:id="l45">de este bosque en la parte más secreta,</l>
           </lg>
           <lg>
-            <l>que por la misma mano del que odiaba</l>
-            <l>(como veréis) ha de quedar hoy hecha</l>
-            <l>mansa y humilde, de soberbia y brava.</l>
+            <l n="46" xml:id="l46">que por la misma mano del que odiaba</l>
+            <l n="47" xml:id="l47">(como veréis) ha de quedar hoy hecha</l>
+            <l n="48" xml:id="l48">mansa y humilde, de soberbia y brava.</l>
           </lg>
           <lg>
-            <l>Quédese el arco, quédese la flecha,</l>
-            <l>en tanto que yo sigo, disfrazado,</l>
-            <l>de este espeso jaral la senda estrecha,</l>
+            <l n="49" xml:id="l49">Quédese el arco, quédese la flecha,</l>
+            <l n="50" xml:id="l50">en tanto que yo sigo, disfrazado,</l>
+            <l n="51" xml:id="l51">de este espeso jaral la senda estrecha,</l>
           </lg>
           <lg>
-            <l>porque entre los monteros que han llegado</l>
-            <l>del príncipe de Tebas este día</l>
-            <l>a perseguir el puerco y el venado,</l>
+            <l n="52" xml:id="l52">porque entre los monteros que han llegado</l>
+            <l n="53" xml:id="l53">del príncipe de Tebas este día</l>
+            <l n="54" xml:id="l54">a perseguir el puerco y el venado,</l>
           </lg>
           <lg>
-            <l>quiero de esa robusta montería</l>
-            <l>algún rato gozar, desconocido,</l>
-            <l>y de su generosa cetrería,</l>
+            <l n="55" xml:id="l55">quiero de esa robusta montería</l>
+            <l n="56" xml:id="l56">algún rato gozar, desconocido,</l>
+            <l n="57" xml:id="l57">y de su generosa cetrería,</l>
           </lg>
           <lg>
-            <l>y al fin dar a entender que soy Cupido,</l>
-            <l>aunque en humildes paños escondido.</l>
+            <l n="58" xml:id="l58">y al fin dar a entender que soy Cupido,</l>
+            <l n="59" xml:id="l59">aunque en humildes paños escondido.</l>
           </lg>
           <stage>Vase. Salen Silvio y Floriscio.</stage>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-2" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg>
-            <l>A mil torcidos cuernos dando aliento,</l>
-            <l>mil ecos cazadores mil entonan,</l>
-            <l>y con templados pájaros al viento,</l>
-            <l>y a la tierra con perros, no perdonan;</l>
-            <l>la raridad del aire en puntas ciento</l>
-            <l>halcones solicitan y coronan;</l>
-            <l>la nariz baja, canes extranjeros</l>
-            <l>calando el monte van con pies ligeros.</l>
+            <l n="60" xml:id="l60">A mil torcidos cuernos dando aliento,</l>
+            <l n="61" xml:id="l61">mil ecos cazadores mil entonan,</l>
+            <l n="62" xml:id="l62">y con templados pájaros al viento,</l>
+            <l n="63" xml:id="l63">y a la tierra con perros, no perdonan;</l>
+            <l n="64" xml:id="l64">la raridad del aire en puntas ciento</l>
+            <l n="65" xml:id="l65">halcones solicitan y coronan;</l>
+            <l n="66" xml:id="l66">la nariz baja, canes extranjeros</l>
+            <l n="67" xml:id="l67">calando el monte van con pies ligeros.</l>
           </lg>
           <lg>
-            <l>La blanca garza, que al romper del día,</l>
-            <l>el rojo pie escondido en la laguna,</l>
-            <l>las plumas del gentil pecho pulía</l>
-            <l>con el purpúreo pico de una en una,</l>
-            <l>y el viejo ciervo que a la par vivía</l>
-            <l>del bosque, hoy teñirán, sin falta alguna,</l>
-            <l>la garza, del neblí las garras gruesas,</l>
-            <l>el ciervo, del lebrel las fieras presas.</l>
+            <l n="68" xml:id="l68">La blanca garza, que al romper del día,</l>
+            <l n="69" xml:id="l69">el rojo pie escondido en la laguna,</l>
+            <l n="70" xml:id="l70">las plumas del gentil pecho pulía</l>
+            <l n="71" xml:id="l71">con el purpúreo pico de una en una,</l>
+            <l n="72" xml:id="l72">y el viejo ciervo que a la par vivía</l>
+            <l n="73" xml:id="l73">del bosque, hoy teñirán, sin falta alguna,</l>
+            <l n="74" xml:id="l74">la garza, del neblí las garras gruesas,</l>
+            <l n="75" xml:id="l75">el ciervo, del lebrel las fieras presas.</l>
           </lg>
           <lg>
-            <l>Tal es el aparato que ha traído,</l>
-            <l>y de tantos monteros se acompaña,</l>
-            <l>que ave no abrigará su dulce nido,</l>
-            <l>ni fiera pisará más la montaña,</l>
-            <l>de espesas redes bien apercibido,</l>
-            <l>para que ciña con manera extraña</l>
-            <l>del vasto monte el áspero costado,</l>
-            <l>fuerte muro de cáñamo anudado.</l>
+            <l n="76" xml:id="l76">Tal es el aparato que ha traído,</l>
+            <l n="77" xml:id="l77">y de tantos monteros se acompaña,</l>
+            <l n="78" xml:id="l78">que ave no abrigará su dulce nido,</l>
+            <l n="79" xml:id="l79">ni fiera pisará más la montaña,</l>
+            <l n="80" xml:id="l80">de espesas redes bien apercibido,</l>
+            <l n="81" xml:id="l81">para que ciña con manera extraña</l>
+            <l n="82" xml:id="l82">del vasto monte el áspero costado,</l>
+            <l n="83" xml:id="l83">fuerte muro de cáñamo anudado.</l>
           </lg>
           <lg>
-            <l>En sola su confusa montería</l>
-            <l>hay donde un buen oído se dilate:</l>
-            <l>el corvo cuerno truena, el halcón pía,</l>
-            <l>el caballo relincha, el perro late,</l>
-            <l>el cascabel no olvida su armonía</l>
-            <l>si se sacude el pájaro o se abate,</l>
-            <l>así que todo hace un dulce yerro,</l>
-            <l>caballo, cascabel, cuerno, halcón, perro...</l>
+            <l n="84" xml:id="l84">En sola su confusa montería</l>
+            <l n="85" xml:id="l85">hay donde un buen oído se dilate:</l>
+            <l n="86" xml:id="l86">el corvo cuerno truena, el halcón pía,</l>
+            <l n="87" xml:id="l87">el caballo relincha, el perro late,</l>
+            <l n="88" xml:id="l88">el cascabel no olvida su armonía</l>
+            <l n="89" xml:id="l89">si se sacude el pájaro o se abate,</l>
+            <l n="90" xml:id="l90">así que todo hace un dulce yerro,</l>
+            <l n="91" xml:id="l91">caballo, cascabel, cuerno, halcón, perro...</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-3" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="I">
-            <l part="I">¿Viene gallardo el príncipe?</l>
+            <l n="92" xml:id="l92" part="I">¿Viene gallardo el príncipe?</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-4" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="M">
             <l part="F">Gallardo</l>
-            <l>y galán viene, a fe, sobremanera.</l>
+            <l n="93" xml:id="l93">y galán viene, a fe, sobremanera.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-5" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
-
           <lg part="M">
-            <l part="I">¿Y de qué se vistió?</l>
+            <l n="94" xml:id="l94" part="I">¿Y de qué se vistió?</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-6" who="SILVIO">
           <speaker>SILVIO</speaker>
-
           <lg part="M">
             <l part="F">De verde y pardo,</l>
-            <l>o de mezclilla, que una y otro era.</l>
+            <l n="95" xml:id="l95">o de mezclilla, que una y otro era.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-7" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
-
           <lg part="M">
-            <l part="I">¿Con qué armas piensa andar?</l>
+            <l n="96" xml:id="l96" part="I">¿Con qué armas piensa andar?</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-8" who="SILVIO">
           <speaker>SILVIO</speaker>
-
           <lg part="F">
             <l part="F">Con solo un dardo</l>
-            <l>de firme cuento y de cuchilla fiera,</l>
-            <l>y un fuerte estoque a su siniestro lado</l>
-            <l>de un tahelí pendiente dilatado.</l>
+            <l n="97" xml:id="l97">de firme cuento y de cuchilla fiera,</l>
+            <l n="98" xml:id="l98">y un fuerte estoque a su siniestro lado</l>
+            <l n="99" xml:id="l99">de un tahelí pendiente dilatado.</l>
           </lg>
           <lg>
-            <l>Tal se mostró aquel día al monte armado</l>
-            <l>el rubio mozo, por su mal valiente,</l>
-            <l>que manchó con su sangre el verde prado</l>
-            <l>del jabalí cerdoso el fiero diente,</l>
-            <l>y tal aquel montero desdichado,</l>
-            <l>cuya temeridad pobló su frente</l>
-            <l>de vengativos cuernos, en mal hora</l>
-            <l>fue visto de la casta cazadora.</l>
+            <l n="100" xml:id="l100">Tal se mostró aquel día al monte armado</l>
+            <l n="101" xml:id="l101">el rubio mozo, por su mal valiente,</l>
+            <l n="102" xml:id="l102">que manchó con su sangre el verde prado</l>
+            <l n="103" xml:id="l103">del jabalí cerdoso el fiero diente,</l>
+            <l n="104" xml:id="l104">y tal aquel montero desdichado,</l>
+            <l n="105" xml:id="l105">cuya temeridad pobló su frente</l>
+            <l n="106" xml:id="l106">de vengativos cuernos, en mal hora</l>
+            <l n="107" xml:id="l107">fue visto de la casta cazadora.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-9" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="I">
-            <l>Soberbia caza se nos adereza;</l>
-            <l>pero dime, ¿de Cintia y de Camila</l>
-            <l>has merecido hoy ver la gran belleza</l>
-            <l part="I">en sus albergues o en el monte?</l>
+            <l n="108" xml:id="l108">Soberbia caza se nos adereza;</l>
+            <l n="109" xml:id="l109">pero dime, ¿de Cintia y de Camila</l>
+            <l n="110" xml:id="l110">has merecido hoy ver la gran belleza</l>
+            <l n="111" xml:id="l111" part="I">en sus albergues o en el monte?</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-10" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l part="F">Vila</l>
-            <l>adonde de aquel risco la dureza,</l>
-            <l>sobre aquella aunque tosca hermosa pila,</l>
-            <l>en tres Alpes tres venas se desata</l>
-            <l>en líquida, en templada, en dulce plata.</l>
+            <l n="112" xml:id="l112">adonde de aquel risco la dureza,</l>
+            <l n="113" xml:id="l113">sobre aquella aunque tosca hermosa pila,</l>
+            <l n="114" xml:id="l114">en tres Alpes tres venas se desata</l>
+            <l n="115" xml:id="l115">en líquida, en templada, en dulce plata.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-11" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="I">
-            <l part="I">Y, di, ¿estarán allí?</l>
+            <l n="116" xml:id="l116" part="I">Y, di, ¿estarán allí?</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-12" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="M">
             <l part="F">¡Ay!, se habrán ido</l>
-            <l>a seguir con sus arcos una fiera</l>
-            <l>que el sabueso de Cintia había sentido</l>
-            <l>de aquel peinado cerro en la ladera.</l>
+            <l n="117" xml:id="l117">a seguir con sus arcos una fiera</l>
+            <l n="118" xml:id="l118">que el sabueso de Cintia había sentido</l>
+            <l n="119" xml:id="l119">de aquel peinado cerro en la ladera.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-13" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
-            <l>Busquémoslas; sabrán cómo es venido</l>
-            <l>el príncipe que cada cual espera.</l>
+            <l n="120" xml:id="l120">Busquémoslas; sabrán cómo es venido</l>
+            <l n="121" xml:id="l121">el príncipe que cada cual espera.</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-14" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="M">
-            <l part="I">Vamos; mas helas vienen.</l>
+            <l n="122" xml:id="l122" part="I">Vamos; mas helas vienen.</l>
           </lg>
           <stage>Salen Camila y Cintia.</stage>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-15" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l part="F">Yo me espanto</l>
-            <l>cómo con tal herida corrió tanto.</l>
+            <l n="123" xml:id="l123">cómo con tal herida corrió tanto.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-16" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg>
-            <l>Tal ligero el corzo es</l>
-            <l>que no da menos enojos</l>
-            <l>el seguillo con los ojos</l>
-            <l>que alcanzallo con los pies,</l>
+            <l n="124" xml:id="l124">Tal ligero el corzo es</l>
+            <l n="125" xml:id="l125">que no da menos enojos</l>
+            <l n="126" xml:id="l126">el seguillo con los ojos</l>
+            <l n="127" xml:id="l127">que alcanzallo con los pies,</l>
           </lg>
           <lg>
-            <l>y así, por mi cuenta hallo</l>
-            <l>que, si consientes decillo,</l>
-            <l>hizo más que tú en herillo</l>
-            <l>la saeta en alcanzallo.</l>
+            <l n="128" xml:id="l128">y así, por mi cuenta hallo</l>
+            <l n="129" xml:id="l129">que, si consientes decillo,</l>
+            <l n="130" xml:id="l130">hizo más que tú en herillo</l>
+            <l n="131" xml:id="l131">la saeta en alcanzallo.</l>
           </lg>
           <lg>
-            <l>Mas quede el brazo contento,</l>
-            <l>Camila, pues que de hoy más,</l>
-            <l>aunque imposible, podrás</l>
-            <l>decir que has herido al viento;</l>
+            <l n="132" xml:id="l132">Mas quede el brazo contento,</l>
+            <l n="133" xml:id="l133">Camila, pues que de hoy más,</l>
+            <l n="134" xml:id="l134">aunque imposible, podrás</l>
+            <l n="135" xml:id="l135">decir que has herido al viento;</l>
           </lg>
           <lg>
-            <l>y quede la mano ufana,</l>
-            <l>pues lo hirió de manera</l>
-            <l>que más herido no fuera</l>
-            <l>de la mano de Dïana,</l>
+            <l n="136" xml:id="l136">y quede la mano ufana,</l>
+            <l n="137" xml:id="l137">pues lo hirió de manera</l>
+            <l n="138" xml:id="l138">que más herido no fuera</l>
+            <l n="139" xml:id="l139">de la mano de Dïana,</l>
           </lg>
           <lg>
-            <l>pues de tal suerte corría</l>
-            <l>que, mientras se desangraba,</l>
-            <l>rastro hacer no dejaba</l>
-            <l>de la sangre que vertía,</l>
+            <l n="140" xml:id="l140">pues de tal suerte corría</l>
+            <l n="141" xml:id="l141">que, mientras se desangraba,</l>
+            <l n="142" xml:id="l142">rastro hacer no dejaba</l>
+            <l n="143" xml:id="l143">de la sangre que vertía,</l>
           </lg>
           <lg>
-            <l>porque, como viste y vi,</l>
-            <l>siguiéndole su derrota,</l>
-            <l>aquí dejaba una gota</l>
-            <l>y otra una legua de allí.</l>
+            <l n="144" xml:id="l144">porque, como viste y vi,</l>
+            <l n="145" xml:id="l145">siguiéndole su derrota,</l>
+            <l n="146" xml:id="l146">aquí dejaba una gota</l>
+            <l n="147" xml:id="l147">y otra una legua de allí.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-17" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg>
-            <l>Bien corrió el ciervo; mas baste,</l>
-            <l>Cintia, para encarecer</l>
-            <l>lo que le vimos correr,</l>
-            <l>decir que no lo alcanzaste</l>
+            <l n="148" xml:id="l148">Bien corrió el ciervo; mas baste,</l>
+            <l n="149" xml:id="l149">Cintia, para encarecer</l>
+            <l n="150" xml:id="l150">lo que le vimos correr,</l>
+            <l n="151" xml:id="l151">decir que no lo alcanzaste</l>
           </lg>
           <lg>
-            <l>tú, que en correr y saltar</l>
-            <l>tienes ligereza tanta,</l>
-            <l>que sin mojarte la planta</l>
-            <l>puedes correr sobre el mar,</l>
+            <l n="152" xml:id="l152">tú, que en correr y saltar</l>
+            <l n="153" xml:id="l153">tienes ligereza tanta,</l>
+            <l n="154" xml:id="l154">que sin mojarte la planta</l>
+            <l n="155" xml:id="l155">puedes correr sobre el mar,</l>
           </lg>
           <lg>
-            <l>y aunque ahora te fatigas,</l>
-            <l>correr y echar mil traveses</l>
-            <l>sobre levantadas mieses</l>
-            <l>sin inclinar sus espigas.</l>
+            <l n="156" xml:id="l156">y aunque ahora te fatigas,</l>
+            <l n="157" xml:id="l157">correr y echar mil traveses</l>
+            <l n="158" xml:id="l158">sobre levantadas mieses</l>
+            <l n="159" xml:id="l159">sin inclinar sus espigas.</l>
           </lg>
           <lg>
-            <l>Y así, pues que te cansó</l>
-            <l>muy mucho, como el corcillo,</l>
-            <l>mucho hice yo en herillo,</l>
-            <l>mucho la flecha voló.</l>
+            <l n="160" xml:id="l160">Y así, pues que te cansó</l>
+            <l n="161" xml:id="l161">muy mucho, como el corcillo,</l>
+            <l n="162" xml:id="l162">mucho hice yo en herillo,</l>
+            <l n="163" xml:id="l163">mucho la flecha voló.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-18" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg>
-            <l>Por bien graciosa manera</l>
-            <l>se alaban ellas agora,</l>
-            <l>la una de cazadora,</l>
-            <l>y la otra de ligera.</l>
+            <l n="164" xml:id="l164">Por bien graciosa manera</l>
+            <l n="165" xml:id="l165">se alaban ellas agora,</l>
+            <l n="166" xml:id="l166">la una de cazadora,</l>
+            <l n="167" xml:id="l167">y la otra de ligera.</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-19" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg>
-            <l>Aguardemos hasta ver</l>
-            <l>si tienen, en tal lugar,</l>
-            <l>Camila, más que tirar,</l>
-            <l>y Cintia, más que correr.</l>
+            <l n="168" xml:id="l168">Aguardemos hasta ver</l>
+            <l n="169" xml:id="l169">si tienen, en tal lugar,</l>
+            <l n="170" xml:id="l170">Camila, más que tirar,</l>
+            <l n="171" xml:id="l171">y Cintia, más que correr.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-20" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg>
-            <l>Pero, Cintia, si se nota,</l>
-            <l>bien salimos, por mi vida,</l>
-            <l>tu con la aljaba perdida</l>
-            <l>y yo con la cuerda rota.</l>
+            <l n="172" xml:id="l172">Pero, Cintia, si se nota,</l>
+            <l n="173" xml:id="l173">bien salimos, por mi vida,</l>
+            <l n="174" xml:id="l174">tu con la aljaba perdida</l>
+            <l n="175" xml:id="l175">y yo con la cuerda rota.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-21" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="I">
-            <l>¿La aljaba se me ha perdido?</l>
+            <l n="176" xml:id="l176">¿La aljaba se me ha perdido?</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-22" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
-            <l>Así lo puedes creer,</l>
-            <l>si no se quedó al correr</l>
-            <l>tras el corcillo herido.</l>
+            <l n="177" xml:id="l177">Así lo puedes creer,</l>
+            <l n="178" xml:id="l178">si no se quedó al correr</l>
+            <l n="179" xml:id="l179">tras el corcillo herido.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-23" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="I">
-            <l>No sé cómo la perdí,</l>
-            <l>ni aun entiendo de qué suerte</l>
-            <l>rompiste tú una tan fuerte</l>
-            <l part="I">cuerda de un tirón.</l>
+            <l n="180" xml:id="l180">No sé cómo la perdí,</l>
+            <l n="181" xml:id="l181">ni aun entiendo de qué suerte</l>
+            <l n="182" xml:id="l182">rompiste tú una tan fuerte</l>
+            <l n="183" xml:id="l183" part="I">cuerda de un tirón.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-24" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l part="F">Yo, sí:</l>
           </lg>
           <lg>
-            <l>con tal fuerza y tan de veras</l>
-            <l>el arco quise flechar</l>
-            <l>por herillo, que juntar</l>
-            <l>hice las dos empulgueras;</l>
+            <l n="184" xml:id="l184">con tal fuerza y tan de veras</l>
+            <l n="185" xml:id="l185">el arco quise flechar</l>
+            <l n="186" xml:id="l186">por herillo, que juntar</l>
+            <l n="187" xml:id="l187">hice las dos empulgueras;</l>
           </lg>
           <lg>
-            <l>él la flecha despidió</l>
-            <l>y, queriendo abrirse cuanto</l>
-            <l>lo junté, como fue tanto,</l>
-            <l>la cuerda no lo sufrió.</l>
+            <l n="188" xml:id="l188">él la flecha despidió</l>
+            <l n="189" xml:id="l189">y, queriendo abrirse cuanto</l>
+            <l n="190" xml:id="l190">lo junté, como fue tanto,</l>
+            <l n="191" xml:id="l191">la cuerda no lo sufrió.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-25" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg>
-            <l>Tras de una fiera muy brava</l>
-            <l>yo no sé qué más se pierda</l>
-            <l>que, por herillo, una cuerda,</l>
-            <l>y, por seguillo, una aljaba.</l>
+            <l n="192" xml:id="l192">Tras de una fiera muy brava</l>
+            <l n="193" xml:id="l193">yo no sé qué más se pierda</l>
+            <l n="194" xml:id="l194">que, por herillo, una cuerda,</l>
+            <l n="195" xml:id="l195">y, por seguillo, una aljaba.</l>
           </lg>
           <lg part="I">
-            <l>A buscallo quiero ir yo.</l>
+            <l n="196" xml:id="l196">A buscallo quiero ir yo.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-26" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
-            <l>Muy buena estaría la ida:</l>
-            <l>tú serías la perdida</l>
-            <l>en ir, y el aljaba no.</l>
+            <l n="197" xml:id="l197">Muy buena estaría la ida:</l>
+            <l n="198" xml:id="l198">tú serías la perdida</l>
+            <l n="199" xml:id="l199">en ir, y el aljaba no.</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-27" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="I">
-            <l>Salgamos a consolalla,</l>
-            <l>que amor acá me remuerde.</l>
+            <l n="200" xml:id="l200">Salgamos a consolalla,</l>
+            <l n="201" xml:id="l201">que amor acá me remuerde.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-28" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
-            <l part="I">Aguarda.</l>
+            <l n="202" xml:id="l202" part="I">Aguarda.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-29" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l part="F">Aun lo que se pierde</l>
-            <l>en lo llano, no se halla,</l>
+            <l n="203" xml:id="l203">en lo llano, no se halla,</l>
           </lg>
           <lg part="I">
-            <l>cuanto más lo que perdiste</l>
-            <l>entre matas tan espesas.</l>
+            <l n="204" xml:id="l204">cuanto más lo que perdiste</l>
+            <l n="205" xml:id="l205">entre matas tan espesas.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-30" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="M">
-            <l>Muestras de alegre son esas.</l>
+            <l n="206" xml:id="l206">Muestras de alegre son esas.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-31" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
-            <l>Y aun esas muestras de triste.</l>
+            <l n="207" xml:id="l207">Y aun esas muestras de triste.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-32" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="I">
-            <l>No hay negallo, triste estoy.</l>
+            <l n="208" xml:id="l208">No hay negallo, triste estoy.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-33" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
-            <l>Pues por que no lo estés más,</l>
-            <l>ten de ese hilo y verás</l>
-            <l>cuán grande maestra soy</l>
+            <l n="209" xml:id="l209">Pues por que no lo estés más,</l>
+            <l n="210" xml:id="l210">ten de ese hilo y verás</l>
+            <l n="211" xml:id="l211">cuán grande maestra soy</l>
           </lg>
           <lg part="I">
-            <l>de torcer cuerdas. Ea, ten.</l>
+            <l n="212" xml:id="l212">de torcer cuerdas. Ea, ten.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-34" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="M">
-            <l part="I">No me detengas.</l>
+            <l n="213" xml:id="l213" part="I">No me detengas.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-35" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="M">
             <l part="F">Ea, acaba.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-36" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="M">
-            <l>Bien hallaré yo mi aljaba</l>
-            <l part="I">de esta suerte.</l>
+            <l n="214" xml:id="l214">Bien hallaré yo mi aljaba</l>
+            <l n="215" xml:id="l215" part="I">de esta suerte.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-37" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l part="F">Tuerce bien.</l>
           </lg>
           <stage>Salen Silvio y Floriscio.</stage>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-38" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="I">
-            <l part="I">¡Mi Cintia!</l>
+            <l n="216" xml:id="l216" part="I">¡Mi Cintia!</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-39" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
             <l part="F">¡Camila bella!</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-40" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="M">
-            <l>¡Ay!, ¿qué nos ha salteado?</l>
+            <l n="217" xml:id="l217">¡Ay!, ¿qué nos ha salteado?</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-41" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="F">
-            <l>Quien escondido ha escuchado</l>
-            <l>de cada cual la querella.</l>
+            <l n="218" xml:id="l218">Quien escondido ha escuchado</l>
+            <l n="219" xml:id="l219">de cada cual la querella.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-42" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="I">
-            <l>Y della, ¿qué habéis sentido,</l>
-            <l>o al menos de mi cuidado?</l>
+            <l n="220" xml:id="l220">Y della, ¿qué habéis sentido,</l>
+            <l n="221" xml:id="l221">o al menos de mi cuidado?</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-43" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="F">
-            <l>Siento de él que me ha cobrado</l>
-            <l>la aljaba que has hoy perdido.</l>
+            <l n="222" xml:id="l222">Siento de él que me ha cobrado</l>
+            <l n="223" xml:id="l223">la aljaba que has hoy perdido.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-44" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="I">
-            <l part="I">¿Cómo así?</l>
+            <l n="224" xml:id="l224" part="I">¿Cómo así?</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-45" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l part="F">Cintia hermosa,</l>
-            <l>sirviéndote de esta mía</l>
-            <l>y de este arco, que algún día</l>
-            <l>trujo tu mano envidiosa.</l>
+            <l n="225" xml:id="l225">sirviéndote de esta mía</l>
+            <l n="226" xml:id="l226">y de este arco, que algún día</l>
+            <l n="227" xml:id="l227">trujo tu mano envidiosa.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-46" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg>
-            <l>El don, Silvio, es tan galano,</l>
-            <l>que en tomarlo anda ya cuerda,</l>
-            <l>puesto que la aljaba pierda</l>
-            <l>tal hombro, el arco tal mano.</l>
+            <l n="228" xml:id="l228">El don, Silvio, es tan galano,</l>
+            <l n="229" xml:id="l229">que en tomarlo anda ya cuerda,</l>
+            <l n="230" xml:id="l230">puesto que la aljaba pierda</l>
+            <l n="231" xml:id="l231">tal hombro, el arco tal mano.</l>
           </lg>
           <lg>
-            <l>Mas no se dirá de mí</l>
-            <l>que a los dos fui tan crüel,</l>
-            <l>a ti en desarmarte de él,</l>
-            <l>a él en quitarlo de ti.</l>
+            <l n="232" xml:id="l232">Mas no se dirá de mí</l>
+            <l n="233" xml:id="l233">que a los dos fui tan crüel,</l>
+            <l n="234" xml:id="l234">a ti en desarmarte de él,</l>
+            <l n="235" xml:id="l235">a él en quitarlo de ti.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-47" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg>
-            <l>Pues sea de aqueste modo:</l>
-            <l>que si te da Silvio el suyo,</l>
-            <l>tú le des el arco tuyo;</l>
-            <l>ganarás tú, y él, y todo.</l>
+            <l n="236" xml:id="l236">Pues sea de aqueste modo:</l>
+            <l n="237" xml:id="l237">que si te da Silvio el suyo,</l>
+            <l n="238" xml:id="l238">tú le des el arco tuyo;</l>
+            <l n="239" xml:id="l239">ganarás tú, y él, y todo.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-48" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="I">
-            <l>De esa suerte lo haré,</l>
-            <l>por tu gusto y mi reposo.</l>
+            <l n="240" xml:id="l240">De esa suerte lo haré,</l>
+            <l n="241" xml:id="l241">por tu gusto y mi reposo.</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-49" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="F">
-            <l>¡Oh yo mil veces dichoso,</l>
-            <l>que tal merced alcancé!</l>
+            <l n="242" xml:id="l242">¡Oh yo mil veces dichoso,</l>
+            <l n="243" xml:id="l243">que tal merced alcancé!</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-50" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="I">
-            <l>No sé, Cintia, qué te diga;</l>
-            <l>gana tenías de trocar.</l>
+            <l n="244" xml:id="l244">No sé, Cintia, qué te diga;</l>
+            <l n="245" xml:id="l245">gana tenías de trocar.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-51" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="F">
-            <l>Tú no sabes qué es buscar</l>
-            <l>en el monte con fatiga,</l>
+            <l n="246" xml:id="l246">Tú no sabes qué es buscar</l>
+            <l n="247" xml:id="l247">en el monte con fatiga,</l>
           </lg>
           <lg>
-            <l>y el trabajo que andar es</l>
-            <l>por esa espesura brava,</l>
-            <l>donde hallara la aljaba</l>
-            <l>y me dejara los pies.</l>
+            <l n="248" xml:id="l248">y el trabajo que andar es</l>
+            <l n="249" xml:id="l249">por esa espesura brava,</l>
+            <l n="250" xml:id="l250">donde hallara la aljaba</l>
+            <l n="251" xml:id="l251">y me dejara los pies.</l>
           </lg>
           <lg>
-            <l>Esto aun es cuando se halla:</l>
-            <l>mira tú si hiciera mal</l>
-            <l>en trocar por un don tal</l>
-            <l>el trabajo de buscalla.</l>
+            <l n="252" xml:id="l252">Esto aun es cuando se halla:</l>
+            <l n="253" xml:id="l253">mira tú si hiciera mal</l>
+            <l n="254" xml:id="l254">en trocar por un don tal</l>
+            <l n="255" xml:id="l255">el trabajo de buscalla.</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-52" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg>
-            <l>Por solo que no te arguya</l>
-            <l>Camila más de pecado,</l>
-            <l>ora de fuerza o de grado</l>
-            <l>le has de hacer trocar la suya</l>
+            <l n="256" xml:id="l256">Por solo que no te arguya</l>
+            <l n="257" xml:id="l257">Camila más de pecado,</l>
+            <l n="258" xml:id="l258">ora de fuerza o de grado</l>
+            <l n="259" xml:id="l259">le has de hacer trocar la suya</l>
           </lg>
           <lg part="I">
-            <l>y el arco, aunque esté rompido,</l>
-            <l part="I">con Floriscio.</l>
+            <l n="260" xml:id="l260">y el arco, aunque esté rompido,</l>
+            <l n="261" xml:id="l261" part="I">con Floriscio.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-53" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="F">
             <l part="F">Haz que quiera,</l>
-            <l>Cintia, de cualquier manera.</l>
-            <l>¿Trocarás si te lo pido,</l>
+            <l n="262" xml:id="l262">Cintia, de cualquier manera.</l>
+            <l n="263" xml:id="l263">¿Trocarás si te lo pido,</l>
           </lg>
           <lg part="I">
-            <l part="I">Camila?</l>
+            <l n="264" xml:id="l264" part="I">Camila?</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-54" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="M">
             <l part="F">No, en buena fe.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-55" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
-            <l>¿El porqué no me dirás?</l>
+            <l n="265" xml:id="l265">¿El porqué no me dirás?</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-56" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
-            <l>Floriscio, no sepas más</l>
-            <l>de que es mi gusto el porqué.</l>
+            <l n="266" xml:id="l266">Floriscio, no sepas más</l>
+            <l n="267" xml:id="l267">de que es mi gusto el porqué.</l>
           </lg>
           <lg part="I">
-            <l>Pero tú dime qué ganas</l>
-            <l>en ello, que así porfías.</l>
+            <l n="268" xml:id="l268">Pero tú dime qué ganas</l>
+            <l n="269" xml:id="l269">en ello, que así porfías.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-57" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="F">
-            <l>Tener yo cosa en las mías</l>
-            <l>de tus manos soberanas,</l>
+            <l n="270" xml:id="l270">Tener yo cosa en las mías</l>
+            <l n="271" xml:id="l271">de tus manos soberanas,</l>
           </lg>
           <lg part="I">
-            <l>y armas que del corazón</l>
-            <l>con la sangre yo bañé.</l>
+            <l n="272" xml:id="l272">y armas que del corazón</l>
+            <l n="273" xml:id="l273">con la sangre yo bañé.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-58" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg part="F">
-            <l>Floriscio, grande es tu fe;</l>
-            <l>trueca, mas con condición</l>
+            <l n="274" xml:id="l274">Floriscio, grande es tu fe;</l>
+            <l n="275" xml:id="l275">trueca, mas con condición</l>
           </lg>
           <lg part="I">
-            <l>que me digas si ha llegado</l>
-            <l>el príncipe, que deseo</l>
-            <l part="I">saber ya nuevas de él.</l>
+            <l n="276" xml:id="l276">que me digas si ha llegado</l>
+            <l n="277" xml:id="l277">el príncipe, que deseo</l>
+            <l n="278" xml:id="l278" part="I">saber ya nuevas de él.</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-59" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l part="F">Creo</l>
-            <l>que ya en la montaña ha entrado.</l>
+            <l n="279" xml:id="l279">que ya en la montaña ha entrado.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-60" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg>
-            <l>¡Oh arco de mi consuelo,</l>
-            <l>do se pusieron mil veces</l>
-            <l>tales manos!: bien mereces</l>
-            <l>ser llamado arco del cielo,</l>
+            <l n="280" xml:id="l280">¡Oh arco de mi consuelo,</l>
+            <l n="281" xml:id="l281">do se pusieron mil veces</l>
+            <l n="282" xml:id="l282">tales manos!: bien mereces</l>
+            <l n="283" xml:id="l283">ser llamado arco del cielo,</l>
           </lg>
           <lg>
-            <l>pues el mesmo efecto tienes</l>
-            <l>causando en nuestros amores</l>
-            <l>serenidad de favores</l>
-            <l>tras tempestad de desdenes.</l>
+            <l n="284" xml:id="l284">pues el mesmo efecto tienes</l>
+            <l n="285" xml:id="l285">causando en nuestros amores</l>
+            <l n="286" xml:id="l286">serenidad de favores</l>
+            <l n="287" xml:id="l287">tras tempestad de desdenes.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-61" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg>
-            <l>Floriscio, déjate de eso,</l>
-            <l>que nadie te ha de querer,</l>
-            <l>y lo que puedes hacer</l>
-            <l>en pago del buen suceso</l>
+            <l n="288" xml:id="l288">Floriscio, déjate de eso,</l>
+            <l n="289" xml:id="l289">que nadie te ha de querer,</l>
+            <l n="290" xml:id="l290">y lo que puedes hacer</l>
+            <l n="291" xml:id="l291">en pago del buen suceso</l>
           </lg>
           <lg part="I">
-            <l>es llevarte a Silvio luego</l>
-            <l>y ambos dejarnos aquí</l>
-            <l>a tu Camila y a mí.</l>
+            <l n="292" xml:id="l292">es llevarte a Silvio luego</l>
+            <l n="293" xml:id="l293">y ambos dejarnos aquí</l>
+            <l n="294" xml:id="l294">a tu Camila y a mí.</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-62" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="F">
-            <l>Hágase de Cintia el ruego,</l>
+            <l n="295" xml:id="l295">Hágase de Cintia el ruego,</l>
           </lg>
           <lg part="I">
-            <l>aunque por ello perdamos</l>
-            <l>su dulce conversación.</l>
+            <l n="296" xml:id="l296">aunque por ello perdamos</l>
+            <l n="297" xml:id="l297">su dulce conversación.</l>
           </lg>
         </sp>
-        <sp who="FLORISCIO">
+        <sp xml:id="I-63" who="FLORISCIO">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
-            <l>Acá dejo el corazón,</l>
-            <l part="I">pero voyme.</l>
+            <l n="298" xml:id="l298">Acá dejo el corazón,</l>
+            <l n="299" xml:id="l299" part="I">pero voyme.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-64" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg part="M">
             <l part="M">Presto.</l>
           </lg>
         </sp>
-        <sp who="SILVIO">
+        <sp xml:id="I-65" who="SILVIO">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l part="F">Vamos.</l>
           </lg>
           <stage>Vanse y quedan las dos solas </stage>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-66" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg>
-            <l>A trueco de verlos idos,</l>
-            <l>como soy la que interesa,</l>
-            <l>sé decir que no me pesa</l>
-            <l>que vayan favorecidos.</l>
+            <l n="300" xml:id="l300">A trueco de verlos idos,</l>
+            <l n="301" xml:id="l301">como soy la que interesa,</l>
+            <l n="302" xml:id="l302">sé decir que no me pesa</l>
+            <l n="303" xml:id="l303">que vayan favorecidos.</l>
           </lg>
         </sp>
-        <sp who="CAMILA">
+        <sp xml:id="I-67" who="CAMILA">
           <speaker>CAMILA</speaker>
           <lg>
-            <l>Allá vayan, y tú ahora</l>
-            <l>me cuenta, porque es extraño,</l>
-            <l>de Daliso el dulce engaño</l>
-            <l>con su ingrata cazadora.</l>
+            <l n="304" xml:id="l304">Allá vayan, y tú ahora</l>
+            <l n="305" xml:id="l305">me cuenta, porque es extraño,</l>
+            <l n="306" xml:id="l306">de Daliso el dulce engaño</l>
+            <l n="307" xml:id="l307">con su ingrata cazadora.</l>
           </lg>
         </sp>
-        <sp who="CINTIA">
+        <sp xml:id="I-68" who="CINTIA">
           <speaker>CINTIA</speaker>
           <lg>
-            <l>Ayer te lo comencé</l>
-            <l>a contar y hice pausa,</l>
-            <l>no me acuerdo por qué causa;</l>
-            <l>óyelo, que es bueno, a fe.</l>
+            <l n="308" xml:id="l308">Ayer te lo comencé</l>
+            <l n="309" xml:id="l309">a contar y hice pausa,</l>
+            <l n="310" xml:id="l310">no me acuerdo por qué causa;</l>
+            <l n="311" xml:id="l311">óyelo, que es bueno, a fe.</l>
           </lg>
           <lg>
-            <l>De un lantisco (cuyas hojas</l>
-            <l>sombra daban, y sus ramos</l>
-            <l>ganchos de donde colgamos</l>
-            <l>los arcos, las cuerdas flojas)</l>
+            <l n="312" xml:id="l312">De un lantisco (cuyas hojas</l>
+            <l n="313" xml:id="l313">sombra daban, y sus ramos</l>
+            <l n="314" xml:id="l314">ganchos de donde colgamos</l>
+            <l n="315" xml:id="l315">los arcos, las cuerdas flojas)</l>
           </lg>
           <lg>
-            <l>al verde pie recostadas,</l>
-            <l>que alivio y sombra nos dio,</l>
-            <l>estábamos Clori y yo</l>
-            <l>calurosas y cansadas,</l>
+            <l n="316" xml:id="l316">al verde pie recostadas,</l>
+            <l n="317" xml:id="l317">que alivio y sombra nos dio,</l>
+            <l n="318" xml:id="l318">estábamos Clori y yo</l>
+            <l n="319" xml:id="l319">calurosas y cansadas,</l>
           </lg>
           <lg>
-            <l>y adormecidas después</l>
-            <l>al son de un lento arroyuelo</l>
-            <l>que bañaba el verde suelo</l>
-            <l>y a las dos casi los pies,</l>
+            <l n="320" xml:id="l320">y adormecidas después</l>
+            <l n="321" xml:id="l321">al son de un lento arroyuelo</l>
+            <l n="322" xml:id="l322">que bañaba el verde suelo</l>
+            <l n="323" xml:id="l323">y a las dos casi los pies,</l>
           </lg>
           <lg>
-            <l>una solícita abeja,</l>
-            <l>sin tener en mí mancilla,</l>
-            <l>maltratada en la mejilla,</l>
-            <l>y dolorosa, me deja.</l>
+            <l n="324" xml:id="l324">una solícita abeja,</l>
+            <l n="325" xml:id="l325">sin tener en mí mancilla,</l>
+            <l n="326" xml:id="l326">maltratada en la mejilla,</l>
+            <l n="327" xml:id="l327">y dolorosa, me deja.</l>
           </lg>
           <lg>
-            <l>Diome, aunque breve, el tormento</l>
-            <l>tan terrible la picada,</l>
-            <l>que, a mis quejas alterada,</l>
-            <l>Clori despertó al momento,</l>
+            <l n="328" xml:id="l328">Diome, aunque breve, el tormento</l>
+            <l n="329" xml:id="l329">tan terrible la picada,</l>
+            <l n="330" xml:id="l330">que, a mis quejas alterada,</l>
+            <l n="331" xml:id="l331">Clori despertó al momento,</l>
           </lg>
           <lg>
-            <l>y con gana de burlar</l>
-            <l>me dijo: «No estés quejosa,</l>
-            <l>que teniéndote por rosa</l>
-            <l>muy bien te pudo picar;</l>
+            <l n="332" xml:id="l332">y con gana de burlar</l>
+            <l n="333" xml:id="l333">me dijo: «No estés quejosa,</l>
+            <l n="334" xml:id="l334">que teniéndote por rosa</l>
+            <l n="335" xml:id="l335">muy bien te pudo picar;</l>
           </lg>
           <lg>
-            <l>porque tal estás agora</l>
-            <l>que la abeja te juzgó</l>
-            <l>por rosa que se cayó</l>
-            <l>del rojo seno a la Aurora,</l>
+            <l n="336" xml:id="l336">porque tal estás agora</l>
+            <l n="337" xml:id="l337">que la abeja te juzgó</l>
+            <l n="338" xml:id="l338">por rosa que se cayó</l>
+            <l n="339" xml:id="l339">del rojo seno a la Aurora,</l>
           </lg>
           <lg>
-            <l>y aun la más fresca de aquellas</l>
-            <l>de que ella ciñe su frente,</l>
-            <l>cuando vierte desde oriente</l>
-            <l>bello aljófar, perlas bellas;</l>
+            <l n="340" xml:id="l340">y aun la más fresca de aquellas</l>
+            <l n="341" xml:id="l341">de que ella ciñe su frente,</l>
+            <l n="342" xml:id="l342">cuando vierte desde oriente</l>
+            <l n="343" xml:id="l343">bello aljófar, perlas bellas;</l>
           </lg>
           <lg>
-            <l>y así, perdónale el daño,</l>
-            <l>pues las dos ganáis de un arte:</l>
-            <l>ella, dulzura en picarte,</l>
-            <l>y tú, alabanza en su engaño.</l>
+            <l n="344" xml:id="l344">y así, perdónale el daño,</l>
+            <l n="345" xml:id="l345">pues las dos ganáis de un arte:</l>
+            <l n="346" xml:id="l346">ella, dulzura en picarte,</l>
+            <l n="347" xml:id="l347">y tú, alabanza en su engaño.</l>
           </lg>
           <lg>
-            <l>Pero si te da tal pena</l>
-            <l>la picada, bien sé yo</l>
-            <l>palabras que me enseñó</l>
-            <l>la gran mágica Filena,</l>
+            <l n="348" xml:id="l348">Pero si te da tal pena</l>
+            <l n="349" xml:id="l349">la picada, bien sé yo</l>
+            <l n="350" xml:id="l350">palabras que me enseñó</l>
+            <l n="351" xml:id="l351">la gran mágica Filena,</l>
           </lg>
           <lg>
-            <l>que mordiendo la picada</l>
-            <l>tres veces, y dichas quedo,</l>
-            <l>hacerte con ellas puedo</l>
-            <l>que el dolor sea poco o nada».</l>
+            <l n="352" xml:id="l352">que mordiendo la picada</l>
+            <l n="353" xml:id="l353">tres veces, y dichas quedo,</l>
+            <l n="354" xml:id="l354">hacerte con ellas puedo</l>
+            <l n="355" xml:id="l355">que el dolor sea poco o nada».</l>
           </lg>
           <p/>
           <p rend="b">(Aquí se acaba, que en este estado la dejó don Luis)</p>

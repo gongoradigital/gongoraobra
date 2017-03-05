@@ -56,11 +56,10 @@
         <head>COMEDIA DEL DOCTOR CARLINO</head>
         <p>Hablan en ella:</p>
         <castList>
-          <role xml:id="DOCTOR"/>
           <castItem>
             <role xml:id="GERARDO">GERARDO</role>
           </castItem>
-          <castItem><role xml:id="CARLINO">CARLINO</role>, <hi rend="i">médico</hi></castItem>
+          <castItem><role xml:id="DOCTOR">CARLINO</role>, <hi rend="i">médico</hi></castItem>
           <castItem>
             <role xml:id="TANCREDO">TANCREDO</role>
           </castItem>

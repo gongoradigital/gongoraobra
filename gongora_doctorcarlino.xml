@@ -59,7 +59,7 @@
           <castItem>
             <role xml:id="GERARDO">GERARDO</role>
           </castItem>
-          <castItem><role xml:id="DOCTOR">CARLINO</role>, <hi rend="i">médico</hi></castItem>
+          <castItem><role xml:id="DOCTOR">CARLINO</role>, <roleDesc>médico</roleDesc></castItem>
           <castItem>
             <role xml:id="TANCREDO">TANCREDO</role>
           </castItem>
@@ -175,10 +175,12 @@
         </sp>
         <sp xml:id="I-3" who="DOCTOR">
           <speaker>DOCTOR</speaker>
-          <lg>
+          <lg part="I">
             <l n="61" xml:id="l61">Gerardo, no te prometas</l>
             <l n="62" xml:id="l62" part="I">de amigos</l>
+          </lg>
             <stage>Aparte</stage>
+          <lg part="F">
             <l part="F">(cual yo lo soy),</l>
             <l n="63" xml:id="l63">menos que estas dulces tretas,</l>
             <l n="64" xml:id="l64">y más de hermanos, que hoy</l>
@@ -3096,7 +3098,7 @@
         </sp>
         <stage>Vase Casilda.</stage>
         <sp xml:id="I-286" who="TANCREDO">
-          <stage>TANCREDO, <hi rend="i">aparte.</hi></stage>
+          <speaker>TANCREDO, <hi rend="i">aparte.</hi></speaker>
           <lg part="I">
             <l n="1221" xml:id="l1221">Conmigo debe de ser.</l>
           </lg>
@@ -3133,7 +3135,7 @@
           </lg>
         </sp>
         <sp xml:id="I-292" who="DOCTOR">
-          <stage>DOCTOR, <hi rend="i">aparte</hi></stage>
+          <speaker>DOCTOR</speaker><stage>Aparte</stage> 
           <lg part="F">
             <l part="F">¡Qué lindos camellos!</l>
             <l n="1227" xml:id="l1227">Han pensado que es a ellos,</l>
@@ -3510,7 +3512,7 @@
           </lg>
         </sp>
         <sp xml:id="II-34" who="DOCTOR">
-          <stage>LUCRECIA, <hi rend="i">aparte</hi></stage>
+          <speaker>LUCRECIA</speaker><stage>Aparte</stage>
           <lg>
             <l n="1389" xml:id="l1389">Quisiéralos, vive Dios,</l>
             <l n="1390" xml:id="l1390">para hacer de ellos dos pagas</l>
@@ -3608,7 +3610,8 @@
           </lg>
         </sp>
         <sp xml:id="II-45" who="LUCRECIA">
-          <stage>LUCRECIA, <hi rend="i">aparte</hi></stage>
+          <speaker>LUCRECIA</speaker>
+          <stage>Aparte</stage>
           <lg>
             <l n="1421" xml:id="l1421">¿Hay quién paciencia me preste</l>
             <l n="1422" xml:id="l1422">para que en tantos enojos</l>
@@ -3775,7 +3778,8 @@
           </lg>
         </sp>
         <sp xml:id="II-67" who="LUCRECIA">
-          <stage>LUCRECIA, <hi rend="i">aparte</hi></stage>
+          <speaker>LUCRECIA</speaker>
+          <stage>Aparte</stage>
           <lg part="F">
             <l n="1463" xml:id="l1463">Es verdad que estoy corrida</l>
             <l n="1464" xml:id="l1464">como picada de balde,</l>
@@ -3860,8 +3864,6 @@
           <lg part="I">
             <l n="1477" xml:id="l1477" part="I">Luego iré.</l>
           </lg>
-        </sp>
-        <sp xml:id="II-80" who="TANCREDO">
           <stage>Vuélvese a Tancredo y dícele en secreto:</stage>
           <lg part="M">
             <l part="F">Oídme, Tancredo,</l>
@@ -4092,7 +4094,8 @@
           </lg>
         </sp>
         <sp xml:id="II-99" who="TISBERTO">
-          <stage>TISBERTO, <hi rend="i">aparte.</hi></stage>
+          <speaker>TISBERTO</speaker>
+          <stage>Aparte.</stage>
           <lg part="F">
             <l part="F">¡Cosa es recia,</l>
             <l n="1571" xml:id="l1571">hermosísima Lucrecia,</l>
@@ -4109,7 +4112,8 @@
           </lg>
         </sp>
         <sp xml:id="II-101" who="TISBERTO">
-          <stage>TISBERTO, <hi rend="i">aparte.</hi></stage>
+          <speaker>TISBERTO</speaker>
+          <stage>Aparte.</stage>
           <lg part="F">
             <l part="F">Que quiero</l>
             <l n="1575" xml:id="l1575">consultárselo primero</l>
@@ -4316,7 +4320,8 @@
           </lg>
         </sp>
         <sp xml:id="II-122" who="DOCTOR">
-          <stage>DOCTOR, <hi rend="i">aparte</hi></stage>
+          <speaker>DOCTOR</speaker>
+          <stage>Aparte.</stage>
           <lg part="M">
             <l n="1654" xml:id="l1654">¡Tan leal como el del beso!</l>
           </lg>
@@ -4683,7 +4688,8 @@
           </lg>
         </sp>
         <sp xml:id="II-159" who="DOCTOR">
-          <stage>DOCTOR, <hi rend="i">[a Enrico]</hi></stage>
+          <speaker>DOCTOR</speaker>
+          <stage>[a Enrico]</stage>
           <lg>
             <l n="1789" xml:id="l1789">Ofreceréme yo al punto</l>
             <l n="1790" xml:id="l1790">y, encareciendo el suceso,</l>
@@ -4698,7 +4704,8 @@
           </lg>
         </sp>
         <sp xml:id="II-160" who="DONTRISTAN">
-          <stage>DON TRISTÁN, <hi rend="i">[aparte]</hi></stage>
+          <speaker>DON TRISTÁN</speaker>
+          <stage>[Aparte]</stage>
           <lg>
             <l n="1797" xml:id="l1797">Que teatro su aposento</l>
             <l n="1798" xml:id="l1798">será, a Carlino le oí,</l>
@@ -4751,7 +4758,8 @@
           </lg>
         </sp>
         <sp xml:id="II-163" who="DONTRISTAN">
-          <stage>DON TRISTÁN, <hi rend="i">[aparte]</hi></stage>
+          <speaker>DON TRISTÁN</speaker>
+          <stage>[Aparte.]</stage>
           <lg>
             <l n="1825" xml:id="l1825">Dios te dé salud, doctor,</l>
             <l n="1826" xml:id="l1826">que bien que le has respondido,</l>
@@ -4814,7 +4822,8 @@
           </lg>
         </sp>
         <sp xml:id="II-167" who="DONTRISTAN">
-          <stage>DON TRISTÁN, <hi rend="i">[aparte]</hi></stage>
+          <speaker>DON TRISTÁN</speaker>
+          <stage>[Aparte.]</stage>
           <lg part="F">
             <l n="1856" xml:id="l1856">Efectüado lo han,</l>
           </lg>
@@ -4926,7 +4935,8 @@
           </lg>
         </sp>
         <sp xml:id="II-182" who="DOCTOR">
-          <stage>DOCTOR, <hi rend="i">aparte</hi></stage>
+          <speaker>DOCTOR</speaker>
+          <stage>Aparte</stage>
           <lg>
             <l n="1885" xml:id="l1885">Convertido se ha, <hi rend="i">per Deum</hi>,</l>
             <l n="1886" xml:id="l1886">en gramático nefando,</l>
@@ -4982,7 +4992,8 @@
           </lg>
         </sp>
         <sp xml:id="II-190" who="DOCTOR">
-          <stage>DOCTOR, <hi rend="i">aparte</hi></stage>
+          <speaker>DOCTOR</speaker>
+          <stage>Aparte.</stage>
           <lg part="F">
             <l n="1899" xml:id="l1899">(Si ya no lo ha disculpado</l>
             <l n="1900" xml:id="l1900">ser de lienzo el orinal).</l>

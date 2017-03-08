@@ -82,7 +82,7 @@
       </div>
       <div xml:id="I" type="act">
         <head>ACTO PRIMERO</head>
-        <stage type="entrance">Entran Gerardo y el doctor Carlino.</stage>
+        <stage type="entrance">Entran Gerardo y el doctor Carlino.<listPerson type="configuration"/></stage>
         <sp xml:id="I-1" who="DOCTOR">
           <speaker>DOCTOR</speaker>
           <lg>
@@ -986,7 +986,7 @@
             <l part="F">Vete,</l>
             <l n="390" xml:id="l390">que yo me quedo conmigo.</l>
           </lg>
-          <stage>Vase Gerardo.</stage>
+          <stage>Vase Gerardo.<listPerson type="configuration"/></stage>
           <lg>
             <l n="391" xml:id="l391">Profunda ciencia de valor divino</l>
             <l n="392" xml:id="l392">de Apolo nieta y de Esculapio hija,</l>
@@ -1122,7 +1122,7 @@
             <l n="520" xml:id="l520">la causa de mi inquietud.</l>
           </lg>
         </sp>
-        <stage>Entra Casilda.</stage>
+        <stage>Entra Casilda.<listPerson type="configuration"/></stage>
         <sp xml:id="I-82" who="CASILDA">
           <speaker>CASILDA</speaker>
           <lg part="I">
@@ -1813,7 +1813,7 @@
           <lg part="F">
             <l part="F" xml:lang="it" rend="i">Vi ringrazio.</l>
           </lg>
-          <stage>Entra Tancredo</stage>
+          <stage>Entra Tancredo.<listPerson type="configuration"/></stage>
           <lg part="I">
             <l n="777" xml:id="l777">Señores míos, ¿qué voces</l>
             <l n="778" xml:id="l778">son estas? ¿Qué es lo que pasa?</l>
@@ -2317,7 +2317,7 @@
             <l n="939" xml:id="l939">non fagades ende al,</l>
             <l n="940" xml:id="l940">so pena de mi merced.</l>
           </lg>
-          <stage>VaseTancredo.</stage>
+          <stage>VaseTancredo.<listPerson type="configuration"/></stage>
           <lg part="I">
             <l n="941" xml:id="l941">¿Qué tal ya la mula es,</l>
             <l n="942" xml:id="l942">doctorísimo señor?</l>
@@ -2513,7 +2513,7 @@
             <l n="1027" xml:id="l1027">Quiera Dios que no me obligues</l>
             <l n="1028" xml:id="l1028">a más por leyes de Toro.</l>
           </lg>
-          <stage>Hace que llora el doctor y entra Enrico</stage>
+          <stage>Hace que llora el doctor y entra Enrico.<listPerson type="configuration"/></stage>
         </sp>
         <sp xml:id="I-222" who="ENRICO">
           <speaker>ENRICO</speaker>
@@ -2849,7 +2849,7 @@
             <l n="1168" xml:id="l1168">Ya llega a los corredores.</l>
           </lg>
         </sp>
-        <stage>Entra Tancredo.</stage>
+        <stage>Entra Tancredo.<listPerson type="configuration"/></stage>
         <sp xml:id="I-251" who="TANCREDO">
           <speaker>TANCREDO</speaker>
           <lg part="I">
@@ -3100,7 +3100,7 @@
             <l part="F">Aguardo.</l>
           </lg>
         </sp>
-        <stage>Vase Casilda.</stage>
+        <stage>Vase Casilda.<listPerson type="configuration"/></stage>
         <sp xml:id="I-286" who="TANCREDO">
           <speaker>TANCREDO</speaker>
           <stage>Aparte.</stage>
@@ -3150,11 +3150,11 @@
             <l n="1228" xml:id="l1228">y aguarda a <hi rend="i">mihi vel mi.</hi></l>
           </lg>
         </sp>
-        <stage>Vanse</stage>
+        <stage>Vanse.<listPerson type="configuration"/></stage>
       </div>
       <div xml:id="II" type="act">
         <head>ACTO SEGUNDO</head>
-        <stage>Entran Gerardo y Lucrecia.</stage>
+        <stage>Entran Gerardo y Lucrecia.<listPerson type="configuration"/></stage>
         <sp xml:id="II-1" who="GERARDO">
           <speaker>GERARDO</speaker>
           <lg>
@@ -3388,7 +3388,7 @@
             <l n="1360" xml:id="l1360">confesando la que fui?</l>
           </lg>
         </sp>
-        <stage>Entran Tancredo y el doctor.</stage>
+        <stage>Entran Tancredo y el doctor.<listPerson type="configuration"/></stage>
         <sp xml:id="II-15" who="TANCREDO">
           <speaker>TANCREDO</speaker>
           <lg part="I">
@@ -3799,7 +3799,7 @@
             <l n="1468" xml:id="l1468">los doblones de sus caras.</l>
           </lg>
         </sp>
-        <stage>Entra Tisberto.</stage>
+        <stage>Entra Tisberto.<listPerson type="configuration"/></stage>
         <sp xml:id="II-68" who="TISBERTO">
           <speaker>TISBERTO</speaker>
           <lg part="I">
@@ -4216,7 +4216,7 @@
             <l n="1608" xml:id="l1608">Palabritas de Pilatos.</l>
           </lg>
         </sp>
-        <stage>Éntranse Tancredo, Lucrecia y Tisberto.</stage>
+        <stage>Éntranse Tancredo, Lucrecia y Tisberto.<listPerson type="configuration"/></stage>
         <sp xml:id="II-112" who="DOCTOR">
           <speaker>DOCTOR</speaker>
           <lg part="I">
@@ -4472,7 +4472,7 @@
             <l n="1716" xml:id="l1716">a estas horas el borracho?</l>
           </lg>
         </sp>
-        <stage>Vase Gerardo y salen don Tristán y Enrico.</stage>
+        <stage>Vase Gerardo y salen don Tristán y Enrico.<listPerson type="configuration"/></stage>
         <sp xml:id="II-134" who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
@@ -4656,7 +4656,7 @@
             <l n="1776" xml:id="l1776">plumas se calza ligeras.</l>
           </lg>
         </sp>
-        <stage>Entra don Tristán.</stage>
+        <stage>Entra don Tristán.<listPerson type="configuration"/></stage>
         <sp xml:id="II-155" who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
@@ -4697,7 +4697,7 @@
         </sp>
         <sp xml:id="II-159" who="DOCTOR">
           <speaker>DOCTOR</speaker>
-          <stage>[a Enrico]</stage>
+          <stage>[A Enrico]</stage>
           <lg>
             <l n="1789" xml:id="l1789">Ofreceréme yo al punto</l>
             <l n="1790" xml:id="l1790">y, encareciendo el suceso,</l>
@@ -4904,7 +4904,7 @@
             <l n="1876" xml:id="l1876">Lo dicho, dicho, doctor.</l>
           </lg>
         </sp>
-        <stage>Vase Enrico.</stage>
+        <stage>Vase Enrico.<listPerson type="configuration"/></stage>
         <sp xml:id="II-177" who="DONTRISTAN">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">

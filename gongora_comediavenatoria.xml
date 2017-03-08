@@ -72,7 +72,7 @@
             <role xml:id="CINTIA">CINTIA</role>
           </castItem>
         </castList>
-        <stage>Sale Cupido.</stage>
+        <stage>Sale Cupido.<listPerson type="configuration"/></stage>
         <sp xml:id="I-1" who="CUPIDO">
           <speaker>CUPIDO</speaker>
           <lg>
@@ -174,7 +174,7 @@
             <l n="58" xml:id="l58">y al fin dar a entender que soy Cupido,</l>
             <l n="59" xml:id="l59">aunque en humildes paños escondido.</l>
           </lg>
-          <stage>Vase. Salen Silvio y Floriscio.</stage>
+          <stage>Vase. Salen Silvio y Floriscio.<listPerson type="configuration"/></stage>
         </sp>
         <sp xml:id="I-2" who="SILVIO">
           <speaker>SILVIO</speaker>
@@ -316,7 +316,7 @@
           <lg part="M">
             <l n="122" xml:id="l122" part="I">Vamos; mas helas vienen.</l>
           </lg>
-          <stage>Salen Camila y Cintia.</stage>
+          <stage>Salen Camila y Cintia.<listPerson type="configuration"/></stage>
         </sp>
         <sp xml:id="I-15" who="CAMILA">
           <speaker>CAMILA</speaker>
@@ -556,7 +556,7 @@
           <lg part="F">
             <l part="F">Tuerce bien.</l>
           </lg>
-          <stage>Salen Silvio y Floriscio.</stage>
+          <stage>Salen Silvio y Floriscio.<listPerson type="configuration"/></stage>
         </sp>
         <sp xml:id="I-38" who="SILVIO">
           <speaker>SILVIO</speaker>
@@ -810,7 +810,7 @@
           <lg part="F">
             <l part="F">Vamos.</l>
           </lg>
-          <stage>Vanse y quedan las dos solas </stage>
+          <stage>Vanse y quedan las dos solas.<listPerson type="configuration"/></stage>
         </sp>
         <sp xml:id="I-66" who="CINTIA">
           <speaker>CINTIA</speaker>

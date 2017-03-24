@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,8 +35,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <!-- aqui va enlace a presentacion -->
-        </bibl>
+          <!-- aqui va enlace a presentacion --> </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -52,7 +49,7 @@
   </teiHeader>
   <text>
     <body>
-      <div xml:id="I" type="act">
+      <div type="act" xml:id="I">
         <head>COMEDIA VENATORIA</head>
         <p>Los que hablan en ella son:</p>
         <castList>
@@ -72,8 +69,10 @@
             <role xml:id="CINTIA">CINTIA</role>
           </castItem>
         </castList>
-        <stage>Sale Cupido.<listPerson type="configuration"/></stage>
-        <sp xml:id="I-1" who="CUPIDO">
+        <stage>Sale Cupido.<listPerson type="configuration" xml:id="conf1">
+          <person corresp="#CUPIDO"/>
+        </listPerson></stage>
+        <sp who="CUPIDO" xml:id="I-1">
           <speaker>CUPIDO</speaker>
           <lg>
             <l n="1" xml:id="l1">Aunque en humildes paños escondido,</l>
@@ -174,9 +173,11 @@
             <l n="58" xml:id="l58">y al fin dar a entender que soy Cupido,</l>
             <l n="59" xml:id="l59">aunque en humildes paños escondido.</l>
           </lg>
-          <stage>Vase. Salen Silvio y Floriscio.<listPerson type="configuration"/></stage>
+          <stage>Vase. Salen Silvio y Floriscio.<listPerson type="configuration" xml:id="conf2">
+            <person corresp="#SILVIO"/>
+            <person corresp="#FLORISCIO"/></listPerson></stage>
         </sp>
-        <sp xml:id="I-2" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-2">
           <speaker>SILVIO</speaker>
           <lg>
             <l n="60" xml:id="l60">A mil torcidos cuernos dando aliento,</l>
@@ -219,39 +220,39 @@
             <l n="91" xml:id="l91">caballo, cascabel, cuerno, halcón, perro...</l>
           </lg>
         </sp>
-        <sp xml:id="I-3" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-3">
           <speaker>FLORISCIO</speaker>
           <lg part="I">
-            <l n="92" xml:id="l92" part="I">¿Viene gallardo el príncipe?</l>
+            <l n="92" part="I" xml:id="l92">¿Viene gallardo el príncipe?</l>
           </lg>
         </sp>
-        <sp xml:id="I-4" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-4">
           <speaker>SILVIO</speaker>
           <lg part="M">
             <l part="F">Gallardo</l>
             <l n="93" xml:id="l93">y galán viene, a fe, sobremanera.</l>
           </lg>
         </sp>
-        <sp xml:id="I-5" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-5">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
-            <l n="94" xml:id="l94" part="I">¿Y de qué se vistió?</l>
+            <l n="94" part="I" xml:id="l94">¿Y de qué se vistió?</l>
           </lg>
         </sp>
-        <sp xml:id="I-6" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-6">
           <speaker>SILVIO</speaker>
           <lg part="M">
             <l part="F">De verde y pardo,</l>
             <l n="95" xml:id="l95">o de mezclilla, que una y otro era.</l>
           </lg>
         </sp>
-        <sp xml:id="I-7" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-7">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
-            <l n="96" xml:id="l96" part="I">¿Con qué armas piensa andar?</l>
+            <l n="96" part="I" xml:id="l96">¿Con qué armas piensa andar?</l>
           </lg>
         </sp>
-        <sp xml:id="I-8" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-8">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l part="F">Con solo un dardo</l>
@@ -270,16 +271,16 @@
             <l n="107" xml:id="l107">fue visto de la casta cazadora.</l>
           </lg>
         </sp>
-        <sp xml:id="I-9" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-9">
           <speaker>FLORISCIO</speaker>
           <lg part="I">
             <l n="108" xml:id="l108">Soberbia caza se nos adereza;</l>
             <l n="109" xml:id="l109">pero dime, ¿de Cintia y de Camila</l>
             <l n="110" xml:id="l110">has merecido hoy ver la gran belleza</l>
-            <l n="111" xml:id="l111" part="I">en sus albergues o en el monte?</l>
+            <l n="111" part="I" xml:id="l111">en sus albergues o en el monte?</l>
           </lg>
         </sp>
-        <sp xml:id="I-10" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-10">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l part="F">Vila</l>
@@ -289,13 +290,13 @@
             <l n="115" xml:id="l115">en líquida, en templada, en dulce plata.</l>
           </lg>
         </sp>
-        <sp xml:id="I-11" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-11">
           <speaker>FLORISCIO</speaker>
           <lg part="I">
-            <l n="116" xml:id="l116" part="I">Y, di, ¿estarán allí?</l>
+            <l n="116" part="I" xml:id="l116">Y, di, ¿estarán allí?</l>
           </lg>
         </sp>
-        <sp xml:id="I-12" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-12">
           <speaker>SILVIO</speaker>
           <lg part="M">
             <l part="F">¡Ay!, se habrán ido</l>
@@ -304,28 +305,32 @@
             <l n="119" xml:id="l119">de aquel peinado cerro en la ladera.</l>
           </lg>
         </sp>
-        <sp xml:id="I-13" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-13">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
             <l n="120" xml:id="l120">Busquémoslas; sabrán cómo es venido</l>
             <l n="121" xml:id="l121">el príncipe que cada cual espera.</l>
           </lg>
         </sp>
-        <sp xml:id="I-14" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-14">
           <speaker>SILVIO</speaker>
           <lg part="M">
-            <l n="122" xml:id="l122" part="I">Vamos; mas helas vienen.</l>
+            <l n="122" part="I" xml:id="l122">Vamos; mas helas vienen.</l>
           </lg>
-          <stage>Salen Camila y Cintia.<listPerson type="configuration"/></stage>
+          <stage>Salen Camila y Cintia.<listPerson type="configuration" xml:id="conf3">
+            <person corresp="#SILVIO"/>
+            <person corresp="#FLORISCIO"/>
+            <person corresp="#CAMILA"/>
+            <person corresp="#CINTIA"/></listPerson></stage>
         </sp>
-        <sp xml:id="I-15" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-15">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l part="F">Yo me espanto</l>
             <l n="123" xml:id="l123">cómo con tal herida corrió tanto.</l>
           </lg>
         </sp>
-        <sp xml:id="I-16" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-16">
           <speaker>CINTIA</speaker>
           <lg>
             <l n="124" xml:id="l124">Tal ligero el corzo es</l>
@@ -364,7 +369,7 @@
             <l n="147" xml:id="l147">y otra una legua de allí.</l>
           </lg>
         </sp>
-        <sp xml:id="I-17" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-17">
           <speaker>CAMILA</speaker>
           <lg>
             <l n="148" xml:id="l148">Bien corrió el ciervo; mas baste,</l>
@@ -391,7 +396,7 @@
             <l n="163" xml:id="l163">mucho la flecha voló.</l>
           </lg>
         </sp>
-        <sp xml:id="I-18" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-18">
           <speaker>FLORISCIO</speaker>
           <lg>
             <l n="164" xml:id="l164">Por bien graciosa manera</l>
@@ -400,7 +405,7 @@
             <l n="167" xml:id="l167">y la otra de ligera.</l>
           </lg>
         </sp>
-        <sp xml:id="I-19" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-19">
           <speaker>SILVIO</speaker>
           <lg>
             <l n="168" xml:id="l168">Aguardemos hasta ver</l>
@@ -409,7 +414,7 @@
             <l n="171" xml:id="l171">y Cintia, más que correr.</l>
           </lg>
         </sp>
-        <sp xml:id="I-20" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-20">
           <speaker>CAMILA</speaker>
           <lg>
             <l n="172" xml:id="l172">Pero, Cintia, si se nota,</l>
@@ -418,13 +423,13 @@
             <l n="175" xml:id="l175">y yo con la cuerda rota.</l>
           </lg>
         </sp>
-        <sp xml:id="I-21" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-21">
           <speaker>CINTIA</speaker>
           <lg part="I">
             <l n="176" xml:id="l176">¿La aljaba se me ha perdido?</l>
           </lg>
         </sp>
-        <sp xml:id="I-22" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-22">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l n="177" xml:id="l177">Así lo puedes creer,</l>
@@ -432,16 +437,16 @@
             <l n="179" xml:id="l179">tras el corcillo herido.</l>
           </lg>
         </sp>
-        <sp xml:id="I-23" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-23">
           <speaker>CINTIA</speaker>
           <lg part="I">
             <l n="180" xml:id="l180">No sé cómo la perdí,</l>
             <l n="181" xml:id="l181">ni aun entiendo de qué suerte</l>
             <l n="182" xml:id="l182">rompiste tú una tan fuerte</l>
-            <l n="183" xml:id="l183" part="I">cuerda de un tirón.</l>
+            <l n="183" part="I" xml:id="l183">cuerda de un tirón.</l>
           </lg>
         </sp>
-        <sp xml:id="I-24" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-24">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l part="F">Yo, sí:</l>
@@ -459,7 +464,7 @@
             <l n="191" xml:id="l191">la cuerda no lo sufrió.</l>
           </lg>
         </sp>
-        <sp xml:id="I-25" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-25">
           <speaker>CINTIA</speaker>
           <lg>
             <l n="192" xml:id="l192">Tras de una fiera muy brava</l>
@@ -471,7 +476,7 @@
             <l n="196" xml:id="l196">A buscallo quiero ir yo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-26" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-26">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l n="197" xml:id="l197">Muy buena estaría la ida:</l>
@@ -479,20 +484,20 @@
             <l n="199" xml:id="l199">en ir, y el aljaba no.</l>
           </lg>
         </sp>
-        <sp xml:id="I-27" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-27">
           <speaker>SILVIO</speaker>
           <lg part="I">
             <l n="200" xml:id="l200">Salgamos a consolalla,</l>
             <l n="201" xml:id="l201">que amor acá me remuerde.</l>
           </lg>
         </sp>
-        <sp xml:id="I-28" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-28">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
-            <l n="202" xml:id="l202" part="I">Aguarda.</l>
+            <l n="202" part="I" xml:id="l202">Aguarda.</l>
           </lg>
         </sp>
-        <sp xml:id="I-29" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-29">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l part="F">Aun lo que se pierde</l>
@@ -503,25 +508,25 @@
             <l n="205" xml:id="l205">entre matas tan espesas.</l>
           </lg>
         </sp>
-        <sp xml:id="I-30" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-30">
           <speaker>CINTIA</speaker>
           <lg part="M">
             <l n="206" xml:id="l206">Muestras de alegre son esas.</l>
           </lg>
         </sp>
-        <sp xml:id="I-31" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-31">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l n="207" xml:id="l207">Y aun esas muestras de triste.</l>
           </lg>
         </sp>
-        <sp xml:id="I-32" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-32">
           <speaker>CINTIA</speaker>
           <lg part="I">
             <l n="208" xml:id="l208">No hay negallo, triste estoy.</l>
           </lg>
         </sp>
-        <sp xml:id="I-33" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-33">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l n="209" xml:id="l209">Pues por que no lo estés más,</l>
@@ -532,78 +537,82 @@
             <l n="212" xml:id="l212">de torcer cuerdas. Ea, ten.</l>
           </lg>
         </sp>
-        <sp xml:id="I-34" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-34">
           <speaker>CINTIA</speaker>
           <lg part="M">
-            <l n="213" xml:id="l213" part="I">No me detengas.</l>
+            <l n="213" part="I" xml:id="l213">No me detengas.</l>
           </lg>
         </sp>
-        <sp xml:id="I-35" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-35">
           <speaker>CAMILA</speaker>
           <lg part="M">
             <l part="F">Ea, acaba.</l>
           </lg>
         </sp>
-        <sp xml:id="I-36" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-36">
           <speaker>CINTIA</speaker>
           <lg part="M">
             <l n="214" xml:id="l214">Bien hallaré yo mi aljaba</l>
-            <l n="215" xml:id="l215" part="I">de esta suerte.</l>
+            <l n="215" part="I" xml:id="l215">de esta suerte.</l>
           </lg>
         </sp>
-        <sp xml:id="I-37" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-37">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l part="F">Tuerce bien.</l>
           </lg>
-          <stage>Salen Silvio y Floriscio.<listPerson type="configuration"/></stage>
+          <stage>Salen Silvio y Floriscio.<listPerson type="configuration" xml:id="conf4">
+            <person corresp="#SILVIO"/>
+            <person corresp="#FLORISCIO"/>
+            <person corresp="#CAMILA"/>
+            <person corresp="#CINTIA"/></listPerson></stage>
         </sp>
-        <sp xml:id="I-38" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-38">
           <speaker>SILVIO</speaker>
           <lg part="I">
-            <l n="216" xml:id="l216" part="I">¡Mi Cintia!</l>
+            <l n="216" part="I" xml:id="l216">¡Mi Cintia!</l>
           </lg>
         </sp>
-        <sp xml:id="I-39" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-39">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
             <l part="F">¡Camila bella!</l>
           </lg>
         </sp>
-        <sp xml:id="I-40" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-40">
           <speaker>CAMILA</speaker>
           <lg part="M">
             <l n="217" xml:id="l217">¡Ay!, ¿qué nos ha salteado?</l>
           </lg>
         </sp>
-        <sp xml:id="I-41" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-41">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l n="218" xml:id="l218">Quien escondido ha escuchado</l>
             <l n="219" xml:id="l219">de cada cual la querella.</l>
           </lg>
         </sp>
-        <sp xml:id="I-42" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-42">
           <speaker>CINTIA</speaker>
           <lg part="I">
             <l n="220" xml:id="l220">Y della, ¿qué habéis sentido,</l>
             <l n="221" xml:id="l221">o al menos de mi cuidado?</l>
           </lg>
         </sp>
-        <sp xml:id="I-43" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-43">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l n="222" xml:id="l222">Siento de él que me ha cobrado</l>
             <l n="223" xml:id="l223">la aljaba que has hoy perdido.</l>
           </lg>
         </sp>
-        <sp xml:id="I-44" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-44">
           <speaker>CINTIA</speaker>
           <lg part="I">
-            <l n="224" xml:id="l224" part="I">¿Cómo así?</l>
+            <l n="224" part="I" xml:id="l224">¿Cómo así?</l>
           </lg>
         </sp>
-        <sp xml:id="I-45" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-45">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l part="F">Cintia hermosa,</l>
@@ -612,7 +621,7 @@
             <l n="227" xml:id="l227">trujo tu mano envidiosa.</l>
           </lg>
         </sp>
-        <sp xml:id="I-46" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-46">
           <speaker>CINTIA</speaker>
           <lg>
             <l n="228" xml:id="l228">El don, Silvio, es tan galano,</l>
@@ -627,7 +636,7 @@
             <l n="235" xml:id="l235">a él en quitarlo de ti.</l>
           </lg>
         </sp>
-        <sp xml:id="I-47" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-47">
           <speaker>FLORISCIO</speaker>
           <lg>
             <l n="236" xml:id="l236">Pues sea de aqueste modo:</l>
@@ -636,28 +645,28 @@
             <l n="239" xml:id="l239">ganarás tú, y él, y todo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-48" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-48">
           <speaker>CINTIA</speaker>
           <lg part="I">
             <l n="240" xml:id="l240">De esa suerte lo haré,</l>
             <l n="241" xml:id="l241">por tu gusto y mi reposo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-49" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-49">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l n="242" xml:id="l242">¡Oh yo mil veces dichoso,</l>
             <l n="243" xml:id="l243">que tal merced alcancé!</l>
           </lg>
         </sp>
-        <sp xml:id="I-50" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-50">
           <speaker>CAMILA</speaker>
           <lg part="I">
             <l n="244" xml:id="l244">No sé, Cintia, qué te diga;</l>
             <l n="245" xml:id="l245">gana tenías de trocar.</l>
           </lg>
         </sp>
-        <sp xml:id="I-51" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-51">
           <speaker>CINTIA</speaker>
           <lg part="F">
             <l n="246" xml:id="l246">Tú no sabes qué es buscar</l>
@@ -676,7 +685,7 @@
             <l n="255" xml:id="l255">el trabajo de buscalla.</l>
           </lg>
         </sp>
-        <sp xml:id="I-52" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-52">
           <speaker>SILVIO</speaker>
           <lg>
             <l n="256" xml:id="l256">Por solo que no te arguya</l>
@@ -686,10 +695,10 @@
           </lg>
           <lg part="I">
             <l n="260" xml:id="l260">y el arco, aunque esté rompido,</l>
-            <l n="261" xml:id="l261" part="I">con Floriscio.</l>
+            <l n="261" part="I" xml:id="l261">con Floriscio.</l>
           </lg>
         </sp>
-        <sp xml:id="I-53" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-53">
           <speaker>FLORISCIO</speaker>
           <lg part="F">
             <l part="F">Haz que quiera,</l>
@@ -697,22 +706,22 @@
             <l n="263" xml:id="l263">¿Trocarás si te lo pido,</l>
           </lg>
           <lg part="I">
-            <l n="264" xml:id="l264" part="I">Camila?</l>
+            <l n="264" part="I" xml:id="l264">Camila?</l>
           </lg>
         </sp>
-        <sp xml:id="I-54" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-54">
           <speaker>CAMILA</speaker>
           <lg part="M">
             <l part="F">No, en buena fe.</l>
           </lg>
         </sp>
-        <sp xml:id="I-55" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-55">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
             <l n="265" xml:id="l265">¿El porqué no me dirás?</l>
           </lg>
         </sp>
-        <sp xml:id="I-56" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-56">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l n="266" xml:id="l266">Floriscio, no sepas más</l>
@@ -723,7 +732,7 @@
             <l n="269" xml:id="l269">en ello, que así porfías.</l>
           </lg>
         </sp>
-        <sp xml:id="I-57" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-57">
           <speaker>FLORISCIO</speaker>
           <lg part="F">
             <l n="270" xml:id="l270">Tener yo cosa en las mías</l>
@@ -734,7 +743,7 @@
             <l n="273" xml:id="l273">con la sangre yo bañé.</l>
           </lg>
         </sp>
-        <sp xml:id="I-58" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-58">
           <speaker>CAMILA</speaker>
           <lg part="F">
             <l n="274" xml:id="l274">Floriscio, grande es tu fe;</l>
@@ -743,17 +752,17 @@
           <lg part="I">
             <l n="276" xml:id="l276">que me digas si ha llegado</l>
             <l n="277" xml:id="l277">el príncipe, que deseo</l>
-            <l n="278" xml:id="l278" part="I">saber ya nuevas de él.</l>
+            <l n="278" part="I" xml:id="l278">saber ya nuevas de él.</l>
           </lg>
         </sp>
-        <sp xml:id="I-59" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-59">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l part="F">Creo</l>
             <l n="279" xml:id="l279">que ya en la montaña ha entrado.</l>
           </lg>
         </sp>
-        <sp xml:id="I-60" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-60">
           <speaker>FLORISCIO</speaker>
           <lg>
             <l n="280" xml:id="l280">¡Oh arco de mi consuelo,</l>
@@ -768,7 +777,7 @@
             <l n="287" xml:id="l287">tras tempestad de desdenes.</l>
           </lg>
         </sp>
-        <sp xml:id="I-61" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-61">
           <speaker>CINTIA</speaker>
           <lg>
             <l n="288" xml:id="l288">Floriscio, déjate de eso,</l>
@@ -782,7 +791,7 @@
             <l n="294" xml:id="l294">a tu Camila y a mí.</l>
           </lg>
         </sp>
-        <sp xml:id="I-62" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-62">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l n="295" xml:id="l295">Hágase de Cintia el ruego,</l>
@@ -792,27 +801,29 @@
             <l n="297" xml:id="l297">su dulce conversación.</l>
           </lg>
         </sp>
-        <sp xml:id="I-63" who="FLORISCIO">
+        <sp who="FLORISCIO" xml:id="I-63">
           <speaker>FLORISCIO</speaker>
           <lg part="M">
             <l n="298" xml:id="l298">Acá dejo el corazón,</l>
-            <l n="299" xml:id="l299" part="I">pero voyme.</l>
+            <l n="299" part="I" xml:id="l299">pero voyme.</l>
           </lg>
         </sp>
-        <sp xml:id="I-64" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-64">
           <speaker>CINTIA</speaker>
           <lg part="M">
             <l part="M">Presto.</l>
           </lg>
         </sp>
-        <sp xml:id="I-65" who="SILVIO">
+        <sp who="SILVIO" xml:id="I-65">
           <speaker>SILVIO</speaker>
           <lg part="F">
             <l part="F">Vamos.</l>
           </lg>
-          <stage>Vanse y quedan las dos solas.<listPerson type="configuration"/></stage>
+          <stage>Vanse y quedan las dos solas.<listPerson type="configuration" xml:id="conf5">
+            <person corresp="#CAMILA"/>
+            <person corresp="#CINTIA"/></listPerson></stage>
         </sp>
-        <sp xml:id="I-66" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-66">
           <speaker>CINTIA</speaker>
           <lg>
             <l n="300" xml:id="l300">A trueco de verlos idos,</l>
@@ -821,7 +832,7 @@
             <l n="303" xml:id="l303">que vayan favorecidos.</l>
           </lg>
         </sp>
-        <sp xml:id="I-67" who="CAMILA">
+        <sp who="CAMILA" xml:id="I-67">
           <speaker>CAMILA</speaker>
           <lg>
             <l n="304" xml:id="l304">Allá vayan, y tú ahora</l>
@@ -830,7 +841,7 @@
             <l n="307" xml:id="l307">con su ingrata cazadora.</l>
           </lg>
         </sp>
-        <sp xml:id="I-68" who="CINTIA">
+        <sp who="CINTIA" xml:id="I-68">
           <speaker>CINTIA</speaker>
           <lg>
             <l n="308" xml:id="l308">Ayer te lo comencé</l>

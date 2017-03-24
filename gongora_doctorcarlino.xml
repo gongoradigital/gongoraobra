@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,8 +35,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <!-- aqui va enlace a presentacion -->
-        </bibl>
+          <!-- aqui va enlace a presentacion --> </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -80,10 +77,12 @@
           </castItem>
         </castList>
       </div>
-      <div xml:id="I" type="act">
+      <div type="act" xml:id="I">
         <head>ACTO PRIMERO</head>
-        <stage type="entrance">Entran Gerardo y el doctor Carlino.<listPerson type="configuration"/></stage>
-        <sp xml:id="I-1" who="DOCTOR">
+        <stage type="entrance">Entran Gerardo y el doctor Carlino.<listPerson type="configuration" xml:id="conf1">
+          <person corresp="#GERARDO"/>
+          <person corresp="#DOCTOR"/></listPerson></stage>
+        <sp who="DOCTOR" xml:id="I-1">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1" xml:id="l1">Gerardo, nuestros abuelos,</l>
@@ -114,7 +113,7 @@
             <l n="20" xml:id="l20">ningún colmillo de acero.</l>
           </lg>
         </sp>
-        <sp xml:id="I-2" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-2">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="21" xml:id="l21">Desde una roca un doctor</l>
@@ -173,13 +172,13 @@
             <l n="60" xml:id="l60">que está armando la ballesta?</l>
           </lg>
         </sp>
-        <sp xml:id="I-3" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-3">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="61" xml:id="l61">Gerardo, no te prometas</l>
-            <l n="62" xml:id="l62" part="I">de amigos</l>
+            <l n="62" part="I" xml:id="l62">de amigos</l>
           </lg>
-            <stage>Aparte</stage>
+          <stage>Aparte</stage>
           <lg part="F">
             <l part="F">(cual yo lo soy),</l>
             <l n="63" xml:id="l63">menos que estas dulces tretas,</l>
@@ -208,37 +207,37 @@
             <l n="80" xml:id="l80">pero el amigo se va.</l>
           </lg>
         </sp>
-        <sp xml:id="I-4" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-4">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="81" xml:id="l81">Luego ¿solo queréis que ande?</l>
           </lg>
         </sp>
-        <sp xml:id="I-5" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-5">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="82" xml:id="l82">¿Con quién andaréis mejor?</l>
           </lg>
         </sp>
-        <sp xml:id="I-6" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-6">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="83" xml:id="l83">Es melancolía muy grande.</l>
           </lg>
         </sp>
-        <sp xml:id="I-7" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-7">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="84" xml:id="l84">¿Y si os lo manda el Amor?</l>
           </lg>
         </sp>
-        <sp xml:id="I-8" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-8">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="85" xml:id="l85">Aunque el Amor me lo mande.</l>
           </lg>
         </sp>
-        <sp xml:id="I-9" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-9">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="86" xml:id="l86">Muchas tiene en la ciudad</l>
@@ -248,7 +247,7 @@
             <l n="90" xml:id="l90">entraos en la Soledad.</l>
           </lg>
         </sp>
-        <sp xml:id="I-10" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-10">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="91" xml:id="l91">Sigo vuestro parecer;</l>
@@ -258,13 +257,13 @@
             <l n="95" xml:id="l95">de sangre ellos lo han de ser.</l>
           </lg>
         </sp>
-        <sp xml:id="I-11" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-11">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="96" xml:id="l96">Gente es bien disciplinada.</l>
           </lg>
         </sp>
-        <sp xml:id="I-12" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-12">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="97" xml:id="l97">Doctor, no me digáis nada,</l>
@@ -278,7 +277,7 @@
             <l n="103" xml:id="l103">sin templar mi ardor jamás.</l>
           </lg>
         </sp>
-        <sp xml:id="I-13" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-13">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="104" xml:id="l104">Si ha cinco años, Gerardo,</l>
@@ -292,7 +291,7 @@
             <l n="110" xml:id="l110">que caros fueron los dos.</l>
           </lg>
         </sp>
-        <sp xml:id="I-14" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-14">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="111" xml:id="l111">Bien dijo que tordo es,</l>
@@ -316,7 +315,7 @@
             <l n="125" xml:id="l125">de sofísticas razones?</l>
           </lg>
         </sp>
-        <sp xml:id="I-15" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-15">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="126" xml:id="l126">Pues lo llevas de esa suerte,</l>
@@ -340,7 +339,7 @@
             <l n="140" xml:id="l140">y con escrúpulos mata.</l>
           </lg>
         </sp>
-        <sp xml:id="I-16" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-16">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="141" xml:id="l141">Bien está. Pero, a fe mía,</l>
@@ -360,26 +359,26 @@
             <l n="151" xml:id="l151">Acertada cosa fuera.</l>
           </lg>
         </sp>
-        <sp xml:id="I-17" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-17">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="152" xml:id="l152">¿Qué peor pudiera ser?</l>
           </lg>
         </sp>
-        <sp xml:id="I-18" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-18">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="153" xml:id="l153">Una puñalada fiera.</l>
           </lg>
         </sp>
-        <sp xml:id="I-19" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-19">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="154" xml:id="l154">¿Puñalada a una mujer?</l>
             <l n="155" xml:id="l155">¿Quién, Gerardo, se la diera?</l>
           </lg>
         </sp>
-        <sp xml:id="I-20" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-20">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="156" xml:id="l156">Yo, que a estas viejas barbudas</l>
@@ -387,7 +386,7 @@
             <l n="158" xml:id="l158">pusieran las manos mías.</l>
           </lg>
         </sp>
-        <sp xml:id="I-21" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-21">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="159" xml:id="l159">¿Quién te ha hecho Matatías,</l>
@@ -436,27 +435,27 @@
             <l n="190" xml:id="l190">Cornelio Tácito sea.</l>
           </lg>
         </sp>
-        <sp xml:id="I-22" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-22">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="191" xml:id="l191">¿Qué tenemos, pues, del raro</l>
             <l n="192" xml:id="l192">cuadro de nuestra Lucrecia?</l>
           </lg>
         </sp>
-        <sp xml:id="I-23" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-23">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="193" xml:id="l193">Que es casto menos que caro.</l>
           </lg>
         </sp>
-        <sp xml:id="I-24" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-24">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="194" xml:id="l194">¿En cuánto la hechura precia?,</l>
             <l n="195" xml:id="l195">que en ningún precio reparo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-25" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-25">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="196" xml:id="l196">Cien escudos de oro fino</l>
@@ -473,7 +472,7 @@
             <l n="205" xml:id="l205">y te ciñes la su espada.</l>
           </lg>
         </sp>
-        <sp xml:id="I-26" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-26">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="206" xml:id="l206">Trazas tienes, y modelos</l>
@@ -490,7 +489,7 @@
             <l n="215" xml:id="l215">como que pida la rica.</l>
           </lg>
         </sp>
-        <sp xml:id="I-27" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-27">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="216" xml:id="l216">En pedir tiene su proa</l>
@@ -514,7 +513,7 @@
             <l n="230" xml:id="l230">que diga, la paga en oro.</l>
           </lg>
         </sp>
-        <sp xml:id="I-28" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-28">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="231" xml:id="l231">Dices muy bien lo que pasa:</l>
@@ -535,7 +534,7 @@
             <l n="242" xml:id="l242">Cien años esté de un lado.</l>
           </lg>
         </sp>
-        <sp xml:id="I-29" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-29">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="243" xml:id="l243">Gerardo, quien a ofender</l>
@@ -546,20 +545,20 @@
             <l n="246" xml:id="l246">Venganza es, y no apetito.</l>
           </lg>
         </sp>
-        <sp xml:id="I-30" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-30">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="247" xml:id="l247">¿Quién a Casilda el maldito</l>
-            <l n="248" xml:id="l248" part="I">papel escribió?</l>
+            <l n="248" part="I" xml:id="l248">papel escribió?</l>
           </lg>
         </sp>
-        <sp xml:id="I-31" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-31">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Tancredo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-32" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-32">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="249" xml:id="l249">Pues a él en costas puedo</l>
@@ -580,20 +579,20 @@
             <l n="260" xml:id="l260">mejor si es del mismo paño.</l>
           </lg>
         </sp>
-        <sp xml:id="I-33" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-33">
           <speaker>DOCTOR</speaker>
           <lg part="I">
-            <l n="261" xml:id="l261" part="I">¿Cómo ha de ser?</l>
+            <l n="261" part="I" xml:id="l261">¿Cómo ha de ser?</l>
           </lg>
         </sp>
-        <sp xml:id="I-34" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-34">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l part="F">Bien está.</l>
             <l n="262" xml:id="l262">¿Qué tenemos de Leonora?</l>
           </lg>
         </sp>
-        <sp xml:id="I-35" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-35">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="263" xml:id="l263">Su nombre te lo dirá,</l>
@@ -622,37 +621,37 @@
             <l n="280" xml:id="l280">es más viejo que galán.</l>
           </lg>
         </sp>
-        <sp xml:id="I-36" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-36">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="281" xml:id="l281">¿Qué hay, pues, de ese casamiento?</l>
           </lg>
         </sp>
-        <sp xml:id="I-37" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-37">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="282" xml:id="l282">Que no lo rehúsa Enrico.</l>
           </lg>
         </sp>
-        <sp xml:id="I-38" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-38">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="283" xml:id="l283">¿Con un hombre de años ciento?</l>
           </lg>
         </sp>
-        <sp xml:id="I-39" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-39">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="284" xml:id="l284">Nunca tiene edad el rico.</l>
           </lg>
         </sp>
-        <sp xml:id="I-40" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-40">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="285" xml:id="l285">Siempre es pobre el avariento.</l>
           </lg>
         </sp>
-        <sp xml:id="I-41" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-41">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="286" xml:id="l286">Verdad es, y bien verdad,</l>
@@ -662,14 +661,14 @@
             <l n="290" xml:id="l290">le verifique la edad.</l>
           </lg>
         </sp>
-        <sp xml:id="I-42" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-42">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="291" xml:id="l291">¿Quién tendrá en los años cuenta,</l>
             <l n="292" xml:id="l292">que sabe engañar la tinta?</l>
           </lg>
         </sp>
-        <sp xml:id="I-43" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-43">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="293" xml:id="l293">Muy poco importa que mienta</l>
@@ -677,19 +676,19 @@
             <l n="295" xml:id="l295">a los que han hecho setenta.</l>
           </lg>
         </sp>
-        <sp xml:id="I-44" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-44">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="296" xml:id="l296">¿Qué respondió al fin Leonora?</l>
           </lg>
         </sp>
-        <sp xml:id="I-45" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-45">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="297" xml:id="l297">Que esta noche tendrás hora.</l>
           </lg>
         </sp>
-        <sp xml:id="I-46" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-46">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="298" xml:id="l298">Y si yo hiciese ya</l>
@@ -697,62 +696,62 @@
             <l n="300" xml:id="l300">¿gritaría la señora?</l>
           </lg>
         </sp>
-        <sp xml:id="I-47" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-47">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="301" xml:id="l301">¿Y el ídolo soberano,</l>
             <l n="302" xml:id="l302">de beldad imagen rara,</l>
-            <l n="303" xml:id="l303" part="I">Casilda?</l>
+            <l n="303" part="I" xml:id="l303">Casilda?</l>
           </lg>
         </sp>
-        <sp xml:id="I-48" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-48">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l part="F">Doyla de mano.</l>
           </lg>
         </sp>
-        <sp xml:id="I-49" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-49">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="304" xml:id="l304">Soplado me has en la cara</l>
             <l n="305" xml:id="l305">en la mitad del verano.</l>
           </lg>
         </sp>
-        <sp xml:id="I-50" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-50">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="306" xml:id="l306">Su nombre ya con su fama</l>
-            <l n="307" xml:id="l307" part="I">escupo.</l>
+            <l n="307" part="I" xml:id="l307">escupo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-51" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-51">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">¿No es ya tu dama</l>
-            <l n="308" xml:id="l308" part="I">madona?</l>
+            <l n="308" part="I" xml:id="l308">madona?</l>
           </lg>
         </sp>
-        <sp xml:id="I-52" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-52">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l part="F">Leonora viva.</l>
           </lg>
         </sp>
-        <sp xml:id="I-53" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-53">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="309" xml:id="l309">Arrójome a tu saliva</l>
             <l n="310" xml:id="l310">como a los baños de Alhama.</l>
           </lg>
         </sp>
-        <sp xml:id="I-54" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-54">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="311" xml:id="l311">¿Tanto de esta novedad,</l>
             <l n="312" xml:id="l312">Carlino amigo, te huelgas?</l>
           </lg>
         </sp>
-        <sp xml:id="I-55" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-55">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="313" xml:id="l313">Celébrala mi amistad,</l>
@@ -767,14 +766,14 @@
             <l n="320" xml:id="l320">su altar ilustrará un cirio.</l>
           </lg>
         </sp>
-        <sp xml:id="I-56" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-56">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="321" xml:id="l321">Agradézcote esa cera,</l>
             <l n="322" xml:id="l322">ofrenda, al fin, de tu celo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-57" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-57">
           <speaker>DOCTOR</speaker>
           <stage>Aparte</stage>
           <lg part="F">
@@ -783,10 +782,10 @@
             <l n="325" xml:id="l325">que a tu devoción ardiera.</l>
           </lg>
           <lg part="I">
-            <l n="326" xml:id="l326" part="I">Adoro tu sombra.</l>
+            <l n="326" part="I" xml:id="l326">Adoro tu sombra.</l>
           </lg>
         </sp>
-        <sp xml:id="I-58" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-58">
           <speaker>GERARDO</speaker>
           <l part="F">Baste</l>
           <lg part="M">
@@ -794,14 +793,14 @@
             <l n="328" xml:id="l328">sin desperdiciar mis años.</l>
           </lg>
         </sp>
-        <sp xml:id="I-59" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-59">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="329" xml:id="l329">Llegado han ya tus engaños</l>
             <l n="330" xml:id="l330">a la tienda del contraste.</l>
           </lg>
         </sp>
-        <sp xml:id="I-60" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-60">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="331" xml:id="l331">Si acaso noticia tienes,</l>
@@ -825,7 +824,7 @@
             <l n="345" xml:id="l345">todas se han ido volando.</l>
           </lg>
         </sp>
-        <sp xml:id="I-61" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-61">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="346" xml:id="l346">¿Con quién batieron sus alas</l>
@@ -833,7 +832,7 @@
             <l n="348" xml:id="l348">a las aves de Fineo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-62" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-62">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="349" xml:id="l349">Por Dios, que aun esas no creo</l>
@@ -847,38 +846,40 @@
             <l n="355" xml:id="l355">capirote de baldrés.</l>
           </lg>
         </sp>
-        <sp xml:id="I-63" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-63">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="356" xml:id="l356">¿No añades a esas desgracias</l>
             <l n="357" xml:id="l357">los embustes y falacias?...</l>
           </lg>
         </sp>
-        <sp xml:id="I-64" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-64">
           <speaker>GERARDO</speaker>
           <lg part="M">
-            <l n="358" xml:id="l358" part="I">¿De quién?</l>
+            <l n="358" part="I" xml:id="l358">¿De quién?</l>
           </lg>
         </sp>
-        <sp xml:id="I-65" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-65">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">De aquella mozuela,</l>
             <l n="359" xml:id="l359">cuya casa era vihuela</l>
-            <l n="360" xml:id="l360" part="I">de seis órdenes.</l>
+            <l n="360" part="I" xml:id="l360">de seis órdenes.</l>
           </lg>
         </sp>
-        <sp xml:id="I-66" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-66">
           <speaker>GERARDO</speaker>
           <lg part="F">
-            <l part="F"><hi rend="i">Deo gratias,</hi></l>
+            <l part="F">
+              <hi rend="i">Deo gratias,</hi>
+            </l>
           </lg>
           <lg part="I">
             <l n="361" xml:id="l361">el fin ya de esa derrota</l>
             <l n="362" xml:id="l362">un matrimonio ha de ser.</l>
           </lg>
         </sp>
-        <sp xml:id="I-67" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-67">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="363" xml:id="l363">De cierto ladrón se nota</l>
@@ -886,20 +887,20 @@
             <l n="365" xml:id="l365">debajo de la picota.</l>
           </lg>
         </sp>
-        <sp xml:id="I-68" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-68">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="366" xml:id="l366">Quédese esto aquí, que voy.</l>
           </lg>
         </sp>
-        <sp xml:id="I-69" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-69">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="367" xml:id="l367">O yo Carlino no soy,</l>
             <l n="368" xml:id="l368">o a buscar vas a Tancredo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-70" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-70">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="369" xml:id="l369">Es verdad, porque si hoy puedo,</l>
@@ -910,20 +911,20 @@
             <l n="372" xml:id="l372">que te ha enviado a llamar.</l>
           </lg>
         </sp>
-        <sp xml:id="I-71" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-71">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="373" xml:id="l373">¿Hala asombrado algún bu?</l>
           </lg>
         </sp>
-        <sp xml:id="I-72" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-72">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="374" xml:id="l374">Yo, entretanto, iré a buscar</l>
             <l n="375" xml:id="l375">cien vecinos del Perú.</l>
           </lg>
         </sp>
-        <sp xml:id="I-73" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-73">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="376" xml:id="l376">Como tú la boca le abras,</l>
@@ -931,28 +932,28 @@
             <l n="378" xml:id="l378">mil te dará, yo lo fío.</l>
           </lg>
         </sp>
-        <sp xml:id="I-74" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-74">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="379" xml:id="l379">Voyme, y si acá te lo envío,</l>
             <l n="380" xml:id="l380">entreténmelo en palabras.</l>
           </lg>
         </sp>
-        <sp xml:id="I-75" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-75">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="381" xml:id="l381">¿Tomará traídos balajes</l>
             <l n="382" xml:id="l382">esa garduña señora?</l>
           </lg>
         </sp>
-        <sp xml:id="I-76" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-76">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="383" xml:id="l383">Tomara que estos ultrajes</l>
-            <l n="384" xml:id="l384" part="I">no sepa Casilda.</l>
+            <l n="384" part="I" xml:id="l384">no sepa Casilda.</l>
           </lg>
         </sp>
-        <sp xml:id="I-77" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-77">
           <speaker>DOCTOR</speaker>
           <stage>Aparte.</stage>
           <lg part="F">
@@ -960,13 +961,13 @@
             <l n="385" xml:id="l385">lo veredes, dijo Agrajes.</l>
           </lg>
         </sp>
-        <sp xml:id="I-78" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-78">
           <speaker>GERARDO</speaker>
           <lg part="I">
-            <l n="386" xml:id="l386" part="I">Amigo, ¿qué dices?</l>
+            <l n="386" part="I" xml:id="l386">Amigo, ¿qué dices?</l>
           </lg>
         </sp>
-        <sp xml:id="I-79" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-79">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Digo</l>
@@ -974,19 +975,19 @@
             <l n="388" xml:id="l388">quien de mí eso se promete.</l>
           </lg>
         </sp>
-        <sp xml:id="I-80" who="GERARDO">
+        <sp who="GERARDO" xml:id="I-80">
           <speaker>GERARDO</speaker>
           <lg part="M">
-            <l n="389" xml:id="l389" part="I">Quédate, y perdona.</l>
+            <l n="389" part="I" xml:id="l389">Quédate, y perdona.</l>
           </lg>
         </sp>
-        <sp xml:id="I-81" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-81">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Vete,</l>
             <l n="390" xml:id="l390">que yo me quedo conmigo.</l>
           </lg>
-          <stage>Vase Gerardo.<listPerson type="configuration"/></stage>
+          <stage>Vase Gerardo.<listPerson type="configuration" xml:id="conf2"/></stage>
           <lg>
             <l n="391" xml:id="l391">Profunda ciencia de valor divino</l>
             <l n="392" xml:id="l392">de Apolo nieta y de Esculapio hija,</l>
@@ -1122,20 +1123,22 @@
             <l n="520" xml:id="l520">la causa de mi inquietud.</l>
           </lg>
         </sp>
-        <stage>Entra Casilda.<listPerson type="configuration"/></stage>
-        <sp xml:id="I-82" who="CASILDA">
+        <stage>Entra Casilda.<listPerson type="configuration" xml:id="conf3">
+          <person corresp="#DOCTOR"/>
+          <person corresp="#CASILDA"/></listPerson></stage>
+        <sp who="CASILDA" xml:id="I-82">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="521" xml:id="l521">¿A dónde bueno, doctor?</l>
           </lg>
         </sp>
-        <sp xml:id="I-83" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-83">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="522" xml:id="l522">A veros, dulce Casilda.</l>
           </lg>
         </sp>
-        <sp xml:id="I-84" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-84">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="523" xml:id="l523">Ya que la mentís, mentilda</l>
@@ -1155,7 +1158,7 @@
           </lg>
         </sp>
         <stage>Cúbrese el rostro</stage>
-        <sp xml:id="I-85" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-85">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="533" xml:id="l533">Desvía la mano aleve,</l>
@@ -1170,14 +1173,14 @@
             <l n="540" xml:id="l540">sin que escondas lo que está.</l>
           </lg>
         </sp>
-        <sp xml:id="I-86" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-86">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="541" xml:id="l541">¡Graciosa incredulidad!</l>
             <l n="542" xml:id="l542">¿Qué escondo yo, ni qué ausento?</l>
           </lg>
         </sp>
-        <sp xml:id="I-87" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-87">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="543" xml:id="l543">La memoria, el pensamiento,</l>
@@ -1190,7 +1193,7 @@
             <l n="548" xml:id="l548">de esto invisible que digo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-88" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-88">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="549" xml:id="l549">No poco, a fe, me alborota</l>
@@ -1229,7 +1232,7 @@
             <l n="572" xml:id="l572">la quiere ahora acerar.</l>
           </lg>
         </sp>
-        <sp xml:id="I-89" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-89">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="573" xml:id="l573">Casilda, al diamante bello</l>
@@ -1253,13 +1256,13 @@
             <l n="585" xml:id="l585">Hablemos de lo que importa.</l>
           </lg>
         </sp>
-        <sp xml:id="I-90" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-90">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l n="586" xml:id="l586">Anda Gerardo hecho un Marte.</l>
           </lg>
         </sp>
-        <sp xml:id="I-91" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-91">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="587" xml:id="l587">De un cuarto de hora a esta parte</l>
@@ -1272,13 +1275,13 @@
             <l n="592" xml:id="l592">que ahora sacando está.</l>
           </lg>
         </sp>
-        <sp xml:id="I-92" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-92">
           <speaker>CASILDA</speaker>
           <lg part="I">
-            <l n="593" xml:id="l593" part="I">¿Por qué, di?</l>
+            <l n="593" part="I" xml:id="l593">¿Por qué, di?</l>
           </lg>
         </sp>
-        <sp xml:id="I-93" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-93">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Porque a un doctor</l>
@@ -1299,7 +1302,7 @@
             <l n="604" xml:id="l604">para dar a la señora.</l>
           </lg>
         </sp>
-        <sp xml:id="I-94" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-94">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="605" xml:id="l605">¿De suerte, amigo, que dices</l>
@@ -1308,31 +1311,31 @@
             <l n="608" xml:id="l608">de su brazo las narices?</l>
           </lg>
         </sp>
-        <sp xml:id="I-95" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-95">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="609" xml:id="l609">Eso es mismísimamente.</l>
           </lg>
         </sp>
-        <sp xml:id="I-96" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-96">
           <speaker>CASILDA</speaker>
           <lg part="M">
-            <l n="610" xml:id="l610" part="I">¿A Tancredo?</l>
+            <l n="610" part="I" xml:id="l610">¿A Tancredo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-97" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-97">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">A su mercé.</l>
           </lg>
         </sp>
-        <sp xml:id="I-98" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-98">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l n="611" xml:id="l611">¡Excelente cosa, a fe!</l>
           </lg>
         </sp>
-        <sp xml:id="I-99" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-99">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="612" xml:id="l612">Pero no muy excelente,</l>
@@ -1350,45 +1353,50 @@
             <l n="620" xml:id="l620">la otra cuando se paga.</l>
           </lg>
         </sp>
-        <sp xml:id="I-100" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-100">
           <speaker>CASILDA</speaker>
           <lg part="I">
-            <l n="621" xml:id="l621" xml:lang="it" part="I" rend="i">¿Cento scuti?</l>
+            <l n="621" part="I" rend="i" xml:id="l621" xml:lang="it">¿Cento scuti?</l>
           </lg>
         </sp>
-        <sp xml:id="I-101" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-101">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l part="F"><hi rend="i">Di oro in oro.</hi>
+            <l part="F">
+              <hi rend="i">Di oro in oro.</hi>
             </l>
           </lg>
         </sp>
-        <sp xml:id="I-102" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-102">
           <speaker>CASILDA</speaker>
           <lg part="M">
-            <l n="622" xml:id="l622" part="I"><hi rend="i">Cancaro.</hi></l>
+            <l n="622" part="I" xml:id="l622">
+              <hi rend="i">Cancaro.</hi>
+            </l>
           </lg>
         </sp>
-        <sp xml:id="I-103" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-103">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l part="F"><hi rend="i">Cazzo, madona.</hi></l>
+            <l part="F">
+              <hi rend="i">Cazzo, madona.</hi>
+            </l>
           </lg>
         </sp>
-        <sp xml:id="I-104" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-104">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="623" xml:id="l623">Galantísima persona</l>
             <l n="624" xml:id="l624">habrá andado con el toro.</l>
           </lg>
         </sp>
-        <sp xml:id="I-105" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-105">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="625" xml:id="l625">Parece que huelgas de ello.</l>
           </lg>
         </sp>
-        <sp xml:id="I-106" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-106">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="626" xml:id="l626">Parece que no me pesa,</l>
@@ -1396,7 +1404,7 @@
             <l n="628" xml:id="l628">a sacudillo del cuello.</l>
           </lg>
         </sp>
-        <sp xml:id="I-107" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-107">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="629" xml:id="l629">Pues luego esta noche quiere</l>
@@ -1405,19 +1413,19 @@
             <l n="632" xml:id="l632">la madama por quien muere.</l>
           </lg>
         </sp>
-        <sp xml:id="I-108" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-108">
           <speaker>CASILDA</speaker>
           <lg part="I">
-            <l n="633" xml:id="l633" part="I">¿Es Leonora?</l>
+            <l n="633" part="I" xml:id="l633">¿Es Leonora?</l>
           </lg>
         </sp>
-        <sp xml:id="I-109" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-109">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">La repropia.</l>
           </lg>
         </sp>
-        <sp xml:id="I-110" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-110">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="634" xml:id="l634">No hay que pedille perdón,</l>
@@ -1425,33 +1433,33 @@
             <l n="636" xml:id="l636">blanco y rubio en Etïopia.</l>
           </lg>
         </sp>
-        <sp xml:id="I-111" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-111">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="637" xml:id="l637">No tienes razón, que es</l>
-            <l n="638" xml:id="l638" part="I">discreta.</l>
+            <l n="638" part="I" xml:id="l638">discreta.</l>
           </lg>
         </sp>
-        <sp xml:id="I-112" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-112">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Como tu mula.</l>
           </lg>
         </sp>
-        <sp xml:id="I-113" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-113">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="639" xml:id="l639">Eso poco la atribula,</l>
             <l n="640" xml:id="l640">porque yo ando en mis pies.</l>
           </lg>
         </sp>
-        <sp xml:id="I-114" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-114">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="641" xml:id="l641">Yo haré que mula te den.</l>
           </lg>
         </sp>
-        <sp xml:id="I-115" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-115">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="642" xml:id="l642">No será en este lugar,</l>
@@ -1459,7 +1467,7 @@
             <l n="644" xml:id="l644">en ningún lugar más bien.</l>
           </lg>
         </sp>
-        <sp xml:id="I-116" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-116">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="645" xml:id="l645">Si eres mi esposo esta noche,</l>
@@ -1468,7 +1476,7 @@
             <l n="648" xml:id="l648">y a doña Casilda en coche.</l>
           </lg>
         </sp>
-        <sp xml:id="I-117" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-117">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="649" xml:id="l649">¡Oh qué donaire! ¡Oh qué historia</l>
@@ -1477,13 +1485,13 @@
             <l n="652" xml:id="l652">cuando no es en pepitoria!</l>
           </lg>
         </sp>
-        <sp xml:id="I-118" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-118">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="653" xml:id="l653">No entiendo eso cómo es.</l>
           </lg>
         </sp>
-        <sp xml:id="I-119" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-119">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="654" xml:id="l654">Yo sí, y tú lo entenderás,</l>
@@ -1520,7 +1528,7 @@
             <l n="675" xml:id="l675">¿qué mula he de tener yo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-120" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-120">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="676" xml:id="l676">¿Qué mula? Yo lo diré:</l>
@@ -1532,7 +1540,7 @@
             <l n="680" xml:id="l680">por la que te ha dado ahora.</l>
           </lg>
         </sp>
-        <sp xml:id="I-121" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-121">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="681" xml:id="l681">Pues ¿no me ha de amohinar</l>
@@ -1583,10 +1591,10 @@
             <l n="712" xml:id="l712">del señor doctor Fulano.</l>
           </lg>
           <lg part="I">
-            <l n="713" xml:id="l713" part="I">Eso no, amiga.</l>
+            <l n="713" part="I" xml:id="l713">Eso no, amiga.</l>
           </lg>
         </sp>
-        <sp xml:id="I-122" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-122">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l part="F">Eso sí,</l>
@@ -1607,19 +1615,19 @@
             <l n="724" xml:id="l724">sea Carmelo o lienzo sea.</l>
           </lg>
         </sp>
-        <sp xml:id="I-123" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-123">
           <speaker>DOCTOR</speaker>
           <lg part="I">
-            <l n="725" xml:id="l725" part="I">Doña Casilda.</l>
+            <l n="725" part="I" xml:id="l725">Doña Casilda.</l>
           </lg>
         </sp>
-        <sp xml:id="I-124" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-124">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Doctor.</l>
           </lg>
         </sp>
-        <sp xml:id="I-125" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-125">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="726" xml:id="l726">Aún no estamos desposados</l>
@@ -1627,7 +1635,7 @@
             <l n="728" xml:id="l728">Consideradlo mejor.</l>
           </lg>
         </sp>
-        <sp xml:id="I-126" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-126">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="729" xml:id="l729">Antes que llegue a ser novia</l>
@@ -1642,7 +1650,7 @@
             <l n="736" xml:id="l736">a nieve de la Fuenfrida.</l>
           </lg>
         </sp>
-        <sp xml:id="I-127" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-127">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="737" xml:id="l737">¿Que determinas, al fin,</l>
@@ -1654,14 +1662,14 @@
             <l n="741" xml:id="l741">¡Oh vanidad de mujer!</l>
           </lg>
         </sp>
-        <sp xml:id="I-128" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-128">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l n="742" xml:id="l742">Maridico de futuro,</l>
             <l n="743" xml:id="l743">escudero quiero puro.</l>
           </lg>
         </sp>
-        <sp xml:id="I-129" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-129">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="744" xml:id="l744">Pues aguado ¿puede ser,</l>
@@ -1670,92 +1678,91 @@
             <l n="745" xml:id="l745">si no se busca despacio?</l>
           </lg>
         </sp>
-        <sp xml:id="I-130" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-130">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l n="746" xml:id="l746">Ñuflos y reñuflos chero.</l>
           </lg>
         </sp>
-        <sp xml:id="I-131" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-131">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="747" xml:id="l747" part="I">¿Cuántos, niña?</l>
+            <l n="747" part="I" xml:id="l747">¿Cuántos, niña?</l>
           </lg>
         </sp>
-        <sp xml:id="I-132" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-132">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Un escudero.</l>
           </lg>
         </sp>
-        <sp xml:id="I-133" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-133">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="748" xml:id="l748" part="I">Lo concedo.</l>
+            <l n="748" part="I" xml:id="l748">Lo concedo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-134" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-134">
           <speaker>CASILDA</speaker>
           <lg part="F">
-            <l part="F" xml:lang="it" rend="i">Vi ringrazio.</l>
+            <l part="F" rend="i" xml:lang="it">Vi ringrazio.</l>
           </lg>
           <lg>
             <l n="749" xml:id="l749">Nunca tratara mi hermana</l>
             <l n="750" xml:id="l750">con el figón que trató</l>
             <l n="751" xml:id="l751">porque no aprendiera yo</l>
-            <l n="752" xml:id="l752" xml:lang="it" rend="i">qualche parola toscana.</l>
+            <l n="752" rend="i" xml:id="l752" xml:lang="it">qualche parola toscana.</l>
           </lg>
         </sp>
-        <sp xml:id="I-135" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-135">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="753" xml:id="l753">Todo se admite en palacio,</l>
-            <l n="754" xml:id="l754" part="I">Casilda.</l>
+            <l n="754" part="I" xml:id="l754">Casilda.</l>
           </lg>
         </sp>
-        <sp xml:id="I-136" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-136">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Luego, ¿decís</l>
             <l n="755" xml:id="l755">que con buen gusto me oís?</l>
           </lg>
         </sp>
-        <sp xml:id="I-137" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-137">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="756" xml:id="l756" part="I" xml:lang="it" rend="i">Volentieri.</l>
+            <l n="756" part="I" rend="i" xml:id="l756" xml:lang="it">Volentieri.</l>
           </lg>
         </sp>
-        <sp xml:id="I-138" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-138">
           <speaker>CASILDA</speaker>
           <lg part="F">
-            <l part="F" xml:lang="it" rend="i">Vi ringrazio.
-            </l>
+            <l part="F" rend="i" xml:lang="it">Vi ringrazio. </l>
           </lg>
           <lg part="I">
             <l n="757" xml:id="l757">Solo resta que me des</l>
-            <l n="758" xml:id="l758" part="I">palabra.</l>
+            <l n="758" part="I" xml:id="l758">palabra.</l>
           </lg>
         </sp>
-        <sp xml:id="I-139" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-139">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">¿De qué, señora?</l>
           </lg>
         </sp>
-        <sp xml:id="I-140" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-140">
           <speaker>CASILDA</speaker>
           <lg part="M">
-            <l n="759" xml:id="l759" part="I">De comprar.</l>
+            <l n="759" part="I" xml:id="l759">De comprar.</l>
           </lg>
         </sp>
-        <sp xml:id="I-141" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-141">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="M">¿Qué?</l>
           </lg>
         </sp>
-        <sp xml:id="I-142" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-142">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l part="F">Una andadora</l>
@@ -1774,59 +1781,62 @@
             <l n="768" xml:id="l768">y en la pretina la azada».</l>
           </lg>
         </sp>
-        <sp xml:id="I-143" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-143">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="769" xml:id="l769">¿Pullitas, Casilda, a mí?</l>
             <l n="770" xml:id="l770">No quiero mula que escriba.</l>
           </lg>
         </sp>
-        <sp xml:id="I-144" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-144">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="771" xml:id="l771">Sí, doctor, así yo viva,</l>
             <l n="772" xml:id="l772">o me desmayaré aquí.</l>
           </lg>
         </sp>
-        <sp xml:id="I-145" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-145">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="773" xml:id="l773">No haréis tal, por san Acacio,</l>
-            <l n="774" xml:id="l774" part="I">que me iré antes.</l>
+            <l n="774" part="I" xml:id="l774">que me iré antes.</l>
           </lg>
         </sp>
-        <sp xml:id="I-146" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-146">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Ya me fino.</l>
             <l n="775" xml:id="l775">Mula, amor; mula, Carlino.</l>
           </lg>
         </sp>
-        <sp xml:id="I-147" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-147">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="776" xml:id="l776" part="I" xml:lang="it" rend="i">La comprerò.</l>
+            <l n="776" part="I" rend="i" xml:id="l776" xml:lang="it">La comprerò.</l>
           </lg>
         </sp>
-        <sp xml:id="I-148" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-148">
           <speaker>CASILDA</speaker>
           <lg part="F">
-            <l part="F" xml:lang="it" rend="i">Vi ringrazio.</l>
+            <l part="F" rend="i" xml:lang="it">Vi ringrazio.</l>
           </lg>
-          <stage>Entra Tancredo.<listPerson type="configuration"/></stage>
+          <stage>Entra Tancredo.<listPerson type="configuration" xml:id="conf4">
+            <person corresp="#DOCTOR"/>
+            <person corresp="#TANCREDO"/>
+            <person corresp="#CASILDA"/></listPerson></stage>
           <lg part="I">
             <l n="777" xml:id="l777">Señores míos, ¿qué voces</l>
             <l n="778" xml:id="l778">son estas? ¿Qué es lo que pasa?</l>
           </lg>
         </sp>
-        <sp xml:id="I-149" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-149">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="779" xml:id="l779">No ha entrado una mula en casa</l>
             <l n="780" xml:id="l780">y ya está tirando coces.</l>
           </lg>
         </sp>
-        <sp xml:id="I-150" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-150">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="781" xml:id="l781">De melindroso el doctor</l>
@@ -1865,7 +1875,7 @@
             <l n="804" xml:id="l804">y él de empachado la calla.</l>
           </lg>
         </sp>
-        <sp xml:id="I-151" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-151">
           <speaker>TANCREDO</speaker>
           <lg>
             <l n="805" xml:id="l805">Doctor, si una empresa honrada</l>
@@ -1884,37 +1894,37 @@
             <l n="814" xml:id="l814">el tenellos tan a punto.</l>
           </lg>
         </sp>
-        <sp xml:id="I-152" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-152">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="815" xml:id="l815">Que fueron estos, barrunto,</l>
             <l n="816" xml:id="l816">para otra cabalgadura.</l>
           </lg>
         </sp>
-        <sp xml:id="I-153" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-153">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="817" xml:id="l817" part="I">¿Compra algo?</l>
+            <l n="817" part="I" xml:id="l817">¿Compra algo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-154" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-154">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">No, sino paga</l>
             <l n="818" xml:id="l818">una yegua de un amigo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-155" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-155">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="819" xml:id="l819">Holgaré, Dios es testigo,</l>
             <l n="820" xml:id="l820">que della se satisfaga.</l>
           </lg>
           <lg part="I">
-            <l n="821" xml:id="l821" part="I">¿Es buena, si dicen?</l>
+            <l n="821" part="I" xml:id="l821">¿Es buena, si dicen?</l>
           </lg>
         </sp>
-        <sp xml:id="I-156" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-156">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Creo</l>
@@ -1922,13 +1932,13 @@
             <l n="823" xml:id="l823">porque tú has andado en ella.</l>
           </lg>
         </sp>
-        <sp xml:id="I-157" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-157">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="824" xml:id="l824">¿Es la yegua de Amadeo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-158" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-158">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="825" xml:id="l825">Sea la yegua que fuere,</l>
@@ -1949,7 +1959,7 @@
             <l n="836" xml:id="l836">sin subirlo a la cabeza.</l>
           </lg>
         </sp>
-        <sp xml:id="I-159" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-159">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="837" xml:id="l837">Oh qué humildades son esas,</l>
@@ -1964,7 +1974,7 @@
             <l n="844" xml:id="l844">y olvidadizo en pagar.</l>
           </lg>
         </sp>
-        <sp xml:id="I-160" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-160">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="845" xml:id="l845">No soy, puédolo decir</l>
@@ -1973,20 +1983,20 @@
             <l n="848" xml:id="l848">morirá por no pedir.</l>
           </lg>
         </sp>
-        <sp xml:id="I-161" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-161">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="849" xml:id="l849">Deja que los pida yo</l>
             <l n="850" xml:id="l850">a quien los pagaré presto.</l>
           </lg>
         </sp>
-        <sp xml:id="I-162" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-162">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l n="851" xml:id="l851">Muy bien, doctor, me está esto.</l>
           </lg>
         </sp>
-        <sp xml:id="I-163" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-163">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="852" xml:id="l852">Señor Tancredo: a mí, no.</l>
@@ -1998,7 +2008,7 @@
             <l n="856" xml:id="l856">para no dejarte hablar.</l>
           </lg>
         </sp>
-        <sp xml:id="I-164" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-164">
           <speaker>TANCREDO</speaker>
           <lg>
             <l n="857" xml:id="l857">Ya es mucho melindre ese;</l>
@@ -2013,7 +2023,7 @@
             <l n="864" xml:id="l864">si ello así estaba dispuesto.</l>
           </lg>
         </sp>
-        <sp xml:id="I-165" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-165">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="865" xml:id="l865">Por la borla de mi grado</l>
@@ -2028,26 +2038,26 @@
             <l n="872" xml:id="l872">mucho más tuya que mía.</l>
           </lg>
         </sp>
-        <sp xml:id="I-166" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-166">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="873" xml:id="l873" part="I">Voy, pues.</l>
+            <l n="873" part="I" xml:id="l873">Voy, pues.</l>
           </lg>
         </sp>
-        <sp xml:id="I-167" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-167">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="M">¿A dónde?</l>
           </lg>
         </sp>
-        <sp xml:id="I-168" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-168">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l part="F">A mi casa</l>
-            <l n="874" xml:id="l874" part="I">por los dineros.</l>
+            <l n="874" part="I" xml:id="l874">por los dineros.</l>
           </lg>
         </sp>
-        <sp xml:id="I-169" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-169">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Deténte,</l>
@@ -2064,7 +2074,7 @@
             <l n="881" xml:id="l881">Sacarásla de jüicio.</l>
           </lg>
         </sp>
-        <sp xml:id="I-170" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-170">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="882" xml:id="l882">¡Válgame Dios! ¿Y tan recia</l>
@@ -2075,50 +2085,50 @@
             <l n="885" xml:id="l885">Ocúpese la señora</l>
             <l n="886" xml:id="l886">en el bastidor que está,</l>
             <l n="887" xml:id="l887">sin que en más dibujos ya</l>
-            <l n="888" xml:id="l888" part="I">se meta.</l>
+            <l n="888" part="I" xml:id="l888">se meta.</l>
           </lg>
         </sp>
-        <sp xml:id="I-171" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-171">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l part="F">¡Es gran bordadora!</l>
           </lg>
         </sp>
-        <sp xml:id="I-172" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-172">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="889" xml:id="l889">Dinerillos este día</l>
             <l n="890" xml:id="l890">el bastidor le ha valido.</l>
           </lg>
         </sp>
-        <sp xml:id="I-173" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-173">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="891" xml:id="l891">Nunca yo, doctor, le pido</l>
             <l n="892" xml:id="l892">cuenta de su granjería.</l>
           </lg>
         </sp>
-        <sp xml:id="I-174" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-174">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="893" xml:id="l893">Yo apostaré que a esta hora</l>
             <l n="894" xml:id="l894">se ha dado algún agujazo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-175" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-175">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="895" xml:id="l895">Al menos, sin embarazo</l>
-            <l n="896" xml:id="l896" part="I">trabaja.</l>
+            <l n="896" part="I" xml:id="l896">trabaja.</l>
           </lg>
         </sp>
-        <sp xml:id="I-176" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-176">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l part="F">¡Es gran bordadora!</l>
           </lg>
         </sp>
-        <sp xml:id="I-177" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-177">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="897" xml:id="l897">A fe que te quiere bien</l>
@@ -2127,7 +2137,7 @@
             <l n="900" xml:id="l900">vencido huye el desdén.</l>
           </lg>
         </sp>
-        <sp xml:id="I-178" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-178">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="901" xml:id="l901">A fe que ha sido el doctor,</l>
@@ -2136,7 +2146,7 @@
             <l n="904" xml:id="l904">en las audiencias de Amor.</l>
           </lg>
         </sp>
-        <sp xml:id="I-179" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-179">
           <speaker>TANCREDO</speaker>
           <lg>
             <l n="905" xml:id="l905">Humilde y agradecido,</l>
@@ -2151,57 +2161,57 @@
             <l n="912" xml:id="l912">más que tiene el cielo estrellas.</l>
           </lg>
         </sp>
-        <sp xml:id="I-180" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-180">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="913" xml:id="l913">Dad, Casilda, a tal amante</l>
             <l n="914" xml:id="l914">señas de vuestra amistad.</l>
-            <l n="915" xml:id="l915" part="I">¿Tenéisle amor?</l>
+            <l n="915" part="I" xml:id="l915">¿Tenéisle amor?</l>
           </lg>
         </sp>
-        <sp xml:id="I-181" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-181">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Voluntad.</l>
           </lg>
         </sp>
-        <sp xml:id="I-182" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-182">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="916" xml:id="l916" part="I">¿Con firmeza?</l>
+            <l n="916" part="I" xml:id="l916">¿Con firmeza?</l>
           </lg>
         </sp>
-        <sp xml:id="I-183" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-183">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l part="F">De diamante.</l>
           </lg>
         </sp>
-        <sp xml:id="I-184" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-184">
           <speaker>DOCTOR</speaker>
           <lg part="I">
-            <l n="917" xml:id="l917" part="I">¿Qué ha de ser?</l>
+            <l n="917" part="I" xml:id="l917">¿Qué ha de ser?</l>
           </lg>
         </sp>
-        <sp xml:id="I-185" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-185">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Favorecido.</l>
           </lg>
         </sp>
-        <sp xml:id="I-186" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-186">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="918" xml:id="l918" part="I">¿Cuándo?</l>
+            <l n="918" part="I" xml:id="l918">¿Cuándo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-187" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-187">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Vos lo sabéis eso.</l>
           </lg>
         </sp>
-        <sp xml:id="I-188" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-188">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="919" xml:id="l919">A la una los pies beso</l>
@@ -2214,79 +2224,79 @@
             <l n="924" xml:id="l924">de este venturoso Adán.</l>
           </lg>
         </sp>
-        <sp xml:id="I-189" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-189">
           <speaker>DOCTOR</speaker>
           <lg part="I">
-            <l n="925" xml:id="l925" part="I">¿No habla muy bien?</l>
+            <l n="925" part="I" xml:id="l925">¿No habla muy bien?</l>
           </lg>
         </sp>
-        <sp xml:id="I-190" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-190">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Dulcemente.</l>
           </lg>
         </sp>
-        <sp xml:id="I-191" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-191">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="926" xml:id="l926" part="I">¿Persüade?</l>
+            <l n="926" part="I" xml:id="l926">¿Persüade?</l>
           </lg>
         </sp>
-        <sp xml:id="I-192" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-192">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Y aun obliga.</l>
           </lg>
         </sp>
-        <sp xml:id="I-193" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-193">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="927" xml:id="l927" part="I">¿Qué habéis de ser ya?</l>
+            <l n="927" part="I" xml:id="l927">¿Qué habéis de ser ya?</l>
           </lg>
         </sp>
-        <sp xml:id="I-194" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-194">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Su amiga.</l>
           </lg>
         </sp>
-        <sp xml:id="I-195" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-195">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="928" xml:id="l928" part="I">¿Inconstante?</l>
+            <l n="928" part="I" xml:id="l928">¿Inconstante?</l>
           </lg>
         </sp>
-        <sp xml:id="I-196" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-196">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l part="F">Consistente.</l>
           </lg>
         </sp>
-        <sp xml:id="I-197" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-197">
           <speaker>DOCTOR</speaker>
           <lg part="I">
-            <l n="929" xml:id="l929" part="I">¿Qué merece?</l>
+            <l n="929" part="I" xml:id="l929">¿Qué merece?</l>
           </lg>
         </sp>
-        <sp xml:id="I-198" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-198">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Ser querido.</l>
           </lg>
         </sp>
-        <sp xml:id="I-199" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-199">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="930" xml:id="l930" part="I">¿Con demasía?</l>
+            <l n="930" part="I" xml:id="l930">¿Con demasía?</l>
           </lg>
         </sp>
-        <sp xml:id="I-200" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-200">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">Con exceso.</l>
           </lg>
         </sp>
-        <sp xml:id="I-201" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-201">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="931" xml:id="l931">A la una los pies beso</l>
@@ -2297,19 +2307,19 @@
             <l n="934" xml:id="l934">a traer este dinero.</l>
           </lg>
         </sp>
-        <sp xml:id="I-202" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-202">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="935" xml:id="l935">De tu casa no lo quiero.</l>
           </lg>
         </sp>
-        <sp xml:id="I-203" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-203">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="936" xml:id="l936">No será, a fe de quien soy.</l>
           </lg>
         </sp>
-        <sp xml:id="I-204" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-204">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="937" xml:id="l937">Id por él, pues, y volved,</l>
@@ -2317,13 +2327,15 @@
             <l n="939" xml:id="l939">non fagades ende al,</l>
             <l n="940" xml:id="l940">so pena de mi merced.</l>
           </lg>
-          <stage>VaseTancredo.<listPerson type="configuration"/></stage>
+          <stage>VaseTancredo.<listPerson type="configuration" xml:id="conf5">
+            <person corresp="#DOCTOR"/>
+            <person corresp="#CASILDA"/></listPerson></stage>
           <lg part="I">
             <l n="941" xml:id="l941">¿Qué tal ya la mula es,</l>
             <l n="942" xml:id="l942">doctorísimo señor?</l>
           </lg>
         </sp>
-        <sp xml:id="I-205" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-205">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="943" xml:id="l943">Casildísima, mejor</l>
@@ -2336,7 +2348,7 @@
             <l n="948" xml:id="l948">que es la mula como un oro.</l>
           </lg>
         </sp>
-        <sp xml:id="I-206" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-206">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="949" xml:id="l949">¡Qué socarrón tan crüel</l>
@@ -2345,7 +2357,7 @@
             <l n="952" xml:id="l952">treinta palmas y un laurel.</l>
           </lg>
         </sp>
-        <sp xml:id="I-207" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-207">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="953" xml:id="l953">¡Oh qué atractivo diapalma</l>
@@ -2354,7 +2366,7 @@
             <l n="956" xml:id="l956">cien laureles y una palma.</l>
           </lg>
         </sp>
-        <sp xml:id="I-208" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-208">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="957" xml:id="l957">Mirad con qué dos se toma,</l>
@@ -2363,7 +2375,7 @@
             <l n="960" xml:id="l960">al zancarrón de Mahoma.</l>
           </lg>
         </sp>
-        <sp xml:id="I-209" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-209">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="961" xml:id="l961">Muy bien has andado hoy:</l>
@@ -2376,14 +2388,14 @@
             <l n="966" xml:id="l966">que cité denantes yo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-210" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-210">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="967" xml:id="l967">Si es Enrico, ya pasó</l>
             <l n="968" xml:id="l968">con grande cadena de oro.</l>
           </lg>
         </sp>
-        <sp xml:id="I-211" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-211">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="969" xml:id="l969">Volverá a dejar, Enrico,</l>
@@ -2392,7 +2404,7 @@
             <l n="972" xml:id="l972">queso se le cae del pico.</l>
           </lg>
         </sp>
-        <sp xml:id="I-212" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-212">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="973" xml:id="l973">Bien fïarás de la zorra</l>
@@ -2401,7 +2413,7 @@
             <l n="976" xml:id="l976">cuanto ella en su alcance corra.</l>
           </lg>
         </sp>
-        <sp xml:id="I-213" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-213">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="977" xml:id="l977">O pídele a la tortuga</l>
@@ -2410,13 +2422,13 @@
             <l n="980" xml:id="l980">y acelerar nuestra fuga.</l>
           </lg>
         </sp>
-        <sp xml:id="I-214" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-214">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="981" xml:id="l981">¿Para cuándo la señalas?</l>
           </lg>
         </sp>
-        <sp xml:id="I-215" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-215">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="982" xml:id="l982">Para esta noche la guardo,</l>
@@ -2424,13 +2436,13 @@
             <l n="984" xml:id="l984">que es su prisión nuestras alas.</l>
           </lg>
         </sp>
-        <sp xml:id="I-216" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-216">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="985" xml:id="l985">¿Dónde, amigo, y de qué modo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-217" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-217">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="986" xml:id="l986">En cas de Enrico, señora.</l>
@@ -2444,13 +2456,13 @@
             <l n="992" xml:id="l992">la noche de su huida.</l>
           </lg>
         </sp>
-        <sp xml:id="I-218" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-218">
           <speaker>CASILDA</speaker>
           <lg part="I">
-            <l n="993" xml:id="l993" part="I">¿Cómo?</l>
+            <l n="993" part="I" xml:id="l993">¿Cómo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-219" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-219">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Pidiendo y llevando,</l>
@@ -2459,7 +2471,7 @@
             <l n="996" xml:id="l996">que nos sacarán volando.</l>
           </lg>
         </sp>
-        <sp xml:id="I-220" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-220">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="997" xml:id="l997">Hágase de esa manera.</l>
@@ -2505,7 +2517,7 @@
           </lg>
           <stage>Llora Casilda.</stage>
         </sp>
-        <sp xml:id="I-221" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-221">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1025" xml:id="l1025">¿Lloras, Casilda? Y yo lloro</l>
@@ -2513,23 +2525,26 @@
             <l n="1027" xml:id="l1027">Quiera Dios que no me obligues</l>
             <l n="1028" xml:id="l1028">a más por leyes de Toro.</l>
           </lg>
-          <stage>Hace que llora el doctor y entra Enrico.<listPerson type="configuration"/></stage>
+          <stage>Hace que llora el doctor y entra Enrico.<listPerson type="configuration" xml:id="conf6">
+            <person corresp="#DOCTOR"/>
+            <person corresp="#ENRICO"/>
+            <person corresp="#CASILDA"/></listPerson></stage>
         </sp>
-        <sp xml:id="I-222" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-222">
           <speaker>ENRICO</speaker>
           <lg part="I">
             <l n="1029" xml:id="l1029">¿Qué desgracia ha sucedido,</l>
             <l n="1030" xml:id="l1030">que tantas lágrimas cuesta?</l>
           </lg>
         </sp>
-        <sp xml:id="I-223" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-223">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="1031" xml:id="l1031">No es ya sino razón esta:</l>
             <l n="1032" xml:id="l1032">regar lo que se ha barrido.</l>
           </lg>
         </sp>
-        <sp xml:id="I-224" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-224">
           <speaker>ENRICO</speaker>
           <lg>
             <l n="1033" xml:id="l1033">Grandes señas son de enojos</l>
@@ -2538,7 +2553,7 @@
             <l n="1036" xml:id="l1036">que se abrevia en vuestros ojos.</l>
           </lg>
         </sp>
-        <sp xml:id="I-225" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-225">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1037" xml:id="l1037">Del diluvio sólo sé</l>
@@ -2553,13 +2568,13 @@
             <l n="1044" xml:id="l1044">plumas de oro, y pies de perlas.</l>
           </lg>
         </sp>
-        <sp xml:id="I-226" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-226">
           <speaker>ENRICO</speaker>
           <lg part="I">
-            <l n="1045" xml:id="l1045" part="I">No entiendo.</l>
+            <l n="1045" part="I" xml:id="l1045">No entiendo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-227" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-227">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Lesbina ayer</l>
@@ -2574,19 +2589,19 @@
             <l n="1052" xml:id="l1052">el arco en esa cadena.</l>
           </lg>
         </sp>
-        <sp xml:id="I-228" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-228">
           <speaker>CASILDA</speaker>
           <lg part="I">
-            <l n="1053" xml:id="l1053" part="I">Miente el doctor.</l>
+            <l n="1053" part="I" xml:id="l1053">Miente el doctor.</l>
           </lg>
         </sp>
-        <sp xml:id="I-229" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-229">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Es verdad.</l>
           </lg>
         </sp>
-        <sp xml:id="I-230" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-230">
           <speaker>ENRICO</speaker>
           <lg part="F">
             <l n="1054" xml:id="l1054">Si, dulce señora mía,</l>
@@ -2606,7 +2621,7 @@
             <l n="1064" xml:id="l1064">cuando alguna cosa den.<hi rend="i">d</hi></l>
           </lg>
         </sp>
-        <sp xml:id="I-231" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-231">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="1065" xml:id="l1065">Aunque era crïada nueva</l>
@@ -2621,7 +2636,7 @@
             <l n="1072" xml:id="l1072">por que no huyáis de mí.</l>
           </lg>
         </sp>
-        <sp xml:id="I-232" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-232">
           <speaker>DOCTOR</speaker>
           <stage>En secreto.</stage>
           <lg>
@@ -2644,7 +2659,7 @@
             <l n="1084" xml:id="l1084">no sé qué sueña su encia.</l>
           </lg>
         </sp>
-        <sp xml:id="I-233" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-233">
           <speaker>ENRICO</speaker>
           <lg>
             <l n="1085" xml:id="l1085">Basta que el ofrecimiento,</l>
@@ -2653,7 +2668,7 @@
             <l n="1088" xml:id="l1088">Casilda, de cumplimiento.</l>
           </lg>
         </sp>
-        <sp xml:id="I-234" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-234">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="1089" xml:id="l1089">Si basta un solo cabello</l>
@@ -2668,21 +2683,21 @@
             <l n="1096" xml:id="l1096">y amante no soy muy loca.</l>
           </lg>
         </sp>
-        <sp xml:id="I-235" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-235">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1097" xml:id="l1097">¡Qué cosa tan porfïada!</l>
             <l n="1098" xml:id="l1098">Dadme la cadena a mí.</l>
           </lg>
         </sp>
-        <sp xml:id="I-236" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-236">
           <speaker>ENRICO</speaker>
           <lg part="M">
             <l n="1099" xml:id="l1099">Doctor mío, veisla ahí.</l>
           </lg>
           <stage>Toma el doctor la cadena</stage>
         </sp>
-        <sp xml:id="I-237" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-237">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1100" xml:id="l1100">No hay cosa de oro pesada.</l>
@@ -2694,37 +2709,37 @@
             <l n="1104" xml:id="l1104">este metal indïano.</l>
           </lg>
           <lg part="I">
-            <l n="1105" xml:id="l1105" part="I">Toma.</l>
+            <l n="1105" part="I" xml:id="l1105">Toma.</l>
           </lg>
         </sp>
         <stage>Dale la cadena a Casilda.</stage>
-        <sp xml:id="I-238" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-238">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="M">¿Qué?</l>
           </lg>
         </sp>
-        <sp xml:id="I-239" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-239">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Desembaraza</l>
-            <l n="1106" xml:id="l1106" part="I">la mano.</l>
+            <l n="1106" part="I" xml:id="l1106">la mano.</l>
           </lg>
         </sp>
-        <sp xml:id="I-240" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-240">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l part="F">¡Oh, qué gran fatiga!</l>
           </lg>
         </sp>
-        <sp xml:id="I-241" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-241">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1107" xml:id="l1107">Chitón, que esta no es, amiga,</l>
             <l n="1108" xml:id="l1108">cadena, sino mordaza.</l>
           </lg>
         </sp>
-        <sp xml:id="I-242" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-242">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="1109" xml:id="l1109">¡Tal violencia! Dios, Lesbina,</l>
@@ -2733,7 +2748,7 @@
             <l n="1112" xml:id="l1112">y su reparo es mohína.</l>
           </lg>
         </sp>
-        <sp xml:id="I-243" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-243">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1113" xml:id="l1113">Por Dios que haces agravio</l>
@@ -2745,7 +2760,7 @@
             <l n="1117" xml:id="l1117">No lo conoces bien tú.</l>
           </lg>
         </sp>
-        <sp xml:id="I-244" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-244">
           <speaker>ENRICO</speaker>
           <lg part="F">
             <l n="1118" xml:id="l1118">Ojalá cada eslabón</l>
@@ -2760,7 +2775,7 @@
           </lg>
         </sp>
         <stage>Toma Casilda la cadena.</stage>
-        <sp xml:id="I-245" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-245">
           <speaker>CASILDA</speaker>
           <lg>
             <l n="1125" xml:id="l1125">Ojalá, Enrico gallardo,</l>
@@ -2799,7 +2814,7 @@
             <l n="1148" xml:id="l1148">cuando no pisen estrellas.</l>
           </lg>
         </sp>
-        <sp xml:id="I-246" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-246">
           <speaker>DOCTOR</speaker>
           <stage>Aparte.</stage>
           <lg>
@@ -2815,7 +2830,7 @@
             <l n="1156" xml:id="l1156">en la cola he de tener.</l>
           </lg>
         </sp>
-        <sp xml:id="I-247" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-247">
           <speaker>ENRICO</speaker>
           <lg>
             <l n="1157" xml:id="l1157">Dame el cristal de tus manos,</l>
@@ -2830,45 +2845,49 @@
             <l n="1164" xml:id="l1164">ponga debajo del pie.</l>
           </lg>
         </sp>
-        <sp xml:id="I-248" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-248">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1165" xml:id="l1165">Tancredo viene, señores:</l>
             <l n="1166" xml:id="l1166">hipocresía, mesura.</l>
           </lg>
         </sp>
-        <sp xml:id="I-249" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-249">
           <speaker>ENRICO</speaker>
           <lg part="M">
             <l n="1167" xml:id="l1167">¡Oh qué corta es mi ventura!</l>
           </lg>
         </sp>
-        <sp xml:id="I-250" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-250">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1168" xml:id="l1168">Ya llega a los corredores.</l>
           </lg>
         </sp>
-        <stage>Entra Tancredo.<listPerson type="configuration"/></stage>
-        <sp xml:id="I-251" who="TANCREDO">
+        <stage>Entra Tancredo.<listPerson type="configuration" xml:id="conf7">
+          <person corresp="#DOCTOR"/>
+          <person corresp="#TANCREDO"/>
+          <person corresp="#ENRICO"/>
+          <person corresp="#CASILDA"/></listPerson></stage>
+        <sp who="TANCREDO" xml:id="I-251">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1169" xml:id="l1169" part="I">¿Enrico?</l>
+            <l n="1169" part="I" xml:id="l1169">¿Enrico?</l>
           </lg>
         </sp>
-        <sp xml:id="I-252" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-252">
           <speaker>ENRICO</speaker>
           <lg part="M">
             <l part="M">¿Tancredo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-253" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-253">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l part="F">¿Acá?</l>
           </lg>
         </sp>
-        <sp xml:id="I-254" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-254">
           <speaker>ENRICO</speaker>
           <lg part="F">
             <l n="1170" xml:id="l1170">Vengo a buscar al doctor,</l>
@@ -2876,45 +2895,45 @@
             <l n="1172" xml:id="l1172">mi hermana Leonora está.</l>
           </lg>
         </sp>
-        <sp xml:id="I-255" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-255">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="1173" xml:id="l1173">Gran pena me ha dado Enrico</l>
             <l n="1174" xml:id="l1174">con el dolor de su hermana.</l>
           </lg>
         </sp>
-        <sp xml:id="I-256" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-256">
           <speaker>TANCREDO</speaker>
           <lg part="M">
-            <l n="1175" xml:id="l1175" part="I">La causa ¿es grave?</l>
+            <l n="1175" part="I" xml:id="l1175">La causa ¿es grave?</l>
           </lg>
         </sp>
-        <sp xml:id="I-257" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-257">
           <speaker>ENRICO</speaker>
           <lg part="M">
             <l part="F">Liviana.</l>
           </lg>
         </sp>
-        <sp xml:id="I-258" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-258">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1176" xml:id="l1176">Y yo que lo certifico.</l>
           </lg>
         </sp>
         <stage>Hablan a coros, en secreto Tancredo con el doctor a una parte, y a otra Casilda con Enrico</stage>
-        <sp xml:id="I-259" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-259">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1177" xml:id="l1177" part="I">Doctor.</l>
+            <l n="1177" part="I" xml:id="l1177">Doctor.</l>
           </lg>
         </sp>
-        <sp xml:id="I-260" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-260">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Amigo, hablad quedo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-261" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-261">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="1178" xml:id="l1178">Mi gusto, Enrique, os ordena</l>
@@ -2922,13 +2941,13 @@
             <l n="1180" xml:id="l1180">no sepa nada Tancredo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-262" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-262">
           <speaker>ENRICO</speaker>
           <lg part="I">
             <l n="1181" xml:id="l1181">Casilda, harélo así.</l>
           </lg>
         </sp>
-        <sp xml:id="I-263" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-263">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l n="1182" xml:id="l1182">Muy bien está. Basta que</l>
@@ -2942,76 +2961,76 @@
             <l n="1188" xml:id="l1188">donde fenece después,</l>
           </lg>
           <lg part="I">
-            <l n="1189" xml:id="l1189" part="I">simplicísima.</l>
+            <l n="1189" part="I" xml:id="l1189">simplicísima.</l>
           </lg>
         </sp>
-        <sp xml:id="I-264" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-264">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Eso no.</l>
           </lg>
         </sp>
-        <sp xml:id="I-265" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-265">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l n="1190" xml:id="l1190">Doblones son, en verdad.</l>
           </lg>
         </sp>
-        <sp xml:id="I-266" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-266">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1191" xml:id="l1191">A Casilda se los dad,</l>
             <l n="1192" xml:id="l1192">pues Casilda los pidió.</l>
           </lg>
         </sp>
-        <sp xml:id="I-267" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-267">
           <speaker>CASILDA</speaker>
           <lg part="I">
             <l n="1193" xml:id="l1193">Enrico, el doctor ahora</l>
             <l n="1194" xml:id="l1194">dirá el modo que ha de haber</l>
             <l n="1195" xml:id="l1195">para volveros a ver</l>
-            <l n="1196" xml:id="l1196" part="I">solo esta noche.</l>
+            <l n="1196" part="I" xml:id="l1196">solo esta noche.</l>
           </lg>
         </sp>
-        <sp xml:id="I-268" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-268">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l part="F">Señora.</l>
           </lg>
         </sp>
-        <sp xml:id="I-269" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-269">
           <speaker>ENRICO</speaker>
           <lg part="I">
-            <l n="1197" xml:id="l1197" part="I">¡Oh gloria mía!</l>
+            <l n="1197" part="I" xml:id="l1197">¡Oh gloria mía!</l>
           </lg>
         </sp>
-        <sp xml:id="I-270" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-270">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l part="F">El doctor</l>
             <l n="1198" xml:id="l1198">os remite este dinero.</l>
           </lg>
         </sp>
-        <sp xml:id="I-271" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-271">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l n="1199" xml:id="l1199">Hoy lo hacéis caballero.</l>
           </lg>
         </sp>
-        <sp xml:id="I-272" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-272">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="1200" xml:id="l1200">Él me hará gran señor.</l>
           </lg>
         </sp>
-        <sp xml:id="I-273" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-273">
           <speaker>CASILDA</speaker>
           <lg part="I">
-            <l n="1201" xml:id="l1201" part="I">Llegaos acá.</l>
+            <l n="1201" part="I" xml:id="l1201">Llegaos acá.</l>
           </lg>
         </sp>
         <stage>Truécanse y vuelven a hablar en secreto, a coros, Casilda y Tancredo a una parte, y el doctor y Enrico a otra</stage>
-        <sp xml:id="I-274" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-274">
           <speaker>ENRICO</speaker>
           <lg part="M">
             <l part="F">En mi verdad,</l>
@@ -3019,13 +3038,13 @@
             <l n="1203" xml:id="l1203">lo que más me da cuidado.</l>
           </lg>
         </sp>
-        <sp xml:id="I-275" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-275">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="1204" xml:id="l1204" part="I">¿Qué es? Dilo.</l>
+            <l n="1204" part="I" xml:id="l1204">¿Qué es? Dilo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-276" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-276">
           <speaker>ENRICO</speaker>
           <lg part="F">
             <l part="F">Esta negra edad</l>
@@ -3037,47 +3056,47 @@
             <l n="1208" xml:id="l1208">más se ensucia y nos alegra.</l>
           </lg>
         </sp>
-        <sp xml:id="I-277" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-277">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1209" xml:id="l1209">Yo lo sabré en un momento,</l>
             <l n="1210" xml:id="l1210">con una traza discreta.</l>
           </lg>
         </sp>
-        <sp xml:id="I-278" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-278">
           <speaker>ENRICO</speaker>
           <lg part="M">
-            <l n="1211" xml:id="l1211" part="I">¿Con qué?</l>
+            <l n="1211" part="I" xml:id="l1211">¿Con qué?</l>
           </lg>
         </sp>
-        <sp xml:id="I-279" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-279">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Con una receta,</l>
             <l n="1212" xml:id="l1212">potro al darle este tormento.</l>
           </lg>
         </sp>
-        <sp xml:id="I-280" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-280">
           <speaker>TANCREDO</speaker>
           <lg part="I">
             <l n="1213" xml:id="l1213">¿Esta noche tal favor?</l>
           </lg>
         </sp>
-        <sp xml:id="I-281" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-281">
           <speaker>CASILDA</speaker>
           <lg part="M">
             <l n="1214" xml:id="l1214">El doctor os dirá cómo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-282" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-282">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l n="1215" xml:id="l1215">Las manos, señora, os tomo</l>
-            <l n="1216" xml:id="l1216" part="I">para besallas.</l>
+            <l n="1216" part="I" xml:id="l1216">para besallas.</l>
           </lg>
         </sp>
         <stage>Vuélvese Casilda a hablar alto con el doctor.</stage>
-        <sp xml:id="I-283" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-283">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l part="F">Doctor,</l>
@@ -3087,75 +3106,82 @@
             <l n="1218" xml:id="l1218">llevad estos caballeros.</l>
           </lg>
         </sp>
-        <sp xml:id="I-284" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-284">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="1219" xml:id="l1219">¿Volveré esta noche a veros</l>
-            <l n="1220" xml:id="l1220" part="I">con lo que os he dicho?</l>
+            <l n="1220" part="I" xml:id="l1220">con lo que os he dicho?</l>
           </lg>
         </sp>
-        <sp xml:id="I-285" who="CASILDA">
+        <sp who="CASILDA" xml:id="I-285">
           <speaker>CASILDA</speaker>
           <lg part="F">
             <l part="F">Aguardo.</l>
           </lg>
         </sp>
-        <stage>Vase Casilda.<listPerson type="configuration"/></stage>
-        <sp xml:id="I-286" who="TANCREDO">
+        <stage>Vase Casilda.<listPerson type="configuration" xml:id="conf8">
+          <person corresp="#DOCTOR"/>
+          <person corresp="#TANCREDO"/>
+          <person corresp="#ENRICO"/></listPerson></stage>
+        <sp who="TANCREDO" xml:id="I-286">
           <speaker>TANCREDO</speaker>
           <stage>Aparte.</stage>
           <lg part="I">
             <l n="1221" xml:id="l1221">Conmigo debe de ser.</l>
           </lg>
         </sp>
-        <sp xml:id="I-287" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-287">
           <speaker>ENRICO</speaker>
           <stage>aparte.</stage>
           <lg part="M">
             <l n="1222" xml:id="l1222">Yo apostaré que es conmigo.</l>
           </lg>
         </sp>
-        <sp xml:id="I-288" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="I-288">
           <speaker>TANCREDO</speaker>
           <stage>En secreto.</stage>
           <lg part="M">
             <l n="1223" xml:id="l1223">¿Hemos de volver, amigo?</l>
           </lg>
         </sp>
-        <sp xml:id="I-289" who="ENRICO">
+        <sp who="ENRICO" xml:id="I-289">
           <speaker>ENRICO</speaker>
           <stage>En secreto.</stage>
           <lg part="F">
             <l n="1224" xml:id="l1224">Amigo, ¿hemos de volver?</l>
           </lg>
         </sp>
-        <sp xml:id="I-290" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="I-290">
           <speaker>DOCTOR</speaker>
           <lg part="I">
-            <l n="1225" xml:id="l1225" part="I">¿Vámonos, señores?</l>
+            <l n="1225" part="I" xml:id="l1225">¿Vámonos, señores?</l>
           </lg>
         </sp>
-        <sp xml:id="I-291" who="TANCREDO ENRICO">
+        <sp who="TANCREDO ENRICO" xml:id="I-291">
           <speaker>TANCREDO, ENRICO</speaker>
           <lg part="M">
             <l part="F">Sí,</l>
-            <l n="1226" xml:id="l1226" part="I">vamos.</l>
+            <l n="1226" part="I" xml:id="l1226">vamos.</l>
           </lg>
         </sp>
-        <sp xml:id="I-292" who="DOCTOR">
-          <speaker>DOCTOR</speaker><stage>Aparte</stage> 
+        <sp who="DOCTOR" xml:id="I-292">
+          <speaker>DOCTOR</speaker>
+          <stage>Aparte</stage>
           <lg part="F">
             <l part="F">¡Qué lindos camellos!</l>
             <l n="1227" xml:id="l1227">Han pensado que es a ellos,</l>
             <l n="1228" xml:id="l1228">y aguarda a <hi rend="i">mihi vel mi.</hi></l>
           </lg>
         </sp>
-        <stage>Vanse.<listPerson type="configuration"/></stage>
+        <stage>Vanse.</stage>
       </div>
-      <div xml:id="II" type="act">
+      <div type="act" xml:id="II">
         <head>ACTO SEGUNDO</head>
-        <stage>Entran Gerardo y Lucrecia.<listPerson type="configuration"/></stage>
-        <sp xml:id="II-1" who="GERARDO">
+        <stage>Entran Gerardo y Lucrecia.<listPerson type="configuration" xml:id="conf10">
+          <person corresp="#GERARDO"/>
+          <person corresp="#TANCREDO"/>
+          <person corresp="#LUCRECIA"/></listPerson></stage>
+        <sp who="GERARDO" xml:id="II-1">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="1229" xml:id="l1229">Lucrecia bella, el príncipe troyano,</l>
@@ -3195,7 +3221,7 @@
           </lg>
           <lg part="I">
             <l n="1259" xml:id="l1259">al menos de un marido</l>
-            <l n="1260" xml:id="l1260" part="I">frustrar sé los designios</l>
+            <l n="1260" part="I" xml:id="l1260">frustrar sé los designios</l>
           </lg>
           <stage>Aparte</stage>
           <lg part="F">
@@ -3216,7 +3242,7 @@
             <l n="1272" xml:id="l1272">sino con sol, el sol de tu hermosura!</l>
           </lg>
         </sp>
-        <sp xml:id="II-2" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-2">
           <speaker>LUCRECIA</speaker>
           <lg>
             <l n="1273" xml:id="l1273">Bien quedo lisonjeada</l>
@@ -3243,7 +3269,7 @@
             <l n="1292" xml:id="l1292">y el oro de tanto escudo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-3" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-3">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="1293" xml:id="l1293">Esto, señora Lucrecia,</l>
@@ -3258,7 +3284,7 @@
             <l n="1302" xml:id="l1302">admitido ya el segundo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-4" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-4">
           <speaker>LUCRECIA</speaker>
           <lg>
             <l n="1303" xml:id="l1303">Cuando no sea a la malicia</l>
@@ -3273,7 +3299,7 @@
             <l n="1312" xml:id="l1312">y enfermedad del marido.</l>
           </lg>
         </sp>
-        <sp xml:id="II-5" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-5">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="1313" xml:id="l1313">Que el vulgo se satisfaga</l>
@@ -3294,14 +3320,14 @@
             <l n="1326" xml:id="l1326">es, la excusa no pedida.</l>
           </lg>
         </sp>
-        <sp xml:id="II-6" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-6">
           <speaker>LUCRECIA</speaker>
           <lg part="M">
             <l n="1327" xml:id="l1327">Mejor es que te despida,</l>
             <l n="1328" xml:id="l1328">por que no venga Tancredo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-7" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-7">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="1329" xml:id="l1329">No tengas, Lucrecia, miedo,</l>
@@ -3310,7 +3336,7 @@
             <l n="1332" xml:id="l1332">como sobre prendas puedo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-8" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-8">
           <speaker>LUCRECIA</speaker>
           <lg>
             <l n="1333" xml:id="l1333">No es nuevo el entrar en casa,</l>
@@ -3330,16 +3356,16 @@
             <l n="1343" xml:id="l1343">darme una coz, y no blanda.</l>
           </lg>
         </sp>
-        <sp xml:id="II-9" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-9">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="1344" xml:id="l1344">A toda razón exceden</l>
           </lg>
           <lg part="I">
-            <l n="1345" xml:id="l1345" part="I">tus temores.</l>
+            <l n="1345" part="I" xml:id="l1345">tus temores.</l>
           </lg>
         </sp>
-        <sp xml:id="II-10" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-10">
           <speaker>LUCRECIA</speaker>
           <lg part="F">
             <l part="F">Mil testigos</l>
@@ -3362,25 +3388,25 @@
           </lg>
         </sp>
         <stage>Llama Tancredo dentro</stage>
-        <sp xml:id="II-11" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-11">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1357" xml:id="l1357" part="I">¡Lucrecia!</l>
+            <l n="1357" part="I" xml:id="l1357">¡Lucrecia!</l>
           </lg>
         </sp>
-        <sp xml:id="II-12" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-12">
           <speaker>LUCRECIA</speaker>
           <lg part="M">
             <l part="F">¡Ay, triste de mí!</l>
           </lg>
         </sp>
-        <sp xml:id="II-13" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-13">
           <speaker>GERARDO</speaker>
           <lg part="M">
-            <l n="1358" xml:id="l1358" part="I">Subid acá.</l>
+            <l n="1358" part="I" xml:id="l1358">Subid acá.</l>
           </lg>
         </sp>
-        <sp xml:id="II-14" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-14">
           <speaker>LUCRECIA</speaker>
           <lg part="F">
             <l part="F">¿Qué haré,</l>
@@ -3388,77 +3414,81 @@
             <l n="1360" xml:id="l1360">confesando la que fui?</l>
           </lg>
         </sp>
-        <stage>Entran Tancredo y el doctor.<listPerson type="configuration"/></stage>
-        <sp xml:id="II-15" who="TANCREDO">
+        <stage>Entran Tancredo y el doctor.<listPerson type="configuration" xml:id="conf11">
+          <person corresp="#GERARDO"/>
+          <person corresp="#DOCTOR"/>
+          <person corresp="#TANCREDO"/>
+          <person corresp="#LUCRECIA"/></listPerson></stage>
+        <sp who="TANCREDO" xml:id="II-15">
           <speaker>TANCREDO</speaker>
           <lg part="I">
             <l n="1361" xml:id="l1361">El doctor viene conmigo,</l>
-            <l n="1362" xml:id="l1362" part="I">Lucrecia.</l>
+            <l n="1362" part="I" xml:id="l1362">Lucrecia.</l>
           </lg>
         </sp>
-        <sp xml:id="II-16" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-16">
           <speaker>LUCRECIA</speaker>
           <lg part="M">
             <l part="F">Acá está Gerardo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-17" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-17">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="1363" xml:id="l1363">Muy gran rato ha que os aguardo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-18" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-18">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="1364" xml:id="l1364">Buen alcaide es un amigo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-19" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-19">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1365" xml:id="l1365">Y más tal amigo, a quien</l>
             <l n="1366" xml:id="l1366">le entregara yo el Peñón.</l>
           </lg>
         </sp>
-        <sp xml:id="II-20" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-20">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="1367" xml:id="l1367">No se perdiera, patrón.</l>
           </lg>
         </sp>
-        <sp xml:id="II-21" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-21">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="1368" xml:id="l1368" part="I">¿Acabóse aquello?</l>
+            <l n="1368" part="I" xml:id="l1368">¿Acabóse aquello?</l>
           </lg>
         </sp>
-        <sp xml:id="II-22" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-22">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l part="F">Bien.</l>
           </lg>
         </sp>
-        <sp xml:id="II-23" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-23">
           <speaker>TANCREDO</speaker>
           <lg part="I">
             <l n="1369" xml:id="l1369">¿Son menester otros mil?</l>
           </lg>
         </sp>
-        <sp xml:id="II-24" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-24">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="1370" xml:id="l1370">Antes sobraron aquellos.</l>
             <l n="1371" xml:id="l1371">Bésoos las manos por ellos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-25" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-25">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1372" xml:id="l1372">¡Oh ceremonia gentil!</l>
           </lg>
         </sp>
-        <sp xml:id="II-26" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-26">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="1373" xml:id="l1373">Pedíos el dinero yo</l>
@@ -3473,54 +3503,55 @@
             <l n="1380" xml:id="l1380">con quien me he estado hablando.</l>
           </lg>
         </sp>
-        <sp xml:id="II-27" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-27">
           <speaker>LUCRECIA</speaker>
           <lg part="I">
-            <l n="1381" xml:id="l1381" part="I">¿Cómo? ¿Cuál? ¿Qué?</l>
+            <l n="1381" part="I" xml:id="l1381">¿Cómo? ¿Cuál? ¿Qué?</l>
           </lg>
         </sp>
-        <sp xml:id="II-28" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-28">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l part="F">Ten sosiego.</l>
           </lg>
         </sp>
-        <sp xml:id="II-29" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-29">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="1382" xml:id="l1382">Los cien escudos os pido</l>
             <l n="1383" xml:id="l1383">que traje a vuestro marido</l>
-            <l n="1384" xml:id="l1384" part="I">y os los di a vos.</l>
+            <l n="1384" part="I" xml:id="l1384">y os los di a vos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-30" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-30">
           <speaker>LUCRECIA</speaker>
           <lg part="F">
             <l part="F">No los niego.</l>
           </lg>
         </sp>
-        <sp xml:id="II-31" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-31">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1385" xml:id="l1385">Quisiéralos la señora</l>
             <l n="1386" xml:id="l1386">para oro y para plata.</l>
           </lg>
         </sp>
-        <sp xml:id="II-32" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-32">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l n="1387" xml:id="l1387">Este bastidor la mata,</l>
-            <l n="1388" xml:id="l1388" part="I">doctor.</l>
+            <l n="1388" part="I" xml:id="l1388">doctor.</l>
           </lg>
         </sp>
-        <sp xml:id="II-33" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-33">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Es gran bordadora.</l>
           </lg>
         </sp>
-        <sp xml:id="II-34" who="DOCTOR">
-          <speaker>LUCRECIA</speaker><stage>Aparte</stage>
+        <sp who="DOCTOR" xml:id="II-34">
+          <speaker>LUCRECIA</speaker>
+          <stage>Aparte</stage>
           <lg>
             <l n="1389" xml:id="l1389">Quisiéralos, vive Dios,</l>
             <l n="1390" xml:id="l1390">para hacer de ellos dos pagas</l>
@@ -3528,17 +3559,17 @@
             <l n="1392" xml:id="l1392">por las almas de los dos.</l>
           </lg>
           <lg part="I">
-            <l n="1393" xml:id="l1393" part="I">¿Tal burla a Lucrecia?</l>
+            <l n="1393" part="I" xml:id="l1393">¿Tal burla a Lucrecia?</l>
           </lg>
         </sp>
-        <sp xml:id="II-35" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-35">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l part="F">Amigo,</l>
-            <l n="1394" xml:id="l1394" part="I">gran pagador sois.</l>
+            <l n="1394" part="I" xml:id="l1394">gran pagador sois.</l>
           </lg>
         </sp>
-        <sp xml:id="II-36" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-36">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l part="F">Tancredo,</l>
@@ -3552,27 +3583,27 @@
             <l n="1400" xml:id="l1400">de que os los vuelvo en cornados.</l>
           </lg>
         </sp>
-        <sp xml:id="II-37" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-37">
           <speaker>TANCREDO</speaker>
           <lg part="I">
             <l n="1401" xml:id="l1401">Con la brevedad sospecho</l>
             <l n="1402" xml:id="l1402">que me queréis engañar.</l>
           </lg>
         </sp>
-        <sp xml:id="II-38" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-38">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1403" xml:id="l1403">Osaría yo apostar</l>
             <l n="1404" xml:id="l1404">que el engaño ya está hecho.</l>
           </lg>
         </sp>
-        <sp xml:id="II-39" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-39">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1405" xml:id="l1405" part="I">¿Cómo?</l>
+            <l n="1405" part="I" xml:id="l1405">¿Cómo?</l>
           </lg>
         </sp>
-        <sp xml:id="II-40" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-40">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Como si esta tarde</l>
@@ -3581,13 +3612,13 @@
             <l n="1408" xml:id="l1408">y del cofre harías alarde.</l>
           </lg>
         </sp>
-        <sp xml:id="II-41" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-41">
           <speaker>TANCREDO</speaker>
           <lg part="I">
             <l n="1409" xml:id="l1409">Jesús, doctor, ¿quién lo duda?</l>
           </lg>
         </sp>
-        <sp xml:id="II-42" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-42">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="1410" xml:id="l1410">Bien sabe la que está allí</l>
@@ -3605,19 +3636,19 @@
             <l n="1418" xml:id="l1418">cuando tú entrabas en casa.</l>
           </lg>
         </sp>
-        <sp xml:id="II-43" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-43">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="1419" xml:id="l1419">Bien sé de eso lo que pasa.</l>
           </lg>
         </sp>
-        <sp xml:id="II-44" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-44">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="1420" xml:id="l1420">Y yo, Gerardo, lo entiendo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-45" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-45">
           <speaker>LUCRECIA</speaker>
           <stage>Aparte</stage>
           <lg>
@@ -3627,13 +3658,13 @@
             <l n="1424" xml:id="l1424">por sacalle un ojo a este?</l>
           </lg>
         </sp>
-        <sp xml:id="II-46" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-46">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1425" xml:id="l1425" part="I">¿Qué dices, Lucrecia?</l>
+            <l n="1425" part="I" xml:id="l1425">¿Qué dices, Lucrecia?</l>
           </lg>
         </sp>
-        <sp xml:id="II-47" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-47">
           <speaker>LUCRECIA</speaker>
           <lg part="F">
             <l part="F">Digo</l>
@@ -3648,13 +3679,13 @@
             <l n="1432" xml:id="l1432">a mí todo me lo debe.</l>
           </lg>
         </sp>
-        <sp xml:id="II-48" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-48">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1433" xml:id="l1433" part="I">¿Por qué?</l>
+            <l n="1433" part="I" xml:id="l1433">¿Por qué?</l>
           </lg>
         </sp>
-        <sp xml:id="II-49" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-49">
           <speaker>LUCRECIA</speaker>
           <lg part="F">
             <l part="F">Porque a negallo</l>
@@ -3663,27 +3694,27 @@
             <l n="1436" xml:id="l1436">era forzoso el pagallo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-50" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-50">
           <speaker>TANCREDO</speaker>
           <lg part="I">
             <l n="1437" xml:id="l1437">Es verdad que algo alterada</l>
             <l n="1438" xml:id="l1438">te reconocí, Lucrecia.</l>
           </lg>
         </sp>
-        <sp xml:id="II-51" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-51">
           <speaker>LUCRECIA</speaker>
           <lg part="F">
             <l n="1439" xml:id="l1439">Alterada como necia,</l>
             <l n="1440" xml:id="l1440">y necia como burlada.</l>
           </lg>
         </sp>
-        <sp xml:id="II-52" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-52">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1441" xml:id="l1441" part="I">¿Y qué burla fue?</l>
+            <l n="1441" part="I" xml:id="l1441">¿Y qué burla fue?</l>
           </lg>
         </sp>
-        <sp xml:id="II-53" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-53">
           <speaker>LUCRECIA</speaker>
           <lg part="M">
             <l part="F">Escuchad,</l>
@@ -3691,7 +3722,7 @@
           </lg>
         </sp>
         <stage>En secreto el doctor con Gerardo.</stage>
-        <sp xml:id="II-54" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-54">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1443" xml:id="l1443">Mayor burla sería esta</l>
@@ -3699,10 +3730,10 @@
           </lg>
           <lg part="I">
             <l n="1445" xml:id="l1445">Barajadle el naipe vos,</l>
-            <l n="1446" xml:id="l1446" part="I">o harélo yo.</l>
+            <l n="1446" part="I" xml:id="l1446">o harélo yo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-55" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-55">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l part="F">Has de saber</l>
@@ -3710,13 +3741,13 @@
             <l n="1448" xml:id="l1448">un picón, y aun creo que dos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-56" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-56">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1449" xml:id="l1449" part="I">Veamos.</l>
+            <l n="1449" part="I" xml:id="l1449">Veamos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-57" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-57">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l part="F">Yo me fingí</l>
@@ -3725,13 +3756,13 @@
             <l n="1452" xml:id="l1452">en tus doblones le di.</l>
           </lg>
         </sp>
-        <sp xml:id="II-58" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-58">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1453" xml:id="l1453" part="I">Extremada.</l>
+            <l n="1453" part="I" xml:id="l1453">Extremada.</l>
           </lg>
         </sp>
-        <sp xml:id="II-59" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-59">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l part="F">Luego yo,</l>
@@ -3740,13 +3771,13 @@
             <l n="1456" xml:id="l1456">y que la mitad me dio.</l>
           </lg>
         </sp>
-        <sp xml:id="II-60" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-60">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1457" xml:id="l1457" part="I">¿Aceptaste?</l>
+            <l n="1457" part="I" xml:id="l1457">¿Aceptaste?</l>
           </lg>
         </sp>
-        <sp xml:id="II-61" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-61">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l part="F">Luego a la hora.</l>
@@ -3754,38 +3785,38 @@
             <l n="1459" xml:id="l1459">le pedí no sé qué gaje.</l>
           </lg>
         </sp>
-        <sp xml:id="II-62" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-62">
           <speaker>TANCREDO</speaker>
           <lg part="M">
-            <l n="1460" xml:id="l1460" part="I">¿Diolo?</l>
+            <l n="1460" part="I" xml:id="l1460">¿Diolo?</l>
           </lg>
         </sp>
-        <sp xml:id="II-63" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-63">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l part="M">Sí.</l>
           </lg>
         </sp>
-        <sp xml:id="II-64" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-64">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l part="F">Es gran bordadora.</l>
           </lg>
         </sp>
-        <sp xml:id="II-65" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-65">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1461" xml:id="l1461">Baste ya, señores. Dalde</l>
-            <l n="1462" xml:id="l1462" part="I">lugar.</l>
+            <l n="1462" part="I" xml:id="l1462">lugar.</l>
           </lg>
         </sp>
-        <sp xml:id="II-66" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-66">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l part="F">Ella está perdida.</l>
           </lg>
         </sp>
-        <sp xml:id="II-67" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-67">
           <speaker>LUCRECIA</speaker>
           <stage>Aparte</stage>
           <lg part="F">
@@ -3799,78 +3830,83 @@
             <l n="1468" xml:id="l1468">los doblones de sus caras.</l>
           </lg>
         </sp>
-        <stage>Entra Tisberto.<listPerson type="configuration"/></stage>
-        <sp xml:id="II-68" who="TISBERTO">
+        <stage>Entra Tisberto.<listPerson type="configuration" xml:id="conf12">
+          <person corresp="#GERARDO"/>
+          <person corresp="#DOCTOR"/>
+          <person corresp="#TANCREDO"/>
+          <person corresp="#TISBERTO"/>
+          <person corresp="#LUCRECIA"/></listPerson></stage>
+        <sp who="TISBERTO" xml:id="II-68">
           <speaker>TISBERTO</speaker>
           <lg part="I">
-            <l n="1469" xml:id="l1469" part="I">¿Está acá el doctor?</l>
+            <l n="1469" part="I" xml:id="l1469">¿Está acá el doctor?</l>
           </lg>
         </sp>
-        <sp xml:id="II-69" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-69">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l part="F">¿Sobrino?</l>
           </lg>
         </sp>
-        <sp xml:id="II-70" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-70">
           <speaker>TISBERTO</speaker>
           <lg part="M">
             <l n="1470" xml:id="l1470">Bésoos las manos, señor.</l>
             <l n="1471" xml:id="l1471">Vengo a buscar al doctor.</l>
           </lg>
         </sp>
-        <sp xml:id="II-71" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-71">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1472" xml:id="l1472">Aquí está el doctor Carlino.</l>
           </lg>
         </sp>
-        <sp xml:id="II-72" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-72">
           <speaker>TISBERTO</speaker>
           <lg part="I">
             <l n="1473" xml:id="l1473">Don Tristán te anda buscando.</l>
           </lg>
         </sp>
-        <sp xml:id="II-73" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-73">
           <speaker>LUCRECIA</speaker>
           <lg part="M">
-            <l n="1474" xml:id="l1474" part="I">¿Qué tiene mi tío?</l>
+            <l n="1474" part="I" xml:id="l1474">¿Qué tiene mi tío?</l>
           </lg>
         </sp>
-        <sp xml:id="II-74" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-74">
           <speaker>TISBERTO</speaker>
           <lg part="M">
             <l part="F">Nada.</l>
           </lg>
         </sp>
-        <sp xml:id="II-75" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-75">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="1475" xml:id="l1475" part="I">¿Dónde queda?</l>
+            <l n="1475" part="I" xml:id="l1475">¿Dónde queda?</l>
           </lg>
         </sp>
-        <sp xml:id="II-76" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-76">
           <speaker>TISBERTO</speaker>
           <lg part="M">
             <l part="F">En su posada.</l>
           </lg>
         </sp>
-        <sp xml:id="II-77" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-77">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="1476" xml:id="l1476" part="I">¿Solo?</l>
+            <l n="1476" part="I" xml:id="l1476">¿Solo?</l>
           </lg>
         </sp>
-        <sp xml:id="II-78" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-78">
           <speaker>TISBERTO</speaker>
           <lg part="F">
             <l part="F">Con Enrico hablando.</l>
           </lg>
         </sp>
-        <sp xml:id="II-79" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-79">
           <speaker>DOCTOR</speaker>
           <lg part="I">
-            <l n="1477" xml:id="l1477" part="I">Luego iré.</l>
+            <l n="1477" part="I" xml:id="l1477">Luego iré.</l>
           </lg>
           <stage>Vuélvese a Tancredo y dícele en secreto:</stage>
           <lg part="M">
@@ -3879,20 +3915,20 @@
             <l n="1479" xml:id="l1479">esta noche es bien que sea.</l>
           </lg>
         </sp>
-        <sp xml:id="II-81" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-81">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="1480" xml:id="l1480">¿Quieres matarme? Habla quedo.</l>
           </lg>
         </sp>
         <stage>Hablan en secreto Tancredo y el doctor.</stage>
-        <sp xml:id="II-82" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-82">
           <speaker>GERARDO</speaker>
           <lg part="I">
-            <l n="1481" xml:id="l1481" part="I">Lucrecia bella.</l>
+            <l n="1481" part="I" xml:id="l1481">Lucrecia bella.</l>
           </lg>
         </sp>
-        <sp xml:id="II-83" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-83">
           <speaker>LUCRECIA</speaker>
           <lg part="M">
             <l part="F">Alevoso.</l>
@@ -3903,7 +3939,7 @@
           </lg>
         </sp>
         <stage>Hablan en secreto</stage>
-        <sp xml:id="II-84" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-84">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="1483" xml:id="l1483">¿Así se desdeña ya</l>
@@ -3922,31 +3958,31 @@
             <l n="1492" xml:id="l1492">ni al austro se opuso robre.</l>
           </lg>
         </sp>
-        <sp xml:id="II-85" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-85">
           <speaker>TANCREDO</speaker>
           <lg part="I">
-            <l n="1493" xml:id="l1493" part="I">Buena es la traza.</l>
+            <l n="1493" part="I" xml:id="l1493">Buena es la traza.</l>
           </lg>
         </sp>
-        <sp xml:id="II-86" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-86">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Excelente.</l>
           </lg>
         </sp>
-        <sp xml:id="II-87" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-87">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l n="1494" xml:id="l1494">¿Quién, pues, hará ese ademán?</l>
           </lg>
         </sp>
-        <sp xml:id="II-88" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-88">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="1495" xml:id="l1495">¿Quién? Tisberto y don Tristán.</l>
           </lg>
         </sp>
-        <sp xml:id="II-89" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-89">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="1496" xml:id="l1496">A toda ley, un pariente:</l>
@@ -3958,14 +3994,14 @@
             <l n="1500" xml:id="l1500">con más de padre que tío.</l>
           </lg>
         </sp>
-        <sp xml:id="II-90" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-90">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1501" xml:id="l1501">Muy bien les puedes fïar</l>
             <l n="1502" xml:id="l1502">este negocio y tu casa.</l>
           </lg>
         </sp>
-        <sp xml:id="II-91" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-91">
           <speaker>TANCREDO</speaker>
           <lg part="F">
             <l n="1503" xml:id="l1503">Bien entiendes lo que pasa.</l>
@@ -3984,14 +4020,14 @@
             <l n="1512" xml:id="l1512">en cuanto se habla allí.<hi rend="i">d</hi></l>
           </lg>
         </sp>
-        <sp xml:id="II-92" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-92">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1513" xml:id="l1513">No lo dudo. Escucha, pues.</l>
           </lg>
         </sp>
         <stage>Vuelven a hablar en secreto Tisberto y Lucrecia.</stage>
-        <sp xml:id="II-93" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-93">
           <speaker>TISBERTO</speaker>
           <lg part="M">
             <l n="1514" xml:id="l1514">¿Que te movió el llanto mío?</l>
@@ -4003,7 +4039,7 @@
             <l n="1518" xml:id="l1518">Dame las manos, señora.</l>
           </lg>
         </sp>
-        <sp xml:id="II-94" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-94">
           <speaker>LUCRECIA</speaker>
           <lg part="F">
             <l n="1519" xml:id="l1519">No es tiempo, Tisberto, ahora</l>
@@ -4016,7 +4052,7 @@
             <l n="1524" xml:id="l1524">impetra cierta venganza.</l>
           </lg>
         </sp>
-        <sp xml:id="II-95" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-95">
           <speaker>TISBERTO</speaker>
           <lg>
             <l n="1525" xml:id="l1525">¿Quies que le quite algún guante</l>
@@ -4037,7 +4073,7 @@
             <l n="1536" xml:id="l1536">cuyos muros son mi espada?</l>
           </lg>
         </sp>
-        <sp xml:id="II-96" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-96">
           <speaker>LUCRECIA</speaker>
           <lg>
             <l n="1537" xml:id="l1537">No quiero, amigo gallardo,</l>
@@ -4047,7 +4083,7 @@
           </lg>
         </sp>
         <stage>Vuelven a hablar en secreto.</stage>
-        <sp xml:id="II-97" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-97">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="1541" xml:id="l1541">De estas dos balanzas vengo</l>
@@ -4095,13 +4131,13 @@
             <l n="1569" xml:id="l1569">Bonísimos; pues, ¿qué aguardo?</l>
           </lg>
         </sp>
-        <sp xml:id="II-98" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-98">
           <speaker>LUCRECIA</speaker>
           <lg part="M">
-            <l n="1570" xml:id="l1570" part="I">¿Qué te rascas?</l>
+            <l n="1570" part="I" xml:id="l1570">¿Qué te rascas?</l>
           </lg>
         </sp>
-        <sp xml:id="II-99" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-99">
           <speaker>TISBERTO</speaker>
           <stage>Aparte.</stage>
           <lg part="F">
@@ -4113,13 +4149,13 @@
             <l n="1573" xml:id="l1573">¿A un amigo cuchillada?</l>
           </lg>
         </sp>
-        <sp xml:id="II-100" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-100">
           <speaker>LUCRECIA</speaker>
           <lg part="M">
-            <l n="1574" xml:id="l1574" part="I">¿Qué me respondes?</l>
+            <l n="1574" part="I" xml:id="l1574">¿Qué me respondes?</l>
           </lg>
         </sp>
-        <sp xml:id="II-101" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-101">
           <speaker>TISBERTO</speaker>
           <stage>Aparte.</stage>
           <lg part="F">
@@ -4134,7 +4170,7 @@
             <l n="1580" xml:id="l1580">que mate un amigo mío.</l>
           </lg>
         </sp>
-        <sp xml:id="II-102" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-102">
           <speaker>LUCRECIA</speaker>
           <lg>
             <l n="1581" xml:id="l1581">Pues, señor don Manüel,</l>
@@ -4155,7 +4191,7 @@
             <l n="1592" xml:id="l1592">los muros que eran de acero?</l>
           </lg>
         </sp>
-        <sp xml:id="II-103" who="TISBERTO">
+        <sp who="TISBERTO" xml:id="II-103">
           <speaker>TISBERTO</speaker>
           <lg>
             <l n="1593" xml:id="l1593">Lucrecia, así Dios me guarde,</l>
@@ -4164,7 +4200,7 @@
             <l n="1596" xml:id="l1596">lo bauticen por cobarde.</l>
           </lg>
         </sp>
-        <sp xml:id="II-104" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-104">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1597" xml:id="l1597">Las cosas bien se harán</l>
@@ -4173,76 +4209,78 @@
             <l n="1600" xml:id="l1600">que yo tendré a don Tristán.</l>
           </lg>
         </sp>
-        <sp xml:id="II-105" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-105">
           <speaker>TANCREDO</speaker>
           <lg part="I">
             <l n="1601" xml:id="l1601">Pues, doctor, luego a la hora</l>
             <l n="1602" xml:id="l1602">seremos allá los dos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-106" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-106">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="1603" xml:id="l1603">Señora Lucrecia, adiós.</l>
           </lg>
         </sp>
-        <sp xml:id="II-107" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-107">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="1604" xml:id="l1604">Adiós, Lucrecia, señora.</l>
           </lg>
         </sp>
-        <sp xml:id="II-108" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-108">
           <speaker>LUCRECIA</speaker>
           <lg part="I">
             <l n="1605" xml:id="l1605">¿Disolviéronse los tratos?</l>
           </lg>
         </sp>
-        <sp xml:id="II-109" who="TANCREDO">
+        <sp who="TANCREDO" xml:id="II-109">
           <speaker>TANCREDO</speaker>
           <lg part="M">
             <l n="1606" xml:id="l1606">Entra acá, Tisberto amigo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-110" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-110">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="1607" xml:id="l1607"><hi rend="i">Quod scripsi, scripsi</hi>, digo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-111" who="LUCRECIA">
+        <sp who="LUCRECIA" xml:id="II-111">
           <speaker>LUCRECIA</speaker>
           <lg part="F">
             <l n="1608" xml:id="l1608">Palabritas de Pilatos.</l>
           </lg>
         </sp>
-        <stage>Éntranse Tancredo, Lucrecia y Tisberto.<listPerson type="configuration"/></stage>
-        <sp xml:id="II-112" who="DOCTOR">
+        <stage>Éntranse Tancredo, Lucrecia y Tisberto.<listPerson type="configuration" xml:id="conf13">
+          <person corresp="#GERARDO"/>
+          <person corresp="#DOCTOR"/></listPerson></stage>
+        <sp who="DOCTOR" xml:id="II-112">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1609" xml:id="l1609">Buena dejas a Lucrecia.</l>
           </lg>
         </sp>
-        <sp xml:id="II-113" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-113">
           <speaker>GERARDO</speaker>
           <lg part="M">
             <l n="1610" xml:id="l1610">Mejor queda su marido.</l>
           </lg>
         </sp>
-        <sp xml:id="II-114" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-114">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1611" xml:id="l1611">Mi tonto esta tarde ha sido,</l>
             <l n="1612" xml:id="l1612">mientras ella fue tu necia.</l>
           </lg>
         </sp>
-        <sp xml:id="II-115" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-115">
           <speaker>GERARDO</speaker>
           <lg part="I">
-            <l n="1613" xml:id="l1613" part="I">¿Cómo?</l>
+            <l n="1613" part="I" xml:id="l1613">¿Cómo?</l>
           </lg>
         </sp>
-        <sp xml:id="II-116" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-116">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Después lo sabrás,</l>
@@ -4251,13 +4289,13 @@
             <l n="1616" xml:id="l1616">que se habrá hecho jamás.</l>
           </lg>
         </sp>
-        <sp xml:id="II-117" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-117">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="1617" xml:id="l1617">Extremada fue la mía.</l>
           </lg>
         </sp>
-        <sp xml:id="II-118" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-118">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1618" xml:id="l1618">Fuelo tanto que, por eso,</l>
@@ -4271,7 +4309,7 @@
             <l n="1624" xml:id="l1624">meter vela y calar remo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-119" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-119">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="1625" xml:id="l1625">Pues, si he de decir verdad,</l>
@@ -4284,7 +4322,7 @@
             <l n="1630" xml:id="l1630">con don Tristán, que lo dejo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-120" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-120">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1631" xml:id="l1631">¿No ves que tiene de viejo</l>
@@ -4321,26 +4359,26 @@
             <l n="1652" xml:id="l1652">esta noche cubrir puedes.</l>
           </lg>
         </sp>
-        <sp xml:id="II-121" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-121">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="1653" xml:id="l1653">¡Oh leal siempre doctor!</l>
           </lg>
         </sp>
-        <sp xml:id="II-122" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-122">
           <speaker>DOCTOR</speaker>
           <stage>Aparte.</stage>
           <lg part="M">
             <l n="1654" xml:id="l1654">¡Tan leal como el del beso!</l>
           </lg>
         </sp>
-        <sp xml:id="II-123" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-123">
           <speaker>GERARDO</speaker>
           <lg part="M">
-            <l n="1655" xml:id="l1655" part="I">¿Qué traza, pues, das?</l>
+            <l n="1655" part="I" xml:id="l1655">¿Qué traza, pues, das?</l>
           </lg>
         </sp>
-        <sp xml:id="II-124" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-124">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">A eso</l>
@@ -4389,13 +4427,13 @@
             <l n="1684" xml:id="l1684">halléis a vuestro placer.</l>
           </lg>
         </sp>
-        <sp xml:id="II-125" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-125">
           <speaker>GERARDO</speaker>
           <lg part="I">
             <l n="1685" xml:id="l1685">¿Quién, amigo, no te abraza?</l>
           </lg>
         </sp>
-        <sp xml:id="II-126" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-126">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1686" xml:id="l1686">Abrazos pienso hüillos,</l>
@@ -4403,7 +4441,7 @@
             <l n="1688" xml:id="l1688">y no valen en la plaza.</l>
           </lg>
         </sp>
-        <sp xml:id="II-127" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-127">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="1689" xml:id="l1689">Esta bolsa que, pendiente</l>
@@ -4417,13 +4455,13 @@
             <l n="1695" xml:id="l1695">te ofrece mi devoción.</l>
           </lg>
         </sp>
-        <sp xml:id="II-128" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-128">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1696" xml:id="l1696">Las manos he de besarte.</l>
           </lg>
         </sp>
-        <sp xml:id="II-129" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-129">
           <speaker>GERARDO</speaker>
           <lg>
             <l n="1697" xml:id="l1697">Estos y más gané ayer</l>
@@ -4438,21 +4476,21 @@
             <l n="1704" xml:id="l1704">pues trae ducados diez mil.</l>
           </lg>
         </sp>
-        <sp xml:id="II-130" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-130">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1705" xml:id="l1705">Al encuentro ya nos salen</l>
             <l n="1706" xml:id="l1706">don Tristán y Enrico juntos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-131" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-131">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="1707" xml:id="l1707">Tomado hemos grandes puntos</l>
             <l n="1708" xml:id="l1708">contra los dos, si nos valen.</l>
           </lg>
         </sp>
-        <sp xml:id="II-132" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-132">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1709" xml:id="l1709">Déjalos, y a mi posada</l>
@@ -4465,21 +4503,24 @@
             <l n="1714" xml:id="l1714">que se va poniendo el sol.</l>
           </lg>
         </sp>
-        <sp xml:id="II-133" who="GERARDO">
+        <sp who="GERARDO" xml:id="II-133">
           <speaker>GERARDO</speaker>
           <lg part="F">
             <l n="1715" xml:id="l1715">¿Ha de entender español</l>
             <l n="1716" xml:id="l1716">a estas horas el borracho?</l>
           </lg>
         </sp>
-        <stage>Vase Gerardo y salen don Tristán y Enrico.<listPerson type="configuration"/></stage>
-        <sp xml:id="II-134" who="DONTRISTAN">
+        <stage>Vase Gerardo y salen don Tristán y Enrico.<listPerson type="configuration" xml:id="conf14">
+          <person corresp="#DOCTOR"/>
+          <person corresp="#ENRICO"/>
+          <person corresp="#DONTRISTAN"/></listPerson></stage>
+        <sp who="DONTRISTAN" xml:id="II-134">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1717" xml:id="l1717">Todo hoy te ando a buscar.</l>
           </lg>
         </sp>
-        <sp xml:id="II-135" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-135">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1718" xml:id="l1718">Aunque lo hubiera sabido,</l>
@@ -4487,58 +4528,58 @@
             <l n="1720" xml:id="l1720">que hay muchos en la ciudad.</l>
           </lg>
         </sp>
-        <sp xml:id="II-136" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-136">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
-            <l n="1721" xml:id="l1721" part="I">¿Que hay enfermedades?</l>
+            <l n="1721" part="I" xml:id="l1721">¿Que hay enfermedades?</l>
           </lg>
         </sp>
-        <sp xml:id="II-137" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-137">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Muchas,</l>
             <l n="1722" xml:id="l1722">y aun casi epidemïales.</l>
           </lg>
         </sp>
-        <sp xml:id="II-138" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-138">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l n="1723" xml:id="l1723">Renegaré de mis males.</l>
           </lg>
         </sp>
-        <sp xml:id="II-139" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-139">
           <speaker>ENRICO</speaker>
           <lg part="F">
             <l n="1724" xml:id="l1724">Ya el doctor pesca sus truchas.</l>
           </lg>
         </sp>
-        <sp xml:id="II-140" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-140">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1725" xml:id="l1725">Esperad, que luego salgo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-141" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-141">
           <speaker>ENRICO</speaker>
           <lg part="M">
             <l n="1726" xml:id="l1726">Seis veces en media hora</l>
-            <l n="1727" xml:id="l1727" part="I">ha entrado.</l>
+            <l n="1727" part="I" xml:id="l1727">ha entrado.</l>
           </lg>
         </sp>
-        <sp xml:id="II-142" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-142">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Para Leonora</l>
             <l n="1728" xml:id="l1728">es como un oro el hidalgo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-143" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-143">
           <speaker>ENRICO</speaker>
           <lg part="I">
             <l n="1729" xml:id="l1729">¿Tan enfermo y tan galán?</l>
           </lg>
         </sp>
-        <sp xml:id="II-144" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-144">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1730" xml:id="l1730">Solicitad, pues, aprisa</l>
@@ -4546,16 +4587,16 @@
             <l n="1732" xml:id="l1732">que eso mismo es don Tristán.</l>
           </lg>
           <lg part="I">
-            <l n="1733" xml:id="l1733" part="I">Pues, Enrico...</l>
+            <l n="1733" part="I" xml:id="l1733">Pues, Enrico...</l>
           </lg>
         </sp>
-        <sp xml:id="II-145" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-145">
           <speaker>ENRICO</speaker>
           <lg part="M">
             <l part="F">Ten silencio.</l>
           </lg>
         </sp>
-        <sp xml:id="II-146" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-146">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1734" xml:id="l1734">¿A un viejo que un muerto es</l>
@@ -4563,13 +4604,13 @@
             <l n="1736" xml:id="l1736">juntar? ¡Oh crüel Mecencio!</l>
           </lg>
         </sp>
-        <sp xml:id="II-147" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-147">
           <speaker>ENRICO</speaker>
           <lg part="I">
             <l n="1737" xml:id="l1737">Haz diligencia en sus años.</l>
           </lg>
         </sp>
-        <sp xml:id="II-148" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-148">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1738" xml:id="l1738">Descuídate, que mi pluma</l>
@@ -4577,26 +4618,26 @@
             <l n="1740" xml:id="l1740">de ellos o de sus engaños.</l>
           </lg>
         </sp>
-        <sp xml:id="II-149" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-149">
           <speaker>ENRICO</speaker>
           <lg part="I">
             <l n="1741" xml:id="l1741">¿Es amigo de vivir?</l>
           </lg>
         </sp>
-        <sp xml:id="II-150" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-150">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="1742" xml:id="l1742">Tanto como yo tu amigo.</l>
             <l n="1743" xml:id="l1743">Escúchame lo que digo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-151" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-151">
           <speaker>ENRICO</speaker>
           <lg part="F">
             <l n="1744" xml:id="l1744">¿Quién te dejará de oír?</l>
           </lg>
         </sp>
-        <sp xml:id="II-152" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-152">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1745" xml:id="l1745">Va, pues, de juego: ya sabes</l>
@@ -4617,13 +4658,13 @@
             <l n="1756" xml:id="l1756">que escribiere quien me infama.</l>
           </lg>
         </sp>
-        <sp xml:id="II-153" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-153">
           <speaker>ENRICO</speaker>
           <lg part="I">
-            <l n="1757" xml:id="l1757" part="I">Pues qué, ¿llora por mí?</l>
+            <l n="1757" part="I" xml:id="l1757">Pues qué, ¿llora por mí?</l>
           </lg>
         </sp>
-        <sp xml:id="II-154" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-154">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Llora</l>
@@ -4656,30 +4697,33 @@
             <l n="1776" xml:id="l1776">plumas se calza ligeras.</l>
           </lg>
         </sp>
-        <stage>Entra don Tristán.<listPerson type="configuration"/></stage>
-        <sp xml:id="II-155" who="DONTRISTAN">
+        <stage>Entra don Tristán.<listPerson type="configuration" xml:id="conf15">
+          <person corresp="#DOCTOR"/>
+          <person corresp="#ENRICO"/>
+          <person corresp="#DONTRISTAN"/></listPerson></stage>
+        <sp who="DONTRISTAN" xml:id="II-155">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1777" xml:id="l1777">Perdonad mi dilación.</l>
           </lg>
         </sp>
-        <sp xml:id="II-156" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-156">
           <speaker>ENRICO</speaker>
           <lg part="M">
             <l n="1778" xml:id="l1778">Perdonad nuestro recato.</l>
           </lg>
         </sp>
-        <sp xml:id="II-157" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-157">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1779" xml:id="l1779">Quien nos deja cada rato</l>
             <l n="1780" xml:id="l1780">no busque conversación.</l>
           </lg>
         </sp>
-        <sp xml:id="II-158" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-158">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
-            <l n="1781" xml:id="l1781" part="I">Doctor, no me olvides.</l>
+            <l n="1781" part="I" xml:id="l1781">Doctor, no me olvides.</l>
           </lg>
           <stage>Aparte</stage>
           <lg part="F">
@@ -4695,7 +4739,7 @@
             <l n="1788" xml:id="l1788">que teñir, tinta no sabe.</l>
           </lg>
         </sp>
-        <sp xml:id="II-159" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-159">
           <speaker>DOCTOR</speaker>
           <stage>[A Enrico]</stage>
           <lg>
@@ -4711,7 +4755,7 @@
             <l n="1796" xml:id="l1796">ser tu aposento teatro.</l>
           </lg>
         </sp>
-        <sp xml:id="II-160" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-160">
           <speaker>DON TRISTÁN</speaker>
           <stage>[Aparte]</stage>
           <lg>
@@ -4733,7 +4777,7 @@
             <l n="1808" xml:id="l1808">y la alheña es un Jordán.</l>
           </lg>
         </sp>
-        <sp xml:id="II-161" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-161">
           <speaker>ENRICO</speaker>
           <lg>
             <l n="1809" xml:id="l1809">Bien está, pero ¿no ves</l>
@@ -4745,7 +4789,7 @@
             <l n="1813" xml:id="l1813">entrar humana criatura?</l>
           </lg>
         </sp>
-        <sp xml:id="II-162" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-162">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1814" xml:id="l1814">A ese escrúpulo perdona,</l>
@@ -4765,7 +4809,7 @@
             <l n="1824" xml:id="l1824">que una grande ocasión pierdes.</l>
           </lg>
         </sp>
-        <sp xml:id="II-163" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-163">
           <speaker>DON TRISTÁN</speaker>
           <stage>[Aparte.]</stage>
           <lg>
@@ -4805,14 +4849,14 @@
             <l n="1848" xml:id="l1848">diere más, salvo mi honor.</l>
           </lg>
         </sp>
-        <sp xml:id="II-164" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-164">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1849" xml:id="l1849">El término es corto, Enrico:</l>
             <l n="1850" xml:id="l1850">o acometello, o dejallo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-165" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-165">
           <speaker>ENRICO</speaker>
           <lg part="F">
             <l n="1851" xml:id="l1851">Obedeciéndote callo</l>
@@ -4823,13 +4867,13 @@
             <l n="1854" xml:id="l1854">cosa alguna entienda de ello.</l>
           </lg>
         </sp>
-        <sp xml:id="II-166" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-166">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="1855" xml:id="l1855">Pues ¿para qué ha de sabello?</l>
           </lg>
         </sp>
-        <sp xml:id="II-167" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-167">
           <speaker>DON TRISTÁN</speaker>
           <stage>[Aparte.]</stage>
           <lg part="F">
@@ -4842,7 +4886,7 @@
             <l n="1860" xml:id="l1860">mi buena suerte bendigo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-168" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-168">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1861" xml:id="l1861">Ve a prevenir tu aposento,</l>
@@ -4851,27 +4895,27 @@
             <l n="1864" xml:id="l1864">su fondo y sus grados cuento.</l>
           </lg>
         </sp>
-        <sp xml:id="II-169" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-169">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1865" xml:id="l1865">Muy bien mis cosas entablo.</l>
             <l n="1866" xml:id="l1866">Vuele mi fortuna, vuele.</l>
           </lg>
         </sp>
-        <sp xml:id="II-170" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-170">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1867" xml:id="l1867">Por Nuestro Señor, que huele</l>
             <l n="1868" xml:id="l1868">a vísperas del dïablo.</l>
           </lg>
         </sp>
-        <sp xml:id="II-171" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-171">
           <speaker>ENRICO</speaker>
           <lg part="I">
             <l n="1869" xml:id="l1869">Pues a fe que huele mal.</l>
           </lg>
         </sp>
-        <sp xml:id="II-172" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-172">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1870" xml:id="l1870">¡Que sin decir al que pasa:</l>
@@ -4879,51 +4923,53 @@
             <l n="1872" xml:id="l1872">derramen un orinal!</l>
           </lg>
         </sp>
-        <sp xml:id="II-173" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-173">
           <speaker>ENRICO</speaker>
           <lg part="I">
             <l n="1873" xml:id="l1873">Terrible cosa es, señor.</l>
             <l n="1874" xml:id="l1874">Yo me voy, a Dios quedad.</l>
           </lg>
         </sp>
-        <sp xml:id="II-174" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-174">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
-            <l n="1875" xml:id="l1875" part="I">Bésoos las manos.</l>
+            <l n="1875" part="I" xml:id="l1875">Bésoos las manos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-175" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-175">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Andad.</l>
           </lg>
         </sp>
-        <sp xml:id="II-176" who="ENRICO">
+        <sp who="ENRICO" xml:id="II-176">
           <speaker>ENRICO</speaker>
           <lg part="F">
             <l n="1876" xml:id="l1876">Lo dicho, dicho, doctor.</l>
           </lg>
         </sp>
-        <stage>Vase Enrico.<listPerson type="configuration"/></stage>
-        <sp xml:id="II-177" who="DONTRISTAN">
+        <stage>Vase Enrico.<listPerson type="configuration" xml:id="conf16">
+          <person corresp="#DOCTOR"/>
+          <person corresp="#DONTRISTAN"/></listPerson></stage>
+        <sp who="DONTRISTAN" xml:id="II-177">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1877" xml:id="l1877">¿Qué hay, pues, de nuevo, mi rey?</l>
           </lg>
         </sp>
-        <sp xml:id="II-178" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-178">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="1878" xml:id="l1878">Que vuesa merced se cure.</l>
           </lg>
         </sp>
-        <sp xml:id="II-179" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-179">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
-            <l n="1879" xml:id="l1879" part="I">¿Acabóse?</l>
+            <l n="1879" part="I" xml:id="l1879">¿Acabóse?</l>
           </lg>
         </sp>
-        <sp xml:id="II-180" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-180">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">No me apure,</l>
@@ -4931,10 +4977,10 @@
           </lg>
           <lg part="I">
             <l n="1881" xml:id="l1881">Púrguese luego a la hora,</l>
-            <l n="1882" xml:id="l1882" part="I">que importa.</l>
+            <l n="1882" part="I" xml:id="l1882">que importa.</l>
           </lg>
         </sp>
-        <sp xml:id="II-181" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-181">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">Bástame eso.</l>
@@ -4942,7 +4988,7 @@
             <l n="1884" xml:id="l1884">mía es la bella Leonora.</l>
           </lg>
         </sp>
-        <sp xml:id="II-182" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-182">
           <speaker>DOCTOR</speaker>
           <stage>Aparte</stage>
           <lg>
@@ -4952,54 +4998,54 @@
             <l n="1888" xml:id="l1888">siempre a <hi rend="i">Meus, mea, meum</hi>.</l>
           </lg>
         </sp>
-        <sp xml:id="II-183" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-183">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1889" xml:id="l1889">¿Cuándo esta purga crüel</l>
-            <l n="1890" xml:id="l1890" part="I">se recetará?</l>
+            <l n="1890" part="I" xml:id="l1890">se recetará?</l>
           </lg>
         </sp>
-        <sp xml:id="II-184" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-184">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Al momento.</l>
           </lg>
         </sp>
-        <sp xml:id="II-185" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-185">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l n="1891" xml:id="l1891">¡Hola!, ¿oís? De mi aposento</l>
             <l n="1892" xml:id="l1892">me bajad tinta y papel.</l>
           </lg>
         </sp>
-        <sp xml:id="II-186" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-186">
           <speaker>DOCTOR</speaker>
           <lg part="I">
             <l n="1893" xml:id="l1893">¿Habéis tomado el jarabe</l>
             <l n="1894" xml:id="l1894">estos cuatro o cinco días?</l>
           </lg>
         </sp>
-        <sp xml:id="II-187" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-187">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l n="1895" xml:id="l1895">Sábenlo las tripas mías,</l>
             <l n="1896" xml:id="l1896">y mi paciencia lo sabe.</l>
           </lg>
         </sp>
-        <sp xml:id="II-188" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-188">
           <speaker>DOCTOR</speaker>
           <lg part="I">
-            <l n="1897" xml:id="l1897" part="I">¿La orina?</l>
+            <l n="1897" part="I" xml:id="l1897">¿La orina?</l>
           </lg>
         </sp>
-        <sp xml:id="II-189" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-189">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">No pidáis tal,</l>
             <l n="1898" xml:id="l1898">que es tarde y no la he tomado.</l>
           </lg>
         </sp>
-        <sp xml:id="II-190" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-190">
           <speaker>DOCTOR</speaker>
           <stage>Aparte.</stage>
           <lg part="F">
@@ -5007,28 +5053,28 @@
             <l n="1900" xml:id="l1900">ser de lienzo el orinal).</l>
           </lg>
           <lg part="I">
-            <l n="1901" xml:id="l1901" part="I">Venga el pulso.</l>
+            <l n="1901" part="I" xml:id="l1901">Venga el pulso.</l>
           </lg>
         </sp>
-        <sp xml:id="II-191" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-191">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">¿Ambos queréis?</l>
           </lg>
         </sp>
-        <sp xml:id="II-192" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-192">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="1902" xml:id="l1902" part="I">¿Qué sentís?</l>
+            <l n="1902" part="I" xml:id="l1902">¿Qué sentís?</l>
           </lg>
         </sp>
-        <sp xml:id="II-193" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-193">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="M">Nada.</l>
           </lg>
         </sp>
-        <sp xml:id="II-194" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-194">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Prometo</l>
@@ -5036,14 +5082,14 @@
             <l n="1904" xml:id="l1904">¿Qué edad, amigo, tenéis?</l>
           </lg>
         </sp>
-        <sp xml:id="II-195" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-195">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1905" xml:id="l1905">¿Pues manda la Medicina</l>
             <l n="1906" xml:id="l1906">que se informen de la edad?</l>
           </lg>
         </sp>
-        <sp xml:id="II-196" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-196">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1907" xml:id="l1907">Sí, y vuestra debilidad</l>
@@ -5058,7 +5104,9 @@
           </lg>
           <lg>
             <l n="1914" xml:id="l1914">en un consejo que da</l>
-            <l n="1915" xml:id="l1915"><hi rend="i">de febribus sine spe,</hi></l>
+            <l n="1915" xml:id="l1915">
+              <hi rend="i">de febribus sine spe,</hi>
+            </l>
             <l n="1916" xml:id="l1916">en griego nos dice así:</l>
             <l n="1917" xml:id="l1917">«<hi rend="i">Agios oheph, nepható</hi></l>
             <l n="1918" xml:id="l1918"><hi rend="i">apoton chirios i mú</hi>»,</l>
@@ -5099,13 +5147,13 @@
             <l n="1943" xml:id="l1943">en sus flotas el Perú.</l>
           </lg>
         </sp>
-        <sp xml:id="II-197" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-197">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1944" xml:id="l1944">¿Que en griego está escrito eso?</l>
           </lg>
         </sp>
-        <sp xml:id="II-198" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-198">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1945" xml:id="l1945">¿Cómo escrito? En letras de oro;</l>
@@ -5113,13 +5161,13 @@
             <l n="1947" xml:id="l1947">os lo trujera aquí impreso.</l>
           </lg>
         </sp>
-        <sp xml:id="II-199" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-199">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
-            <l n="1948" xml:id="l1948" part="I">¡Válgame Dios!</l>
+            <l n="1948" part="I" xml:id="l1948">¡Válgame Dios!</l>
           </lg>
         </sp>
-        <sp xml:id="II-200" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-200">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">¡Lindo sois!</l>
@@ -5128,23 +5176,23 @@
             <l n="1951" xml:id="l1951">en arábigo a Averrois:</l>
           </lg>
           <lg part="I">
-            <l n="1952" xml:id="l1952" part="I">«<hi rend="i">Guahalet...</hi>»</l>
+            <l n="1952" part="I" xml:id="l1952">«<hi rend="i">Guahalet...</hi>»</l>
           </lg>
         </sp>
-        <sp xml:id="II-201" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-201">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">¿Algarabía</l>
-            <l n="1953" xml:id="l1953" part="I">sabéis?</l>
+            <l n="1953" part="I" xml:id="l1953">sabéis?</l>
           </lg>
         </sp>
-        <sp xml:id="II-202" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-202">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="M">Muy bien.</l>
           </lg>
         </sp>
-        <sp xml:id="II-203" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-203">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">San Germán</l>
@@ -5152,65 +5200,65 @@
             <l n="1955" xml:id="l1955">postigo de Berbería.</l>
           </lg>
           <lg part="I">
-            <l n="1956" xml:id="l1956" part="I">No más textos.</l>
+            <l n="1956" part="I" xml:id="l1956">No más textos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-204" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-204">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Pues, señor,</l>
-            <l n="1957" xml:id="l1957" part="I">la edad venga.</l>
+            <l n="1957" part="I" xml:id="l1957">la edad venga.</l>
           </lg>
         </sp>
-        <sp xml:id="II-205" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-205">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">¿La edad mía?</l>
           </lg>
         </sp>
-        <sp xml:id="II-206" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-206">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="1958" xml:id="l1958" part="I">Voyme.</l>
+            <l n="1958" part="I" xml:id="l1958">Voyme.</l>
           </lg>
         </sp>
-        <sp xml:id="II-207" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-207">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">Deteneos, que el día</l>
             <l n="1959" xml:id="l1959">hace, de San Salvador,</l>
           </lg>
           <lg part="I">
-            <l n="1960" xml:id="l1960" part="I">treinta, cuarenta...</l>
+            <l n="1960" part="I" xml:id="l1960">treinta, cuarenta...</l>
           </lg>
         </sp>
-        <sp xml:id="II-208" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-208">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">¡Oh qué extraños</l>
-            <l n="1961" xml:id="l1961" part="I">alambiques!</l>
+            <l n="1961" part="I" xml:id="l1961">alambiques!</l>
           </lg>
         </sp>
-        <sp xml:id="II-209" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-209">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">Y aun sudores.</l>
           </lg>
         </sp>
-        <sp xml:id="II-210" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-210">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="1962" xml:id="l1962">¿Hay partos con más dolores?</l>
-            <l n="1963" xml:id="l1963" part="I">Alúmbreos Dios.</l>
+            <l n="1963" part="I" xml:id="l1963">Alúmbreos Dios.</l>
           </lg>
         </sp>
-        <sp xml:id="II-211" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-211">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">Cincuenta años.</l>
           </lg>
         </sp>
-        <sp xml:id="II-212" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-212">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1964" xml:id="l1964">Crecidito es el infante.</l>
@@ -5231,13 +5279,13 @@
             <l n="1975" xml:id="l1975">con tres onzas de veneno.</l>
           </lg>
         </sp>
-        <sp xml:id="II-213" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-213">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
-            <l n="1976" xml:id="l1976" part="I">¿Es posible, doctor?</l>
+            <l n="1976" part="I" xml:id="l1976">¿Es posible, doctor?</l>
           </lg>
         </sp>
-        <sp xml:id="II-214" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-214">
           <speaker>DOCTOR</speaker>
           <l part="F">Sí,</l>
           <lg part="F">
@@ -5246,14 +5294,14 @@
             <l n="1979" xml:id="l1979">lo que es toca para mí.</l>
           </lg>
         </sp>
-        <sp xml:id="II-215" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-215">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1980" xml:id="l1980">Pues cincuenta y cinco son,</l>
-            <l n="1981" xml:id="l1981" part="I">doctor, mis años.</l>
+            <l n="1981" part="I" xml:id="l1981">doctor, mis años.</l>
           </lg>
         </sp>
-        <sp xml:id="II-216" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-216">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Buen punto</l>
@@ -5261,13 +5309,13 @@
             <l n="1983" xml:id="l1983">con el diacatolicón.</l>
           </lg>
         </sp>
-        <sp xml:id="II-217" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-217">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="1984" xml:id="l1984">Buena burla fuera esa.</l>
           </lg>
         </sp>
-        <sp xml:id="II-218" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-218">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="1985" xml:id="l1985">No fuera menor; y, en suma,</l>
@@ -5284,27 +5332,27 @@
             <l n="1992" xml:id="l1992">Verdad es que va la vida.</l>
           </lg>
         </sp>
-        <sp xml:id="II-219" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-219">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l n="1993" xml:id="l1993">¡Oh qué angustias! ¡Oh qué afrenta!</l>
-            <l n="1994" xml:id="l1994" part="I">Salen...</l>
+            <l n="1994" part="I" xml:id="l1994">Salen...</l>
           </lg>
         </sp>
-        <sp xml:id="II-220" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-220">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="M">¿Qué decís?</l>
           </lg>
         </sp>
-        <sp xml:id="II-221" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-221">
           <speaker>DON TRISTÁN</speaker>
           <lg part="F">
             <l part="F">Sesenta</l>
             <l n="1995" xml:id="l1995">ensucia la mal teñida.</l>
           </lg>
         </sp>
-        <sp xml:id="II-222" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-222">
           <speaker>DOCTOR</speaker>
           <lg>
             <l n="1996" xml:id="l1996">Si son canas, tinta poca</l>
@@ -5313,13 +5361,13 @@
             <l n="1999" xml:id="l1999">tormento os dará, de toca.</l>
           </lg>
         </sp>
-        <sp xml:id="II-223" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-223">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
-            <l n="2000" xml:id="l2000" part="I">¿Cómo así?</l>
+            <l n="2000" part="I" xml:id="l2000">¿Cómo así?</l>
           </lg>
         </sp>
-        <sp xml:id="II-224" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-224">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Como hará,</l>
@@ -5330,30 +5378,30 @@
           <stage>Aparte</stage>
           <lg part="I">
             <l n="2004" xml:id="l2004">(Buen braco ha sido mi ingenio).</l>
-            <l n="2005" xml:id="l2005" part="I">¿Escribo?</l>
+            <l n="2005" part="I" xml:id="l2005">¿Escribo?</l>
           </lg>
         </sp>
-        <sp xml:id="II-225" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-225">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">¿Qué prisa es esta?</l>
             <l n="2006" xml:id="l2006">Aún más por saber nos resta.</l>
           </lg>
         </sp>
-        <sp xml:id="II-226" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-226">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="2007" xml:id="l2007">¿Es, por dicha, otro quinquenio?</l>
           </lg>
         </sp>
-        <sp xml:id="II-227" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-227">
           <speaker>DON TRISTÁN</speaker>
           <lg part="I">
             <l n="2008" xml:id="l2008">No, sino por mi desdicha,</l>
-            <l n="2009" xml:id="l2009" part="I">otros dos.</l>
+            <l n="2009" part="I" xml:id="l2009">otros dos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-228" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-228">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Gracioso aliño</l>
@@ -5361,29 +5409,29 @@
             <l n="2011" xml:id="l2011">un poco de maná en chicha.</l>
           </lg>
           <lg part="I">
-            <l n="2012" xml:id="l2012" part="I">¿Setenta, y pasáis?</l>
+            <l n="2012" part="I" xml:id="l2012">¿Setenta, y pasáis?</l>
           </lg>
         </sp>
-        <sp xml:id="II-229" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-229">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">Callad.</l>
           </lg>
         </sp>
-        <sp xml:id="II-230" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-230">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l n="2013" xml:id="l2013">¿A quién pensabais coger</l>
-            <l n="2014" xml:id="l2014" part="I">con el falso?</l>
+            <l n="2014" part="I" xml:id="l2014">con el falso?</l>
           </lg>
         </sp>
-        <sp xml:id="II-231" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-231">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l part="F">A una mujer.</l>
           </lg>
         </sp>
-        <sp xml:id="II-232" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-232">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l n="2015" xml:id="l2015">¿Falsos a la falsedad?,</l>
@@ -5395,27 +5443,27 @@
             <l n="2019" xml:id="l2019">se piensa restar con vos.</l>
           </lg>
         </sp>
-        <sp xml:id="II-233" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-233">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
             <l n="2020" xml:id="l2020">¿Cómo, doctor? ¿Mi Leonora</l>
-            <l n="2021" xml:id="l2021" part="I">figuras espera?</l>
+            <l n="2021" part="I" xml:id="l2021">figuras espera?</l>
           </lg>
         </sp>
-        <sp xml:id="II-234" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-234">
           <speaker>DOCTOR</speaker>
           <lg part="M">
             <l part="F">Sí,</l>
             <l n="2022" xml:id="l2022">y una le ha de entrar por mí.</l>
           </lg>
         </sp>
-        <sp xml:id="II-235" who="DONTRISTAN">
+        <sp who="DONTRISTAN" xml:id="II-235">
           <speaker>DON TRISTÁN</speaker>
           <lg part="M">
-            <l n="2023" xml:id="l2023" part="I">¿Por vos?</l>
+            <l n="2023" part="I" xml:id="l2023">¿Por vos?</l>
           </lg>
         </sp>
-        <sp xml:id="II-236" who="DOCTOR">
+        <sp who="DOCTOR" xml:id="II-236">
           <speaker>DOCTOR</speaker>
           <lg part="F">
             <l part="F">Dentro de una hora.</l>

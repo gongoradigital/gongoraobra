@@ -987,7 +987,8 @@
             <l part="F">Vete,</l>
             <l n="390" xml:id="l390">que yo me quedo conmigo.</l>
           </lg>
-          <stage>Vase Gerardo.<listPerson type="configuration" xml:id="conf2"/></stage>
+          <stage>Vase Gerardo.<listPerson type="configuration" xml:id="conf2">
+            <person corresp="#DOCTOR"/></listPerson></stage>
           <lg>
             <l n="391" xml:id="l391">Profunda ciencia de valor divino</l>
             <l n="392" xml:id="l392">de Apolo nieta y de Esculapio hija,</l>

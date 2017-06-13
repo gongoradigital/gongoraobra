@@ -497,6 +497,9 @@
             <l n="202" part="I" xml:id="l202">Aguarda.</l>
           </lg>
         </sp>
+        <stage>[Vanse Silvio y Floriscio.]<listPerson type="configuration" xml:id="conf4">
+          <person corresp="#CAMILA"/>
+          <person corresp="#CINTIA"/></listPerson></stage>
         <sp who="CAMILA" xml:id="I-29">
           <speaker>CAMILA</speaker>
           <lg part="F">
@@ -561,7 +564,7 @@
           <lg part="F">
             <l part="F">Tuerce bien.</l>
           </lg>
-          <stage>Salen Silvio y Floriscio.<listPerson type="configuration" xml:id="conf4">
+          <stage>Salen Silvio y Floriscio.<listPerson type="configuration" xml:id="conf5">
             <person corresp="#SILVIO"/>
             <person corresp="#FLORISCIO"/>
             <person corresp="#CAMILA"/>
@@ -819,7 +822,7 @@
           <lg part="F">
             <l part="F">Vamos.</l>
           </lg>
-          <stage>Vanse y quedan las dos solas.<listPerson type="configuration" xml:id="conf5">
+          <stage>Vanse y quedan las dos solas.<listPerson type="configuration" xml:id="conf6x">
             <person corresp="#CAMILA"/>
             <person corresp="#CINTIA"/></listPerson></stage>
         </sp>

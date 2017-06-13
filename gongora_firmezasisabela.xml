@@ -1667,11 +1667,11 @@
             <l n="834" xml:id="l834"> Con bien fácil ocasión</l>
             <l n="835" xml:id="l835">ahora quiere venir.</l>
             <l n="836" xml:id="l836">No sé qué pueda decir.</l>
-          </lg></sp><sp who=""><speaker>
+          </lg></sp><sp who="CAMILO"><speaker>
           CAMILO</speaker><stage>Aparte.</stage>
           <lg part="F">
             <l n="837" xml:id="l837">Amor, mis desdichas son.</l>
-          </lg></sp><sp who=""><speaker>
+          </lg></sp><sp who="TADEO"><speaker>
           TADEO</speaker><stage>Aparte</stage>
           <lg part="I">
             <l n="838" xml:id="l838"> No sé qué oigo que me altera.</l>
@@ -1681,7 +1681,7 @@
           <speaker>OCTAVIO</speaker>
           <lg part="M">
             <l n="839" xml:id="l839">Muy bien venga Galeazo.</l>
-          </lg></sp><sp who=""><speaker>
+          </lg></sp><sp who="TADEO"><speaker>
           TADEO</speaker><stage>Aparte.</stage>
           <lg part="F">
             <l n="840" xml:id="l840">Vive Dios, que diera un brazo</l>
@@ -1789,7 +1789,7 @@
           <lg part="I">
             <l n="882" xml:id="l882"> o aquellos, aparta el cielo,</l>
             <l n="883" xml:id="l883">que convecinó de casas.</l>
-          </lg></sp><sp who=""><speaker>
+          </lg></sp><sp who="TADEO"><speaker>
           TADEO</speaker><stage>Aparte.</stage>
           <lg part="F">
             <l n="884" xml:id="l884">Amor, ¿por aquello pasas,</l>
@@ -2415,12 +2415,12 @@
             <l part="M" n="1123" xml:id="l1123">Iréme.</l>
           </lg></sp><sp who="LAURETA"><speaker>
           LAURETA</speaker><stage>Aparte.</stage>
-            <l n="1124" xml:id="l1124">¡Oh desvío!</l></sp><sp who=""><speaker>
-          <stage>ISABELA, <hi rend="i">aparte</hi></stage>
-          <l n="1125" xml:id="l1125"><hi rend="i">¡Oh amor</hi>!</l>
-          <stage>CAMILO, <hi rend="i">aparte</hi></stage>
-          <l n="1126" xml:id="l1126"><hi rend="i">¡Oh honra</hi>!</l>
-          <stage>LAURETA, <hi rend="i">aparte</hi></stage>
+            <l n="1124" xml:id="l1124">¡Oh desvío!</l></sp><sp who="ISABELA"><speaker>
+              ISABELA</speaker><stage>, <hi rend="i">aparte</hi></stage>
+          <l n="1125" xml:id="l1125"><hi rend="i">¡Oh amor</hi>!</l></sp>
+        <sp who="CAMILO"><speaker>CAMILO</speaker><stage>, <hi rend="i">aparte</hi></stage>
+          <l n="1126" xml:id="l1126"><hi rend="i">¡Oh honra</hi>!</l></sp>
+        <sp who="LAURETA"><speaker>LAURETA</speaker><stage>, <hi rend="i">aparte</hi></stage>
           <l n="1127" xml:id="l1127"><hi rend="i">¡Oh estrella</hi>!</l>
         </sp>
         <sp xml:id="II-19" who="CAMILO">

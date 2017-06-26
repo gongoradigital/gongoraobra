@@ -74,7 +74,7 @@
       </div>
       <div type="act" xml:id="I">
         <head>ACTO PRIMERO</head>
-        <stage>Entra Marcelo, solo.</stage>
+        <stage>Entra Marcelo, solo.<listPerson/></stage>
         <sp who="MARCELO">
           <speaker>MARCELO</speaker>
           <lg>

@@ -52,20 +52,20 @@
         <head>LAS FIRMEZAS DE ISABELA</head>
         <castList>
           <head>HABLAN EN ELLA</head>
-          <castItem><role xml:id="OCTAVIO">Octavio</role>, <roleDesc>viejo, mercader de Toledo</roleDesc>.</castItem>
-          <castItem><role xml:id="ISABELA">Isabela</role>, <roleDesc>hija de Octavio.</roleDesc></castItem>
-          <castItem><role xml:id="LAURETA">Laureta</role>, <roleDesc>criada de Isabela</roleDesc>.</castItem>
-          <castItem><role xml:id="FABIO">Fabio</role>, <roleDesc>mercader de Toledo</roleDesc>.</castItem>
-          <castItem><role xml:id="VIOLANTE">Violante</role>, <roleDesc>hermana de Fabio</roleDesc>.</castItem>
-          <castItem><role xml:id="TADEO">Tadeo</role>, <roleDesc>criado de Fabio</roleDesc>.</castItem>
-          <castItem><role xml:id="GALEAZO">Galeazo</role>, <roleDesc>viejo, mercader de Sevilla.</roleDesc></castItem>
-          <castItem><role xml:id="LELIO">Lelio</role>, <roleDesc>por otro nombre</roleDesc></castItem>
-          <castItem><role xml:id="CAMILO"/>Camilo, <roleDesc>hijo de</roleDesc> Galeazo.</castItem>
-          <castItem><role xml:id="EMILIO">Emilio</role>, <roleDesc>viejo, mercader de Granada.</roleDesc></castItem>
-          <castItem><role xml:id="MARCELO">Marcelo</role>, <roleDesc>hijo de Emilio.</roleDesc></castItem>
-          <castItem><role xml:id="DONATO">Donato</role>, <roleDesc>criado de Emilio.</roleDesc></castItem>
+          <castItem><role xml:id="OCTAVIO" rend="male veteran">Octavio</role>, <roleDesc>viejo, mercader de Toledo</roleDesc>.</castItem>
+          <castItem><role xml:id="ISABELA" rend="female junior">Isabela</role>, <roleDesc>hija de Octavio.</roleDesc></castItem>
+          <castItem><role xml:id="LAURETA" rend="female inferior junior">Laureta</role>, <roleDesc>criada de Isabela</roleDesc>.</castItem>
+          <castItem><role xml:id="FABIO" rend="male junior">Fabio</role>, <roleDesc>mercader de Toledo</roleDesc>.</castItem>
+          <castItem><role xml:id="VIOLANTE" rend="female junior">Violante</role>, <roleDesc>hermana de Fabio</roleDesc>.</castItem>
+          <castItem><role xml:id="TADEO" rend="male inferior">Tadeo</role>, <roleDesc>criado de Fabio</roleDesc>.</castItem>
+          <castItem><role xml:id="GALEAZO" rend="male veteran">Galeazo</role>, <roleDesc>viejo, mercader de Sevilla.</roleDesc></castItem>
+          <castItem><role xml:id="LELIO" rend="junior male">Lelio</role>, <roleDesc>por otro nombre</roleDesc></castItem>
+          <castItem><role xml:id="CAMILO" rend="junior male">Camilo</role>, <roleDesc>hijo de</roleDesc> Galeazo.</castItem>
+          <castItem><role xml:id="EMILIO" rend="male veteran">Emilio</role>, <roleDesc>viejo, mercader de Granada.</roleDesc></castItem>
+          <castItem><role xml:id="MARCELO" rend="male junior">Marcelo</role>, <roleDesc>hijo de Emilio.</roleDesc></castItem>
+          <castItem><role xml:id="DONATO" rend="inferior male">Donato</role>, <roleDesc>criado de Emilio.</roleDesc></castItem>
           <castItem>
-            <role xml:id="CRIADO">Dos criados.</role>
+            <role xml:id="CRIADO" rend="inferior male">Dos criados.</role>
           </castItem>
         </castList>
       </div>

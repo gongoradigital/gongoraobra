@@ -55,26 +55,26 @@
         <p>Hablan en ella:</p>
         <castList>
           <castItem>
-            <role xml:id="GERARDO">GERARDO</role>
+            <role xml:id="GERARDO" rend="male">GERARDO</role>
           </castItem>
-          <castItem><role xml:id="DOCTOR">CARLINO</role>, <roleDesc>médico</roleDesc></castItem>
+          <castItem><role xml:id="DOCTOR" rend="male">CARLINO</role>, <roleDesc>médico</roleDesc></castItem>
           <castItem>
-            <role xml:id="TANCREDO">TANCREDO</role>
-          </castItem>
-          <castItem>
-            <role xml:id="ENRICO">ENRICO</role>
+            <role xml:id="TANCREDO" rend="male">TANCREDO</role>
           </castItem>
           <castItem>
-            <role xml:id="DONTRISTAN">DON TRISTÁN</role>
+            <role xml:id="ENRICO" rend="male">ENRICO</role>
           </castItem>
           <castItem>
-            <role xml:id="TISBERTO">TISBERTO</role>
+            <role xml:id="DONTRISTAN" rend="male">DON TRISTÁN</role>
           </castItem>
           <castItem>
-            <role xml:id="CASILDA">CASILDA</role>
+            <role xml:id="TISBERTO" rend="male">TISBERTO</role>
           </castItem>
           <castItem>
-            <role xml:id="LUCRECIA">LUCRECIA</role>
+            <role xml:id="CASILDA" rend="female">CASILDA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="LUCRECIA" rend="female">LUCRECIA</role>
           </castItem>
         </castList>
       </div>

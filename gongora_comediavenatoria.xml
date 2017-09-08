@@ -54,22 +54,22 @@
         <p>Los que hablan en ella son:</p>
         <castList>
           <castItem>
-            <role xml:id="CUPIDO">CUPIDO</role>
+            <role xml:id="CUPIDO">CUPIDO</role>.
           </castItem>
           <castItem>
-            <role xml:id="SILVIO">SILVIO</role>
+            <role xml:id="SILVIO">SILVIO</role>.
           </castItem>
           <castItem>
-            <role xml:id="FLORISCIO">FLORISCIO</role>
+            <role xml:id="FLORISCIO">FLORISCIO</role>.
           </castItem>
           <castItem>
-            <role xml:id="CAMILA">CAMILA</role>
+            <role xml:id="CAMILA">CAMILA</role>.
           </castItem>
           <castItem>
-            <role xml:id="CINTIA">CINTIA</role>
+            <role xml:id="CINTIA">CINTIA</role>.
           </castItem>
         </castList>
-        <stage>Sale Cupido.<listPerson type="configuration" xml:id="conf1">
+        <stage><hi rend="i">Sale Cupido.</hi><listPerson type="configuration" xml:id="conf1">
           <person corresp="#CUPIDO"/>
         </listPerson></stage>
         <sp who="CUPIDO" xml:id="I-1">
@@ -497,7 +497,7 @@
             <l n="202" part="I" xml:id="l202">Aguarda.</l>
           </lg>
         </sp>
-        <stage>[Vanse Silvio y Floriscio.]<listPerson type="configuration" xml:id="conf4">
+        <stage><listPerson type="configuration" xml:id="conf4">
           <person corresp="#CAMILA"/>
           <person corresp="#CINTIA"/></listPerson></stage>
         <sp who="CAMILA" xml:id="I-29">
@@ -919,7 +919,7 @@
             <l n="355" xml:id="l355">que el dolor sea poco o nada».</l>
           </lg>
           <p/>
-          <p rend="b">(Aquí se acaba, que en este estado la dejó don Luis)</p>
+          <p rend="i">(Aquí se acaba, que en este estado la dejó don Luis)</p>
         </sp>
       </div>
     </body>

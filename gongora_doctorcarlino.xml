@@ -57,26 +57,26 @@
         <p>Hablan en ella:</p>
         <castList>
           <castItem>
-            <role xml:id="GERARDO" rend="male">GERARDO</role>
+            <role xml:id="GERARDO" rend="male">GERARDO</role>.
           </castItem>
-          <castItem><role xml:id="DOCTOR" rend="male">CARLINO</role>, <roleDesc>médico</roleDesc></castItem>
+          <castItem><role xml:id="DOCTOR" rend="male">CARLINO</role>, <roleDesc>médico</roleDesc>.</castItem>
           <castItem>
-            <role xml:id="TANCREDO" rend="male">TANCREDO</role>
-          </castItem>
-          <castItem>
-            <role xml:id="ENRICO" rend="male">ENRICO</role>
+            <role xml:id="TANCREDO" rend="male">TANCREDO</role>.
           </castItem>
           <castItem>
-            <role xml:id="DONTRISTAN" rend="male">DON TRISTÁN</role>
+            <role xml:id="ENRICO" rend="male">ENRICO</role>.
           </castItem>
           <castItem>
-            <role xml:id="TISBERTO" rend="male">TISBERTO</role>
+            <role xml:id="DONTRISTAN" rend="male">DON TRISTÁN</role>.
           </castItem>
           <castItem>
-            <role xml:id="CASILDA" rend="female">CASILDA</role>
+            <role xml:id="TISBERTO" rend="male">TISBERTO</role>.
           </castItem>
           <castItem>
-            <role xml:id="LUCRECIA" rend="female">LUCRECIA</role>
+            <role xml:id="CASILDA" rend="female">CASILDA</role>.
+          </castItem>
+          <castItem>
+            <role xml:id="LUCRECIA" rend="female">LUCRECIA</role>.
           </castItem>
         </castList>
       </div>
@@ -618,7 +618,7 @@
             <l n="275" xml:id="l275">no fuese porte del pliego.</l>
           </lg>
           <lg>
-            <l n="276" xml:id="l276">Representéle el afán</l>
+            <l n="276" xml:id="l276">Representele el afán</l>
             <l n="277" xml:id="l277">que tendrá, si a don Tristán</l>
             <l n="278" xml:id="l278">se la concede su hermano,</l>
             <l n="279" xml:id="l279">que, aunque es galán no muy cano,</l>
@@ -998,18 +998,19 @@
             <l n="391" xml:id="l391">Profunda ciencia de valor divino</l>
             <l n="392" xml:id="l392">de Apolo nieta y de Esculapio hija,</l>
             <l n="393" xml:id="l393">cuyas insignias son una sortija,</l>
-            <l n="394" xml:id="l394">precioso engaste de un guijarro fino:</l>
+            <l n="394" xml:id="l394">precioso engaste de un guijarro fino:</l></lg><lg>
             <l n="395" xml:id="l395">con tu licencia ya el doctor Carlino</l>
             <l n="396" xml:id="l396">de tu amarilla borla se cobija,</l>
             <l n="397" xml:id="l397">falsamente arrollando en su valija</l>
-            <l n="398" xml:id="l398">el mal iluminado pergamino,</l>
+              <l n="398" xml:id="l398">el mal iluminado pergamino,</l></lg><lg>
             <l n="399" xml:id="l399">despojos de un hermano que en Valencia</l>
             <l n="400" xml:id="l400">murió, en tus facultades gradüado,</l>
-            <l n="401" xml:id="l401">y mi necesidad los hizo herencia.</l>
+                <l n="401" xml:id="l401">y mi necesidad los hizo herencia.</l></lg><lg>
             <l n="402" xml:id="l402">Si pequé en ello, muera el que ha pecado,</l>
             <l n="403" xml:id="l403">mas oye antes quién soy, sagrada ciencia,</l>
             <l n="404" xml:id="l404">por que muera, a lo menos, confesado.</l>
           </lg>
+          <l></l>
           <lg>
             <l n="405" xml:id="l405">Un pobre aragonés soy</l>
             <l n="406" xml:id="l406">nacido en Calatayud</l>
@@ -1120,7 +1121,6 @@
             <l n="511" xml:id="l511">el mayor embuste mío,</l>
             <l n="512" xml:id="l512">espada de Sahagún.</l>
             <l n="513" xml:id="l513">De las lágrimas de todos</l>
-            <l n="514" xml:id="l514">soy yo triste el arcaduz,</l>
             <l n="515" xml:id="l515">y estoy llorando más que ellos:</l>
             <l n="516" xml:id="l516">Amor, bien lo sabes tú.</l>
             <l n="517" xml:id="l517">Refiéreselo a la ciencia</l>
@@ -1129,7 +1129,7 @@
             <l n="520" xml:id="l520">la causa de mi inquietud.</l>
           </lg>
         </sp>
-        <stage>Entra Casilda.<listPerson xml:id="conf3" type="configuration">
+        <stage><hi rend="i">Entra Casilda.</hi><listPerson xml:id="conf3" type="configuration">
             <person corresp="#DOCTOR"/>
             <person corresp="#CASILDA"/>
           </listPerson></stage>
@@ -2068,7 +2068,7 @@
         <sp xml:id="I-169" who="DOCTOR">
           <speaker>DOCTOR</speaker>
           <lg part="F">
-            <l part="F">Deténte,</l>
+            <l part="F">Detente,</l>
             <l n="875" xml:id="l875">que ir no es cosa conviniente</l>
             <l n="876" xml:id="l876">donde de celos se abrasa</l>
           </lg>
@@ -2079,7 +2079,7 @@
             <l n="880" xml:id="l880">vas a sacar cien ducados?</l>
           </lg>
           <lg part="I">
-            <l n="881" xml:id="l881">Sacarásla de jüicio.</l>
+            <l n="881" xml:id="l881">Sacarasla de jüicio.</l>
           </lg>
         </sp>
         <sp xml:id="I-170" who="CASILDA">
@@ -2625,10 +2625,10 @@
             <l n="1060" xml:id="l1060">que sean ríos tus dos soles;</l>
           </lg>
           <lg>
-            <l part="F">rayos de luz será bien,</l>
-            <l part="F">y no lágrimas de enojos,</l>
-            <l part="F">que den tus hermosos ojos</l>
-            <l part="F">cuando alguna cosa den.<note>Estos cuatro versos están fuera de la numeración en la edición de Antonio Carreira</note></l>
+            <l>1504<hi rend="i">a</hi>   rayos de luz será bien,</l>
+            <l>1504<hi rend="i">a</hi>   y no lágrimas de enojos,</l>
+            <l>1504<hi rend="i">a</hi>   que den tus hermosos ojos</l>
+            <l>1504<hi rend="i">a</hi>   cuando alguna cosa den.</l>
           </lg>
         </sp>
         <sp xml:id="I-231" who="CASILDA">
@@ -4034,10 +4034,10 @@
             <l n="1504" xml:id="l1504">no sirve al rey, ni armas trata,</l>
           </lg>
           <lg>
-            <l part="F">que Tisberto: y para mí</l>
-            <l part="F">la virtud del mozo es tal</l>
-            <l part="F">que no hay culpa venïal</l>
-            <l part="F">en cuanto se habla allí.<note>Estos cuatro versos están fuera de la numeración en la edición de Antonio Carreira</note></l>
+            <l>1504<hi rend="i">a</hi>   que Tisberto: y para mí</l>
+            <l>1504<hi rend="i">b</hi>   la virtud del mozo es tal</l>
+            <l>1504<hi rend="i">c</hi>   que no hay culpa venïal</l>
+            <l>1504<hi rend="i">d</hi>   en cuanto se habla allí.</l>
           </lg>
         </sp>
         <sp xml:id="II-92" who="DOCTOR">
@@ -4770,7 +4770,7 @@
           <speaker>DOCTOR</speaker>
           <stage>[A Enrico]</stage>
           <lg>
-            <l n="1781" xml:id="l1781">Ofreceréme yo al punto</l>
+            <l n="1781" xml:id="l1781">Ofrecereme yo al punto</l>
             <l n="1782" xml:id="l1782">y, encareciendo el suceso,</l>
             <l n="1783" xml:id="l1783">al recluso haré preso,</l>
             <l n="1784" xml:id="l1784">y aun al herido, difunto.</l>
@@ -5497,6 +5497,7 @@
             <l part="F">Dentro de una hora.</l>
           </lg>
         </sp>
+        <p/>
         <p rend="b">(No pasó adelante con esta comedia).</p>
       </div>
     </body>

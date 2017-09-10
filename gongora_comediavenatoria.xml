@@ -71,6 +71,7 @@
             <role xml:id="CINTIA">CINTIA</role>.
           </castItem>
         </castList>
+        <stage>Sale Cupido.<listPerson type="configuration" xml:id="conf1">
           <person corresp="#CUPIDO"/>
         </listPerson></stage>
         <sp who="CUPIDO" xml:id="I-1">

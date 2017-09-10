@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -953,9 +953,7 @@
             <cell>123</cell>
             <cell>1600</cell>
             <cell>
-              <ref target="#poem123">
-                <hi rend="refrain">¿Por qué llora la Isabelitica?</hi>
-              </ref>
+              <ref target="#poem123" rend="i">¿Por qué llora la Isabelitica?</ref>
             </cell>
           </row>
           <row>
@@ -16443,9 +16441,9 @@
             </index>
             <head><num>217</num> <lb/><lb/>A san Ignacio de Loyola, que metido en una laguna fría revocó a un hombre que iba a pecar</head>
             <lg rend="center">
-              <label rend="center, i">Verso ajeno</label>
+              <label rend="center i">Verso ajeno</label>
               <l xml:id="l217.1a">Ardiendo en aguas muertas llamas vivas.</l>
-              <label rend="center, i">Glosa</label>
+              <label rend="center i">Glosa</label>
               <lg>
                 <l n="1" xml:id="l217.1">    En tenebrosa noche, en mar airado</l>
                 <l n="2" xml:id="l217.2">al través diera un marinero ciego,</l>
@@ -18766,7 +18764,7 @@
             <index>
               <term type="head"><num>256. </num>Por este culto bien nacido prado</term>
             </index>
-            <head><num>256</num> <lb/><lb/>A los poetas que asistían en Ayamonte<anchor xml:id="footnote5"/><note place="bottom">Todo lo que en esta silva trata de las flores de las maravillas es alusivo y alegórico al título o materia del libro de Torres de Prado [nota de Chacón probablemente errónea].</note></head>
+            <head><num>256</num> <lb/><lb/>A los poetas que asistían en Ayamonte<note place="bottom">Todo lo que en esta silva trata de las flores de las maravillas es alusivo y alegórico al título o materia del libro de Torres de Prado [nota de Chacón probablemente errónea].</note></head>
             <lg rend="center">
               <lg>
                 <l n="1" xml:id="l256.1">Por este culto bien nacido prado,</l>
@@ -21279,7 +21277,7 @@
                 <l n="769" xml:id="l264C.769">    la melionesa gala,</l>
                 <l n="770" xml:id="l264C.770">    que de trágica escena</l>
                 <l n="771" xml:id="l264C.771">mucho teatro hizo poca arena.</l>
-                <l n="772" xml:id="l264C.772">Tú, infestador en nuestra Europa nuevo<seg type="tab">    </seg></l>
+                <l n="772" xml:id="l264C.772">Tú, infestador en nuestra Europa nuevo</l>
                 <l n="773" xml:id="l264C.773">de las aves, nacido, aleto, donde</l>
                 <l n="774" xml:id="l264C.774">entre las conchas hoy del sur esconde</l>
                 <l n="775" xml:id="l264C.775">    sus muchos años Febo,</l>
@@ -21496,9 +21494,9 @@
             </index>
             <head><num>265</num> <lb/><lb/>A la purísima concepción de Nuestra Señora</head>
             <lg rend="center">
-              <label rend="center, i">Verso ajeno</label>
+              <label rend="center i">Verso ajeno</label>
               <l xml:id="l265.1a">Virgen pura, si el sol, luna y estrellas?</l>
-              <label rend="center, i">Glosa</label>
+              <label rend="center i">Glosa</label>
               <lg>
                 <l n="1" xml:id="l265.1">    Si ociosa no, asistió naturaleza</l>
                 <l n="2" xml:id="l265.2">incapaz a la tuya, oh gran señora,</l>
@@ -26445,14 +26443,14 @@
             </index>
             <head><num>343</num> <lb/> <lb/>En persona de un ministro importunado de una dama que descubriese un secreto</head>
             <lg rend="center">
-              <label rend="center, i">Redondilla ajena</label>
+              <label rend="center i">Redondilla ajena</label>
               <lg>
                 <l xml:id="l343.1a">    ¿Para qué me dais tormento,</l>
                 <l xml:id="l343.2a">aprovechando tan poco?</l>
                 <l xml:id="l343.3a">Perdido, mas no tan loco</l>
                 <l xml:id="l343.4a">que descubra lo que siento.</l>
               </lg>
-              <label rend="center, i">Glosa</label>
+              <label rend="center i">Glosa</label>
               <lg>
                 <l n="1" xml:id="l343.1">    Sabiendo, señora, que,</l>
                 <l n="2" xml:id="l343.2">como en firmeza lo he sido,</l>
@@ -27664,12 +27662,12 @@
             </index>
             <head><num>367</num> <lb/> <lb/>Redondilla varia</head>
             <lg rend="center">
-              <label rend="center, i">Dístico ajeno</label>
+              <label rend="center i">Dístico ajeno</label>
               <lg>
                 <l n="1a" xml:id="l367.1a">Latraui ad fures: tacui cum venit amator;</l>
                 <l n="1b" xml:id="l367.2b">    Sic placui domino, sic placui dominae.</l>
               </lg>
-              <label rend="center, i">Traducción</label>
+              <label rend="center i">Traducción</label>
               <lg>
                 <l n="1" xml:id="l367.1">      A los ladrones ladré;</l>
                 <l n="2" xml:id="l367.2">     al amante enmudecí;</l>

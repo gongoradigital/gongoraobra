@@ -318,8 +318,7 @@
           <person corresp="#TADEO"/>
           <person corresp="#MARCELO"/></listPerson></stage>
         <sp xml:id="I-9" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="145" xml:id="l145">Entrará a quitalla el miedo.</l>
           </lg>
@@ -355,8 +354,7 @@
           <person corresp="#TADEO"/>
           <person corresp="#MARCELO"/></listPerson></stage>
         <sp xml:id="I-14" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="150" xml:id="l150"> Nunca yo entrara a servir</l>
             <l n="151" xml:id="l151">porque no entrara a aprender</l>
@@ -470,8 +468,7 @@
           </lg>
         </sp>
         <sp xml:id="I-19" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l part="F">Temblando estoy.</l>
           </lg>
@@ -591,8 +588,7 @@
           </lg>
         </sp>
         <sp xml:id="I-32" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="246" xml:id="l246"> ¿No es esto cosa pesada,</l>
             <l n="247" xml:id="l247">que no sepa yo otro modo,</l>
@@ -649,8 +645,7 @@
           </lg>
         </sp>
         <sp xml:id="I-34" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="275" xml:id="l275">Ay de mí, que si es tan rico,</l>
             <l n="276" xml:id="l276">las paces hoy certifico</l>
@@ -671,8 +666,7 @@
           </lg>
         </sp>
         <sp xml:id="I-37" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="281" xml:id="l281">Mil cosas de aquí colijo:</l>
           </lg>
@@ -689,8 +683,7 @@
           <person corresp="#TADEO"/>
           <person corresp="#MARCELO"/></listPerson></stage>
         <sp xml:id="I-38" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="286" xml:id="l286">Huésped troyano has sido,</l>
             <l n="287" xml:id="l287">si no eres para mí caballo griego,</l>
@@ -769,8 +762,7 @@
           </lg>
         </sp>
         <sp xml:id="I-48" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="310" xml:id="l310">Alterada está la gente.</l>
           </lg>
@@ -874,8 +866,7 @@
           </lg>
         </sp>
         <sp xml:id="I-59" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="343" xml:id="l343">¡Oh benditísimo celo!</l>
           </lg>
@@ -909,15 +900,13 @@
           </lg>
         </sp>
         <sp xml:id="I-64" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte.</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="347" xml:id="l347">¿Tal traición? ¿Tan gran desdén?</l>
           </lg>
         </sp>
         <sp xml:id="I-65" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="348" xml:id="l348"> Ved cuál estaba la muela,</l>
             <l n="349" xml:id="l349">y cuál aguzón le dio,</l>
@@ -935,8 +924,7 @@
           </lg>
         </sp>
         <sp xml:id="I-67" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="356" xml:id="l356"> Aunque más lo disimules,</l>
             <l n="357" xml:id="l357">venció el celo, cosa es clara,</l>
@@ -976,36 +964,31 @@
           </lg>
         </sp>
         <sp xml:id="I-72" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte.</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="366" xml:id="l366">¡Que lo solicite a ello!</l>
           </lg>
         </sp>
         <sp xml:id="I-73" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="367" xml:id="l367">¡Que ayude yo al daño mío!</l>
           </lg>
         </sp>
         <sp xml:id="I-74" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte.</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="368" xml:id="l368"> A Camilo va a hablar.</l>
           </lg>
         </sp>
         <sp xml:id="I-75" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="369" xml:id="l369">¡Ay, que va a hablar a Camilo!</l>
           </lg>
         </sp>
         <sp xml:id="I-76" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="370" xml:id="l370">No suele al Egipto el Nilo</l>
             <l n="371" xml:id="l371">más sabandijas dejar</l>
@@ -1016,15 +999,13 @@
           </lg>
         </sp>
         <sp xml:id="I-77" who="MARCELO">
-          <speaker> MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker> MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="374" xml:id="l374">¡Que dé yo, en mi mal, consejo!</l>
           </lg>
         </sp>
         <sp xml:id="I-78" who="VIOLANTE">
-          <speaker> VIOLANTE</speaker>
-          <stage>Aparte.</stage>
+          <speaker> VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="375" xml:id="l375">¡Que engañen hombres honrados!</l>
           </lg>
@@ -1062,8 +1043,7 @@
           </lg>
         </sp>
         <sp xml:id="I-84" who="MARCELO">
-          <speaker> MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker> MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="382" xml:id="l382">Esto aún tengo por peor,</l>
             <l n="383" xml:id="l383">que lo llama la señora.</l>
@@ -1076,15 +1056,13 @@
           </lg>
         </sp>
         <sp xml:id="I-86" who="MARCELO">
-          <speaker> MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker> MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="385" xml:id="l385">No tengo más que perder.</l>
           </lg>
         </sp>
         <sp xml:id="I-87" who="VIOLANTE">
-          <speaker> VIOLANTE</speaker>
-          <stage>Aparte.</stage>
+          <speaker> VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="386" xml:id="l386">Yo he ganado en conocer.</l>
           </lg>
@@ -1239,8 +1217,7 @@
           </lg>
         </sp>
         <sp xml:id="I-102" who="FABIO">
-          <speaker> FABIO</speaker>
-          <stage>Aparte.</stage>
+          <speaker> FABIO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="454" xml:id="l454">Desatado ha sus venenos</l>
             <l n="455" xml:id="l455">en copa harto bien dorada.</l>
@@ -1472,8 +1449,7 @@
           </lg>
         </sp>
         <sp xml:id="I-107" who="TADEO">
-          <speaker> TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker> TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="656" xml:id="l656">A mi bronce no hay buril,</l>
             <l n="657" xml:id="l657">porque si ángel puede ser</l>
@@ -1737,15 +1713,13 @@
           </lg>
         </sp>
         <sp xml:id="I-115" who="CAMILO">
-          <speaker> CAMILO</speaker>
-          <stage>Aparte.</stage>
+          <speaker> CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="837" xml:id="l837">Amor, mis desdichas son.</l>
           </lg>
         </sp>
         <sp xml:id="I-116" who="TADEO">
-          <speaker> TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker> TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="838" xml:id="l838"> No sé qué oigo que me altera.</l>
           </lg>
@@ -1757,8 +1731,7 @@
           </lg>
         </sp>
         <sp xml:id="I-118" who="TADEO">
-          <speaker> TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker> TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="840" xml:id="l840">Vive Dios, que diera un brazo</l>
             <l n="841" xml:id="l841">por que mi amo viniera.</l>
@@ -1827,8 +1800,7 @@
           </lg>
         </sp>
         <sp xml:id="I-124" who="TADEO">
-          <speaker> TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker> TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="868" xml:id="l868">Diciendo está el Evangelio</l>
             <l n="869" xml:id="l869">en cuanto dice verdad.</l>
@@ -1871,8 +1843,7 @@
           </lg>
         </sp>
         <sp xml:id="I-128" who="TADEO">
-          <speaker> TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker> TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="884" xml:id="l884">Amor, ¿por aquello pasas,</l>
             <l n="885" xml:id="l885">que abogue contra ti el celo?</l>
@@ -2475,8 +2446,7 @@
           </lg>
         </sp>
         <sp xml:id="II-14" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1118" xml:id="l1118">Dulcemente me recibe.</l>
           </lg>
@@ -2507,29 +2477,25 @@
           </lg>
         </sp>
         <sp xml:id="II-19" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte.</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l part="F" rend="i">¡Oh desvío!</l>
           </lg>
         </sp>
         <sp xml:id="II-20" who="ISABELA">
-          <speaker>ISABELA</speaker>
-          <stage>Aparte</stage>
+          <speaker>ISABELA, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1123" xml:id="l1123" part="I"><hi rend="i">¡Oh amor</hi>!</l>
           </lg>
         </sp>
         <sp xml:id="II-21" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l part="M"><hi rend="i">¡Oh honra</hi>!</l>
           </lg>
         </sp>
         <sp xml:id="II-22" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l part="F"><hi rend="i">¡Oh estrella</hi>!</l>
           </lg>
@@ -2664,29 +2630,25 @@
           </lg>
         </sp>
         <sp xml:id="II-44" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte.</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l part="F" rend="i">¡Oh desvío!</l>
           </lg>
         </sp>
         <sp xml:id="II-45" who="ISABELA">
-          <speaker>ISABELA</speaker>
-          <stage>Aparte</stage>
+          <speaker>ISABELA, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1139" xml:id="l1139" part="I"><hi rend="i">¡Oh amor</hi>!</l>
           </lg>
         </sp>
         <sp xml:id="II-46" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l part="M"><hi rend="i">¡Oh honra</hi>!</l>
           </lg>
         </sp>
         <sp xml:id="II-47" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l part="F"><hi rend="i">¡Oh estrella</hi>!</l>
           </lg>
@@ -2772,8 +2734,7 @@
           </lg>
         </sp>
         <sp xml:id="II-59" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1159" xml:id="l1159">Con dos enemigos lucho.</l>
           </lg>
@@ -2807,22 +2768,19 @@
           </lg>
         </sp>
         <sp xml:id="II-64" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte.</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l part="F" rend="i">¡Oh desvío!</l>
           </lg>
         </sp>
         <sp xml:id="II-65" who="ISABELA">
-          <speaker>ISABELA</speaker>
-          <stage>Aparte</stage>
+          <speaker>ISABELA, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1163" xml:id="l1163" part="I"><hi rend="i">¡Oh amor</hi>!</l>
           </lg>
         </sp>
         <sp xml:id="II-66" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l part="M"><hi rend="i">¡Oh honra</hi>!</l>
           </lg>
@@ -3392,8 +3350,7 @@
           </lg>
         </sp>
         <sp xml:id="II-134" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1319" xml:id="l1319">Aquí es donde lo concluye.</l>
           </lg>
@@ -3476,16 +3433,14 @@
           </lg>
         </sp>
         <sp xml:id="II-146" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="1336" xml:id="l1336"> Maldita la que no emplea</l>
             <l n="1337" xml:id="l1337">su corazón en su igual.</l>
           </lg>
         </sp>
         <sp xml:id="II-147" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1338" xml:id="l1338">Si la honra obliga a tal,</l>
             <l n="1339" xml:id="l1339">maldita la honra sea.</l>
@@ -3756,8 +3711,7 @@
           <person corresp="#MARCELO"/>
           <person corresp="#CRIADO"/></listPerson></stage>
         <sp xml:id="II-166" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="1452" xml:id="l1452"> Desdichada Violante,</l>
             <l n="1453" xml:id="l1453">a la flor de tu nombre parecida;</l>
@@ -4237,15 +4191,13 @@
           </lg>
         </sp>
         <sp xml:id="II-203" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="1663" xml:id="l1663"> Ved si preguntó por él.</l>
           </lg>
         </sp>
         <sp xml:id="II-204" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1664" xml:id="l1664">Esto es hecho, y yo acabado.</l>
             <l n="1665" xml:id="l1665">¡Oh Marcelo desdichado!</l>
@@ -4280,8 +4232,7 @@
           </lg>
         </sp>
         <sp xml:id="II-208" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1673" xml:id="l1673">Yo al desengaño las doy</l>
             <l n="1674" xml:id="l1674">oyendo a estos dos señores.</l>
@@ -4314,8 +4265,7 @@
           </lg>
         </sp>
         <sp xml:id="II-211" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="1687" xml:id="l1687"> Marcelo, pues la ocasión</l>
             <l n="1688" xml:id="l1688">a las manos se me vino,</l>
@@ -4342,8 +4292,7 @@
           </lg>
         </sp>
         <sp xml:id="II-213" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="1699" xml:id="l1699"> La voluntad le ha ofrecido.</l>
           </lg>
@@ -4363,8 +4312,7 @@
           </lg>
         </sp>
         <sp xml:id="II-215" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="1703" xml:id="l1703" part="I">Laureta viene.</l>
           </lg>
@@ -4376,8 +4324,7 @@
           </lg>
         </sp>
         <sp xml:id="II-217" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1704" xml:id="l1704">¿Qué querrá Laureta ahora?</l>
           </lg>
@@ -4395,8 +4342,7 @@
           </lg>
         </sp>
         <sp xml:id="II-220" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="1707" xml:id="l1707"> Entiendo, y no entiendo mal,</l>
             <l n="1708" xml:id="l1708">que tras de su costal vino,</l>
@@ -4405,8 +4351,7 @@
           </lg>
         </sp>
         <sp xml:id="II-221" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="1711" xml:id="l1711"> Isabela la envïó,</l>
             <l n="1712" xml:id="l1712">que no se viniera ella.</l>
@@ -4423,8 +4368,7 @@
           </lg>
         </sp>
         <sp xml:id="II-223" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1718" xml:id="l1718">La ocasión, por los cabellos.</l>
           </lg>
@@ -4436,8 +4380,7 @@
           </lg>
         </sp>
         <sp xml:id="II-225" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1720" xml:id="l1720">Y yo celos, mi señora,</l>
             <l n="1721" xml:id="l1721">más que cuidados ahora</l>
@@ -4491,15 +4434,13 @@
           </lg>
         </sp>
         <sp xml:id="II-233" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1733" xml:id="l1733" part="I">¡Gran lisonja!</l>
           </lg>
         </sp>
         <sp xml:id="II-234" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l part="F">Mucho apura</l>
             <l n="1734" xml:id="l1734">Lelio al amor. No lo entiendo.</l>
@@ -4524,15 +4465,13 @@
           </lg>
         </sp>
         <sp xml:id="II-237" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte.</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1741" xml:id="l1741">Mirad si la quiere mal.</l>
           </lg>
         </sp>
         <sp xml:id="II-238" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1742" xml:id="l1742">Mirad si no digo bien.</l>
           </lg>
@@ -4601,15 +4540,13 @@
           </lg>
         </sp>
         <sp xml:id="II-246" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1765" xml:id="l1765">Mirad si la quiere mal.</l>
           </lg>
         </sp>
         <sp xml:id="II-247" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1766" xml:id="l1766">Mirad si no digo bien.</l>
           </lg>
@@ -4640,16 +4577,14 @@
           </lg>
         </sp>
         <sp xml:id="II-250" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1777" xml:id="l1777">Celos, por restarme estoy</l>
             <l n="1778" xml:id="l1778">con lo que he visto no más.</l>
           </lg>
         </sp>
         <sp xml:id="II-251" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="1779" xml:id="l1779"> Con las martas de un erizo</l>
             <l n="1780" xml:id="l1780">se lisonjean los tres,</l>
@@ -4683,24 +4618,21 @@
           </lg>
         </sp>
         <sp xml:id="II-255" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="1791" xml:id="l1791"> ¿Si le dirá del soneto?</l>
             <l n="1792" xml:id="l1792">Fabio, ¿qué dirá de mí?</l>
           </lg>
         </sp>
         <sp xml:id="II-256" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1793" xml:id="l1793">Háblele en público aquí,</l>
             <l n="1794" xml:id="l1794">mas no le hable en secreto.</l>
           </lg>
         </sp>
         <sp xml:id="II-257" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="1795" xml:id="l1795"> Más pesadumbre he de darte,</l>
             <l n="1796" xml:id="l1796">Marcelo, que tú me diste.</l>
@@ -4711,8 +4643,7 @@
           </lg>
         </sp>
         <sp xml:id="II-258" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l part="F">Ay, triste,</l>
             <l n="1798" xml:id="l1798">que le quiere hablar aparte.</l>
@@ -4725,8 +4656,7 @@
           </lg>
         </sp>
         <sp xml:id="II-260" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l part="F">¿Hay tal desdén?</l>
           </lg>
@@ -4744,12 +4674,13 @@
           </lg>
         </sp>
         <sp xml:id="II-263" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1801" xml:id="l1801">Mirad si lo quiere mal.</l>
           </lg>
-          <stage>LAURETA, aparte</stage>
+        </sp>
+        <sp who="LAURETA">
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1802" xml:id="l1802">Mirad si no digo bien.</l>
           </lg>
@@ -4767,8 +4698,7 @@
           </lg>
         </sp>
         <sp xml:id="II-266" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1805" xml:id="l1805">¿Para que lo aparté aquí</l>
             <l n="1806" xml:id="l1806">si no tengo para qué?</l>
@@ -4792,8 +4722,7 @@
           </lg>
         </sp>
         <sp xml:id="II-268" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1813" xml:id="l1813">Del soneto hablan, por Dios,</l>
             <l n="1814" xml:id="l1814">pues se ha bajado por él.</l>
@@ -4824,15 +4753,13 @@
           </lg>
         </sp>
         <sp xml:id="II-272" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1821" xml:id="l1821">Basta, que le dio un billete.</l>
           </lg>
         </sp>
         <sp xml:id="II-273" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1822" xml:id="l1822">Basta, que lo tomó ella.</l>
           </lg>
@@ -4871,8 +4798,7 @@
           </lg>
         </sp>
         <sp xml:id="II-279" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1829" xml:id="l1829">Después de haberlo leído,</l>
             <l n="1830" xml:id="l1830">en la manga se lo echa.</l>
@@ -4891,15 +4817,13 @@
           </lg>
         </sp>
         <sp xml:id="II-282" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="1833" xml:id="l1833">Mirad si lo quiere mal.</l>
           </lg>
         </sp>
         <sp xml:id="II-283" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte.</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1834" xml:id="l1834">Mirad si no digo bien.</l>
           </lg>
@@ -5142,8 +5066,7 @@
             <person corresp="#TADEO"/></listPerson></stage>
         </sp>
         <sp xml:id="II-315" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1888" xml:id="l1888">Piensa Camilo que nada</l>
             <l n="1889" xml:id="l1889">en un mar de agua rosada,</l>
@@ -5183,8 +5106,7 @@
           </lg>
         </sp>
         <sp xml:id="II-320" who="TADEO">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte.</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="1899" xml:id="l1899" part="I"> Marcelo es este.</l>
           </lg>
@@ -5195,8 +5117,7 @@
           </lg>
         </sp>
         <sp xml:id="II-321" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l part="F">¡Qué poca</l>
             <l n="1901" xml:id="l1901">prudencia tiene una loca!</l>
@@ -5237,8 +5158,7 @@
           </lg>
         </sp>
         <sp xml:id="II-323" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="1919" xml:id="l1919"> No es eso lo que cheriba</l>
             <l n="1920" xml:id="l1920">hoy mi deseo saber.</l>
@@ -5392,8 +5312,7 @@
           </lg>
         </sp>
         <sp xml:id="II-338" who="ISABELA">
-          <speaker>ISABELA</speaker>
-          <stage>Aparte</stage>
+          <speaker>ISABELA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1975" xml:id="l1975">Ciego Dios, si a alguna diste</l>
             <l n="1976" xml:id="l1976">tus ojos para leer,</l>
@@ -5404,8 +5323,7 @@
           </lg>
         </sp>
         <sp xml:id="II-339" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="1979" xml:id="l1979">Haciéndole está el buz</l>
             <l n="1980" xml:id="l1980">a Cupidillo mi ama.</l>
@@ -5721,8 +5639,7 @@
           </lg>
         </sp>
         <sp xml:id="II-367" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="2113" xml:id="l2113">Ella invidiosa y galana</l>
             <l n="2114" xml:id="l2114">vendrá, tanto cuanto él tierno.</l>
@@ -6557,8 +6474,7 @@
           </lg>
         </sp>
         <sp xml:id="III-56" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="2556" xml:id="l2556">Yo, que he entendido a los dos,</l>
             <l n="2557" xml:id="l2557">de oíllos me regocijo.</l>
@@ -6697,8 +6613,7 @@
         </sp>
         <stage>Hablan en secreto</stage>
         <sp xml:id="III-69" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="2607" xml:id="l2607">A tiempo lo desvïara,</l>
             <l n="2608" xml:id="l2608">que el desvío me costara</l>
@@ -6733,8 +6648,7 @@
           </lg>
         </sp>
         <sp xml:id="III-71" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="2626" xml:id="l2626"> Tal sea tu salud cual es,</l>
             <l n="2627" xml:id="l2627">necio, la traza que das.</l>
@@ -7157,8 +7071,7 @@
           </lg>
         </sp>
         <sp xml:id="III-118" who="LAURETA">
-          <speaker>LAURETA</speaker>
-          <stage>Aparte.</stage>
+          <speaker>LAURETA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l part="F">¡Qué paila</l>
           </lg>
@@ -7228,8 +7141,7 @@
           </lg>
         </sp>
         <sp xml:id="III-126" who="ISABELA">
-          <speaker>ISABELA</speaker>
-          <stage>Aparte</stage>
+          <speaker>ISABELA, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="2768" xml:id="l2768">Bien pide, para el camino</l>
             <l n="2769" xml:id="l2769">que volverá a andar ahora.</l>
@@ -7262,8 +7174,7 @@
           </lg>
         </sp>
         <sp xml:id="III-130" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="2775" xml:id="l2775">¡Quién se quitara un momento</l>
             <l n="2776" xml:id="l2776">del personaje que miento</l>
@@ -7467,8 +7378,7 @@
           </lg>
         </sp>
         <sp xml:id="III-156" who="VIOLANTE">
-          <speaker>VIOLANTE</speaker>
-          <stage>Aparte</stage>
+          <speaker>VIOLANTE, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="2825" xml:id="l2825">Lisonjas de un alevoso.</l>
           </lg>
@@ -7588,8 +7498,7 @@
           </lg>
         </sp>
         <sp xml:id="III-170" who="FABIO">
-          <speaker>FABIO</speaker>
-          <stage>Aparte</stage>
+          <speaker>FABIO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l part="F">Imagino</l>
             <l n="2857" xml:id="l2857">que corre mal mi deseo.</l>
@@ -7815,8 +7724,7 @@
           </lg>
         </sp>
         <sp xml:id="III-194" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="2918" xml:id="l2918" part="I"> Gran firmeza es esta.</l>
           </lg>
@@ -7857,8 +7765,7 @@
           <person corresp="#VIOLANTE"/>
           <person corresp="#MARCELO"/></listPerson></stage>
         <sp xml:id="III-197" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="2932" xml:id="l2932" part="I">¿Qué es eso?</l>
           </lg>
@@ -7945,8 +7852,7 @@
           </lg>
         </sp>
         <sp xml:id="III-209" who="OCTAVIO">
-          <speaker>OCTAVIO</speaker>
-          <stage>Aparte</stage>
+          <speaker>OCTAVIO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="2951" xml:id="l2951">Ved cuál lo tiene el deseo.</l>
             <l n="2952" xml:id="l2952" part="I">¿No lo veis ahí?</l>
@@ -8197,8 +8103,7 @@
           </lg>
         </sp>
         <sp xml:id="III-237" who="OCTAVIO">
-          <speaker>OCTAVIO</speaker>
-          <stage>Aparte</stage>
+          <speaker>OCTAVIO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l part="F">Concluyo</l>
             <l n="3021" xml:id="l3021">que hay ojos con telarañas.</l>
@@ -8330,8 +8235,7 @@
           </lg>
         </sp>
         <sp xml:id="III-251" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="3067" xml:id="l3067">¡Ay, cómo tiene razón!</l>
           </lg>
@@ -8364,8 +8268,7 @@
           <person corresp="#ISABELA"/>
           <person corresp="#VIOLANTE"/></listPerson></stage>
         <sp xml:id="III-255" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="I">
             <l rend="indent" n="3074" xml:id="l3074" part="I"> Dice verdad.</l>
           </lg>
@@ -8850,8 +8753,7 @@
           </lg>
         </sp>
         <sp xml:id="III-317" who="OCTAVIO">
-          <speaker>OCTAVIO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>OCTAVIO, <hi rend="i">aparte</hi></speaker>
           <lg>
             <l rend="indent" n="3178" xml:id="l3178"> De confusión tan prolija</l>
             <l n="3179" xml:id="l3179">me saque Dios, por quien es.</l>
@@ -8968,8 +8870,7 @@
           </lg>
         </sp>
         <sp xml:id="III-330" who="TADEO">
-          <speaker>TADEO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>TADEO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l part="F">¿Esto hay acá?</l>
           </lg>
@@ -9448,8 +9349,7 @@
           </lg>
         </sp>
         <sp xml:id="III-387" who="CAMILO">
-          <speaker>CAMILO</speaker>
-          <stage>Aparte</stage>
+          <speaker>CAMILO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="3339" xml:id="l3339">Lástima a mi padre tengo.</l>
           </lg>
@@ -9762,8 +9662,7 @@
           </lg>
         </sp>
         <sp xml:id="III-422" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="F">
             <l n="3428" xml:id="l3428">¿Livia en Toledo? ¡Ay de mí!</l>
             <l n="3429" xml:id="l3429">Mohína sobre mohína.</l>
@@ -9794,8 +9693,7 @@
           </lg>
         </sp>
         <sp xml:id="III-426" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="3433" xml:id="l3433" part="I">Violante es esta.</l>
           </lg>
@@ -9838,8 +9736,7 @@
           </lg>
         </sp>
         <sp xml:id="III-431" who="MARCELO">
-          <speaker>MARCELO</speaker>
-          <stage>Aparte.</stage>
+          <speaker>MARCELO, <hi rend="i">aparte</hi></speaker>
           <lg part="M">
             <l n="3443" xml:id="l3443">¡Qué bien se aprovechó de ella!</l>
           </lg>

@@ -20451,7 +20451,10 @@
               </lg>
             </lg>
           </div>
-          <div n="264C" type="poem" xml:id="poem264C">
+        </div>
+        <div xml:id="a1614">
+          <head>1614</head>
+                    <div n="264C" type="poem" xml:id="poem264C">
             <index>
               <term type="head"><num>264c. </num>Soledad Segunda</term>
             </index>
@@ -21671,9 +21674,6 @@
               </lg>
             </lg>
           </div>
-        </div>
-        <div xml:id="a1614">
-          <head>1614</head>
           <div n="271" type="poem" xml:id="poem271">
             <index>
               <term type="head"><num>271. </num>Llegué, señora tía, a la Mamora,</term>

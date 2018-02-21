@@ -83,6 +83,10 @@
         <p/>
         <p rend="right"><hi rend="sc">Antonio Carreira</hi></p>
       </div>
+      <div xml:id="texto">
+        <head>Actualización del texto</head>
+        <p>Reseñamos en este apartado las actualizaciones efectuadas en la <hi>Obra poética</hi> de Góngora después de su publicación en el 2016.</p>
+      </div>
       <div>
         <head>Índice</head>
         <table rend="sortable">

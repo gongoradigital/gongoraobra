@@ -3134,6 +3134,10 @@
           </row>
           <row>
             <cell>430</cell>
+            <cell/>
+            <cell>
+              <ref target="#poem453a">Véase el poema 453bis</ref>
+            </cell>
           </row>
           <row>
             <cell>431</cell>
@@ -3297,10 +3301,10 @@
             </cell>
           </row>
           <row>
-            <cell>453a</cell>
-            <cell>1594-1604</cell>
+            <cell>453bis</cell>
+            <cell>1615</cell>
             <cell>
-              <ref target="#poem453bis">Los edictos con imperio</ref>
+              <ref target="#poem453a">Los edictos con imperio</ref>
             </cell>
           </row>
           <row>
@@ -3396,7 +3400,7 @@
           </row>
           <row>
             <cell>466bis</cell>
-            <cell>¿?</cell>
+            <cell>1623</cell>
             <cell>
               <ref target="#poem466a">De las ya fiestas reales</ref>
             </cell>
@@ -30204,7 +30208,7 @@
             </lg>
           </lg>
         </div>
-        <div n="430" type="poem" xml:id="poem430"><p>Véase el <ref target="#poem453bis">poema <num>453BIS <hi rend="i">bis</hi></num></ref></p></div>
+        <div n="430" type="poem" xml:id="poem430"><p>Véase el <ref target="#poem453a">poema <num>453bis</num></ref></p></div>
         <div n="431" type="poem" xml:id="poem431">
           <index>
             <term type="head"><num>431. </num>Cantemos a la jineta,</term>
@@ -30966,23 +30970,23 @@
             </lg>
           </lg>
         </div>
-        <div n="453 bis" type="poem" xml:id="poem453bis">
+        <div n="453a" type="poem" xml:id="poem453a">
           <index>
             <term type="head"><num>453bis. </num>Los edictos con imperio</term>
           </index>
-          <head><num>453 <hi rend="i">bis</hi></num> (<date>1615</date>) <lb/> <lb/>[Al licenciado Alonso Lobo, racionero de Toledo]</head>
+          <head><num>453bis</num> (<date>1615</date>) <lb/> <lb/>[Al licenciado Alonso Lobo, racionero de Toledo]</head>
           <lg rend="center">
             <lg>
-              <l n="1" xml:id="l453bis.1">    Los edictos con imperio</l>
-              <l n="2" xml:id="l453bis.2">mase Lobo ha prorrogado,</l>
-              <l n="3" xml:id="l453bis.3">quizá hasta que barbe el Grado</l>
-              <l n="4" xml:id="l453bis.4">de su vocal magisterio.</l>
-              <l n="5" xml:id="l453bis.5">Si no tiene otro misterio,</l>
-              <l n="6" xml:id="l453bis.6">el nuevo término corra,</l>
-              <l n="7" xml:id="l453bis.7">y juegue en tanto a la morra</l>
-              <l n="8" xml:id="l453bis.8">nuestro pretendiente bobo,</l>
-              <l n="9" xml:id="l453bis.9">o apele de un mase Lobo</l>
-              <l n="10" xml:id="l453bis.10">para otro mase Zorra.</l>
+              <l n="1" xml:id="l453a.1">    Los edictos con imperio</l>
+              <l n="2" xml:id="l453a.2">mase Lobo ha prorrogado,</l>
+              <l n="3" xml:id="l453a.3">quizá hasta que barbe el Grado</l>
+              <l n="4" xml:id="l453a.4">de su vocal magisterio.</l>
+              <l n="5" xml:id="l453a.5">Si no tiene otro misterio,</l>
+              <l n="6" xml:id="l453a.6">el nuevo término corra,</l>
+              <l n="7" xml:id="l453a.7">y juegue en tanto a la morra</l>
+              <l n="8" xml:id="l453a.8">nuestro pretendiente bobo,</l>
+              <l n="9" xml:id="l453a.9">o apele de un mase Lobo</l>
+              <l n="10" xml:id="l453a.10">para otro mase Zorra.</l>
             </lg>
           </lg>
         </div>
@@ -31344,9 +31348,9 @@
         </div>
         <div n="466a" type="poem" xml:id="poem466a">
           <index>
-            <term type="head"><num>466BIS. </num>De las ya fiestas reales</term>
+            <term type="head"><num>466bis. </num>De las ya fiestas reales</term>
           </index>
-          <head><num>466BIS</num> (<date>1623</date>)<lb/> <lb/>Contra don Juan [Ruiz] de Alarcón porque se valió de algunos amigos suyos para celebrar las fiestas reales que su majestad hizo en Madrid</head>
+          <head><num>466bis</num> (<date>1623</date>)<lb/> <lb/>Contra don Juan [Ruiz] de Alarcón porque se valió de algunos amigos suyos para celebrar las fiestas reales que su majestad hizo en Madrid</head>
           <lg rend="center">
             <lg>
               <l n="1" xml:id="l466a.1">    De las ya fiestas reales</l>

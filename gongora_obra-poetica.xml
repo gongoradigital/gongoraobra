@@ -37,8 +37,9 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2016"/>
+        <idno>http://obvil.sorbonne-universite.site/corpus/gongora/gongora_obra-poetica</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">http://creativecommons.org/licenses/by-nc-nd/3.0/fr/</licence>
         </availability>
@@ -18130,9 +18131,8 @@
             </lg>
           </div>
           <div n="255" type="poem" xml:id="poem255" subtype="dialogue">
-            <head><num>255</num> <lb/>
-            <lb/>
-            <hi rend="center">Fábula de Polifemo y Galatea</hi></head>
+            <head type="sur"><num>255</num></head>
+            <head type="main" rend="center">Fábula de Polifemo y Galatea</head>
             <head>Al conde de Niebla</head> 
             <lg rend="center">
             <lg>
@@ -19272,12 +19272,8 @@
             <index>
               <term type="head"><num>264a. </num>Dedicatoria Soledades</term>
             </index>
-            <head>
-              <num>264a</num>
-              <lb/>
-              <lb/>
-              <hi rend="center">Soledades</hi>
-            </head>
+            <head type="sur"><num>264a</num></head>
+              <head type="main" rend="center">Soledades</head>
             <head>Al duque de Béjar</head>
             <lg rend="center">
               <lg>
@@ -20769,7 +20765,7 @@
                 <l n="289" xml:id="l264C.289">que sin corona vuela y sin espada,<note place="margin"><ref target="http://obvil.paris-sorbonne.fr/corpus/gongora/1617_soledad-segunda-diaz/body-1#ref1052"><hi rend="i">Anotaciones a la Segunda Soledad</hi> de Díaz de Rivas</ref></note></l>
                 <l n="290" xml:id="l264C.290">susurrante Amazona, Dido alada,</l>
                 <l n="291" xml:id="l264C.291">de ejército más casto, de más bella<note place="margin"><ref target="http://obvil.paris-sorbonne.fr/corpus/gongora/1617_soledad-segunda-diaz/body-1#ref1053"><hi rend="i">Anotaciones a la Segunda Soledad</hi> de Díaz de Rivas</ref></note></l>
-                <l n="292" xml:id="l264C.292">república, ceñida en vez de muros</l><note place="margin"><ref target="http://obvil.paris-sorbonne.fr/corpus/gongora/1617_soledad-segunda-diaz/body-1#ref1054"><hi rend="i">Anotaciones a la Segunda Soledad</hi> de Díaz de Rivas</ref></note>
+                <l n="292" xml:id="l264C.292">república, ceñida en vez de muros<note place="margin"><ref target="http://obvil.paris-sorbonne.fr/corpus/gongora/1617_soledad-segunda-diaz/body-1#ref1054"><hi rend="i">Anotaciones a la Segunda Soledad</hi> de Díaz de Rivas</ref></note></l>
                 <l n="293" xml:id="l264C.293">de cortezas: en esta, pues, Cartago</l>
                 <l n="294" xml:id="l264C.294">reina la abeja, oro brillando vago,<note place="margin"><ref target="http://obvil.paris-sorbonne.fr/corpus/gongora/1617_soledad-segunda-diaz/body-1#ref1055"><hi rend="i">Anotaciones a la Segunda Soledad</hi> de Díaz de Rivas</ref></note></l>
                 <l n="295" xml:id="l264C.295">o el jugo beba de los aires puros,<note place="margin"><ref target="http://obvil.paris-sorbonne.fr/corpus/gongora/1617_soledad-segunda-diaz/body-1#ref1056"><hi rend="i">Anotaciones a la Segunda Soledad</hi> de Díaz de Rivas</ref></note></l>
@@ -20897,7 +20893,7 @@
                 <l n="413" xml:id="l264C.413">que, el mar cribando en redes no comunes,</l>
                 <l n="414" xml:id="l264C.414">vieras intempestivos algún día</l>
                 <l n="415" xml:id="l264C.415">(entre un vulgo nadante, digno apenas<note place="margin"><ref target="http://obvil.paris-sorbonne.fr/corpus/gongora/1617_soledad-segunda-diaz/body-1#ref1079"><hi rend="i">Anotaciones a la Segunda Soledad</hi> de Díaz de Rivas</ref></note></l>
-                <l n="416" xml:id="l264C.416">de escama, cuanto más de nombre) atunes</l><note place="margin"><ref target="http://obvil.paris-sorbonne.fr/corpus/gongora/1617_soledad-segunda-diaz/body-1#ref1080"><hi rend="i">Anotaciones a la Segunda Soledad</hi> de Díaz de Rivas</ref></note>
+                <l n="416" xml:id="l264C.416">de escama, cuanto más de nombre) atunes<note place="margin"><ref target="http://obvil.paris-sorbonne.fr/corpus/gongora/1617_soledad-segunda-diaz/body-1#ref1080"><hi rend="i">Anotaciones a la Segunda Soledad</hi> de Díaz de Rivas</ref></note></l>
                 <l n="417" xml:id="l264C.417">vomitar ondas y azotar arenas.</l>
                 <l n="418" xml:id="l264C.418">Tal vez desde los muros destas rocas</l>
                 <l n="419" xml:id="l264C.419">    cazar a Tetis veo</l>

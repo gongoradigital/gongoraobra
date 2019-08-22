@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="spa">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1362,7 +1362,7 @@
         <sp xml:id="I-100" who="CASILDA">
           <speaker>CASILDA</speaker>
           <lg part="I">
-            <l n="621" xml:id="l621" part="I" rend="i" xml:lang="it">¿Cento scuti?</l>
+            <l n="621" xml:id="l621" part="I" rend="i" xml:lang="ita">¿Cento scuti?</l>
           </lg>
         </sp>
         <sp xml:id="I-101" who="DOCTOR">
@@ -1711,13 +1711,13 @@
         <sp xml:id="I-134" who="CASILDA">
           <speaker>CASILDA</speaker>
           <lg part="F">
-            <l part="F" rend="i" xml:lang="it">Vi ringrazio.</l>
+            <l part="F" rend="i" xml:lang="ita">Vi ringrazio.</l>
           </lg>
           <lg>
             <l n="749" xml:id="l749">Nunca tratara mi hermana</l>
             <l n="750" xml:id="l750">con el figón que trató</l>
             <l n="751" xml:id="l751">porque no aprendiera yo</l>
-            <l n="752" xml:id="l752" rend="i" xml:lang="it">qualche parola toscana.</l>
+            <l n="752" xml:id="l752" rend="i" xml:lang="ita">qualche parola toscana.</l>
           </lg>
         </sp>
         <sp xml:id="I-135" who="DOCTOR">
@@ -1737,13 +1737,13 @@
         <sp xml:id="I-137" who="DOCTOR">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="756" xml:id="l756" part="I" rend="i" xml:lang="it">Volentieri.</l>
+            <l n="756" xml:id="l756" part="I" rend="i" xml:lang="ita">Volentieri.</l>
           </lg>
         </sp>
         <sp xml:id="I-138" who="CASILDA">
           <speaker>CASILDA</speaker>
           <lg part="F">
-            <l part="F" rend="i" xml:lang="it">Vi ringrazio. </l>
+            <l part="F" rend="i" xml:lang="ita">Vi ringrazio. </l>
           </lg>
           <lg part="I">
             <l n="757" xml:id="l757">Solo resta que me des</l>
@@ -1818,13 +1818,13 @@
         <sp xml:id="I-147" who="DOCTOR">
           <speaker>DOCTOR</speaker>
           <lg part="M">
-            <l n="776" xml:id="l776" part="I" rend="i" xml:lang="it">La comprerò.</l>
+            <l n="776" xml:id="l776" part="I" rend="i" xml:lang="ita">La comprerò.</l>
           </lg>
         </sp>
         <sp xml:id="I-148" who="CASILDA">
           <speaker>CASILDA</speaker>
           <lg part="F">
-            <l part="F" rend="i" xml:lang="it">Vi ringrazio.</l>
+            <l part="F" rend="i" xml:lang="ita">Vi ringrazio.</l>
           </lg>
           <stage>Entra Tancredo.<listPerson xml:id="conf4" type="configuration">
               <person corresp="#DOCTOR"/>
